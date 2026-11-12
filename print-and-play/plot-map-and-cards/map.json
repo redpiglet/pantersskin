@@ -1,0 +1,99 @@
+{
+  "title": "The Knight in the Panther's Skin",
+  "milestones": [
+    {
+      "number": 1,
+      "title": "A queen and a mystery",
+      "realm": "ARABIA",
+      "chapters": "2-7",
+      "kind": "present",
+      "body": "Tinatin becomes ruler of Arabia. After the mysterious panther-clad knight appears and disappears, she sends Avtandil to find him.",
+      "cast": "Tinatin / Rostevan / Avtandil / Tariel"
+    },
+    {
+      "number": 2,
+      "title": "Friendship at the cave",
+      "realm": "WILDERNESS AND CAVE",
+      "chapters": "8-9",
+      "kind": "present",
+      "body": "Asmat brings Avtandil and Tariel together. The knights become sworn brothers, and Tariel begins to explain his sorrow.",
+      "cast": "Asmat / Avtandil / Tariel"
+    },
+    {
+      "number": 3,
+      "title": "Tariel's earlier story",
+      "realm": "INDIA / THE SEA / PRIDON'S LAND",
+      "chapters": "10-29",
+      "kind": "recollection",
+      "body": "Nestan and Tariel love each other and oppose an arranged marriage. Tariel kills the bridegroom; Parsadan blames Davar, who sends Nestan away. Tariel begins his search.",
+      "sequence": "Love and letters > marriage conflict > separation > search",
+      "extra": "Tariel helps Pridon, who has seen Nestan at sea. Tariel's account brings the story back to the lonely knight at the cave.",
+      "cast": "Tariel / Nestan / Parsadan / Davar / Asmat / Pridon"
+    },
+    {
+      "number": 4,
+      "title": "A promise kept",
+      "realm": "ARABIA TO THE WILDERNESS",
+      "chapters": "30-39",
+      "kind": "present",
+      "body": "Avtandil reports to Tinatin, then leaves Arabia despite Rostevan's refusal. Shermadin keeps his household. Avtandil returns, helps restore Tariel's resolve, and renews the search.",
+      "cast": "Avtandil / Tinatin / Rostevan / Shermadin / Tariel / Asmat"
+    },
+    {
+      "number": 5,
+      "title": "Following the sea road",
+      "realm": "MULGHAZANZAR TO GULANSHARO",
+      "chapters": "40-43",
+      "kind": "present",
+      "body": "Pridon helps Avtandil follow the maritime clue. Avtandil saves merchants from pirates and enters Gulansharo disguised as a merchant.",
+      "cast": "Avtandil / Pridon"
+    },
+    {
+      "number": 6,
+      "title": "Fatman reveals Nestan's fate",
+      "realm": "GULANSHARO / EARLIER: NESTAN'S JOURNEY",
+      "chapters": "44-48",
+      "kind": "recollection",
+      "body": "Fatman tells Avtandil how she sheltered Nestan. Usen revealed the secret to the king; Nestan escaped, but was later captured and taken to Kadjeti.",
+      "sequence": "Shelter > secret revealed > escape > capture > Kadjeti",
+      "extra": "These are earlier events in Nestan's life, recounted now. The search finally has a destination.",
+      "cast": "Fatman / Nestan / Usen / Avtandil"
+    },
+    {
+      "number": 7,
+      "title": "Letters from Kadjeti",
+      "realm": "GULANSHARO AND KADJETI",
+      "chapters": "49-52",
+      "kind": "present",
+      "body": "Fatman's messenger reaches Nestan. Her letters and a fringe from her veil bring her own words and news of the fortress. Avtandil sends notice to Pridon.",
+      "cast": "Nestan / Fatman / Avtandil / Pridon"
+    },
+    {
+      "number": 8,
+      "title": "The allies reunite",
+      "realm": "CAVE TO MULGHAZANZAR",
+      "chapters": "53-54",
+      "kind": "present",
+      "body": "Avtandil carries the letter and veil token to Tariel and Asmat. They find exceptional armor and travel to Pridon. Asmat stays in his household as the expedition departs.",
+      "cast": "Avtandil / Tariel / Asmat / Pridon"
+    },
+    {
+      "number": 9,
+      "title": "The rescue at Kadjeti",
+      "realm": "KADJETI",
+      "chapters": "55-57",
+      "kind": "present",
+      "body": "Pridon, Avtandil, and Tariel discuss their plans. Following Tariel's plan, they attack the three gates together and free Nestan.",
+      "cast": "Pridon / Avtandil / Tariel / Nestan"
+    },
+    {
+      "number": 10,
+      "title": "Homecoming and restoration",
+      "realm": "GULANSHARO / MULGHAZANZAR / ARABIA / INDIA",
+      "chapters": "58-64",
+      "kind": "present",
+      "body": "The companions thank their helpers. Avtandil is reconciled with Rostevan and marries Tinatin. Tariel and Nestan are united and establish their rule in India.",
+      "cast": "The companions / their lovers / their helpers"
+    }
+  ]
+}

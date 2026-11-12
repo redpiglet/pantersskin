@@ -1,0 +1,233 @@
+{
+  "status": "primary_georgian_audit_complete",
+  "reference_system": "project_record_locator",
+  "source_note": "Local Georgian fields govern. Late attached English translations are displaced; chapter62 English describes later coronation events and chapter63 English is null.",
+  "points": [
+    {
+      "n": 1,
+      "verdict": "Supported. A Gulansharo–cave story journey must be available without requiring a visit to Pridon/Mulghazanzar. It is sea plus inland travel, not sea-only.",
+      "evidence": [
+        {
+          "file": "data/chapters/chapter-52.json",
+          "chapter": 52,
+          "stanzas": [
+            1322
+          ],
+          "short_georgian_excerpt": "შორს ამისთვის წაგიარე, გზა-გზა ყოვნა აღარა მცალს",
+          "meaning": "Avtandil explicitly tells Pridon that he passed far away and cannot linger."
+        },
+        {
+          "file": "data/chapters/chapter-52.json",
+          "chapter": 52,
+          "stanzas": [
+            1324,
+            1325
+          ],
+          "short_georgian_excerpt": "მონახა, პოვა ავთანდილ ნავი მისისა მხარისა",
+          "meaning": "He dispatches the letter with Pridon’s retainers and finds a ship toward his own region."
+        },
+        {
+          "file": "data/chapters/chapter-53.json",
+          "chapter": 53,
+          "stanzas": [
+            1327,
+            1330
+          ],
+          "short_georgian_excerpt": "გამოვლნა ზღვანი ავთანდილ ... ტარიელისკენ იარნა ... უდაბურნი და უგზონი",
+          "meaning": "He crosses seas, then rides deserted/pathless regions toward Tariel."
+        }
+      ],
+      "map_fix": "Enable gulansharo_cave, kind=mixed, bypassing the Mulghazanzar node. A sea segment plus a distinct inland continuation should be visible."
+    },
+    {
+      "n": 2,
+      "verdict": "Supported. Arabia–India is an explicit return journey. Correct local starting reference is chapter61:1576–1578, continuing62–63. Pridon accompanies Tariel and Avtandil; Nestan is present in the travelling company.",
+      "evidence": [
+        {
+          "file": "data/chapters/chapter-61.json",
+          "chapter": 61,
+          "stanzas": [
+            1576,
+            1577,
+            1578
+          ],
+          "short_georgian_excerpt": "გაემართნეს და წავიდეს ... ტარიელ, ფრიდონ, ავთანდილ ... კაცი ორმოცი ათასი ჰყვა ცხენებითა ვარგითა",
+          "meaning": "The three knights depart with troops, baggage and horses after the Arabian farewell."
+        },
+        {
+          "file": "data/chapters/chapter-62.json",
+          "chapter": 62,
+          "stanzas": [
+            1580,
+            1588,
+            1590,
+            1597
+          ],
+          "short_georgian_excerpt": "ინდოეთს მისრით მოსრულთა გვივლია გზა უგრძესია ... ქალი საბრალოდ მამასა სტირს",
+          "meaning": "They meet merchants coming from India; Nestan hears of her father’s death, then Tariel hastens onward."
+        },
+        {
+          "file": "data/chapters/chapter-63.json",
+          "chapter": 63,
+          "stanzas": [
+            1598,
+            1599,
+            1600
+          ],
+          "short_georgian_excerpt": "ინდოეთს ზედა წაადგა, მუნ მთა და დიდი ქედია ... ცხენთა შესხდეს უკეთესთა",
+          "meaning": "They approach India across a mountain/ridge and prepare their horses for the confrontation."
+        }
+      ],
+      "map_fix": "Enable arabia_india as an overland story-route connecting endpoints without routing through the cave or ports. A distant inland corridor can run above/beyond the sea bay. Do not imply a shared political border."
+    },
+    {
+      "n": 3,
+      "verdict": "Only supported as a compressed endpoint relation, not as a literal direct India–cave road or uninterrupted trip. The criticism omits explicit intervening sea search, Pridon visit and renewed wandering.",
+      "evidence": [
+        {
+          "file": "data/chapters/chapter-26.json",
+          "chapter": 26,
+          "stanzas": [
+            586,
+            587,
+            588,
+            589,
+            590
+          ],
+          "short_georgian_excerpt": "ზღვის პირს მივე ... ნავსა ჩავჯე, ზღვასა შევე ... დავყავ წელიწადი ... ერთაი ესე ასმათი",
+          "meaning": "Tariel leaves, searches by ship for a year, returns ashore, and Asmat remains with him."
+        },
+        {
+          "file": "data/chapters/chapter-27.json",
+          "chapter": 27,
+          "stanzas": [
+            591,
+            593,
+            600,
+            611
+          ],
+          "short_georgian_excerpt": "ზღვისა პირსა ... მულღაზანზარის ქალაქი ... მივედით მისსა ქალაქსა",
+          "meaning": "He meets wounded Pridon by the sea and enters Mulghazanzar."
+        },
+        {
+          "file": "data/chapters/chapter-29.json",
+          "chapter": 29,
+          "stanzas": [
+            648,
+            649,
+            650,
+            653,
+            654,
+            656
+          ],
+          "short_georgian_excerpt": "ფრიდონისით წამოსრულმან წავე ძებნად ... ესე ქვაბნი უკაცურნი ვპოვენ",
+          "meaning": "After parting from Pridon he resumes searching, abandons inhabited places, then finds the caves."
+        }
+      ],
+      "map_fix": "If adding india_cave to answer the requested board usability, distinguish it as a compressed narrative transition (e.g kind=narrative, label=გაჭრა და ხეტიალი), not a solid direct land road. Keep India–Mulghazanzar and Mulghazanzar–cave routes. Add route metadata direct_road=false and intermediate_events=[sea_search,Pridon_visit,further_wandering]."
+    },
+    {
+      "n": 4,
+      "verdict": "The sea-cliff painting overstates unverified coastal adjacency. An inland, mountain-ringed fortress is a sound interpretive correction. The text establishes surrounding cliffs, a guarded tunnel/passage and horseback land approach after crossing the sea, but gives no measured distance from coast or India.",
+      "evidence": [
+        {
+          "file": "data/chapters/chapter-51.json",
+          "chapter": 51,
+          "stanzas": [
+            1300
+          ],
+          "short_georgian_excerpt": "ციხეს ვზი ეზომ მაღალსა ... გზა გვირაბითა შემოვა",
+          "meaning": "Nestan describes a very high fortress with a guarded approach through a passage."
+        },
+        {
+          "file": "data/chapters/chapter-54.json",
+          "chapter": 54,
+          "stanzas": [
+            1388,
+            1389,
+            1390,
+            1391,
+            1392
+          ],
+          "short_georgian_excerpt": "ყოვლგნით კლდეა ... ზღვა გაიარეს სამთავე ... რა გაუთენდის, დადგიან და ღამით ფიცხლად ვლიდიან",
+          "meaning": "Cliffs surround the fortress; the mounted expedition crosses sea, continues by land and approaches at night; the tunnel gate is guarded."
+        },
+        {
+          "file": "data/chapters/chapter-57.json",
+          "chapter": 57,
+          "stanzas": [
+            1404,
+            1412,
+            1414,
+            1420,
+            1427
+          ],
+          "short_georgian_excerpt": "სამთავე სამგნით მივჰმართოთ ... თვითომან თვითო კარები ... ზღვათა ქალაქსა დამართეს, თუცა გზა მუნით გრძელია",
+          "meaning": "Three approaches/gates are attacked by horse; after rescue the party sets toward the Sea City along a long road."
+        },
+        {
+          "file": "data/chapters/chapter-48.json",
+          "chapter": 48,
+          "stanzas": [
+            1224,
+            1225,
+            1227,
+            1229,
+            1234
+          ],
+          "short_georgian_excerpt": "მინდორ-მინდორ მოვდიოდით ... გულანშაროთ მოციქული ქაჯეთს მივალ ... დავბრუნდით, ქაჯეთს მივჰმართეთ",
+          "meaning": "Roshak’s mounted raiders encounter Nestan in open country and take her toward Kadjeti."
+        }
+      ],
+      "map_fix": "Move Kadjeti away from the visible shore, surround it with substantial dry rocky country/mountains, show a winding overland approach from the Sea Realm, three accessible land gates and a tunnel/pass entrance. Retain sea then land on Mulghazanzar–Kadjeti. Do not add an India–Kadjeti adjacency/road just because two landmarks occupy the eastern side."
+    }
+  ],
+  "route_recommendations": [
+    {
+      "id": "gulansharo_cave",
+      "rendered": true,
+      "kind": "mixed",
+      "label_ka": "ავთანდილის დაბრუნება წერილით",
+      "bypass_nodes": [
+        "mulgazanzar"
+      ]
+    },
+    {
+      "id": "arabia_india",
+      "rendered": true,
+      "kind": "land",
+      "label_ka": "სამშობლოში დაბრუნება",
+      "traveler_ids": [
+        "tariel",
+        "nestan",
+        "avtandil",
+        "pridon"
+      ]
+    },
+    {
+      "id": "india_cave",
+      "rendered": true,
+      "kind": "narrative",
+      "label_ka": "გაჭრა და ხეტიალი",
+      "direct_road": false,
+      "intermediate_events": [
+        "sea_search",
+        "Pridon_visit",
+        "further_wandering"
+      ],
+      "source_chapters": [
+        26,
+        27,
+        29
+      ]
+    }
+  ],
+  "geography_constraints": [
+    "No precise distance, compass bearing, modern border or literal adjacency can be derived for these seven settings.",
+    "Kadjeti is surrounded by cliffs, not surrounded by a tunnel. A tunnel/passage is an approach into it.",
+    "Mulghazanzar–Kadjeti must retain sea crossing followed by land/night travel; it is not a land-only route.",
+    "Gulansharo–cave can bypass the Mulghazanzar city/node while using sea and uninhabited land; the story does not chart every intermediate coast.",
+    "The map should identify routes as sourced journeys and compressed narrative connections, not enforce that a token must visit every geometric intermediate realm.",
+    "A direct India–cave narrative link must not erase the explicit Pridon episode or invent a canonically specified road."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "generation_mode": "built-in OpenAI ImageGen",
+  "date": "2026-11-07",
+  "status": "complete",
+  "portraits": [
+    {
+      "id": "sea_kings_son",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\nSubject: Anonymous young adult prince silhouette: graceful beardless outer profile, simple small royal circlet and plain mantle shoulders. Adult-youth proportions, no individual facial features or lavish jewelry.",
+      "reference": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png",
+      "generated_source": "/Users/Nikoloz/.codex/generated_images/01a1acce-01f9-7e52-8c02-b274597c7f7a/exec-4a21a0bb-46a0-4d4b-af7e-03a8485c8ca2.png",
+      "saved_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/sea_kings_son-silhouette-v1.png",
+      "qa": "First generation accepted: young adult beardless anonymous profile, plain mantle and low simple circlet; no eyes/mouth/facial interior detail. Full blue headroom above hair/circlet and uninterrupted gold rim; native alpha retained. Generated after royal worker confirmed job not started and removed from queue."
+    }
+  ]
+}

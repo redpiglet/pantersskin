@@ -1,0 +1,340 @@
+{
+  "status": "production_geometry_checked",
+  "scope": "Foldable seven-realm map only; no added token systems, rules or resource tracks.",
+  "units": "mm",
+  "board": {
+    "unfolded": [
+      592,
+      420
+    ],
+    "nominal_folded": [
+      148,
+      210
+    ],
+    "orientation": "landscape",
+    "native_pdf_page": [
+      592,
+      420
+    ],
+    "iso_note": "592 mm is 2 mm narrower than ISO A2. Four equal 148 mm columns fold to the width of the existing A5 cards. Height420 mm divides into two210 mm rows.",
+    "optional_iso_a2_print": {
+      "paper": [
+        594,
+        420
+      ],
+      "scale": "100%",
+      "horizontal_centering_margin": 1,
+      "note": "Do not enlarge to fit; artwork remains592x420 mm."
+    }
+  },
+  "folding": {
+    "columns": 4,
+    "rows": 2,
+    "vertical_fold_x_mm": [
+      148,
+      296,
+      444
+    ],
+    "horizontal_fold_y_mm": [
+      210
+    ],
+    "final_layers": 8,
+    "sequence": [
+      "Fold the bottom row behind the top row along the horizontal midpoint.",
+      "Fold the resulting592x210 mm double-layer strip into four alternating accordion panels."
+    ],
+    "slit_required": false,
+    "crease_assignment_note": "Choose vertical accordion directions after the horizontal fold. This naturally creates opposite crease directions in the two rows; do not preassign the same mountain/valley pattern to both rows.",
+    "critical_text_clearance_from_folds_mm": 4,
+    "fold_guides": "Use small outside-edge fold ticks and a separate assembly diagram; keep long dashed guides off the finished map."
+  },
+  "home_print": {
+    "paper": "A4",
+    "page_size": [
+      210,
+      297
+    ],
+    "orientation": "portrait",
+    "sides": "single-sided",
+    "scale": "100% / actual size",
+    "sheet_count": 8,
+    "core_panel_size": [
+      148,
+      210
+    ],
+    "core_margins": {
+      "left": 31,
+      "right": 31,
+      "bottom": 43.5,
+      "top": 43.5
+    },
+    "bleed_or_registration_overlap": 8,
+    "art_window_size": [
+      164,
+      226
+    ],
+    "art_window_margins": {
+      "left": 23,
+      "right": 23,
+      "bottom": 35.5,
+      "top": 35.5
+    },
+    "outside_map_bleed": "Fill the outside of the world rectangle with the same ivory background; do not stretch edge tiles.",
+    "trim_marks": "Core148x210 mm boundaries; clearly distinct from the outer164x226 mm art window.",
+    "preferred_assembly": "Trim to core boundaries, discard surrounding duplicate artwork and butt-join eight panels using narrow flexible tape on the back. The8 mm duplication is registration/trim bleed, not a permanent glued flap across a hinge.",
+    "alternative_glued_overlap": "Not default: retaining glued overlap adds thickness at a fold. Use butt-joined tape hinges for this prototype.",
+    "panels": [
+      {
+        "label": "A",
+        "page": 1,
+        "row_from_top": 1,
+        "column_from_left": 1,
+        "core_world_bbox_mm": [
+          0,
+          210,
+          148,
+          420
+        ],
+        "art_window_world_bbox_mm": [
+          -8,
+          202,
+          156,
+          428
+        ],
+        "a4_core_lower_left_mm": [
+          31,
+          43.5
+        ],
+        "a4_art_window_lower_left_mm": [
+          23,
+          35.5
+        ]
+      },
+      {
+        "label": "B",
+        "page": 2,
+        "row_from_top": 1,
+        "column_from_left": 2,
+        "core_world_bbox_mm": [
+          148,
+          210,
+          296,
+          420
+        ],
+        "art_window_world_bbox_mm": [
+          140,
+          202,
+          304,
+          428
+        ],
+        "a4_core_lower_left_mm": [
+          31,
+          43.5
+        ],
+        "a4_art_window_lower_left_mm": [
+          23,
+          35.5
+        ]
+      },
+      {
+        "label": "C",
+        "page": 3,
+        "row_from_top": 1,
+        "column_from_left": 3,
+        "core_world_bbox_mm": [
+          296,
+          210,
+          444,
+          420
+        ],
+        "art_window_world_bbox_mm": [
+          288,
+          202,
+          452,
+          428
+        ],
+        "a4_core_lower_left_mm": [
+          31,
+          43.5
+        ],
+        "a4_art_window_lower_left_mm": [
+          23,
+          35.5
+        ]
+      },
+      {
+        "label": "D",
+        "page": 4,
+        "row_from_top": 1,
+        "column_from_left": 4,
+        "core_world_bbox_mm": [
+          444,
+          210,
+          592,
+          420
+        ],
+        "art_window_world_bbox_mm": [
+          436,
+          202,
+          600,
+          428
+        ],
+        "a4_core_lower_left_mm": [
+          31,
+          43.5
+        ],
+        "a4_art_window_lower_left_mm": [
+          23,
+          35.5
+        ]
+      },
+      {
+        "label": "E",
+        "page": 5,
+        "row_from_top": 2,
+        "column_from_left": 1,
+        "core_world_bbox_mm": [
+          0,
+          0,
+          148,
+          210
+        ],
+        "art_window_world_bbox_mm": [
+          -8,
+          -8,
+          156,
+          218
+        ],
+        "a4_core_lower_left_mm": [
+          31,
+          43.5
+        ],
+        "a4_art_window_lower_left_mm": [
+          23,
+          35.5
+        ]
+      },
+      {
+        "label": "F",
+        "page": 6,
+        "row_from_top": 2,
+        "column_from_left": 2,
+        "core_world_bbox_mm": [
+          148,
+          0,
+          296,
+          210
+        ],
+        "art_window_world_bbox_mm": [
+          140,
+          -8,
+          304,
+          218
+        ],
+        "a4_core_lower_left_mm": [
+          31,
+          43.5
+        ],
+        "a4_art_window_lower_left_mm": [
+          23,
+          35.5
+        ]
+      },
+      {
+        "label": "G",
+        "page": 7,
+        "row_from_top": 2,
+        "column_from_left": 3,
+        "core_world_bbox_mm": [
+          296,
+          0,
+          444,
+          210
+        ],
+        "art_window_world_bbox_mm": [
+          288,
+          -8,
+          452,
+          218
+        ],
+        "a4_core_lower_left_mm": [
+          31,
+          43.5
+        ],
+        "a4_art_window_lower_left_mm": [
+          23,
+          35.5
+        ]
+      },
+      {
+        "label": "H",
+        "page": 8,
+        "row_from_top": 2,
+        "column_from_left": 4,
+        "core_world_bbox_mm": [
+          444,
+          0,
+          592,
+          210
+        ],
+        "art_window_world_bbox_mm": [
+          436,
+          -8,
+          600,
+          218
+        ],
+        "a4_core_lower_left_mm": [
+          31,
+          43.5
+        ],
+        "a4_art_window_lower_left_mm": [
+          23,
+          35.5
+        ]
+      }
+    ]
+  },
+  "assembly": {
+    "top_row": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "bottom_row": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "internal_join_segments": 10,
+    "join_count_note": "Three vertical joins in each of two rows plus four horizontal joins:3x2+4=10 segments, lying on four continuous grid lines.",
+    "material": "Paper or light paper stock, joined with thin flexible tape on the reverse. A single rigid mounting board defeats the requested folding.",
+    "gap": "Nominal butt joins with no designed gap preserve592x420 mm artwork. Actual tape/stock thickness makes the packet slightly thicker than a flat A5 sheet.",
+    "no_internal_cut": "No center slit is needed with the specified two-row fold order."
+  },
+  "instructions_en": [
+    "Print all eight pages on A4 portrait paper, single-sided, at100% / actual size.",
+    "Trim each panel to the main crop marks:148x210 mm. The surrounding8 mm duplicated artwork is trim/alignment bleed.",
+    "Arrange A–D in the top row and E–H in the bottom row. Butt edges together and align the artwork.",
+    "Join the ten internal edge segments with thin flexible tape on the back. The joins must remain flexible enough to act as hinges.",
+    "Fold the bottom row behind the top row at the horizontal midpoint.",
+    "Accordion-fold the long strip into four panels. Nominal closed size:148x210 mm, matching A5."
+  ],
+  "instructions_ka": [
+    "დაბეჭდეთ რვავე გვერდი A4 ფორმატზე, ვერტიკალურად, ერთ მხარეს, მასშტაბით 100%.",
+    "მოჭერით თითოეული პანელი ძირითადი ჭრის ნიშნებზე: 148 × 210 მმ. გარშემო არსებული 8 მმ-იანი ზოლი ჭრისა და შესათავსებელი მარაგია.",
+    "ზედა რიგში მოათავსეთ A–D, ქვედაში E–H. პანელების კიდეები ერთმანეთს მიაბჯინეთ და რუკის გამოსახულება შეათავსეთ.",
+    "ათი შიდა შეერთება უკანა მხრიდან თხელი, მოქნილი წებოვანი ლენტით შეაერთეთ. შეერთებები თავისუფლად უნდა იკეცებოდეს.",
+    "ჯერ ქვედა რიგი გადაკეცეთ ზედა რიგის უკან, შუა ჰორიზონტალურ ხაზზე.",
+    "მიღებული გრძელი ზოლი ოთხ ნაწილად, აკორდეონივით დაკეცეთ. დაკეცილი ზომა დაახლოებით 148 × 210 მმ იქნება."
+  ],
+  "checks": {
+    "four_columns": true,
+    "two_rows": true,
+    "art_window_fits_A4": true,
+    "core_margins_nonzero": true,
+    "bleed_margins_nonzero": true
+  },
+  "practical_limit": "A mounted or laminated commercial board needs its own hinge construction; these are instructions for a foldable paper prototype."
+}

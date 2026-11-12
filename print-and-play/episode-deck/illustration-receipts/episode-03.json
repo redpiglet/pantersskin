@@ -1,0 +1,37 @@
+{
+  "episode_number": 3,
+  "episode_id": "ep_03_stranger_at_stream",
+  "asset": "assets/episodes/episode-03-v1.png",
+  "tool": "built-in image_gen.imagegen",
+  "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c48e-1d4a-7631-85ad-d544372f23db/exec-f679286a-abd0-4d7c-a013-a34e8f8d134f.png",
+  "prompt": "Use case: illustration-story.\nMedieval Georgian-Persian illuminated manuscript miniature painting for Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი). 16th–17th-century Georgian royal manuscript miniature, Mamuka Tavakarashvili / King Vakhtang VI illumination tradition blended with classical Persian-Safavid tempera miniature. Egg tempera, lapis lazuli, malachite green, vermilion, warm ochre and burnished antique gold leaf on aged ivory-parchment vellum. Stylized faceted rocky cliffs, ornamental cypress and pomegranate trees, intricately patterned arches and domes, expressive courtly figures in medieval Georgian-Eastern attire. Fine controlled contours, delicately patterned fabrics, luminous matte mineral pigments, slightly flattened layered miniature space with expressive narrative gestures. A painted manuscript scene, not photorealism, cinematic rendering, modern digital fantasy or a collage of circular portraits. Reuse referenced character faces and coloring but adapt costume to the actual chronological story scene; Tariel wears ordinary Indian court or military attire in early backstory, his panther skin belongs to his later exile. Exact horizontal 16:10 composition, preferably native 1600x1000 pixels, a single coherent scene framed for a card vignette. Soft natural painted vignette dissolving to warm aged ivory vellum at edges, modest antique-gold floral flourishes at the perimeter, no rigid border. Key faces and gestures comfortably inside the central safe area, no important content cut off. STRICTLY NO TEXT, NO LETTERS, NO CAPTIONS, NO NUMBERS, NO INSCRIPTIONS, NO CALLIGRAPHY, NO BANNERS, NO SCROLLS, NO SIGNATURES, NO WATERMARKS anywhere. Architectural ornament must be purely floral/geometric with no pseudo-writing. If letters are narratively necessary, use a small closed plain unmarked folded paper or sealed envelope, never visible writing or rolled scrolls. All book covers/pages must be plain and unmarked. Do not show graphic blood or gore; imply violent events through gestures, context and intact clothing.\nEpisode 03: The Weeping Knight in the Panther's Skin.\nSetting: Arabia's border wilderness beside a narrow clear stream, below stylized faceted pale-ochre and lilac rocky cliffs, with sparse ornamental cypress, pomegranate and small vermilion wildflowers. This is a remote outdoor encounter, without palace architecture.\nScene: solitary Tariel sits on a broad rock at the near bank, lost in grief, one graceful hand at his cheek and head slightly bowed. His face has the dark curly hair, short dark beard and strong features of reference image2. He wears his signature tawny striped great-cat mantle and matching fur cap. His black horse waits quietly close behind him. Across the narrow water a short distance away, old King Rostevan and young Avtandil, returning from a royal hunt, pause on their horses and gaze at the stranger in astonishment. Rostevan has flowing white hair and beard, burgundy-and-gold riding robes and a small crown. Avtandil is clean-shaven with brown curls, a silver-and-gold Eastern helmet, chainmail and vermilion cloak. Their open restrained gestures convey discovery, without battle. Three principal human figures only. No Tinatin in this stream encounter. No attack, wounds or gore. Faces and the distance between the two riverbanks clearly readable.\nReferences: image1 is STYLE ONLY; adopt its mineral palette, fine controlled tempera detail, antique-gold flourishes and soft vellum vignette, not its poet, palace or garden layout. Images2–4 identify Tariel, Rostevan and Avtandil respectively. Preserve facial identity and signature colors in a full narrative scene, no circular medallions. Exact horizontal16:10, native approximately1600x1000. STRICTLY NO TEXT, LETTERS, CAPTIONS, NUMBERS, BANNERS, SCROLLS, inscriptions or pseudo-writing.",
+  "reference_assets": [
+    "assets/episodes/episode-01-v1.png",
+    "assets/characters/tariel-v13.png",
+    "assets/characters/rostevan-v2.png",
+    "assets/characters/avtandil-v5.png"
+  ],
+  "character_ids": [
+    "tariel",
+    "rostevan",
+    "avtandil"
+  ],
+  "visual_qa": {
+    "status": "passed",
+    "scene": "Panther-clad Tariel grieves by the stream; Rostevan and Avtandil observe from the opposite bank on horseback. Tariel's black horse waits nearby.",
+    "no_lettering": true,
+    "style_consistent": true,
+    "chronology_consistent": true
+  },
+  "native_pixel_size": [
+    1586,
+    992
+  ],
+  "aspect_ratio": 1.59879032,
+  "target_aspect_ratio": 1.6,
+  "aspect_ratio_within_one_percent": true,
+  "bytes": 4269952,
+  "sha256": "cb0242f6f40dac8b4073d16abc8b2fdc0d9ddccedd25794d4a5f22cc5d4bde23",
+  "date": "2026-11-10",
+  "art_processing": "Built-in image generation output copied unchanged; no raster retouching or cropping."
+}

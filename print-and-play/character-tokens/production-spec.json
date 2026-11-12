@@ -1,0 +1,23 @@
+{
+  "language": "ka",
+  "diameter_mm": 30,
+  "portrait_diameter_mm": 29,
+  "embedded_image_max_px": 600,
+  "paper_mm": [210, 297],
+  "columns": 5,
+  "column_pitch_mm": 36,
+  "row_pitch_mm": 43,
+  "first_row_center_y_mm": 232,
+  "name_band_top_offset_mm": -5.5,
+  "name_band_clip_radius_mm": 13.2,
+  "palette": {
+    "ivory": "#F8F1DE",
+    "green": "#203D37",
+    "gold": "#A58958",
+    "muted": "#5F6D65"
+  },
+  "sheet_order": ["painted_portraits", "generic_silhouettes"],
+  "print_scale": "100% / actual size",
+  "print_sides": "single-sided",
+  "assembly": "Mount on thin card and cut along the outer circles. Names are inside the circular cut line."
+}

@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-12",
+  "tool": "built-in image_gen.imagegen",
+  "count": 2,
+  "artwork_variant": "manga",
+  "episode_numbers": [
+    1,
+    2
+  ],
+  "source": "print-and-play/episode-deck/episode-cards.ka.json",
+  "source_sha256": "d468b31491042232be3b0952e510d5d49b24b07966d58cc2861c1f672833178a",
+  "source_preserved": true,
+  "base_selection_manifest": "output/episode-illustrations/illustration-manifest.json",
+  "base_selection_sha256": "cae28bbd950afa1e9908d8254fc2111b9822fe3b9a06a01118b0940e0f79fe92",
+  "selected_paintings": [
+    {
+      "episode_number": 1,
+      "id": "ep_01_prologue",
+      "title_ka": "დასაწყისი — შოთა რუსთაველის პროლოგი",
+      "title_en": "Prologue — Invocation, Poetics & Theory of Love",
+      "chapters": [
+        1
+      ],
+      "chapter_range_label_ka": "თავი 1",
+      "stanza_range": "1–31",
+      "asset": "assets/episodes/episode-01-manga-v2.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "pixel_dimensions": [
+        1586,
+        992
+      ],
+      "export_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "export_processing": "New manga composition generated from portrait identity references, PNG copied unchanged; no resampling",
+      "requested_aspect_ratio": "16:10",
+      "sha256": "eb64a6eff132e997787f4e4179190b52eb57828ed4a5cedded2f55741c072ef8",
+      "bytes": 3579342,
+      "scene_character_ids": [
+        "rustaveli"
+      ],
+      "shared_prop_ids": [],
+      "selected_scene": "A low viewpoint from the writing desk: Rustaveli leans over a blank open book, his quill hand prominent in the foreground, face lifted in invocation. Plain tunic and cloak, candle, inkwell, stone room, night window and mountain silhouette.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/manga/episode-01-v2.json",
+      "visual_review_passed": true,
+      "visual_review": {
+        "status": "passed",
+        "new_composition": true,
+        "style": "expressive manga characters, broad black shapes, selective screentones and simplified costumes/backgrounds",
+        "story_event_preserved": true,
+        "no_lettering": true,
+        "characters": 1
+      },
+      "native_dpi_at_130mm_width": 309.9,
+      "export_dpi_at_130mm_width": 309.9,
+      "artwork_variant": "manga",
+      "artwork_revision": 2
+    },
+    {
+      "episode_number": 2,
+      "id": "ep_02_tinatin_coronation",
+      "title_ka": "თინათინის გამეფება და სამეფო ნადირობა",
+      "title_en": "Coronation of Tinatin & the Royal Hunt",
+      "chapters": [
+        2,
+        3
+      ],
+      "chapter_range_label_ka": "თავები 2–3",
+      "stanza_range": "32–83",
+      "asset": "assets/episodes/episode-02-manga-v2.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "pixel_dimensions": [
+        1586,
+        992
+      ],
+      "export_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "export_processing": "New manga composition generated from portrait identity references, PNG copied unchanged; no resampling",
+      "requested_aspect_ratio": "16:10",
+      "sha256": "68f2ce36d280a508ae4780de6af975f9a19f64f492bb7dd1169f361735bdeea1",
+      "bytes": 3840001,
+      "scene_character_ids": [
+        "rostevan",
+        "tinatin",
+        "avtandil",
+        "sograt"
+      ],
+      "shared_prop_ids": [],
+      "selected_scene": "A low-angle coronation in a spacious stone hall: bareheaded Avtandil kneels in the left foreground, Tinatin sits on a raised throne with an open generous gesture, bareheaded Rostevan crowns her from the right, and Sograt approves from the left background. Simplified costumes, bold shadows and graphic light behind the crown.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/manga/episode-02-v2.json",
+      "visual_review_passed": true,
+      "visual_review": {
+        "status": "passed",
+        "new_composition": true,
+        "style": "expressive manga characters, broad black shapes, selective screentones and simplified costumes/backgrounds",
+        "story_event_preserved": true,
+        "no_lettering": true,
+        "characters": 4
+      },
+      "native_dpi_at_130mm_width": 309.9,
+      "export_dpi_at_130mm_width": 309.9,
+      "artwork_variant": "manga",
+      "artwork_revision": 2
+    }
+  ],
+  "prompt_set": "print-and-play/episode-deck/manga-prompts-v2.json",
+  "art_processing": "Complete manga scene recompositions using character portraits only as identity references. Different cameras, costumes, staging and backgrounds. Generated PNGs copied without pixel changes.",
+  "aspect_ratio_note": "Landscape16:10; actual generated pixels are recorded without resampling.",
+  "artwork_revision": 2,
+  "previous_selection_manifest": "output/episode-illustrations/manga/revisions/illustration-manifest-v1.json"
+}

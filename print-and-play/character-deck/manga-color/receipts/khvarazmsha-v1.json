@@ -1,0 +1,32 @@
+{
+  "character_id": "khvarazmsha",
+  "date": "2026-11-12T11:51:26.139957+00:00",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "built-in",
+  "asset": "assets/characters/manga-color/khvarazmsha-v1.png",
+  "source_generated_png": "/Users/Nikoloz/.codex/generated_images/01a1aaf7-6a62-7982-84ce-8495241cc8a7/exec-d8cb1127-5a29-4df4-a901-12e09a2796ad.png",
+  "references": [
+    "assets/characters/khvarazmsha-v2.png",
+    "assets/characters/manga-color/tinatin-v1.png"
+  ],
+  "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Young adult Khwarazmian prince, dark curls, small narrow dark moustache, handsome proud face. Low purple royal cap with simple gold band and plum court coat with restrained gold accents. This is the young prince, NOT his older father. No grey beard. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume. ALPHA REQUIREMENT: every pixel inside the circular gold rim, including the entire teal background field, must be fully opaque alpha255. Transparency ONLY outside the rim. No interior holes or erased dark regions.",
+  "prompt_set": "print-and-play/character-deck/manga-color/prompts.json",
+  "sha256": "9612e141603011277318f72b7e7f721e8dc4b29f155f1a5a75dac8aaf95fec40",
+  "bytes": 1897784,
+  "native_pixels": [
+    1254,
+    1254
+  ],
+  "image_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "processing": "Copied unchanged; native pixels and alpha preserved",
+  "visual_review": {
+    "status": "rejected",
+    "reason": "Transparency processing damaged interior background",
+    "inner_alpha_below_250": 152884,
+    "superseded_by": "assets/characters/manga-color/khvarazmsha-v2.png"
+  }
+}

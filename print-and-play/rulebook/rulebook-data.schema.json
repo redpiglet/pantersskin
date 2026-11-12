@@ -1,0 +1,247 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RulebookData",
+  "description": "Schema for the Georgian rulebook and setup sheet data file for Vepkhistkaosani board game.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "meta",
+    "overview",
+    "components",
+    "setup_steps",
+    "gameplay_loop",
+    "token_actions",
+    "flashback_rules",
+    "scale_rules",
+    "victory",
+    "realms",
+    "characters_manifest",
+    "episodes",
+    "print_production"
+  ],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "meta": {
+      "type": "object",
+      "required": [
+        "title_ka",
+        "subtitle_ka",
+        "tagline_ka",
+        "edition_name_ka",
+        "token_mode",
+        "total_episodes",
+        "total_chapters",
+        "total_stanzas",
+        "total_acts",
+        "total_realms",
+        "total_character_tokens",
+        "total_character_cards"
+      ],
+      "properties": {
+        "title_ka": { "type": "string" },
+        "subtitle_ka": { "type": "string" },
+        "tagline_ka": { "type": "string" },
+        "edition_name_ka": { "type": "string" },
+        "version": { "type": "string" },
+        "language": { "type": "string", "enum": ["ka"] },
+        "token_mode": { "type": "string" },
+        "poem_basis_ka": { "type": "string" },
+        "art_basis_ka": { "type": "string" },
+        "total_episodes": { "type": "integer", "const": 24 },
+        "total_chapters": { "type": "integer", "const": 65 },
+        "total_stanzas": { "type": "integer", "const": 1669 },
+        "total_acts": { "type": "integer", "const": 5 },
+        "total_realms": { "type": "integer", "const": 7 },
+        "total_character_tokens": { "type": "integer", "const": 21 },
+        "total_character_cards": { "type": "integer", "const": 21 }
+      }
+    },
+    "overview": {
+      "type": "object",
+      "required": ["summary_ka", "detailed_ka", "game_nature_ka"],
+      "properties": {
+        "summary_ka": { "type": "string" },
+        "detailed_ka": { "type": "string" },
+        "game_nature_ka": { "type": "string" }
+      }
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name_ka", "quantity", "dimensions", "description_ka"],
+        "properties": {
+          "id": { "type": "string" },
+          "name_ka": { "type": "string" },
+          "quantity": { "type": "integer" },
+          "dimensions": { "type": "string" },
+          "description_ka": { "type": "string" },
+          "file_path": { "type": "string" }
+        }
+      }
+    },
+    "setup_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["step_number", "title_ka", "instruction_ka"],
+        "properties": {
+          "step_number": { "type": "integer" },
+          "title_ka": { "type": "string" },
+          "instruction_ka": { "type": "string" }
+        }
+      }
+    },
+    "gameplay_loop": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["phase_number", "phase_name_ka", "instruction_ka"],
+        "properties": {
+          "phase_number": { "type": "integer" },
+          "phase_name_ka": { "type": "string" },
+          "instruction_ka": { "type": "string" }
+        }
+      }
+    },
+    "token_actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "title_ka", "instruction_ka"],
+        "properties": {
+          "kind": { "type": "string" },
+          "title_ka": { "type": "string" },
+          "instruction_ka": { "type": "string" },
+          "rule_note_ka": { "type": "string" }
+        }
+      }
+    },
+    "flashback_rules": {
+      "type": "object",
+      "required": ["title_ka", "description_ka", "modes", "recollection_anchors_ka"],
+      "properties": {
+        "title_ka": { "type": "string" },
+        "description_ka": { "type": "string" },
+        "modes": { "type": "array" },
+        "recollection_anchors_ka": { "type": "string" }
+      }
+    },
+    "scale_rules": {
+      "type": "object",
+      "required": ["title_ka", "explanation_ka", "detailed_rules_ka"],
+      "properties": {
+        "title_ka": { "type": "string" },
+        "explanation_ka": { "type": "string" },
+        "detailed_rules_ka": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "victory": {
+      "type": "object",
+      "required": ["title_ka", "condition_ka", "final_positions_ka"],
+      "properties": {
+        "title_ka": { "type": "string" },
+        "condition_ka": { "type": "string" },
+        "final_positions_ka": { "type": "array" }
+      }
+    },
+    "realms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "id", "name_ka", "caption_ka", "core_characters_ka"],
+        "properties": {
+          "number": { "type": "integer" },
+          "id": { "type": "string" },
+          "name_ka": { "type": "string" },
+          "caption_ka": { "type": "string" },
+          "color": { "type": "string" },
+          "core_characters_ka": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "characters_manifest": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name_ka",
+          "short_name_ka",
+          "role_ka",
+          "initial_placement_ka",
+          "first_active_episode",
+          "final_realm_ka"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "name_ka": { "type": "string" },
+          "short_name_ka": { "type": "string" },
+          "role_ka": { "type": "string" },
+          "initial_placement_ka": { "type": "string" },
+          "first_active_episode": { "type": "integer" },
+          "removal_episode": { "type": ["integer", "null"] },
+          "final_realm_ka": { "type": "string" },
+          "included_episodes": { "type": "array", "items": { "type": "integer", "minimum": 1, "maximum": 24 } },
+          "token_action_only_episodes": { "type": "array", "items": { "type": "integer", "minimum": 1, "maximum": 24 } },
+          "short_description_ka": { "type": "string" }
+        }
+      }
+    },
+    "episodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "episode_number",
+          "act_number",
+          "act_title_ka",
+          "title_ka",
+          "short_title_ka",
+          "chapters",
+          "chapter_range_label_ka",
+          "stanza_range",
+          "stanza_start",
+          "stanza_end",
+          "mode",
+          "mode_label_ka",
+          "primary_realm",
+          "focal_characters_ka",
+          "token_action_ka",
+          "objective_ka",
+          "summary_ka",
+          "quote"
+        ],
+        "properties": {
+          "episode_number": { "type": "integer" },
+          "act_number": { "type": "integer" },
+          "act_title_ka": { "type": "string" },
+          "title_ka": { "type": "string" },
+          "short_title_ka": { "type": "string" },
+          "chapters": { "type": "array", "items": { "type": "integer" } },
+          "chapter_range_label_ka": { "type": "string" },
+          "chapter_span_ka": { "type": "string" },
+          "stanza_range": { "type": "string" },
+          "stanza_start": { "type": "integer" },
+          "stanza_end": { "type": "integer" },
+          "mode": { "type": "string" },
+          "mode_label_ka": { "type": "string" },
+          "primary_realm": { "type": "object" },
+          "focal_characters_ka": { "type": "array", "items": { "type": "string" } },
+          "token_action_ka": { "type": "string" },
+          "objective_ka": { "type": "string" },
+          "summary_ka": { "type": "string" },
+          "quote": { "type": "object" }
+        }
+      }
+    },
+    "print_production": {
+      "type": "object",
+      "required": ["formats", "general_instructions_ka"],
+      "properties": {
+        "formats": { "type": "object" },
+        "general_instructions_ka": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

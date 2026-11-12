@@ -1,0 +1,22 @@
+{
+  "id": "tariel",
+  "version": "manga-v1",
+  "status": "style_experiment",
+  "date": "2026-11-12",
+  "tool": "built-in image_gen",
+  "use_case": "style-transfer",
+  "reference": "assets/characters/tariel-v13.png",
+  "output": "assets/characters/tariel-manga-v1.png",
+  "cached_source": "/Users/Nikoloz/.codex/generated_images/01a1acca-6be3-7081-8a26-c57e3097166e/exec-983f5968-4676-4391-b95f-782b40e472c0.png",
+  "prompt": "Use case: style-transfer\nAsset type: experimental manga character portrait for a collectible character card.\nInput image 1: Tariel's current portrait, used as the character identity, costume and circular composition reference.\nPrimary request: Redraw this Tariel as an unmistakable full-color MANGA character, with the graphic clarity and dramatic gravity of a mature historical action manga. This is a complete drawing-style transformation: confident black ink contours with variable line weight, beautifully controlled ink hatching and small screentone accents, expressive angular manga eyes beneath strong brows, sculpted face planes and graphic cel shading. His anatomy, hair and beard must be drawn in manga language, not a photorealistic portrait with a filter.\nSubject: a handsome, formidable adult warrior, dark shoulder-length wavy hair, full dark beard, strong athletic shoulders, intense thoughtful gaze, dignified and battle-ready, with underlying melancholy. Keep him recognizably the same Tariel as the reference, with the same three-quarter chest-up pose.\nCostume invariants: thick, rough TIGER-skin cap with a substantial rounded crown that holds its form, coarse hide-panel stitching and naturally irregular wild fur tufts. Preserve its reference shape rather than a new hat design. The fur is orange-gold with BLACK TIGER STRIPES. Rough tiger hide is draped directly over his body, with one muscular shoulder and upper arm exposed. No shirt or tunic under the pelt, no metal armor. No animal muzzle, head or ears attached to the cap; no rolled band or turban.\nComposition: one circular medallion, deep petrol-blue interior and clean antique-gold ornamental rim, transparent outside the circle. Translate the rim into crisp manga illustration too. Fit the entire cap, hair and figure INSIDE the circle with clear headroom. Maintain a readable silhouette at small card size.\nColor: tiger orange-gold, warm olive skin, near-black hair and ink, petrol blue, restrained antique gold. Bold tonal separation, strong appealing character design.\nNo text, lettering, speech balloons, logos or watermark. No photorealism, oil-paint rendering, 3D plastic look, chibi proportions or leopard spots.",
+  "notes": "Separate manga style experiment. Existing portrait and card selection remain unchanged.",
+  "validation": {
+    "width": 1254,
+    "height": 1254,
+    "bit_depth": 8,
+    "color_type": 6,
+    "has_alpha": true,
+    "sha256": "8d598a523fd121de2a103daa8ee57117babaeb7055be140bf8b2f393571beebb",
+    "visual_review": "Mature manga warrior; tiger stripes, substantial rough cap, direct-on-body pelt, bare shoulder and circular framing preserved."
+  }
+}

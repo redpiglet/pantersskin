@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Keeper Gameplay Demo — Episodes 1 &amp; 2</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--bg:#2b1d14;--paper:#f3e6c8;--ink:#3a2615;--gold:#c9973a;--nino:#b5473a;--luka:#3a7ca5;--mari:#4f8a4b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,serif;min-height:100vh;display:flex;flex-direction:column}
+header{color:var(--paper);text-align:center;padding:10px 12px 0}
+header h1{margin:0;font-size:20px}
+#caption{color:var(--paper);text-align:center;font-size:19px;min-height:56px;padding:8px 20px;max-width:900px;margin:0 auto}
+#stage{position:relative;flex:1;min-height:470px;max-width:1000px;width:100%;margin:0 auto;
+  background:radial-gradient(ellipse at center,#7a4f2e 0,#5a3820 70%);border-radius:24px;border:4px solid var(--gold);overflow:hidden}
+.seat{position:absolute;width:260px;text-align:center;transition:.4s}
+.seat.p0{left:12px;bottom:14px}.seat.p1{left:370px;top:12px}.seat.p2{right:12px;bottom:14px}
+.seat .name{display:inline-block;padding:3px 14px;border-radius:14px;color:#fff;font-weight:bold}
+.p0 .name{background:var(--nino)}.p1 .name{background:var(--luka)}.p2 .name{background:var(--mari)}
+.score{display:block;margin-top:4px;color:var(--paper);font-size:15px}
+.score b{font-size:26px;color:#ffd77a}
+.score b.pop{animation:pop .6s}
+@keyframes pop{50%{transform:scale(1.8)}}
+.tokens{display:flex;gap:8px;justify-content:center;min-height:68px;margin-top:6px}
+.token{width:62px;height:62px;border-radius:50%;border:3px solid var(--gold);background:var(--paper) center/cover;
+  opacity:0;transform:scale(.3);transition:.6s;position:relative}
+.token.in{opacity:1;transform:scale(1)}
+.token.glow{box-shadow:0 0 0 4px #ffe08a,0 0 22px 8px #ffd35c;transform:scale(1.25);z-index:3}
+.token.dim{filter:grayscale(.9);opacity:.35}
+.token span{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--paper);white-space:nowrap}
+#card{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(.5);width:300px;background:var(--paper);
+  border:3px double var(--gold);border-radius:10px;padding:12px 14px;text-align:center;opacity:0;transition:.5s;z-index:4;box-shadow:0 6px 18px #0008}
+#card.in{opacity:1;transform:translate(-50%,-50%) scale(1)}
+#card h3{margin:0 0 4px;font-size:16px}
+#card .tag{font-size:12px;color:#8a6a3a}
+#card p{font-size:13px;margin:6px 0 0}
+#card .stage-row{display:flex;gap:6px;justify-content:center;margin-top:8px;font-size:12px}
+.bubble{position:absolute;left:50%;transform:translateX(-50%) scale(.6);max-width:380px;background:#fff;border:2px solid var(--ink);
+  border-radius:16px;padding:10px 14px;font-size:14px;opacity:0;transition:.4s;z-index:6;top:118px;font-style:italic}
+.bubble.in{opacity:1;transform:translateX(-50%) scale(1)}
+.bubble .who{display:block;font-style:normal;font-weight:bold;font-size:12px;margin-bottom:3px}
+.bubble .timer{display:block;height:5px;background:#ddd;border-radius:3px;margin-top:6px;overflow:hidden}
+.bubble .timer i{display:block;height:100%;width:0;background:var(--gold)}
+.bubble.in .timer i{width:100%;transition:width 3.2s linear}
+#vote{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:7;text-align:center;opacity:0;transition:.4s;pointer-events:none}
+#vote.in{opacity:1}
+#vote .big{font-size:40px}
+#award{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%) scale(.5);z-index:8;opacity:0;transition:.4s;text-align:center;
+  background:#fff8e0;border:3px solid var(--gold);border-radius:14px;padding:10px 20px;font-size:18px;box-shadow:0 6px 20px #000a}
+#award.in{opacity:1;transform:translate(-50%,-50%) scale(1)}
+#award .bonus{color:#2e7d32;font-weight:bold}
+#controls{display:flex;gap:10px;justify-content:center;padding:12px;align-items:center;color:var(--paper)}
+button{font:inherit;padding:7px 16px;border-radius:8px;border:2px solid var(--gold);background:var(--paper);color:var(--ink);cursor:pointer}
+button:hover{background:#ffe9b0}
+#bar{width:260px;height:8px;background:#0006;border-radius:4px;overflow:hidden}
+#bar i{display:block;height:100%;background:var(--gold);width:0;transition:.4s}
+#rules{position:absolute;left:12px;top:12px;background:#f3e6c8e8;border-radius:10px;padding:8px 12px;font-size:12.5px;width:230px;line-height:1.5;z-index:2}
+#rules b{color:#8a3a1a}
+</style>
+</head>
+<body>
+<header><h1>🎭 Keepers of the Poem — how a round plays</h1></header>
+<div id="caption"></div>
+<div id="stage">
+  <div id="rules"><b>Scoring</b><br>🗣 Regular speech <b>+2</b><br>⭐ More than expected <b>+1</b><br>(max 3 per speech)<br>
+    <small>Bonus = quote a stanza, link another player's character, or reveal inner feelings. Table votes by raised hands.</small></div>
+  <div class="seat p0"><span class="name">Nino</span><span class="score">Score <b id="s0">0</b></span><div class="tokens" id="t0"></div></div>
+  <div class="seat p1"><span class="name">Luka</span><span class="score">Score <b id="s1">0</b></span><div class="tokens" id="t1"></div></div>
+  <div class="seat p2"><span class="name">Mari</span><span class="score">Score <b id="s2">0</b></span><div class="tokens" id="t2"></div></div>
+  <div id="card"></div>
+  <div class="bubble" id="bubble"></div>
+  <div id="vote"></div>
+  <div id="award"></div>
+</div>
+<div id="controls">
+  <button id="prev">◀ Back</button><button id="play">⏸ Pause</button><button id="next">Next ▶</button><button id="restart">↺ Restart</button>
+  <div id="bar"><i></i></div><span id="count"></span>
+</div>
+<script>
+const C={
+ rustaveli:{n:'Rustaveli',img:'rustaveli.png',p:0},
+ tinatin:{n:'Tinatin',img:'tinatin.png',p:0},
+ rostevan:{n:'Rostevan',img:'rostevan.png',p:1},
+ avtandil:{n:'Avtandil',img:'avtandil.png',p:1},
+ sograt:{n:'Sograt',img:'sograt.png',p:2},
+ tariel:{n:'Tariel',img:'tariel.png',p:2}
+};
+const P=['Nino','Luka','Mari'], PC=['var(--nino)','var(--luka)','var(--mari)'];
+const $=id=>document.getElementById(id);
+let scores=[0,0,0];
+
+const EP1={t:'Episode 1 — Prologue',tag:'Arabia · stanzas 1–31',
+ txt:'The poet invokes the Creator, praises Queen Tamar and sets out his theory of poetry and love.',on:['rustaveli']};
+const EP2={t:'Episode 2 — Tinatin crowned',tag:'Arabia · stanzas 32–83',
+ txt:'Old King Rostevan, advised by vizier Sograt, crowns his daughter Tinatin. A royal hunt follows.',on:['rostevan','tinatin','avtandil','sograt']};
+
+// each step: {cap, run()}
+const steps=[
+ {cap:'Setup: every player becomes the <b>keeper</b> of some characters. They draft them one by one.',run(){}},
+ {cap:'Nino picks <b>Rustaveli</b> and <b>Tinatin</b>.',run(){giveToken('rustaveli');giveToken('tinatin')}},
+ {cap:'Luka picks <b>Rostevan</b> and <b>Avtandil</b>.',run(){giveToken('rostevan');giveToken('avtandil')}},
+ {cap:'Mari picks <b>Sograt</b> and <b>Tariel</b>. From now on each keeper tells the story of their own characters.',run(){giveToken('sograt');giveToken('tariel')}},
+ {cap:'<b>Episode 1.</b> Read the episode card aloud. Only characters named on the card are <i>on stage</i>.',run(){showCard(EP1)}},
+ {cap:'Rustaveli is on stage, so <b>Nino</b> speaks as the poet for about 30 seconds.',run(){speak('rustaveli','“Poetry is a branch of wisdom. A long tale can be told in few words. I begin with praise for our Queen Tamar…”')}},
+ {cap:'The table raises hands: does the speech beat expectations? Nino quoted a real stanza (st. 12), so most hands go up.',run(){vote(true)}},
+ {cap:'Nino scores <b>+2</b> for the regular speech and <b>+1</b> bonus.',run(){award(0,2,1)}},
+ {cap:'<b>Episode 2.</b> A new card. Four characters are on stage and Tariel stays home.',run(){showCard(EP2)}},
+ {cap:'<b>Mari</b> speaks as Sograt, the wise vizier.',run(){speak('sograt','“Though she is a woman, God made her a ruler. The lion’s whelps are equal, female or male.” (st. 39)')}},
+ {cap:'She quoted the stanza directly. Hands up, so <b>+2 +1</b>.',run(){vote(true);award(2,2,1)}},
+ {cap:'<b>Luka</b> speaks as King Rostevan, handing over the crown.',run(){speak('rostevan','“I am old. Tinatin, my daughter, take the throne and rule Arabia.”')}},
+ {cap:'A clear, correct speech but nothing extra. Hands stay down, so just <b>+2</b>.',run(){vote(false);award(1,2,0)}},
+ {cap:'<b>Nino</b> speaks as Tinatin and brings in Luka’s character, Avtandil.',run(){speak('tinatin','“I accept the crown with a heavy heart. Avtandil, my commander, I will lean on your sword.”')}},
+ {cap:'Linking another player’s character earns the bonus. <b>+2 +1</b>.',run(){vote(true);award(0,2,1)}},
+ {cap:'<b>Luka</b> speaks again, as Avtandil, and reveals his inner feelings.',run(){speak('avtandil','“I smile at the hunt, but I hide it: my heart already belongs to Tinatin.”')}},
+ {cap:'Inner motives beyond the card is the “more than expected” bonus. <b>+2 +1</b>.',run(){vote(true);award(1,2,1)}},
+ {cap:'Move the tokens on the map, then flip to the next card. After 24 episodes the highest score wins.',run(){clearTop();$('card').classList.remove('in')}},
+ {cap:'🏆 After two episodes: <b>Nino 6</b>, <b>Luka 5</b>, <b>Mari 3</b>. Simple: +2 for a speech, +1 for going beyond.',run(){clearTop();}}
+];
+
+function giveToken(id){
+ const c=C[id],d=document.createElement('div');
+ d.className='token';d.id='tok_'+id;d.style.backgroundImage=`url(assets/characters/${c.img})`;
+ d.innerHTML=`<span>${c.n}</span>`;
+ $('t'+c.p).appendChild(d);setTimeout(()=>d.classList.add('in'),30);
+}
+function showCard(e){
+ clearTop();
+ Object.keys(C).forEach(k=>{const t=$('tok_'+k);if(t){t.classList.remove('glow');t.classList.toggle('dim',!e.on.includes(k));}});
+ e.on.forEach(k=>$('tok_'+k).classList.add('glow'));
+ $('card').innerHTML=`<h3>${e.t}</h3><div class="tag">${e.tag}</div><p>${e.txt}</p>
+ <div class="stage-row">On stage: ${e.on.map(k=>`<b style="color:${PC[C[k].p]}">${C[k].n}</b>`).join(' · ')}</div>`;
+ $('card').classList.add('in');
+ // card sits at centre; move it upward-left so bubbles are visible
+}
+function speak(id,text){
+ clearTop();
+ Object.keys(C).forEach(k=>{const t=$('tok_'+k);if(t){t.classList.remove('glow');}});
+ $('tok_'+id).classList.add('glow');
+ const c=C[id];
+ $('bubble').innerHTML=`<span class="who" style="color:${PC[c.p]}">${P[c.p]} as ${c.n} 🗣</span>${text}<span class="timer"><i></i></span>`;
+ $('bubble').classList.remove('in');void $('bubble').offsetWidth;$('bubble').classList.add('in');
+ $('card').style.top='62%';$('card').style.transform='translate(-50%,-50%) scale(.75)';
+}
+function vote(yes){
+ $('bubble').classList.remove('in');
+ $('vote').innerHTML=yes?`<div class="big">🙋‍♀️🙋🙋‍♂️</div><div style="color:#fff;font-size:18px">Hands up! Bonus ✔</div>`
+                         :`<div class="big">🙂🙂</div><div style="color:#fff;font-size:18px">No extra hands. No bonus</div>`;
+ $('vote').classList.add('in');
+}
+function award(p,base,bonus){
+ scores[p]+=base+bonus;
+ $('award').innerHTML=`<b style="color:${PC[p]}">${P[p]}</b><br>+${base} speech${bonus?` <span class="bonus">+${bonus} bonus ⭐</span>`:''}`;
+ $('award').classList.add('in');
+ const s=$('s'+p);s.textContent=scores[p];s.classList.remove('pop');void s.offsetWidth;s.classList.add('pop');
+ $('vote').classList.remove('in');
+}
+function clearTop(){
+ $('bubble').classList.remove('in');$('vote').classList.remove('in');$('award').classList.remove('in');
+ $('card').style.top='';$('card').style.transform='';
+}
+
+let idx=-1,playing=true,timer=null;
+function reset(){
+ scores=[0,0,0];[0,1,2].forEach(i=>{$('s'+i).textContent=0;$('t'+i).innerHTML=''});
+ clearTop();$('card').classList.remove('in');
+}
+function go(n){
+ if(n<0)n=0;if(n>=steps.length)n=steps.length-1;
+ // replay from scratch so state is always consistent
+ reset();
+ for(let i=0;i<=n;i++){ steps[i].run(); }
+ idx=n;
+ // final-step cleanup: only keep latest transient visuals
+ if(n<steps.length-1) {} 
+ $('caption').innerHTML=steps[n].cap;
+ $('bar').firstElementChild.style.width=((n+1)/steps.length*100)+'%';
+ $('count').textContent=`${n+1}/${steps.length}`;
+ schedule();
+}
+function schedule(){
+ clearTimeout(timer);
+ if(playing&&idx<steps.length-1)timer=setTimeout(()=>go(idx+1),idx>=0&&/speaks|speak/.test(steps[idx].cap)?5200:4200);
+}
+$('next').onclick=()=>go(idx+1);
+$('prev').onclick=()=>go(idx-1);
+$('restart').onclick=()=>{playing=true;$('play').textContent='⏸ Pause';go(0)};
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'⏸ Pause':'▶ Play';schedule()};
+go(0);
+</script>
+</body>
+</html>

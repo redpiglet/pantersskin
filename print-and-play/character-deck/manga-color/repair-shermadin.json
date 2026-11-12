@@ -1,0 +1,9 @@
+{
+  "id": "shermadin",
+  "asset": "assets/characters/manga-color/shermadin-v2.png",
+  "prompt": "Use case: illustration-story. Create a NEW coloured manga portrait of Shermadin from the identity/costume cues in reference1, matching reference2's manga STYLE and circular gold-ring FORMAT only. Sturdy adult man, short dark beard, broad steady loyal face, small navy cap and blue quilted coat with three gold toggles. Confident clean ink contours, flat two-tone cel shadows, natural warm skin, muted navy and gold, no dense brocade or painted realism. Single head/shoulders/upperchest portrait fullyinside one complete gold-rimmed circle, flat continuous solid muted teal field behind the whole head and shoulders. Square1536 requested. This output must be COMPLETELY OPAQUE at every pixel, with a plain solid warm ivory square backdrop outside the ring as well: NO TRANSPARENCY ANYWHERE. The whole teal field must be smooth continuous, no black patches or holes. Keep distinct male face, no woman'scrown orcostume. No text, letters, numbers, speechbubbles, SFX, banners, scrolls, watermarks.",
+  "references": [
+    "assets/characters/shermadin-v2.png",
+    "assets/characters/manga-color/tinatin-v1.png"
+  ]
+}

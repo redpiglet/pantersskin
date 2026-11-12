@@ -1,0 +1,37 @@
+{
+  "episode_number": 18,
+  "id": "ep_18_fatman_story_kadjeti",
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-11-10",
+  "asset_path": "assets/episodes/episode-18-v1.png",
+  "pixel_dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "cb6d14fb6e750e1346650b2b0418dd7a1462a89ea222de87c854efb5c88c7a26",
+  "bytes": 4183401,
+  "prompt": "Use case: illustration-story. Create a new narrative scene in the same manuscript series.\nMedieval Georgian-Persian illuminated manuscript miniature painting for Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი). 16th–17th-century Georgian royal manuscript miniature, Mamuka Tavakarashvili / King Vakhtang VI illumination tradition blended with classical Persian-Safavid tempera miniature. Egg tempera, lapis lazuli, malachite green, vermilion, warm ochre and burnished antique gold leaf on aged ivory-parchment vellum. Stylized faceted rocky cliffs, ornamental cypress and pomegranate trees, intricately patterned arches and domes, expressive courtly figures in medieval Georgian-Eastern attire. Fine controlled contours, delicately patterned fabrics, luminous matte mineral pigments, slightly flattened layered miniature space with expressive narrative gestures. A painted manuscript scene, not photorealism, cinematic rendering, modern digital fantasy or a collage of circular portraits. Reuse referenced character faces and coloring but adapt costume to the actual chronological story scene; Tariel wears ordinary Indian court or military attire in early backstory, his panther skin belongs to his later exile. Exact horizontal 16:10 composition, preferably native 1600x1000 pixels, a single coherent scene framed for a card vignette. Soft natural painted vignette dissolving to warm aged ivory vellum at edges, modest antique-gold floral flourishes at the perimeter, no rigid border. Key faces and gestures comfortably inside the central safe area, no important content cut off. STRICTLY NO TEXT, NO LETTERS, NO CAPTIONS, NO NUMBERS, NO INSCRIPTIONS, NO CALLIGRAPHY, NO BANNERS, NO SCROLLS, NO SIGNATURES, NO WATERMARKS anywhere. Architectural ornament must be purely floral/geometric with no pseudo-writing. If letters are narratively necessary, use a small closed plain unmarked folded paper or sealed envelope, never visible writing or rolled scrolls. All book covers/pages must be plain and unmarked. Do not show graphic blood or gore; imply violent events through gestures, context and intact clothing.\nEpisode 18: Fatman's Tale: Nestan's Shelter in Gulansharo & Capture into Kadjeti.\nSetting: Gulansharo, Fatman’s private sheltered chamber opening onto a sea-garden courtyard.\nScene: In Fatman’s remembered story, she receives and shelters the exhausted Nestan after her arrival by sea. Fatman offers a protective hand and a seat while Nestan, still in her green garments and dark veil, turns toward her with guarded relief. A closed travel chest rests unobtrusively near the doorway.\nCharacters: Fatman Khathun (reference2), a mature dark-haired woman with small beauty mark, gold veil, vermilion-and-gold embroidered robe and pearls, gently shelters Nestan-Darejan (reference3), a young solemn woman with dark wavy hair, strong brows, green-and-gold robe and black gold-edged veil with emerald ornament. Preserve their DIFFERENT recognizable faces. Nestan appears weary after forced sea travel; Fatman offers reassurance with a hand near Nestan's shoulder and guides her toward a cushioned low seat.\nStory constraints: This is the past event being narrated, not Avtandil listening in the present. Do not add Usen, Melik-Surkhav, Dulardukht or Rosan to the private sheltering scene. Kadjeti is a later destination, not a coastal fortress in the background.\nReference1 is STYLE ONLY: intricate fine contour, lapis/malachite/vermilion/ochre tempera, antique-gold illumination, faceted patterned miniature space and soft aged-ivory vignette. Do not include its poet. References2/3 are facial/costume identity only; no circular medallions.\nComposition: horizontal16:10 approximately1600x1000, single coherent PRIVATE sheltering moment. Two women large in the center, one standing and one beginning to sit, sheltered arch and textiles around them. The closed plain travel chest is by the doorway at lowerleft; a glimpse of Gulansharo's calm harbor beyond the garden establishes arrival by sea. No other people, no Kadjeti castle, no second inset or split scene. No writing anywhere.\nSTRICTLY NO TEXT, LETTERS, CAPTIONS, NUMBERS, BANNERS, FLAGS, SCROLLS, INSCRIPTIONS, CALLIGRAPHY, SIGNATURES OR WATERMARKS. Decorative motifs must remain floral/geometric.",
+  "referenced_image_paths": [
+    "/Users/Nikoloz/Desktop/pantersskin/assets/episodes/episode-01-v1.png",
+    "/Users/Nikoloz/Desktop/pantersskin/assets/characters/fatman-v7.png",
+    "/Users/Nikoloz/Desktop/pantersskin/assets/characters/nestan-v3.png"
+  ],
+  "visual_qa": {
+    "status": "passed",
+    "aspect_ratio": "16:10 within 1%",
+    "no_text_letters_numbers_banners_scrolls": true,
+    "character_identity_and_copresence": true,
+    "notes": "Fatman shelters weary Nestan privately in Gulansharo, with closed travel chest and coastal garden; clearly separate recognizable women, no narration-frame Avtandil or misplaced Kadjeti cast.",
+    "passed": true
+  },
+  "asset": "assets/episodes/episode-18-v1.png",
+  "references": [
+    "assets/episodes/episode-01-v1.png",
+    "assets/characters/fatman-v7.png",
+    "assets/characters/nestan-v3.png"
+  ],
+  "character_ids": [
+    "fatman",
+    "nestan"
+  ]
+}

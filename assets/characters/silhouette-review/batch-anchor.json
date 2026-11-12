@@ -1,0 +1,18 @@
+{
+  "generation_mode": "built-in OpenAI ImageGen",
+  "date": "2026-11-07",
+  "portraits": [
+    {
+      "id": "usam",
+      "revision": 1,
+      "asset_kind": "generic_silhouette",
+      "generation_mode": "built-in OpenAI ImageGen",
+      "date": "2026-11-07",
+      "input_images": [],
+      "output_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png",
+      "source_generation_path": "/Users/Nikoloz/.codex/generated_images/01a1acca-6be3-7081-8a26-c57e3097166e/exec-2012ac30-98bb-4180-a0f8-c34ca351427b.png",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\n\nSubject role: USAM, leader of the merchant caravan.\nAnonymous adult male merchant-caravan leader, modest wrapped cloth cap and plain travel-robe shoulders, composed three-quarter silhouette. No royal crown, armor or merchant props.",
+      "qa": "Viewed master: faceless dark merchant silhouette, no internal facial features, high-contrast blue field, full gold circular rim and generous headroom."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-09",
+  "mode": "built-in ImageGen",
+  "prompt": "High-resolution print refinement of the supplied painted manuscript map. The input is the exact edit target, not a loose inspiration. Preserve the entire composition, the positions, shapes and identity of all seven main landmarks, every reserved pale label field, the coastline, the ships, the illumination border and the tempera/gouache style. Retain the complete rectangular frame without cropping. Add NO text, labels, routes, numbers, glyphs or new places.\n\nMake a genuinely higher-detail large-format print master at native 3360 x 2384 pixels (approximately 1.41:1 landscape), or at least 3000 pixels on the long edge. Return the actual large pixel canvas. Refine painted microdetail in masonry, roof tiles, trees, rocky slopes, waves and gold ornament for the bigger canvas while preserving overall shapes and balance. Do not merely blur, oversharpen, or change the design. All seven settings and quiet parchment areas must stay in precisely the same arrangement. Rich, intricate, warm manuscript craftsmanship matching the existing painting.",
+  "reference": "assets/maps/painted-realms-v1.png",
+  "intent": "Native resolution refinement; retain original output if the target size is not met."
+}

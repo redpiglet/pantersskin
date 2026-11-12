@@ -1,0 +1,32 @@
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble/
+.LSOverride
+
+# Local Python/JavaScript dependencies and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+/.venv/
+/venv/
+node_modules/
+
+# Scratch work, screenshots, font caches, and local audit output
+/tmp/
+
+# Generated print exports, previews, ZIP packages, and build reports stay local.
+# These illustration selections are build inputs, so keep them versionable.
+/output/**
+!/output/**/
+!/output/episode-illustrations/illustration-manifest.json
+!/output/episode-illustrations/manga/illustration-manifest.json
+!/output/episode-illustrations/manga-color/illustration-manifest.json
+
+# Editor backup files
+*.swp
+*.swo
+*~

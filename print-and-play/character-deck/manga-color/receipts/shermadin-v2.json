@@ -1,0 +1,28 @@
+{
+  "character_id": "shermadin",
+  "date": "2026-11-12T11:50:55.358933+00:00",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "built-in",
+  "asset": "assets/characters/manga-color/shermadin-v2.png",
+  "source_generated_png": "/Users/Nikoloz/.codex/generated_images/01a1aaf7-6a62-7982-84ce-8495241cc8a7/exec-c8411418-52f5-4e94-b995-3fa2aee41a04.png",
+  "references": [
+    "assets/characters/shermadin-v2.png",
+    "assets/characters/manga-color/tinatin-v1.png"
+  ],
+  "prompt": "Use case: illustration-story. Create a NEW coloured manga portrait of Shermadin from the identity/costume cues in reference1, matching reference2's manga STYLE and circular gold-ring FORMAT only. Sturdy adult man, short dark beard, broad steady loyal face, small navy cap and blue quilted coat with three gold toggles. Confident clean ink contours, flat two-tone cel shadows, natural warm skin, muted navy and gold, no dense brocade or painted realism. Single head/shoulders/upperchest portrait fullyinside one complete gold-rimmed circle, flat continuous solid muted teal field behind the whole head and shoulders. Square1536 requested. This output must be COMPLETELY OPAQUE at every pixel, with a plain solid warm ivory square backdrop outside the ring as well: NO TRANSPARENCY ANYWHERE. The whole teal field must be smooth continuous, no black patches or holes. Keep distinct male face, no woman'scrown orcostume. No text, letters, numbers, speechbubbles, SFX, banners, scrolls, watermarks.",
+  "prompt_set": "print-and-play/character-deck/manga-color/repair-shermadin.json",
+  "sha256": "fb590f78953455e5b49256cc7b9b5e7d90b8e94280d09849ae2409fa444e9836",
+  "bytes": 2030869,
+  "native_pixels": [
+    1254,
+    1254
+  ],
+  "image_mode": "RGB",
+  "alpha_extrema": null,
+  "processing": "Copied unchanged; native pixels and alpha preserved",
+  "visual_review": {
+    "status": "passed",
+    "review": "Inspected individually or at final cast contact sheet; coloured manga ink/cel shading, recognizable character identity and age, single complete medallion, no lettering, intact background."
+  },
+  "final_cast_review": "passed"
+}

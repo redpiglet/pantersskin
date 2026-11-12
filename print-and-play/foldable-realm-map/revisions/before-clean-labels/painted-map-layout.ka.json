@@ -1,0 +1,487 @@
+{
+  "title": {
+    "x": 45,
+    "y": 390,
+    "size_pt": 28.5,
+    "subtitle_y": 378,
+    "subtitle_size_pt": 13,
+    "paper_backing": false
+  },
+  "realms": {
+    "arabia": {
+      "x": 78,
+      "label_y": 260,
+      "name_size_pt": 24.5,
+      "caption_size_pt": 11.2,
+      "caption_offset_mm": 10,
+      "paper_backing": false
+    },
+    "wilderness": {
+      "x": 222,
+      "label_y": 244,
+      "name_size_pt": 24.5,
+      "caption_size_pt": 11.2,
+      "caption_offset_mm": 10,
+      "paper_backing": false
+    },
+    "india": {
+      "x": 518,
+      "label_y": 260,
+      "name_size_pt": 24.5,
+      "caption_size_pt": 11.2,
+      "caption_offset_mm": 10,
+      "paper_backing": false
+    },
+    "khataveti": {
+      "x": 374,
+      "label_y": 302,
+      "name_size_pt": 24.5,
+      "caption_size_pt": 11.2,
+      "caption_offset_mm": 10,
+      "paper_backing": false
+    },
+    "mulgazanzar": {
+      "x": 218,
+      "label_y": 102,
+      "name_size_pt": 24.5,
+      "caption_size_pt": 11.2,
+      "caption_offset_mm": 10,
+      "paper_backing": false
+    },
+    "gulansharo": {
+      "x": 374,
+      "label_y": 102,
+      "name_size_pt": 24.5,
+      "caption_size_pt": 11.2,
+      "caption_offset_mm": 10,
+      "paper_backing": false,
+      "text_halo": {
+        "color": "#F4E3BD",
+        "width_pt": 1.2,
+        "caption_width_pt": 0.8,
+        "alpha": 0.9
+      }
+    },
+    "kajeti": {
+      "x": 518,
+      "label_y": 45,
+      "name_size_pt": 24.5,
+      "caption_size_pt": 11.2,
+      "caption_offset_mm": 10,
+      "paper_backing": false
+    }
+  },
+  "routes": {
+    "enabled": true,
+    "stroke_mm": 0.55,
+    "halo_mm": 0.85,
+    "land_color": "#78623D",
+    "sea_color": "#F2DCA7",
+    "mixed_color": "#CEA45F",
+    "paths": {
+      "arabia_cave": [
+        [
+          "M",
+          [
+            144,
+            290
+          ]
+        ],
+        [
+          "C",
+          [
+            155,
+            294,
+            168,
+            297,
+            183,
+            300
+          ]
+        ]
+      ],
+      "india_khataeti": [
+        [
+          "M",
+          [
+            466,
+            340
+          ]
+        ],
+        [
+          "C",
+          [
+            446,
+            358,
+            434,
+            356,
+            420,
+            349
+          ]
+        ]
+      ],
+      "india_mulgazanzar": [
+        [
+          "M",
+          [
+            469,
+            290
+          ]
+        ],
+        [
+          "C",
+          [
+            455,
+            266,
+            441,
+            245,
+            421,
+            228
+          ]
+        ],
+        [
+          "C",
+          [
+            377,
+            199,
+            316,
+            179,
+            270,
+            159
+          ]
+        ]
+      ],
+      "cave_mulgazanzar": [
+        [
+          "M",
+          [
+            189,
+            286
+          ]
+        ],
+        [
+          "C",
+          [
+            166,
+            264,
+            169,
+            229,
+            190,
+            202
+          ]
+        ]
+      ],
+      "mulgazanzar_gulansharo": [
+        [
+          "M",
+          [
+            276,
+            154
+          ]
+        ],
+        [
+          "C",
+          [
+            286,
+            153,
+            297,
+            151,
+            307,
+            148
+          ]
+        ]
+      ],
+      "gulansharo_kajeti": [
+        [
+          "M",
+          [
+            438,
+            167
+          ]
+        ],
+        [
+          "C",
+          [
+            451,
+            177,
+            464,
+            159,
+            468,
+            145
+          ]
+        ],
+        [
+          "C",
+          [
+            474,
+            127,
+            479,
+            111,
+            486,
+            87
+          ]
+        ]
+      ],
+      "mulgazanzar_kajeti": [
+        [
+          "M",
+          [
+            267,
+            118
+          ]
+        ],
+        [
+          "C",
+          [
+            260,
+            90,
+            260,
+            45,
+            299,
+            31
+          ]
+        ],
+        [
+          "C",
+          [
+            350,
+            17,
+            415,
+            28,
+            446,
+            64
+          ]
+        ],
+        [
+          "C",
+          [
+            460,
+            81,
+            477,
+            88,
+            488,
+            84
+          ]
+        ]
+      ],
+      "india_gulansharo": [
+        [
+          "M",
+          [
+            463,
+            278
+          ]
+        ],
+        [
+          "C",
+          [
+            443,
+            240,
+            381,
+            207,
+            330,
+            190
+          ]
+        ],
+        [
+          "C",
+          [
+            301,
+            175,
+            287,
+            155,
+            278,
+            136
+          ]
+        ],
+        [
+          "C",
+          [
+            292,
+            122,
+            301,
+            131,
+            308,
+            142
+          ]
+        ]
+      ],
+      "gulansharo_cave": [
+        [
+          "M",
+          [
+            307,
+            148
+          ]
+        ],
+        [
+          "C",
+          [
+            307,
+            177,
+            318,
+            207,
+            306,
+            224
+          ]
+        ],
+        [
+          "C",
+          [
+            290,
+            242,
+            271,
+            255,
+            252,
+            284
+          ]
+        ]
+      ],
+      "arabia_india": [
+        [
+          "M",
+          [
+            150,
+            334
+          ]
+        ],
+        [
+          "C",
+          [
+            180,
+            365,
+            200,
+            382,
+            248,
+            385
+          ]
+        ],
+        [
+          "C",
+          [
+            300,
+            386,
+            316,
+            402,
+            360,
+            400
+          ]
+        ],
+        [
+          "C",
+          [
+            413,
+            410,
+            443,
+            383,
+            469,
+            346
+          ]
+        ]
+      ],
+      "india_cave": [
+        [
+          "M",
+          [
+            474,
+            298
+          ]
+        ],
+        [
+          "C",
+          [
+            411,
+            279,
+            348,
+            275,
+            307,
+            294
+          ]
+        ],
+        [
+          "C",
+          [
+            288,
+            301,
+            268,
+            303,
+            252,
+            301
+          ]
+        ]
+      ]
+    },
+    "styles": {
+      "land": {
+        "halo_color": "#F7EBCD",
+        "halo_alpha": 0.3
+      },
+      "sea": {
+        "halo_color": "#204757",
+        "halo_alpha": 0.5
+      },
+      "mixed": {
+        "halo_color": "#314D4A",
+        "halo_alpha": 0.45
+      },
+      "narrative": {
+        "halo_color": "#F7EBCD",
+        "halo_alpha": 0.45,
+        "dash_mm": [
+          0.55,
+          1.6
+        ],
+        "stroke_mm": 0.55
+      }
+    },
+    "narrative_color": "#9B7083",
+    "labels": {
+      "gulansharo_cave": {
+        "text": "ფრიდონის გვერდის ავლით",
+        "x": 340,
+        "y": 248,
+        "size_pt": 11,
+        "paper_backing": true,
+        "paper_alpha": 0.58
+      },
+      "arabia_india": {
+        "text": "შინ დაბრუნება",
+        "x": 253,
+        "y": 389,
+        "size_pt": 11.5,
+        "paper_backing": true,
+        "paper_alpha": 0.48
+      },
+      "india_cave": {
+        "text": "გაჭრა და ხეტიალი",
+        "x": 337,
+        "y": 273,
+        "size_pt": 11.5,
+        "paper_backing": true,
+        "paper_alpha": 0.52
+      }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "x": 28,
+    "heading_y": 156,
+    "first_row_y": 140,
+    "row_step_mm": 12,
+    "line_width_mm": 20,
+    "text_offset_mm": 27,
+    "note_top_y": 86,
+    "note_width_mm": 94,
+    "kinds": [
+      "land",
+      "sea",
+      "mixed",
+      "narrative"
+    ],
+    "text_size_pt": 10.7
+  },
+  "fold_ticks": true,
+  "paper_color": "#F8F5EC",
+  "label_ink": "#203D37",
+  "caption_ink": "#485C50",
+  "note": "Revised complete story-route overlay: direct Gulansharo–cave bypass, overland Arabia–India, distinct dotted exile summary, and extended inland Kadjeti approach. The painting remains an interpretive geography."
+}

@@ -1,0 +1,73 @@
+{
+  "generation_mode": "built-in OpenAI ImageGen",
+  "portraits": [
+    {
+      "id": "queen_india",
+      "version": "silhouette-v1",
+      "mode": "built-in OpenAI ImageGen",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\n\nSubject brief: Anonymous adult queen silhouette: simple draped veil, low modest crown/diadem outline, regal robe shoulders. Mature adult proportions, no specific face, no elaborate European fleur-de-lis.\n\nReference image role: the attached Usam silhouette is STYLE/FORMAT ONLY. Match its flat featureless face, deep charcoal figure, light petrol-blue paper field and simple gold interlace circle. Change the subject to the queen silhouette described above; do not copy the man's turban or beard. Keep low crown and draped veil in solid dark silhouette with ample blue gap above and on both sides, entirely clear of the inner gold ring. No internal face features or skin shading.",
+      "input_paths": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png"
+      ],
+      "source_generation_path": "/Users/Nikoloz/.codex/generated_images/01a1accb-5828-7801-9beb-cc3a07750a4d/exec-3e4b36a2-0a42-4e09-847f-e9d832d6775d.png",
+      "output_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/queen_india-silhouette-v1.png",
+      "qa": {
+        "attempts": 1,
+        "dimensions": "1254x1254",
+        "has_alpha": true,
+        "inspection": "Featureless dark queen silhouette with simple low crown and draped veil. No eyes, mouth, facial highlights, skin or props. Crown entirely within blue field with generous headroom; full gold rim visible. Subtle clothing/veil folds match master."
+      }
+    },
+    {
+      "id": "khvarazmshah",
+      "version": "silhouette-v1",
+      "mode": "built-in OpenAI ImageGen",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\n\nSubject brief: Anonymous adult king silhouette, distinct older-generation royal bearing, simple low crown outline and broad plain robe shoulders. No specific beard details or individual likeness needed.\n\nReference image role: attached Usam silhouette is STYLE/FORMAT ONLY. Match the completely featureless dark face/head, deep charcoal figure, medium-light petrol-blue paper field and antique-gold interlace circle. Change subject to older-generation adult king with a simple LOW modest crown; no turban, no lavish headwear or jewelry. Broad plain robe shoulders and solid uninterrupted face. No internal facial highlights or features; only outer head/neck contour. Crown fully inside inner blue circle, ample visible blue headroom and side clearance.",
+      "input_paths": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png"
+      ],
+      "source_generation_path": "/Users/Nikoloz/.codex/generated_images/01a1accb-5828-7801-9beb-cc3a07750a4d/exec-04b4b030-f17b-45a0-86c2-669015772342.png",
+      "output_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/khvarazmshah-silhouette-v1.png",
+      "qa": {
+        "attempts": 1,
+        "dimensions": "1254x1254",
+        "has_alpha": true,
+        "inspection": "Featureless older-generation king silhouette with low crown, broad robe and outer beard contour only. No eyes, mouth, face highlights, skin or props. Crown clear of full gold rim with generous blue headroom. Matches master."
+      }
+    },
+    {
+      "id": "rodia",
+      "version": "silhouette-v1",
+      "mode": "built-in OpenAI ImageGen",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\n\nSubject brief: Anonymous young male royal ward/prince silhouette: youthful beardless profile and slim neck/shoulders, small plain circlet. Youthful proportions without a specified numerical age; no adult beard or armor.\n\nReference image role: attached Usam silhouette is STYLE/FORMAT ONLY. Keep its completely flat featureless face, deep charcoal-petrol figure, medium-light petrol-blue field and full gold interlace circle. Change subject to young royal ward silhouette: a plain slim neck and narrow mantle shoulders, youthful clean-shaven outer head contour and a SMALL SIMPLE CIRCLET. No beard, turban, adult king proportions or armor. Circlet a quiet narrow band with just a tiny central rise; generic anonymous youth, no numerical age. All hair/circlet stay completely inside blue field, generous visible blue headroom. No eyes, mouth or facial shading.",
+      "input_paths": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png"
+      ],
+      "source_generation_path": "/Users/Nikoloz/.codex/generated_images/01a1accb-5828-7801-9beb-cc3a07750a4d/exec-23ddbac9-ceb6-45d7-97c7-e6a359c6e754.png",
+      "output_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/rodia-silhouette-v1.png",
+      "qa": {
+        "attempts": 1,
+        "dimensions": "1254x1254",
+        "has_alpha": true,
+        "inspection": "Featureless youthful beardless male ward silhouette with small plain circlet, slim neck and narrow mantle shoulders. No internal facial detail or props. Circlet/hair entirely in blue field with ample headroom; full gold rim intact."
+      }
+    },
+    {
+      "id": "roshak",
+      "version": "silhouette-v1",
+      "mode": "built-in OpenAI ImageGen",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\n\nSubject brief: Anonymous adult raiding commander silhouette: practical fitted pointed helmet outline and firm athletic shoulders with a plain cloak. Helmet modest and fully inside frame. No weapon, crown or facial detail.\n\nReference image role: attached Usam silhouette is STYLE/FORMAT ONLY. Match completely featureless flat dark face, deep charcoal-petrol figure, light petrol-blue paper field and antique-gold interlace circle. Change subject to anonymous athletic adult raiding commander: compact practical fitted pointed helmet and broad firm shoulders under a plain cloak. Helmet rises only modestly and has a clear simple angular outline; no turban, royal crown, plume, horns or ornament. No face shading or features under helmet, no hands or weapons. Helmet point and all contours wholly inside blue field with generous visible blue headroom and side clearance, no overlap with ring.",
+      "input_paths": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png"
+      ],
+      "source_generation_path": "/Users/Nikoloz/.codex/generated_images/01a1accb-5828-7801-9beb-cc3a07750a4d/exec-fc542e9f-2571-443c-a9dc-9041f979b5b6.png",
+      "output_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/roshak-silhouette-v1.png",
+      "qa": {
+        "attempts": 1,
+        "dimensions": "1254x1254",
+        "has_alpha": true,
+        "inspection": "Anonymous featureless commander silhouette with compact pointed helmet and broad cloak shoulders. No face shading/details, skin, props, plume, crown or weapons. Helmet point fully inside blue field with generous headroom, full gold rim intact. Matches master."
+      }
+    }
+  ]
+}

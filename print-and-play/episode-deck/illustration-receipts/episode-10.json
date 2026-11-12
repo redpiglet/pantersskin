@@ -1,0 +1,157 @@
+{
+  "episode_number": 10,
+  "episode_id": "ep_10_khwarazmsha_slaying",
+  "tool": "built-in image_gen.imagegen",
+  "asset_path": "assets/episodes/episode-10-v2.png",
+  "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c549-ddbe-78d0-b267-2b6a6e6cd555/exec-143a2701-cf3a-4618-92f8-596512cf543c.png",
+  "prompt": "Use case: precise-object-edit. Edit the provided Episode 10 painting, preserving its composition and exact existing manuscript style. Return one edited image with EXACTLY the same 1586 × 992 pixel canvas and framing; do not change dimensions, crop or zoom.\n\nMake ONLY these corrections to Tariel, the standing man at the LEFT of the tent:\n1. His curly hair and full short beard must be uniformly youthful deep dark brown / near-black. REMOVE every grey or silver streak and grey highlight. Keep his recognizable young adult face, features, expression and hair shape.\n2. REMOVE the entire drawn scimitar/sword from his left-side lowered hand and the area in front of his robe. Repaint the small exposed region naturally using the existing crimson-and-gold robe and carpet patterns. Tariel acts BARE-HANDED here: show BOTH HANDS EMPTY, relaxed at his sides or one resting on his own belt. Do not substitute a dagger, sword sheath, club, weapon or other object.\n\nPreserve the Khwarazmian prince exactly as the clothed motionless young man on the purple-gold cushions at the right. Preserve the nocturnal lapis sky, one hanging lamp, parted tent curtains, all other architecture, rich floral textiles, egg-tempera texture, gold leaf, palette, soft vellum vignette and perimeter flourishes. Keep the same two people only. No gore or new wounds.\n\nThe scene must remain an illuminated Georgian-Persian manuscript miniature, with the same soft aged ivory-parchment edges. Absolutely NO TEXT, LETTERS, NUMBERS, CAPTIONS, INSCRIPTIONS, CALLIGRAPHY, BANNERS, FLAGS, SCROLLS, SIGNATURES or WATERMARKS anywhere. Preserve EXACT 1586 × 992 pixels, approximately16:10.",
+  "referenced_image_paths": [
+    "/Users/Nikoloz/Desktop/pantersskin/assets/episodes/episode-10-v1.png"
+  ],
+  "scene_character_ids": [
+    "tariel",
+    "khvarazmsha"
+  ],
+  "actual_scene": "Young dark-haired Tariel stands bare-handed at the Khwarazmian prince's nighttime tent; the fully clothed prince lies motionless, without gore.",
+  "qa": {
+    "passed": true,
+    "status": "passed",
+    "requested_corrections_verified": {
+      "dark_hair_and_beard_no_gray": true,
+      "drawn_scimitar_removed": true,
+      "both_hands_empty": true
+    },
+    "no_text_letters_numbers_banners_scrolls": true,
+    "composition_and_style_preserved": true,
+    "exact_requested_dimensions": false,
+    "notes": "Tariel has uniformly youthful dark brown/black curls and beard; both hands are visibly empty, all drawn weapon parts gone. The prince, tent, lamp, carpets and vellum vignette remain intact."
+  },
+  "dimensions_px": [
+    1586,
+    992
+  ],
+  "aspect_ratio": 1.5977822580645162,
+  "sha256": "805d74852735a3f12b75b63b3030ca3d455c715cb22cd03bab86428c365d7c3a",
+  "bytes": 3332821,
+  "asset": "assets/episodes/episode-10-v2.png",
+  "selected_asset": "assets/episodes/episode-10-v2.png",
+  "references": [
+    "assets/episodes/episode-10-v1.png"
+  ],
+  "character_ids": [
+    "tariel",
+    "khvarazmsha"
+  ],
+  "native_pixel_size": [
+    1585,
+    992
+  ],
+  "visual_qa": {
+    "passed": true,
+    "status": "passed",
+    "requested_corrections_verified": {
+      "dark_hair_and_beard_no_gray": true,
+      "drawn_scimitar_removed": true,
+      "both_hands_empty": true
+    },
+    "no_text_letters_numbers_banners_scrolls": true,
+    "composition_and_style_preserved": true,
+    "exact_requested_dimensions": false,
+    "notes": "Tariel has uniformly youthful dark brown/black curls and beard; both hands are visibly empty, all drawn weapon parts gone. The prince, tent, lamp, carpets and vellum vignette remain intact.",
+    "export_pixels_verified": [
+      1586,
+      992
+    ]
+  },
+  "attempts": [
+    {
+      "asset": "assets/episodes/episode-10-v1.png",
+      "prompt": "Use case: illustration-story.\nMedieval Georgian-Persian illuminated manuscript miniature painting illustrating Episode 10 of Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი): Marriage Counsel in India & Slaying of the Khwarazmian Prince.\nSetting: India, the Khwarazmian prince’s lavish guest tent at night.\nScene: In a dramatic but restrained nocturnal miniature, Tariel stands at the entrance of the royal guest tent with a lowered blade; the Khwarazmian prince lies motionless on a rich carpet inside. A single lamp and parted plain curtains frame the tragic political consequence of the planned marriage. Use a more nocturnal lapis-and-gold palette than the sunny style reference: a starry indigo sky beyond the tent and the warm gold light of one small hanging lamp. Rich folded carpets and brocade cushions, plain parted tent curtains, elegant floral embroidery without any lettering. Show the aftermath, not the weapon entering a body: the prince is fully clothed, motionless, face calm, with no blood or wound visible. Tariel stands with his sword lowered at his side, stern and troubled. They are the ONLY two people visible.\nCharacters in scene: Tariel matches reference 2 in face, olive skin, strong brows, thick dark curls and dark beard, but wears Indian military or court clothing in crimson and muted gold, NOT the later panther-skin mantle and NO fur hat. The Khwarazmian prince matches reference 3: a young olive-skinned man with a slender moustache and short curly black hair, purple embroidered cap and purple-and-gold brocade court robe. Make him recognizably young; he is not the elderly Khwarazmian king.\nStory constraints: The victim is the young Khwarazmian prince (khvarazmsha), not his father (khvarazmshah). Nestan, Parsadan and Asmat are not physically present in the killing tent. No gore, explicit wound, dismemberment or panther pelt on pre-exile Tariel.\nInput roles: image 1 is STYLE ONLY, not the poet or sunny courtyard; images 2 and 3 are IDENTITY ONLY for Tariel and the prince. Ignore all circular portrait rims. A single coherent dramatic scene, no inset, medallion or multi-panel sequence.\nMedieval Georgian-Persian illuminated manuscript miniature painting for Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი). 16th–17th-century Georgian royal manuscript miniature, Mamuka Tavakarashvili / King Vakhtang VI illumination tradition blended with classical Persian-Safavid tempera miniature. Egg tempera, lapis lazuli, malachite green, vermilion, warm ochre and burnished antique gold leaf on aged ivory-parchment vellum. Stylized faceted rocky cliffs, ornamental cypress and pomegranate trees, intricately patterned arches and domes, expressive courtly figures in medieval Georgian-Eastern attire. Fine controlled contours, delicately patterned fabrics, luminous matte mineral pigments, slightly flattened layered miniature space with expressive narrative gestures. A painted manuscript scene, not photorealism, cinematic rendering, modern digital fantasy or a collage of circular portraits. Reuse referenced character faces and coloring but adapt costume to the actual chronological story scene; Tariel wears ordinary Indian court or military attire in early backstory, his panther skin belongs to his later exile. Exact horizontal 16:10 composition, preferably native 1600x1000 pixels, a single coherent scene framed for a card vignette. Soft natural painted vignette dissolving to warm aged ivory vellum at edges, modest antique-gold floral flourishes at the perimeter, no rigid border. Key faces and gestures comfortably inside the central safe area, no important content cut off. STRICTLY NO TEXT, NO LETTERS, NO CAPTIONS, NO NUMBERS, NO INSCRIPTIONS, NO CALLIGRAPHY, NO BANNERS, NO SCROLLS, NO SIGNATURES, NO WATERMARKS anywhere. Architectural ornament must be purely floral/geometric with no pseudo-writing. If letters are narratively necessary, use a small closed plain unmarked folded paper or sealed envelope, never visible writing or rolled scrolls. All book covers/pages must be plain and unmarked. Do not show graphic blood or gore; imply violent events through gestures, context and intact clothing.\nMandatory horizontal 16:10 composition, ideally native1600x1000. Strictly no text, letters, numbers, banners or scrolls anywhere. No graphic violence or gore.",
+      "references": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/episodes/episode-01-v1.png",
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/tariel-v13.png",
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/khvarazmsha-v2.png"
+      ],
+      "visual_qa": {
+        "visually_reviewed": true,
+        "text_free": true,
+        "no_banners_or_scrolls": true,
+        "chronology_costumes": true,
+        "single_scene": true,
+        "no_graphic_violence": true,
+        "aspect_ratio_16_10_within_one_percent": true
+      },
+      "sha256": "4d104e5496c93e1ce6a7e2f7b9f4c59575dece1f9e478dcfeb8edf9e617097e6",
+      "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c48e-46eb-73e0-b833-a01082e9fa61/exec-5388d613-8461-4356-9e7a-945e2e9a1e75.png"
+    },
+    {
+      "asset": "assets/episodes/generated-native/episode-10-v2.png",
+      "prompt": "Use case: precise-object-edit. Edit the provided Episode 10 painting, preserving its composition and exact existing manuscript style. Return one edited image with EXACTLY the same 1586 × 992 pixel canvas and framing; do not change dimensions, crop or zoom.\n\nMake ONLY these corrections to Tariel, the standing man at the LEFT of the tent:\n1. His curly hair and full short beard must be uniformly youthful deep dark brown / near-black. REMOVE every grey or silver streak and grey highlight. Keep his recognizable young adult face, features, expression and hair shape.\n2. REMOVE the entire drawn scimitar/sword from his left-side lowered hand and the area in front of his robe. Repaint the small exposed region naturally using the existing crimson-and-gold robe and carpet patterns. Tariel acts BARE-HANDED here: show BOTH HANDS EMPTY, relaxed at his sides or one resting on his own belt. Do not substitute a dagger, sword sheath, club, weapon or other object.\n\nPreserve the Khwarazmian prince exactly as the clothed motionless young man on the purple-gold cushions at the right. Preserve the nocturnal lapis sky, one hanging lamp, parted tent curtains, all other architecture, rich floral textiles, egg-tempera texture, gold leaf, palette, soft vellum vignette and perimeter flourishes. Keep the same two people only. No gore or new wounds.\n\nThe scene must remain an illuminated Georgian-Persian manuscript miniature, with the same soft aged ivory-parchment edges. Absolutely NO TEXT, LETTERS, NUMBERS, CAPTIONS, INSCRIPTIONS, CALLIGRAPHY, BANNERS, FLAGS, SCROLLS, SIGNATURES or WATERMARKS anywhere. Preserve EXACT 1586 × 992 pixels, approximately16:10.",
+      "references": [
+        "assets/episodes/episode-10-v1.png"
+      ],
+      "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c549-ddbe-78d0-b267-2b6a6e6cd555/exec-143a2701-cf3a-4618-92f8-596512cf543c.png",
+      "native_pixel_size": [
+        1585,
+        992
+      ],
+      "sha256": "5a6c88ff6491a40b428de0d3cc3b5fd08433796d5854bdb0dd4b9981315e042d",
+      "visual_qa": {
+        "passed": true,
+        "status": "passed",
+        "requested_corrections_verified": {
+          "dark_hair_and_beard_no_gray": true,
+          "drawn_scimitar_removed": true,
+          "both_hands_empty": true
+        },
+        "no_text_letters_numbers_banners_scrolls": true,
+        "composition_and_style_preserved": true,
+        "exact_requested_dimensions": false,
+        "notes": "Tariel has uniformly youthful dark brown/black curls and beard; both hands are visibly empty, all drawn weapon parts gone. The prince, tent, lamp, carpets and vellum vignette remain intact."
+      },
+      "native_generated_pixels": [
+        1585,
+        992
+      ],
+      "native_generated_sha256": "5a6c88ff6491a40b428de0d3cc3b5fd08433796d5854bdb0dd4b9981315e042d",
+      "selected_export": "assets/episodes/episode-10-v2.png",
+      "export_pixels": [
+        1586,
+        992
+      ],
+      "export_sha256": "805d74852735a3f12b75b63b3030ca3d455c715cb22cd03bab86428c365d7c3a"
+    }
+  ],
+  "target_aspect_ratio": 1.6,
+  "aspect_ratio_within_one_percent": true,
+  "art_processing": "Built-in image edit; generated PNG copied unchanged, without further resizing, cropping or retouching.",
+  "native_generated_asset": "assets/episodes/generated-native/episode-10-v2.png",
+  "native_generated_pixels": [
+    1585,
+    992
+  ],
+  "native_generated_sha256": "5a6c88ff6491a40b428de0d3cc3b5fd08433796d5854bdb0dd4b9981315e042d",
+  "export_pixels": [
+    1586,
+    992
+  ],
+  "pixel_dimensions": [
+    1586,
+    992
+  ],
+  "export_processing": {
+    "tool": "macOS sips",
+    "operation": "one-pixel horizontal export-dimension normalization",
+    "from_pixels": [
+      1585,
+      992
+    ],
+    "to_pixels": [
+      1586,
+      992
+    ],
+    "content_edits": "Built-in image generation only; no crop or manual repaint",
+    "native_generated_asset": "assets/episodes/generated-native/episode-10-v2.png",
+    "native_generated_sha256": "5a6c88ff6491a40b428de0d3cc3b5fd08433796d5854bdb0dd4b9981315e042d"
+  }
+}

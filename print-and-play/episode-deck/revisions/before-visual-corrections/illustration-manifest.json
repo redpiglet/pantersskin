@@ -1,0 +1,751 @@
+{
+  "date": "2026-11-10",
+  "tool": "built-in image_gen.imagegen",
+  "count": 24,
+  "source": "print-and-play/episode-deck/episode-cards.ka.json",
+  "source_sha256": "1adc64c35167f04f0b3a0af1095b5df2ffa19f41e31eb54fdd9f627bb7da76e5",
+  "source_preserved": true,
+  "selected_paintings": [
+    {
+      "episode_number": 1,
+      "id": "ep_01_prologue",
+      "title_ka": "დასაწყისი — შოთა რუსთაველის პროლოგი",
+      "title_en": "Prologue — Invocation, Poetics & Theory of Love",
+      "chapters": [
+        1
+      ],
+      "chapter_range_label_ka": "თავი 1",
+      "stanza_range": "1–31",
+      "asset": "assets/episodes/episode-01-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "cb894d7516aa4666ca0830395cf373b89038b8811f29ecd99d0bd797b7811103",
+      "bytes": 4208360,
+      "scene_character_ids": [
+        "rustaveli"
+      ],
+      "selected_scene": "Rustaveli sits alone in contemplative invocation beneath a delicate royal arch, a closed, completely unmarked bound volume beside him. Cypress and pomegranate frame a distant golden sky. His raised hand and inward gaze evoke the poet preparing to tell the lovers’ story.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-01.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 2,
+      "id": "ep_02_tinatin_coronation",
+      "title_ka": "თინათინის გამეფება და სამეფო ნადირობა",
+      "title_en": "Coronation of Tinatin & the Royal Hunt",
+      "chapters": [
+        2,
+        3
+      ],
+      "chapter_range_label_ka": "თავები 2–3",
+      "stanza_range": "32–83",
+      "asset": "assets/episodes/episode-02-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "e5166ff7d7337eda357cc342f97ef5f19e657454018a62e600e7c597de9de12d",
+      "bytes": 4326081,
+      "scene_character_ids": [
+        "rostevan",
+        "tinatin",
+        "avtandil",
+        "sograt"
+      ],
+      "selected_scene": "Tinatin seated and crowned by bareheaded Rostevan; Avtandil bows and Sograt congratulates.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-02.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 3,
+      "id": "ep_03_stranger_at_stream",
+      "title_ka": "უცხო მოყმის ნახვა წყაროსთან",
+      "title_en": "The Weeping Knight in the Panther's Skin",
+      "chapters": [
+        4
+      ],
+      "chapter_range_label_ka": "თავი 4",
+      "stanza_range": "84–119",
+      "asset": "assets/episodes/episode-03-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "cb0242f6f40dac8b4073d16abc8b2fdc0d9ddccedd25794d4a5f22cc5d4bde23",
+      "bytes": 4269952,
+      "scene_character_ids": [
+        "tariel",
+        "rostevan",
+        "avtandil"
+      ],
+      "selected_scene": "Panther-clad Tariel grieves by the stream; Rostevan and Avtandil observe from the opposite bank on horseback. Tariel's black horse waits nearby.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-03.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 4,
+      "id": "ep_04_tinatin_commission",
+      "title_ka": "თინათინის ბრძანება და შერმადინის დატოვება",
+      "title_en": "Tinatin's Commission & Avtandil's Charter to Shermadin",
+      "chapters": [
+        5,
+        6
+      ],
+      "chapter_range_label_ka": "თავები 5–6",
+      "stanza_range": "120–176",
+      "asset": "assets/episodes/episode-04-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "412cf17bd81dad4ca7a7e9e63c2a6398f6060cd6b88a7471cb024589e29fc877",
+      "bytes": 4295057,
+      "scene_character_ids": [
+        "tinatin",
+        "avtandil"
+      ],
+      "selected_scene": "Tinatin commissions Avtandil privately; hand-to-heart promise and waiting travel horse convey departure. No unrelated episode characters.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-04.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 5,
+      "id": "ep_05_cave_brotherhood",
+      "title_ka": "ქვაბში მისვლა, ასმათთან საუბარი და დაძმობილება",
+      "title_en": "Finding the Cave, Asmat's Trust & Sworn Brotherhood",
+      "chapters": [
+        7,
+        8,
+        9
+      ],
+      "chapter_range_label_ka": "თავები 7–9",
+      "stanza_range": "177–309",
+      "asset": "assets/episodes/episode-05-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "8e0086119969763c03d2c9b73cb304527ff0a9f15cd6beef81bfafd3eaecb27f",
+      "bytes": 4186081,
+      "scene_character_ids": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "selected_scene": "Tariel and Avtandil clasp hands in sworn brotherhood, with Asmat mediating beside the cave entrance, lamp and water vessel.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-05.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 6,
+      "id": "ep_06_india_youth_love",
+      "title_ka": "ტარიელის აღზრდა ინდოეთში და ნესტანის ხილვა",
+      "title_en": "Tariel's Upbringing in India & First Sight of Nestan",
+      "chapters": [
+        10,
+        11
+      ],
+      "chapter_range_label_ka": "თავები 10–11",
+      "stanza_range": "310–375",
+      "asset": "assets/episodes/episode-06-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "b6beef289ef0a63ba13947deeadd1a4f2919250333ecaa923a75d0e99b05e898",
+      "bytes": 4250134,
+      "scene_character_ids": [
+        "tariel",
+        "nestan",
+        "asmat",
+        "parsadan"
+      ],
+      "selected_scene": "Asmat reveals Nestan at her Indian pavilion; Tariel staggers in overwhelming first love while Parsadan steadies him.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-06.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 7,
+      "id": "ep_07_first_letters_oath",
+      "title_ka": "პირველი წერილები და ფიცი ნესტანის კარავში",
+      "title_en": "First Love Letters, Summons to Khataeti & Mutual Oath",
+      "chapters": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "chapter_range_label_ka": "თავები 12–17",
+      "stanza_range": "376–419",
+      "asset": "assets/episodes/episode-07-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "b60446ca8ab2eb1290db2c9e8d934c2ad46032b674d5d5d7af442556ad0242f3",
+      "bytes": 4200218,
+      "scene_character_ids": [
+        "tariel",
+        "nestan",
+        "asmat"
+      ],
+      "selected_scene": "Tariel and Nestan make their mutual oath with hands to heart; Asmat discreetly witnesses at the night pavilion. Closed blank packet on cushion.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-07.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 8,
+      "id": "ep_08_khataeti_campaign",
+      "title_ka": "ლაშქრობა ხატაეთში და გამარჯვებით დაბრუნება",
+      "title_en": "Expedition to Khataeti, Defeat of Ramaz & Victory Banquet",
+      "chapters": [
+        18,
+        19
+      ],
+      "chapter_range_label_ka": "თავები 18–19",
+      "stanza_range": "420–489",
+      "asset": "assets/episodes/episode-08-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "7564262f647306420a03c3af91b8f72956ad416b50bafa3de3e9c481dcbd7184",
+      "bytes": 4339188,
+      "scene_character_ids": [
+        "tariel",
+        "ramaz"
+      ],
+      "selected_scene": "Tariel receives the defeated dismounted Ramaz in Khataeti after the ambush is overcome.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-08.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 9,
+      "id": "ep_09_armlet_and_veil",
+      "title_ka": "სამკლავურისა და ხატაური რიდის გაცვლა",
+      "title_en": "Exchange of the Armlet & Khatavian Veil; Fainting in the Cave",
+      "chapters": [
+        20,
+        21,
+        22
+      ],
+      "chapter_range_label_ka": "თავები 20–22",
+      "stanza_range": "490–506",
+      "asset": "assets/episodes/episode-09-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "d80690d6064ba2d2ffe46ab7761bd82c1bb41acf5fa82c2bb7a36903098c16cc",
+      "bytes": 4198166,
+      "scene_character_ids": [
+        "tariel",
+        "asmat"
+      ],
+      "selected_scene": "Asmat delivers Nestan’s jeweled armlet to Tariel; he receives the small gleaming gift with reverence and offers the finely patterned Khatavian veil in return. The veil unfolds across the foreground in gold and malachite against the intimate courtly interior.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-09.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 10,
+      "id": "ep_10_khwarazmsha_slaying",
+      "title_ka": "საქორწინო თათბირი და ხვარაზმშას ძის მოკვლა",
+      "title_en": "Marriage Counsel in India & Slaying of the Khwarazmian Prince",
+      "chapters": [
+        23,
+        24,
+        25
+      ],
+      "chapter_range_label_ka": "თავები 23–25",
+      "stanza_range": "507–566",
+      "asset": "assets/episodes/episode-10-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "4d104e5496c93e1ce6a7e2f7b9f4c59575dece1f9e478dcfeb8edf9e617097e6",
+      "bytes": 3960226,
+      "scene_character_ids": [
+        "tariel",
+        "khvarazmsha"
+      ],
+      "selected_scene": "In a dramatic but restrained nocturnal miniature, Tariel stands at the entrance of the royal guest tent with a lowered blade; the Khwarazmian prince lies motionless on a rich carpet inside. A single lamp and parted plain curtains frame the tragic political consequence of the planned marriage.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-10.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 11,
+      "id": "ep_11_nestan_abduction",
+      "title_ka": "დავარის რისხვა და ნესტანის ზღვაში გადაკარგვა",
+      "title_en": "Davar's Wrath & the Casting of Nestan Out to Sea",
+      "chapters": [
+        26
+      ],
+      "chapter_range_label_ka": "თავი 26",
+      "stanza_range": "567–590",
+      "asset": "assets/episodes/episode-11-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "9c39d6fb2f289bfbb38dcea1784b489e7170562815ad7afdd73bade6c262a335",
+      "bytes": 4161610,
+      "scene_character_ids": [
+        "nestan",
+        "davari"
+      ],
+      "selected_scene": "Davar gestures in stern fury from the palace gateway while two unnamed attendants carry a large wooden chest toward a waiting boat. The lid remains sufficiently open to show Nestan’s distressed face and green veil, conveying her forced removal without graphic violence.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-11.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 12,
+      "id": "ep_12_pridon_and_exile",
+      "title_ka": "ფრიდონთან დაძმობილება და ქვაბში დამკვიდრება",
+      "title_en": "Brotherhood with Pridon in Mulghazanzar & Retreat to the Cave",
+      "chapters": [
+        27,
+        28,
+        29
+      ],
+      "chapter_range_label_ka": "თავები 27–29",
+      "stanza_range": "591–671",
+      "asset": "assets/episodes/episode-12-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "49d4967ec576ef410de29cba0783c2670b9c27a1aaebb8dca07e9bf0ecf5724f",
+      "bytes": 4169100,
+      "scene_character_ids": [
+        "tariel",
+        "pridon"
+      ],
+      "selected_scene": "Tariel meets the wounded Pridon by the sea and supports him beside his horse. Pridon’s arm is lightly bound; the two men’s clasped hands foreshadow their sworn friendship. A calm blue bay and the far coastal city provide the setting.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-12.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 13,
+      "id": "ep_13_return_to_arabia",
+      "title_ka": "ავთანდილის დაბრუნება არაბეთს და ვეზირის შუამდგომლობა",
+      "title_en": "Avtandil's Return to Arabia & Sograt's Petition to Rostevan",
+      "chapters": [
+        30,
+        31
+      ],
+      "chapter_range_label_ka": "თავები 30–31",
+      "stanza_range": "672–773",
+      "asset": "assets/episodes/episode-13-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "2bcb55f4b5ca65ab2765b2e80529f1f40f9898f345e9cfafdc7e07d1f0d0c163",
+      "bytes": 4211239,
+      "scene_character_ids": [
+        "avtandil",
+        "tinatin"
+      ],
+      "selected_scene": "Returned from his first quest, Avtandil kneels respectfully before Tinatin and recounts the discovery of Tariel. Tinatin leans toward him with attentive recognition, and his travel cloak and sword rest beside the steps.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-13.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 14,
+      "id": "ep_14_avtandil_testament",
+      "title_ka": "ავთანდილის ანდერძი, ლოცვა და ფარული გაპარვა",
+      "title_en": "Avtandil's Testament, Prayer & Secret Flight from Arabia",
+      "chapters": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "chapter_range_label_ka": "თავები 32–35",
+      "stanza_range": "774–829",
+      "asset": "assets/episodes/episode-14-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "b2390af78b02c0ff76dd1269e65121eb77238289ab79b63dcb3dabf33eb6e00d",
+      "bytes": 4039964,
+      "scene_character_ids": [
+        "avtandil",
+        "shermadin"
+      ],
+      "selected_scene": "Avtandil entrusts a small completely unmarked folded parchment packet tied with plain cord to loyal Shermadin. His saddled horse waits in shadow while the first pale light catches the palace arches, conveying the secret departure and the testament left behind.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-14.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 15,
+      "id": "ep_15_lion_and_panther",
+      "title_ka": "დაბნედილი ტარიელის პოვნა და ლომ-ვეფხვის დახოცა",
+      "title_en": "Finding Unconscious Tariel, the Slain Lion & Panther, and Return to the Cave",
+      "chapters": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "chapter_range_label_ka": "თავები 36–39",
+      "stanza_range": "830–950",
+      "asset": "assets/episodes/episode-15-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "28db2ee33161327052f3ea641813af0afb934da86131253855b75b9dedb5354d",
+      "bytes": 4219096,
+      "scene_character_ids": [
+        "avtandil",
+        "tariel"
+      ],
+      "selected_scene": "Avtandil finds Tariel collapsed in despair and bends to support his friend upright. A slain tawny lion and striped great cat lie motionless at a respectful distance in the reeds, while the cave’s distant cliff and a waiting horse connect the scene to the refuge.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-15.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 16,
+      "id": "ep_16_hymn_and_pridon",
+      "title_ka": "მნათობთა სიმღერა და სტუმრობა ფრიდონთან",
+      "title_en": "Hymn to the Planets & Avtandil's Arrival at Pridon's",
+      "chapters": [
+        40,
+        41
+      ],
+      "chapter_range_label_ka": "თავები 40–41",
+      "stanza_range": "951–1024",
+      "asset": "assets/episodes/episode-16-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "f4120255f4abe8293eead899f227eedef856a797b40688a9f5bc7ddd37609951",
+      "bytes": 4169182,
+      "scene_character_ids": [
+        "avtandil",
+        "pridon"
+      ],
+      "selected_scene": "Pridon warmly receives the solitary traveler Avtandil on a terrace above the blue sea. The men clasp forearms in greeting, and a distant rocky headland hints at the place where Pridon once saw Nestan carried away.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-16.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 17,
+      "id": "ep_17_gulansharo_chashnagir",
+      "title_ka": "მეკობრეთა ძლევა, გულანშაროში ჩასვლა და ჭაშნაგირის მოკვლა",
+      "title_en": "Defeat of the Pirates, Arrival in Gulansharo & Slaying of the Chashnagir",
+      "chapters": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "chapter_range_label_ka": "თავები 42–46",
+      "stanza_range": "1025–1120",
+      "asset": "assets/episodes/episode-17-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "15c0cb64fc68bce502ed77c1baba9cbdd97ca5b4471ffe1d72131facbd5c8761",
+      "bytes": 4175972,
+      "scene_character_ids": [
+        "avtandil",
+        "fatman"
+      ],
+      "selected_scene": "Disguised as a prosperous merchant, Avtandil is welcomed by Fatman beside a pool and pomegranate tree, with richly patterned textiles and the harbor’s domes glimpsed through an arch. Their guarded, attentive expressions establish the intrigue surrounding Nestan’s hidden story.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-17.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 18,
+      "id": "ep_18_fatman_story_kadjeti",
+      "title_ka": "ფატმანის მონათხრობი: ნესტანის შეფარება და ქაჯეთში დატყვევება",
+      "title_en": "Fatman's Tale: Nestan's Shelter in Gulansharo & Capture into Kadjeti",
+      "chapters": [
+        47,
+        48
+      ],
+      "chapter_range_label_ka": "თავები 47–48",
+      "stanza_range": "1121–1269",
+      "asset": "assets/episodes/episode-18-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "cb6d14fb6e750e1346650b2b0418dd7a1462a89ea222de87c854efb5c88c7a26",
+      "bytes": 4183401,
+      "scene_character_ids": [
+        "fatman",
+        "nestan"
+      ],
+      "selected_scene": "In Fatman’s remembered story, she receives and shelters the exhausted Nestan after her arrival by sea. Fatman offers a protective hand and a seat while Nestan, still in her green garments and dark veil, turns toward her with guarded relief. A closed travel chest rests unobtrusively near the doorway.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-18.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 19,
+      "id": "ep_19_letters_from_kadjeti",
+      "title_ka": "მიმოწერა ქაჯეთთან, ნესტანის წერილი და უწყება ფრიდონთან",
+      "title_en": "Letters Between Gulansharo & Kadjeti; Nestan's Letter to Tariel",
+      "chapters": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "chapter_range_label_ka": "თავები 49–52",
+      "stanza_range": "1270–1326",
+      "asset": "assets/episodes/episode-19-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "79cd5a4be716812b65463f54fc1b07a9cf95eeaefb1f0a82d0538a70a1f73354",
+      "bytes": 3872449,
+      "scene_character_ids": [
+        "nestan",
+        "fatman_messenger"
+      ],
+      "selected_scene": "Nestan entrusts a small unmarked folded parchment packet and a patterned fragment of veil to Fatman’s discreet magical messenger inside the fortress. The messenger is shown as a modest shadowed attendant, not as a new royal hero; dawn light enters the narrow window over distant inland ridges.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-19.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 20,
+      "id": "ep_20_reunion_and_march",
+      "title_ka": "შეყრა ქვაბში, დევთა საჭურველი და ლაშქრობა ქაჯეთისკენ",
+      "title_en": "Reunion at the Cave, Devis' Armor & March via Mulghazanzar to Kadjeti",
+      "chapters": [
+        53,
+        54
+      ],
+      "chapter_range_label_ka": "თავები 53–54",
+      "stanza_range": "1327–1392",
+      "asset": "assets/episodes/episode-20-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "595bcee9838b7bafca18fce25b771c63df671001461759c46b2ef36092a49192",
+      "bytes": 4093832,
+      "scene_character_ids": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "selected_scene": "Avtandil gives Tariel Nestan’s unmarked folded letter packet and a patterned piece of her veil. Tariel receives them with intense emotion while Asmat holds a small lamp close by; a stone recess with old armor hints at the Devis’ treasure that will equip the coming rescue.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-20.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 21,
+      "id": "ep_21_storming_of_kadjeti",
+      "title_ka": "სამი გმირის თათბირი, ქაჯეთის აღება და ნესტანის ხსნა",
+      "title_en": "The Three Counsels, Storming of Kadjeti & Liberation of Nestan",
+      "chapters": [
+        55,
+        56,
+        57
+      ],
+      "chapter_range_label_ka": "თავები 55–57",
+      "stanza_range": "1393–1427",
+      "asset": "assets/episodes/episode-21-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "16b773d5641be2875e45800a821efb93c5cd5934d8da3710ee63fffa175c5d91",
+      "bytes": 4216826,
+      "scene_character_ids": [
+        "tariel",
+        "nestan",
+        "avtandil",
+        "pridon"
+      ],
+      "selected_scene": "Freed Nestan and Tariel meet and embrace at the fortress stair, while Avtandil and Pridon stand nearby with lowered weapons after the successful assault. Angular cliffs and the fortress’s landward gates recede behind them, the mood changing from battle to release.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-21.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 22,
+      "id": "ep_22_sea_king_and_mulgazanzar_wedding",
+      "title_ka": "სტუმრობა ზღვათა მეფესთან და ქორწილი მულღაზანზარში",
+      "title_en": "Reception by Melik-Surkhav, Gift to Fatman & Wedding in Mulghazanzar",
+      "chapters": [
+        58,
+        59
+      ],
+      "chapter_range_label_ka": "თავები 58–59",
+      "stanza_range": "1428–1491",
+      "asset": "assets/episodes/episode-22-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "867d85bec333053762c685526b14d9f09170e2a00fbc83418f188dcf3cc70c79",
+      "bytes": 4268277,
+      "scene_character_ids": [
+        "tariel",
+        "nestan",
+        "pridon",
+        "avtandil",
+        "asmat"
+      ],
+      "selected_scene": "Tariel and Nestan sit together on a white-and-coral jeweled wedding dais while Pridon hosts them with a tray of pearls and gems. Avtandil stands as the honored sworn brother and Asmat remains near Nestan, the five figures framed by domed arches opening toward the sea.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-22.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    },
+    {
+      "episode_number": 23,
+      "id": "ep_23_arabia_reunion_and_wedding",
+      "title_ka": "არაბეთში დაბრუნება და ავთანდილისა და თინათინის ქორწილი",
+      "title_en": "Return via the Cave to Arabia & Wedding of Avtandil and Tinatin",
+      "chapters": [
+        60,
+        61
+      ],
+      "chapter_range_label_ka": "თავები 60–61",
+      "stanza_range": "1492–1578",
+      "asset": "assets/episodes/episode-23-v2.png",
+      "native_pixels": [
+        1585,
+        992
+      ],
+      "actual_aspect_ratio": 1.5977822580645162,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "b9adabab7638988fd4c2cb88865cd94dd3ef03b29640636dec0788ac907fe9c7",
+      "bytes": 3849860,
+      "scene_character_ids": [
+        "avtandil",
+        "tinatin",
+        "rostevan",
+        "tariel",
+        "nestan",
+        "pridon",
+        "asmat"
+      ],
+      "selected_scene": "Avtandil and crowned Tinatin sit together as the wedding couple beneath the great palace arch. Rostevan offers his blessing at their side, while Tariel, Nestan, Pridon and Asmat attend in a balanced, intimate courtly tableau with low trays of fruit and jewels.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-23.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.7
+    },
+    {
+      "episode_number": 24,
+      "id": "ep_24_india_coronation_epilogue",
+      "title_ka": "ინდოეთში დაბრუნება, ტარიელისა და ნესტანის გამეფება და დასასრული",
+      "title_en": "Return to India, Coronation of Tariel & Nestan, and Epilogue",
+      "chapters": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "chapter_range_label_ka": "თავები 62–65",
+      "stanza_range": "1579–1669",
+      "asset": "assets/episodes/episode-24-v1.png",
+      "native_pixels": [
+        1586,
+        992
+      ],
+      "actual_aspect_ratio": 1.5987903225806452,
+      "requested_aspect_ratio": "16:10",
+      "sha256": "0f614b9a6067f0fe820b9358ae910522c9afb285369b632dab21db60d45f3f6a",
+      "bytes": 4355925,
+      "scene_character_ids": [
+        "tariel",
+        "nestan",
+        "queen_india",
+        "avtandil",
+        "pridon",
+        "asmat"
+      ],
+      "selected_scene": "The widowed Queen of India leads Tariel and Nestan by the hand toward their shared royal throne. Avtandil and Pridon stand as sworn brothers nearby, and Asmat is honored at the foot of the dais. Rich green and gold arches, pomegranate foliage and an atmosphere of restored justice conclude the visual sequence.",
+      "generation_receipt": "print-and-play/episode-deck/illustration-receipts/episode-24.json",
+      "visual_review_passed": true,
+      "native_dpi_at_130mm_width": 309.9
+    }
+  ],
+  "art_processing": "Native generated PNGs copied unchanged. No raster cropping, retouching or upscaling. Review PDF uses smaller JPEG preview payloads only.",
+  "aspect_ratio_note": "Requested horizontal16:10; native1586x992 and selected episode23 at1585x992 are within0.15% of16:10 and preserved unchanged.",
+  "review_pdf": "output/episode-illustrations/pantersskin-episode-illustrations-ka-review.pdf",
+  "review_pdf_pages": 6,
+  "review_pdf_sha256": "729d1d0cda29ce1120a1b850ba1768091bda3de903d1b30693938297e0c40ab4",
+  "prompt_set": "print-and-play/episode-deck/illustration-prompts.json",
+  "selected_revision_note": "Episode23v2 is selected after separating Pridon and Asmat as non-romantic wedding attendants; v1 is retained outside the final archive."
+}

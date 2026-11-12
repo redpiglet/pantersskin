@@ -1,0 +1,129 @@
+{
+  "language": "ka",
+  "date": "2026-11-10",
+  "episodes": 24,
+  "palette": {
+    "ivory": "#F6F1E4",
+    "green": "#203D37",
+    "gold": "#A58958",
+    "ink": "#303B34",
+    "muted": "#647168"
+  },
+  "card_sizes_mm": {
+    "A5": [
+      148,
+      210
+    ],
+    "A6": [
+      105,
+      148
+    ]
+  },
+  "timeline": {
+    "chapter_count": 65,
+    "circle_radius_pt": 1.6,
+    "pitch_pt": 3.88809,
+    "group_gap_pt": 0.8,
+    "major_ticks_every": 10,
+    "minor_ticks_every": 5,
+    "labeled_ticks": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      65
+    ]
+  },
+  "imposition": {
+    "A5": {
+      "paper_mm": [
+        297,
+        210
+      ],
+      "cards_per_sheet": 2,
+      "sheets": 12,
+      "pdf_pages": 24,
+      "slot_origins_mm": [
+        [
+          0,
+          0
+        ],
+        [
+          149,
+          0
+        ]
+      ],
+      "back_slot_order": [
+        1,
+        0
+      ],
+      "duplex_flip": "short_edge",
+      "gutter_mm": 1,
+      "calibration_mm": 30
+    },
+    "A6": {
+      "paper_mm": [
+        210,
+        297
+      ],
+      "cards_per_sheet": 4,
+      "sheets": 6,
+      "pdf_pages": 12,
+      "slot_origins_mm": [
+        [
+          0,
+          149
+        ],
+        [
+          105,
+          149
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          105,
+          0
+        ]
+      ],
+      "back_slot_order": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "duplex_flip": "long_edge",
+      "gutter_mm": 1,
+      "calibration_mm": 30
+    }
+  },
+  "print_scale": "100% / actual size",
+  "packed_printing": "Exact packed A4 layouts need borderless output for the complete edge artwork. Outer paper edges are trim edges. Crop ticks and a 30mm calibration bar fit the 1mm internal gutter.",
+  "reverse_side_rule": "Swap card positions horizontally; keep all back lettering upright and readable. The alternative duplex flip requires rotating each entire reverse sheet 180 degrees.",
+  "editorial": "Preserve verified Georgian copy, chapter titles and full four-line stanzas. Hide internal Latin route identifiers in print; use Arabic act numerals, native Georgian font runs and normalized hyphen punctuation. Source JSON and CSV remain unchanged.",
+  "front": {
+    "illustration_manifest": "output/episode-illustrations/illustration-manifest.json",
+    "scene_frame_mm": {
+      "A5": [
+        130,
+        81.25
+      ],
+      "A6": [
+        92,
+        57.5
+      ]
+    },
+    "aspect_ratio": [
+      16,
+      10
+    ],
+    "show_character_medallions": false,
+    "show_route_line_legend": false,
+    "embed_native_pixels": true,
+    "preserve_full_scene_without_crop": true
+  }
+}

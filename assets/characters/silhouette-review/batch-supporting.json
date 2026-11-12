@@ -1,0 +1,45 @@
+{
+  "generation_mode": "built-in OpenAI ImageGen",
+  "date": "2026-11-07",
+  "portraits": [
+    {
+      "id": "tariel_surgeon",
+      "revision": 1,
+      "asset_kind": "generic_silhouette",
+      "generation_mode": "built-in OpenAI ImageGen",
+      "date": "2026-11-07",
+      "input_images": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png"
+      ],
+      "output_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/tariel_surgeon-silhouette-v1.png",
+      "source_generation_path": "/Users/Nikoloz/.codex/generated_images/01a1acca-6be3-7081-8a26-c57e3097166e/exec-57fbe0fc-436e-48cd-81d5-ab6d85f4979b.png",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\n\nInput image: STYLE REFERENCE ONLY, the master Usam silhouette. Match its faceless silhouette treatment, palette, background and complete gold ring. Do not copy the master's headwear or beard; use the subject below.\nSubject id: tariel_surgeon\nAnonymous adult male household healer/attendant silhouette, simple modest rounded cloth cap and plain robe shoulders. Medieval neutral attendant, no modern medical mask, stethoscope, cross or instruments."
+    },
+    {
+      "id": "khatavian_informant",
+      "revision": 1,
+      "asset_kind": "generic_silhouette",
+      "generation_mode": "built-in OpenAI ImageGen",
+      "date": "2026-11-07",
+      "input_images": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png"
+      ],
+      "output_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/khatavian_informant-silhouette-v1.png",
+      "source_generation_path": "/Users/Nikoloz/.codex/generated_images/01a1acca-6be3-7081-8a26-c57e3097166e/exec-1ac6f5b7-2380-49fd-ade7-9d465b018fe9.png",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\n\nInput image: STYLE REFERENCE ONLY, the master Usam silhouette. Match its faceless silhouette treatment, palette, background and complete gold ring. Do not copy the master's headwear or beard; use the subject below.\nSubject id: khatavian_informant\nAnonymous adult male traveling envoy silhouette, simple draped hood pushed back enough to show a plain head profile and cloak shoulders. No crown, helmet, face or props."
+    },
+    {
+      "id": "usen_gardener",
+      "revision": 1,
+      "asset_kind": "generic_silhouette",
+      "generation_mode": "built-in OpenAI ImageGen",
+      "date": "2026-11-07",
+      "input_images": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usam-silhouette-v1.png"
+      ],
+      "output_path": "/Users/Nikoloz/Desktop/pantersskin/assets/characters/usen_gardener-silhouette-v1.png",
+      "source_generation_path": "/Users/Nikoloz/.codex/generated_images/01a1acca-6be3-7081-8a26-c57e3097166e/exec-1494b785-0522-440d-b7b6-6ff03d8c260e.png",
+      "prompt": "Use case: illustration-story.\nAsset type: generic anonymous silhouette medallion for a literary character card, The Knight in the Panther's Skin.\nPrimary request: One clean FACELESS SILHOUETTE placeholder, not a newly imagined detailed portrait. Role is indicated only by a simple outer headwear/hairstyle/clothing outline. No invented individual likeness.\nStyle: matte deep charcoal-petrol ink silhouette, a single continuous dark filled head/neck/shoulder shape with NO internal facial features. Fine restrained manuscript/gouache finish at the silhouette edges, very subtle paper texture; mostly flat graphic readability. Muted medium-light petrol/slate-blue parchment background INSIDE the circle gives strong contrast with the dark figure. Antique-gold double circular rim with tiny understated interlace, consistent with the existing portrait family.\nComposition: one chest-up centered figure in a slight three-quarter view, head and shoulders large and readable. Square canvas preferred1024x1024 or larger. Full complete gold circle entirely visible with equal outer margins. All headwear/crowns/helmet points/figure silhouette must fit completely INSIDE the inner blue field with generous visible blue headroom, never touching or crossing the gold ring. Figure ends naturally at lower circular boundary. Genuine alpha transparency outside the medallion, opaque artwork inside.\nConstraints: only ONE person, anonymous. NO eyes, pupils, mouth, nose shading, facial highlights, realistic skin, detailed face, text, labels, initials, numbers, question marks, watermark, halo, modern clothing or props. Do not make a richly painted recognizable person. No hands or weapon/tool props. Keep costume cues broad and generic. The head and face are solid silhouette; facial contours such as a beard may appear only in the outer profile when specified.\n\nInput image: STYLE REFERENCE ONLY, the master Usam silhouette. Match its faceless silhouette treatment, palette, background and complete gold ring. Do not copy the master's headwear or beard; use the subject below.\nSubject id: usen_gardener\nAnonymous adult male gardener silhouette, plain soft work cap and simple rounded work-tunic shoulders. Unadorned, no crown, helmet, flowers or gardening tools."
+    }
+  ]
+}

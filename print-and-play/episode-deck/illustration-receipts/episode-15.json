@@ -1,0 +1,37 @@
+{
+  "episode_number": 15,
+  "id": "ep_15_lion_and_panther",
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-11-10",
+  "asset_path": "assets/episodes/episode-15-v1.png",
+  "pixel_dimensions": [
+    1586,
+    992
+  ],
+  "sha256": "28db2ee33161327052f3ea641813af0afb934da86131253855b75b9dedb5354d",
+  "bytes": 4219096,
+  "prompt": "Use case: illustration-story. Create one new episode scene in this coherent manuscript series.\nMedieval Georgian-Persian illuminated manuscript miniature painting for Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი). 16th–17th-century Georgian royal manuscript miniature, Mamuka Tavakarashvili / King Vakhtang VI illumination tradition blended with classical Persian-Safavid tempera miniature. Egg tempera, lapis lazuli, malachite green, vermilion, warm ochre and burnished antique gold leaf on aged ivory-parchment vellum. Stylized faceted rocky cliffs, ornamental cypress and pomegranate trees, intricately patterned arches and domes, expressive courtly figures in medieval Georgian-Eastern attire. Fine controlled contours, delicately patterned fabrics, luminous matte mineral pigments, slightly flattened layered miniature space with expressive narrative gestures. A painted manuscript scene, not photorealism, cinematic rendering, modern digital fantasy or a collage of circular portraits. Reuse referenced character faces and coloring but adapt costume to the actual chronological story scene; Tariel wears ordinary Indian court or military attire in early backstory, his panther skin belongs to his later exile. Exact horizontal 16:10 composition, preferably native 1600x1000 pixels, a single coherent scene framed for a card vignette. Soft natural painted vignette dissolving to warm aged ivory vellum at edges, modest antique-gold floral flourishes at the perimeter, no rigid border. Key faces and gestures comfortably inside the central safe area, no important content cut off. STRICTLY NO TEXT, NO LETTERS, NO CAPTIONS, NO NUMBERS, NO INSCRIPTIONS, NO CALLIGRAPHY, NO BANNERS, NO SCROLLS, NO SIGNATURES, NO WATERMARKS anywhere. Architectural ornament must be purely floral/geometric with no pseudo-writing. If letters are narratively necessary, use a small closed plain unmarked folded paper or sealed envelope, never visible writing or rolled scrolls. All book covers/pages must be plain and unmarked. Do not show graphic blood or gore; imply violent events through gestures, context and intact clothing.\nEpisode 15: Finding Unconscious Tariel, the Slain Lion & Panther, and Return to the Cave.\nSetting: Wilderness, a rocky clearing in tall grasses some distance from the cave.\nScene: Avtandil finds Tariel collapsed in despair and bends to support his friend upright. A slain tawny lion and striped great cat lie motionless at a respectful distance in the reeds, while the cave’s distant cliff and a waiting horse connect the scene to the refuge.\nCharacters: Avtandil, clean-shaven wavy chestnut-haired young knight in gold-edged helmet, vermilion cloak, mail and lamellar armor (identity reference2), kneels and gently supports Tariel. Tariel, dark curly-haired and bearded, recognizable striped tawny great-cat mantle and cap (identity reference3), is exhausted, leaning against a faceted rock, eyes opening as his friend helps him sit.\nStory constraints: Asmat is waiting at the cave, not standing in the discovery clearing. The animals and Tariel have no graphic wounds or blood. The striped great cat matches the visual language of Tariel’s established pelt.\nReference roles: image1 STYLE ONLY—luminous mineral tempera, manuscript patterns, controlled contours, layered miniaturist space and softened aged-ivory vignette. Do not include its poet or palace as the main setting. Images2 and3 provide character identity, facial hair and costume colors, not circular portraits to paste.\nComposition: horizontal16:10 approximately1600x1000. Two men large and readable nearcenter-left; dry grasses, faceted wilderness rocks and sparse cypress sweep toward distant cave cliffs. The lion and striped great cat are small, motionless and intact at right middle distance, subordinate to the human reunion; NO wounds or blood, no graphic violence. Quiet poignant afternoon light. Keep faces and hands in the central safe area. No other named characters.\nSTRICTLY NO TEXT, LETTERS, CAPTIONS, NUMBERS, CALLIGRAPHY, INSCRIPTIONS, BANNERS, FLAGS, SCROLLS, SIGNATURES OR WATERMARKS. Pure floral/geometric ornament only.",
+  "referenced_image_paths": [
+    "/Users/Nikoloz/Desktop/pantersskin/assets/episodes/episode-01-v1.png",
+    "/Users/Nikoloz/Desktop/pantersskin/assets/characters/avtandil-v5.png",
+    "/Users/Nikoloz/Desktop/pantersskin/assets/characters/tariel-v13.png"
+  ],
+  "visual_qa": {
+    "status": "passed",
+    "aspect_ratio": "16:10 within 1%",
+    "no_text_letters_numbers_banners_scrolls": true,
+    "character_identity_and_copresence": true,
+    "notes": "Avtandil supports exhausted Tariel in the wilderness; two intact motionless great cats in background; no gore, no Asmat misplaced in clearing.",
+    "passed": true
+  },
+  "asset": "assets/episodes/episode-15-v1.png",
+  "references": [
+    "assets/episodes/episode-01-v1.png",
+    "assets/characters/avtandil-v5.png",
+    "assets/characters/tariel-v13.png"
+  ],
+  "character_ids": [
+    "avtandil",
+    "tariel"
+  ]
+}

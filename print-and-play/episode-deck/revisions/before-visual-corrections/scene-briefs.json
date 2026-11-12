@@ -1,0 +1,439 @@
+{
+  "source_json": "print-and-play/episode-deck/episode-cards.ka.json",
+  "selection_policy_en": "One coherent canonical moment per episode. Only physically co-present characters are depicted; episode-wide focal lists are not treated as a single gathering.",
+  "common_story_constraints": [
+    "Every image is a single horizontal 16:10 scene, not a collage or multi-panel strip.",
+    "Strictly no text, letters, captions, numbers, banners, flags, scrolls, pseudo-writing or heraldic lettering anywhere in the image.",
+    "Any letter is a closed, completely unmarked folded parchment packet; never show written pages.",
+    "Indian flashbacks depict Tariel before exile in court or military attire, not his later panther-skin mantle.",
+    "Established portrait images are identity references, not circular medallions to paste into the scene.",
+    "Kadjeti is an inland dry rock fortress, never a seaside castle."
+  ],
+  "episodes": [
+    {
+      "episode_number": 1,
+      "id": "ep_01_prologue",
+      "title_en": "Prologue — Invocation, Poetics & Theory of Love",
+      "primary_realm_id": "arabia",
+      "setting_en": "A symbolic royal garden and quiet palace-study threshold outside the narrated action; the prologue is grouped with Arabia in the episode dataset.",
+      "scene_description_en": "Rustaveli sits alone in contemplative invocation beneath a delicate royal arch, a closed, completely unmarked bound volume beside him. Cypress and pomegranate frame a distant golden sky. His raised hand and inward gaze evoke the poet preparing to tell the lovers’ story.",
+      "character_ids": [
+        "rustaveli"
+      ],
+      "story_constraints": [
+        "Do not place the poet inside a literal encounter with the Arabian fictional cast.",
+        "No writing, open inscribed book, scroll, patron portrait, or textual title."
+      ]
+    },
+    {
+      "episode_number": 2,
+      "id": "ep_02_tinatin_coronation",
+      "title_en": "Coronation of Tinatin & the Royal Hunt",
+      "primary_realm_id": "arabia",
+      "setting_en": "Arabia, the open throne courtyard of Rostevan’s royal palace.",
+      "scene_description_en": "Newly crowned Tinatin sits with composed authority on the elevated royal throne. Elderly Rostevan stands beside her offering the royal gesture of succession; Avtandil and the aged vizier Sograt respectfully face the throne beneath patterned arches.",
+      "character_ids": [
+        "tinatin",
+        "rostevan",
+        "avtandil",
+        "sograt"
+      ],
+      "story_constraints": [
+        "Show the coronation, not a simultaneous hunt.",
+        "Tinatin is the reigning sovereign, not merely a princess receiving a jewel."
+      ]
+    },
+    {
+      "episode_number": 3,
+      "id": "ep_03_stranger_at_stream",
+      "title_en": "The Weeping Knight in the Panther's Skin",
+      "primary_realm_id": "arabia",
+      "setting_en": "Arabia’s border wilderness, beside a narrow stream under stylized rocky cliffs.",
+      "scene_description_en": "The solitary panther-clad Tariel sits weeping on the stream bank with his black horse close by. Rostevan and Avtandil, returning from the hunt, observe the stranger from a little distance across the water, their body language expressing astonishment.",
+      "character_ids": [
+        "tariel",
+        "rostevan",
+        "avtandil"
+      ],
+      "story_constraints": [
+        "Tinatin is not present at the stream.",
+        "Tariel wears his recognizable tawny striped great-cat mantle and cap.",
+        "No extra battle or gore; this is the encounter before he vanishes."
+      ]
+    },
+    {
+      "episode_number": 4,
+      "id": "ep_04_tinatin_commission",
+      "title_en": "Tinatin's Commission & Avtandil's Charter to Shermadin",
+      "primary_realm_id": "arabia",
+      "setting_en": "Arabia, Tinatin’s intimate palace chamber opening onto a courtyard and the distant road.",
+      "scene_description_en": "Tinatin commissions Avtandil to seek the mysterious knight: she sits royally beside a filigreed arch, while Avtandil stands before her with hand to heart and travel gear waiting by the doorway. Their exchange conveys a solemn promise between lovers.",
+      "character_ids": [
+        "tinatin",
+        "avtandil"
+      ],
+      "story_constraints": [
+        "Do not add Rostevan or Shermadin to this private commission; their later scenes are separate.",
+        "No written charter, inscribed map, banner or scroll."
+      ]
+    },
+    {
+      "episode_number": 5,
+      "id": "ep_05_cave_brotherhood",
+      "title_en": "Finding the Cave, Asmat's Trust & Sworn Brotherhood",
+      "primary_realm_id": "wilderness",
+      "setting_en": "Wilderness and Cave, the rocky mouth of the Devis’ cave among cypress and flowering shrubs.",
+      "scene_description_en": "Avtandil and Tariel clasp hands in a solemn oath of brotherhood at the cave entrance, while Asmat stands close beside them as trusted mediator. A small lamp and a plain water vessel establish the modest refuge amid faceted cliffs.",
+      "character_ids": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "story_constraints": [
+        "The three hunting brothers need not be present; they guided Avtandil earlier.",
+        "Show trust and sworn brotherhood after the initial hostility, not an interrogation."
+      ]
+    },
+    {
+      "episode_number": 6,
+      "id": "ep_06_india_youth_love",
+      "title_en": "Tariel's Upbringing in India & First Sight of Nestan",
+      "primary_realm_id": "india",
+      "setting_en": "India, the secluded garden pavilion of Nestan-Darejan within Parsadan’s palace.",
+      "scene_description_en": "Asmat draws aside a patterned pavilion curtain, revealing Nestan-Darejan poised in luminous green court dress. Young adult Tariel, who has arrived from the hunt beside King Parsadan, staggers with overwhelming first love as the king reaches to steady him.",
+      "character_ids": [
+        "tariel",
+        "nestan",
+        "asmat",
+        "parsadan"
+      ],
+      "story_constraints": [
+        "This is the remembered Indian past, not the cave narration frame.",
+        "Tariel wears Indian court/hunting attire, not his later panther-skin disguise.",
+        "Saridan has died before this first-sight scene; do not show him here.",
+        "Davar and Avtandil are not needed in this moment."
+      ]
+    },
+    {
+      "episode_number": 7,
+      "id": "ep_07_first_letters_oath",
+      "title_en": "First Love Letters, Summons to Khataeti & Mutual Oath",
+      "primary_realm_id": "india",
+      "setting_en": "India, Nestan’s private court pavilion at night, with cypress silhouettes beyond the arch.",
+      "scene_description_en": "Nestan and Tariel face one another in their first solemn mutual oath: Nestan sits with shy majesty on a low cushioned dais, Tariel stands with hand to heart, and Asmat discreetly attends near the pavilion curtain. A small unmarked folded parchment packet tied with cord may rest on a cushion.",
+      "character_ids": [
+        "tariel",
+        "nestan",
+        "asmat"
+      ],
+      "story_constraints": [
+        "Ramaz remains in Khataeti; do not include him in the lovers’ Indian meeting.",
+        "Tariel wears court dress before exile, with no panther pelt.",
+        "The paper packet must be completely blank and closed; no scroll."
+      ]
+    },
+    {
+      "episode_number": 8,
+      "id": "ep_08_khataeti_campaign",
+      "title_en": "Expedition to Khataeti, Defeat of Ramaz & Victory Banquet",
+      "primary_realm_id": "khataveti",
+      "setting_en": "Khataeti, outside a mountain stronghold among angular ochre and blue-grey ridges.",
+      "scene_description_en": "Victorious Tariel in Indian military attire stands beside his horse, facing the defeated King Ramaz who has lowered his weapon and bowed. A restrained group of distant soldiers and the fortified mountain gateway establish the aftermath of the ambush and battle.",
+      "character_ids": [
+        "tariel",
+        "ramaz"
+      ],
+      "story_constraints": [
+        "Parsadan and Nestan are in India, not on this Khataetian battlefield.",
+        "Tariel has not yet taken his wilderness panther mantle.",
+        "No banners, heraldic writing, severed limbs or graphic wounds."
+      ]
+    },
+    {
+      "episode_number": 9,
+      "id": "ep_09_armlet_and_veil",
+      "title_en": "Exchange of the Armlet & Khatavian Veil; Fainting in the Cave",
+      "primary_realm_id": "india",
+      "setting_en": "India, Tariel’s quiet palace chamber during the lovers’ exchange of gifts.",
+      "scene_description_en": "Asmat delivers Nestan’s jeweled armlet to Tariel; he receives the small gleaming gift with reverence and offers the finely patterned Khatavian veil in return. The veil unfolds across the foreground in gold and malachite against the intimate courtly interior.",
+      "character_ids": [
+        "tariel",
+        "asmat"
+      ],
+      "story_constraints": [
+        "Nestan and Tariel exchange these gifts through Asmat; do not invent a direct face-to-face gift exchange.",
+        "Avtandil is only in the later cave narration frame, not this remembered scene.",
+        "Tariel is in Indian court attire; the gifts bear only ornament, no letters or symbols."
+      ]
+    },
+    {
+      "episode_number": 10,
+      "id": "ep_10_khwarazmsha_slaying",
+      "title_en": "Marriage Counsel in India & Slaying of the Khwarazmian Prince",
+      "primary_realm_id": "india",
+      "setting_en": "India, the Khwarazmian prince’s lavish guest tent at night.",
+      "scene_description_en": "In a dramatic but restrained nocturnal miniature, Tariel stands at the entrance of the royal guest tent with a lowered blade; the Khwarazmian prince lies motionless on a rich carpet inside. A single lamp and parted plain curtains frame the tragic political consequence of the planned marriage.",
+      "character_ids": [
+        "tariel",
+        "khvarazmsha"
+      ],
+      "story_constraints": [
+        "The victim is the young Khwarazmian prince (khvarazmsha), not his father (khvarazmshah).",
+        "Nestan, Parsadan and Asmat are not physically present in the killing tent.",
+        "No gore, explicit wound, dismemberment or panther pelt on pre-exile Tariel."
+      ]
+    },
+    {
+      "episode_number": 11,
+      "id": "ep_11_nestan_abduction",
+      "title_en": "Davar's Wrath & the Casting of Nestan Out to Sea",
+      "primary_realm_id": "india",
+      "setting_en": "India, the seaward exit of the royal palace and a small waiting boat on the shore.",
+      "scene_description_en": "Davar gestures in stern fury from the palace gateway while two unnamed attendants carry a large wooden chest toward a waiting boat. The lid remains sufficiently open to show Nestan’s distressed face and green veil, conveying her forced removal without graphic violence.",
+      "character_ids": [
+        "nestan",
+        "davari"
+      ],
+      "story_constraints": [
+        "Tariel and Parsadan are not present at the embarkation.",
+        "Do not depict Davar’s later suicide or a simultaneous second event.",
+        "The chest must be large enough to carry a person; it is not a coffin and not a scroll."
+      ]
+    },
+    {
+      "episode_number": 12,
+      "id": "ep_12_pridon_and_exile",
+      "title_en": "Brotherhood with Pridon in Mulghazanzar & Retreat to the Cave",
+      "primary_realm_id": "mulgazanzar",
+      "setting_en": "Mulghazanzar, a sheltered coastal meadow beneath Pridon’s distant domed city.",
+      "scene_description_en": "Tariel meets the wounded Pridon by the sea and supports him beside his horse. Pridon’s arm is lightly bound; the two men’s clasped hands foreshadow their sworn friendship. A calm blue bay and the far coastal city provide the setting.",
+      "character_ids": [
+        "tariel",
+        "pridon"
+      ],
+      "story_constraints": [
+        "Show their first meeting after Tariel’s year of searching, not Avtandil’s later visit.",
+        "Do not add Nestan, who is absent and known only through Pridon’s account.",
+        "Keep injuries non-graphic; Asmat may remain outside the depicted moment."
+      ]
+    },
+    {
+      "episode_number": 13,
+      "id": "ep_13_return_to_arabia",
+      "title_en": "Avtandil's Return to Arabia & Sograt's Petition to Rostevan",
+      "primary_realm_id": "arabia",
+      "setting_en": "Arabia, a secluded terrace in Tinatin’s palace with a moonlit garden beyond.",
+      "scene_description_en": "Returned from his first quest, Avtandil kneels respectfully before Tinatin and recounts the discovery of Tariel. Tinatin leans toward him with attentive recognition, and his travel cloak and sword rest beside the steps.",
+      "character_ids": [
+        "avtandil",
+        "tinatin"
+      ],
+      "story_constraints": [
+        "Sograt’s petition to Rostevan occurs in a different audience; do not merge it into this lovers’ reunion.",
+        "No written report, scroll or map is necessary."
+      ]
+    },
+    {
+      "episode_number": 14,
+      "id": "ep_14_avtandil_testament",
+      "title_en": "Avtandil's Testament, Prayer & Secret Flight from Arabia",
+      "primary_realm_id": "arabia",
+      "setting_en": "Arabia, Avtandil’s house and the quiet city gate just before dawn.",
+      "scene_description_en": "Avtandil entrusts a small completely unmarked folded parchment packet tied with plain cord to loyal Shermadin. His saddled horse waits in shadow while the first pale light catches the palace arches, conveying the secret departure and the testament left behind.",
+      "character_ids": [
+        "avtandil",
+        "shermadin"
+      ],
+      "story_constraints": [
+        "Rostevan and Sograt do not witness the secret flight.",
+        "The testament is represented by a closed blank folded packet, never a written page or rolled scroll."
+      ]
+    },
+    {
+      "episode_number": 15,
+      "id": "ep_15_lion_and_panther",
+      "title_en": "Finding Unconscious Tariel, the Slain Lion & Panther, and Return to the Cave",
+      "primary_realm_id": "wilderness",
+      "setting_en": "Wilderness, a rocky clearing in tall grasses some distance from the cave.",
+      "scene_description_en": "Avtandil finds Tariel collapsed in despair and bends to support his friend upright. A slain tawny lion and striped great cat lie motionless at a respectful distance in the reeds, while the cave’s distant cliff and a waiting horse connect the scene to the refuge.",
+      "character_ids": [
+        "avtandil",
+        "tariel"
+      ],
+      "story_constraints": [
+        "Asmat is waiting at the cave, not standing in the discovery clearing.",
+        "The animals and Tariel have no graphic wounds or blood.",
+        "The striped great cat matches the visual language of Tariel’s established pelt."
+      ]
+    },
+    {
+      "episode_number": 16,
+      "id": "ep_16_hymn_and_pridon",
+      "title_en": "Hymn to the Planets & Avtandil's Arrival at Pridon's",
+      "primary_realm_id": "mulgazanzar",
+      "setting_en": "Mulghazanzar, the sea-facing palace terrace of Pridon at dawn.",
+      "scene_description_en": "Pridon warmly receives the solitary traveler Avtandil on a terrace above the blue sea. The men clasp forearms in greeting, and a distant rocky headland hints at the place where Pridon once saw Nestan carried away.",
+      "character_ids": [
+        "avtandil",
+        "pridon"
+      ],
+      "story_constraints": [
+        "The preceding hymn to the planets is not shown as a separate panel or astrological diagram.",
+        "No planetary glyphs, written navigation chart, banner or scroll."
+      ]
+    },
+    {
+      "episode_number": 17,
+      "id": "ep_17_gulansharo_chashnagir",
+      "title_en": "Defeat of the Pirates, Arrival in Gulansharo & Slaying of the Chashnagir",
+      "primary_realm_id": "gulansharo",
+      "setting_en": "Gulansharo, Fatman’s flower-filled merchant courtyard near the harbor.",
+      "scene_description_en": "Disguised as a prosperous merchant, Avtandil is welcomed by Fatman beside a pool and pomegranate tree, with richly patterned textiles and the harbor’s domes glimpsed through an arch. Their guarded, attentive expressions establish the intrigue surrounding Nestan’s hidden story.",
+      "character_ids": [
+        "avtandil",
+        "fatman"
+      ],
+      "story_constraints": [
+        "Avtandil’s face matches his portrait, but he wears merchant robes and no military helmet or armor.",
+        "Chashnagir’s later killing is not simultaneous with this welcome.",
+        "No pirate battle or secondary scene, no written merchandise labels."
+      ]
+    },
+    {
+      "episode_number": 18,
+      "id": "ep_18_fatman_story_kadjeti",
+      "title_en": "Fatman's Tale: Nestan's Shelter in Gulansharo & Capture into Kadjeti",
+      "primary_realm_id": "gulansharo",
+      "setting_en": "Gulansharo, Fatman’s private sheltered chamber opening onto a sea-garden courtyard.",
+      "scene_description_en": "In Fatman’s remembered story, she receives and shelters the exhausted Nestan after her arrival by sea. Fatman offers a protective hand and a seat while Nestan, still in her green garments and dark veil, turns toward her with guarded relief. A closed travel chest rests unobtrusively near the doorway.",
+      "character_ids": [
+        "fatman",
+        "nestan"
+      ],
+      "story_constraints": [
+        "This is the past event being narrated, not Avtandil listening in the present.",
+        "Do not add Usen, Melik-Surkhav, Dulardukht or Rosan to the private sheltering scene.",
+        "Kadjeti is a later destination, not a coastal fortress in the background."
+      ]
+    },
+    {
+      "episode_number": 19,
+      "id": "ep_19_letters_from_kadjeti",
+      "title_en": "Letters Between Gulansharo & Kadjeti; Nestan's Letter to Tariel",
+      "primary_realm_id": "kajeti",
+      "setting_en": "Kadjeti, an inland rock-fortress chamber with a narrow arched window above dry mountain country.",
+      "scene_description_en": "Nestan entrusts a small unmarked folded parchment packet and a patterned fragment of veil to Fatman’s discreet magical messenger inside the fortress. The messenger is shown as a modest shadowed attendant, not as a new royal hero; dawn light enters the narrow window over distant inland ridges.",
+      "character_ids": [
+        "nestan",
+        "fatman_messenger"
+      ],
+      "story_constraints": [
+        "Fatman, Avtandil and Usen are elsewhere and must not appear in this fortress chamber.",
+        "The messenger’s generic silhouette identity must not become an invented named noble.",
+        "Kadjeti is inland; no sea or ships at the fortress.",
+        "All paper surfaces are blank and folded closed; no readable marks or scrolls."
+      ]
+    },
+    {
+      "episode_number": 20,
+      "id": "ep_20_reunion_and_march",
+      "title_en": "Reunion at the Cave, Devis' Armor & March via Mulghazanzar to Kadjeti",
+      "primary_realm_id": "wilderness",
+      "setting_en": "Wilderness and Cave, the interior threshold of Tariel and Asmat’s rocky refuge.",
+      "scene_description_en": "Avtandil gives Tariel Nestan’s unmarked folded letter packet and a patterned piece of her veil. Tariel receives them with intense emotion while Asmat holds a small lamp close by; a stone recess with old armor hints at the Devis’ treasure that will equip the coming rescue.",
+      "character_ids": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "story_constraints": [
+        "Nestan and Pridon are not present in this cave reunion.",
+        "The inset armor is part of the same cave setting, not a second battle or journey panel.",
+        "No written words on the closed letter packet, no scroll or banner."
+      ]
+    },
+    {
+      "episode_number": 21,
+      "id": "ep_21_storming_of_kadjeti",
+      "title_en": "The Three Counsels, Storming of Kadjeti & Liberation of Nestan",
+      "primary_realm_id": "kajeti",
+      "setting_en": "Kadjeti, the dry rocky inner courtyard of the conquered inland fortress.",
+      "scene_description_en": "Freed Nestan and Tariel meet and embrace at the fortress stair, while Avtandil and Pridon stand nearby with lowered weapons after the successful assault. Angular cliffs and the fortress’s landward gates recede behind them, the mood changing from battle to release.",
+      "character_ids": [
+        "tariel",
+        "nestan",
+        "avtandil",
+        "pridon"
+      ],
+      "story_constraints": [
+        "Kadjeti is remote and inland; no coastal sea-cliff or ships.",
+        "Keep all four characters in one coherent aftermath scene, not three separate assault panels.",
+        "No gore, fallen severed bodies, flags, inscriptions or banners."
+      ]
+    },
+    {
+      "episode_number": 22,
+      "id": "ep_22_sea_king_and_mulgazanzar_wedding",
+      "title_en": "Reception by Melik-Surkhav, Gift to Fatman & Wedding in Mulghazanzar",
+      "primary_realm_id": "mulgazanzar",
+      "setting_en": "Mulghazanzar, Pridon’s ornate sea-facing wedding hall.",
+      "scene_description_en": "Tariel and Nestan sit together on a white-and-coral jeweled wedding dais while Pridon hosts them with a tray of pearls and gems. Avtandil stands as the honored sworn brother and Asmat remains near Nestan, the five figures framed by domed arches opening toward the sea.",
+      "character_ids": [
+        "tariel",
+        "nestan",
+        "pridon",
+        "avtandil",
+        "asmat"
+      ],
+      "story_constraints": [
+        "Fatman and Melik-Surkhav greeted them earlier in Gulansharo and are not required at this Mulghazanzar wedding.",
+        "The central wedding couple is Tariel and Nestan, not Avtandil and Tinatin.",
+        "No written marriage document, hanging banners or scrolls."
+      ]
+    },
+    {
+      "episode_number": 23,
+      "id": "ep_23_arabia_reunion_and_wedding",
+      "title_en": "Return via the Cave to Arabia & Wedding of Avtandil and Tinatin",
+      "primary_realm_id": "arabia",
+      "setting_en": "Arabia, Rostevan and Tinatin’s royal wedding court.",
+      "scene_description_en": "Avtandil and crowned Tinatin sit together as the wedding couple beneath the great palace arch. Rostevan offers his blessing at their side, while Tariel, Nestan, Pridon and Asmat attend in a balanced, intimate courtly tableau with low trays of fruit and jewels.",
+      "character_ids": [
+        "avtandil",
+        "tinatin",
+        "rostevan",
+        "tariel",
+        "nestan",
+        "pridon",
+        "asmat"
+      ],
+      "story_constraints": [
+        "This is the Arabian wedding of Avtandil and Tinatin; distinguish it from the earlier Tariel-Nestan wedding.",
+        "All seven named figures may be present, but keep the central couple visually dominant.",
+        "No priest with written text, marriage scroll, heraldic letters, flags or banners."
+      ]
+    },
+    {
+      "episode_number": 24,
+      "id": "ep_24_india_coronation_epilogue",
+      "title_en": "Return to India, Coronation of Tariel & Nestan, and Epilogue",
+      "primary_realm_id": "india",
+      "setting_en": "India, the restored royal throne hall after the return and pacification of the kingdom.",
+      "scene_description_en": "The widowed Queen of India leads Tariel and Nestan by the hand toward their shared royal throne. Avtandil and Pridon stand as sworn brothers nearby, and Asmat is honored at the foot of the dais. Rich green and gold arches, pomegranate foliage and an atmosphere of restored justice conclude the visual sequence.",
+      "character_ids": [
+        "tariel",
+        "nestan",
+        "queen_india",
+        "avtandil",
+        "pridon",
+        "asmat"
+      ],
+      "story_constraints": [
+        "Parsadan is dead; his widowed queen, not Parsadan, welcomes and enthrones the couple.",
+        "Tinatin remains in Arabia; Rustaveli belongs to the author frame and does not physically attend.",
+        "Do not add Ramaz as a simultaneous defeated battlefield figure; the coronation follows the campaign.",
+        "Tariel wears royal coronation attire rather than a battle pose; no text, proclamations or scrolls."
+      ]
+    }
+  ]
+}

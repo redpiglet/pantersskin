@@ -15,3 +15,9 @@ An interactive **Scrollytelling Swimlane Realm Network Graph** and **Complete Bi
 - **Interactive Inspector, Global Search & Language Modes (`KA+EN`, `KA`, `EN`)**:
   - Click any character node or emoji edge to inspect character status, active bonds, exact stanza quotes (`stanza_ref`), and one-click links into the full bilingual stanza reader.
   - Search instantly by stanza number (`1–1669`), chapter title, or Georgian/English text.
+
+## Repository housekeeping
+
+Keep source data, original artwork in `assets/`, and print builders in version control. `.gitignore` excludes local scratch work under `tmp/`, caches, and generated exports under `output/`. The three current episode illustration manifests under `output/episode-illustrations/` remain versionable because the deck builders read them as inputs.
+
+Current exports can stay on disk for printing; use the rebuild commands in each `print-and-play/` README to regenerate them. Avoid committing generated PDFs, ZIPs, and previews with the source; distribute them separately when needed.

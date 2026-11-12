@@ -1,0 +1,670 @@
+{
+  "status": "reviewed_draft",
+  "total_chapters": 65,
+  "definition": "Depicted scene participation, including sustained flashbacks, direct narration, and explicitly authored letters. Passing mentions, brief recaps, recipient-only references, future plans, and dream likenesses are excluded. The author card marks explicit framing appearances, not every narrated chapter.",
+  "reference_system": "project_record_locator",
+  "primary_source": "Georgian text in data/chapters/chapter-*.json. Attached English rows sometimes cross chapter boundaries.",
+  "chapters": [
+    {
+      "chapter": 1,
+      "characters": [
+        "rustaveli"
+      ],
+      "notes": "Explicit author/prologue voice and self-identification7–9. Tariel and the three heroes are invoked, not depicted in a story scene."
+    },
+    {
+      "chapter": 2,
+      "characters": [
+        "avtandil",
+        "tinatin",
+        "rostevan",
+        "sograt"
+      ],
+      "notes": "Coronation and banquet: actors shown32–69. Shermadin70 is only assigned as tomorrow’s prospective hunting helper and is not depicted acting here."
+    },
+    {
+      "chapter": 3,
+      "characters": [
+        "avtandil",
+        "rostevan"
+      ],
+      "notes": "Hunt and wager72–83. Shermadin is not individually identified in the hunting action; the servants are collective. His possible continuous service from the assignment in2:70 is left unasserted."
+    },
+    {
+      "chapter": 4,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "tinatin",
+        "rostevan"
+      ],
+      "notes": "Stranger’s encounter84–101, then Tinatin visits/counsels Rostevan102–119."
+    },
+    {
+      "chapter": 5,
+      "characters": [
+        "avtandil",
+        "tinatin",
+        "rostevan",
+        "shermadin"
+      ],
+      "notes": "Tinatin’s private commission, Avtandil’s actual farewell exchange with Rostevan142–146, and Shermadin’s commission149–164."
+    },
+    {
+      "chapter": 6,
+      "characters": [
+        "avtandil",
+        "shermadin"
+      ],
+      "notes": "Avtandil authors the charter and departs; Shermadin personally gathers the nobles and displays the letter175–176. Tinatin is merely remembered."
+    },
+    {
+      "chapter": 7,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "asmat",
+        "eldest_hunting_brother",
+        "middle_hunting_brother",
+        "youngest_hunting_brother"
+      ],
+      "notes": "Avtandil meets the three brothers197–210; their narrated encounter depicts Tariel’s actions. He later follows Tariel and directly watches his reunion with Asmat221–227. No Shermadin here: English177 belongs to Georgian176 in chapter6."
+    },
+    {
+      "chapter": 8,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "notes": "Asmat and Avtandil’s confrontation, Tariel’s return, and the introduction/embrace. Rostevan in Tariel’s short hunting recap is not present."
+    },
+    {
+      "chapter": 9,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "notes": "The three speak together in the cave. Tinatin, Rostevan and hunters occur only within Avtandil’s short account and are excluded."
+    },
+    {
+      "chapter": 10,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "asmat",
+        "parsadan",
+        "queen_india",
+        "saridan",
+        "davari"
+      ],
+      "notes": "Sustained Indian-youth flashback shows Saridan, the royal parents, Nestan’s birth/growth, and Davar’s entrusted upbringing330. Asmat acts in both childhood331 and cave-frame revival322/326; Avtandil explicitly weeps in the frame326."
+    },
+    {
+      "chapter": 11,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "asmat",
+        "parsadan",
+        "queen_india"
+      ],
+      "notes": "First sight of Nestan344, Parsadan/queen attend Tariel’s illness, Asmat mediates and visits; frame Avtandil is the other weeping knight345. Anonymous doctors are not identified as the later specific Tariel_surgeon profile."
+    },
+    {
+      "chapter": 12,
+      "characters": [
+        "tariel",
+        "nestan",
+        "asmat"
+      ],
+      "notes": "Nestan is the explicit letter author376–379; Tariel reads; Asmat speaks directly380."
+    },
+    {
+      "chapter": 13,
+      "characters": [
+        "tariel",
+        "asmat"
+      ],
+      "notes": "Tariel writes the answer; Asmat relays advice, rejects jewels, accepts a ring, and leaves382–386. Nestan is letter addressee and subject of Asmat’s brief reported earlier command, not depicted here."
+    },
+    {
+      "chapter": 14,
+      "characters": [
+        "tariel"
+      ],
+      "notes": "Tariel authors and dispatches the letter387–388, then returns to banquet389–390. Ramaz is recipient only; Parsadan is praised inside the letter."
+    },
+    {
+      "chapter": 15,
+      "characters": [
+        "tariel",
+        "nestan",
+        "asmat"
+      ],
+      "notes": "The pavilion meeting391–399 depicts all three. Opening reference to having come from the king’s palace391 does not depict Parsadan acting."
+    },
+    {
+      "chapter": 16,
+      "characters": [
+        "tariel",
+        "ramaz"
+      ],
+      "notes": "Ramaz authors the answer401; Tariel reads, summons troops and reviews them402–405. Parsadan’s royal standard404 and Nestan remembered as sun are mentions only."
+    },
+    {
+      "chapter": 17,
+      "characters": [
+        "tariel",
+        "nestan",
+        "asmat"
+      ],
+      "notes": "Asmat summons and introduces Tariel406–410; Nestan and Tariel speak and swear fidelity411–419. No Parsadan scene."
+    },
+    {
+      "chapter": 18,
+      "characters": [
+        "tariel",
+        "ramaz",
+        "khatavian_informant"
+      ],
+      "notes": "Campaign, the specific informer’s warning, battle and Ramaz’s capture. Saridan is only mentioned in the informant’s brief explanation of past care; no sustained Saridan flashback. Gifts dispatched to Parsadan462 do not depict recipient-only king."
+    },
+    {
+      "chapter": 19,
+      "characters": [
+        "tariel",
+        "nestan",
+        "parsadan",
+        "queen_india",
+        "ramaz"
+      ],
+      "notes": "Return/reception, Ramaz’s pardon and court banquet. Queen speaks/is greeted and Nestan directly exchanges looks with Tariel. Asmat’s arrival is Georgian20:490, although displaced English19:489 appears one chapter early."
+    },
+    {
+      "chapter": 20,
+      "characters": [
+        "tariel",
+        "nestan",
+        "asmat"
+      ],
+      "notes": "Georgian490–492 depicts Asmat’s arrival and exchange;493–496 is Nestan’s authored letter. English494–496 fainting/revival belongs to Georgian21:497–499 and does not add Avtandil to20."
+    },
+    {
+      "chapter": 21,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "notes": "Georgian497–501 depicts Tariel’s fainting and revival, Asmat’s care and Avtandil’s response;502 resumes the narrative with Asmat’s delivery of the bracelet. Nestan is mentioned, not shown."
+    },
+    {
+      "chapter": 22,
+      "characters": [
+        "tariel",
+        "asmat"
+      ],
+      "notes": "Tariel authors his reply503–505; Asmat (the continuing unnamed maid) leaves506. Nestan is recipient and a fleeting dream likeness506, both excluded from actual depicted presence."
+    },
+    {
+      "chapter": 23,
+      "characters": [
+        "tariel",
+        "parsadan",
+        "queen_india",
+        "khvarazmshah"
+      ],
+      "notes": [
+        "507–513: Tariel meets both Indian sovereigns. 514–515: the King of Khwarazm responds to the marriage embassy. Nestan and the prince are discussed/planned spouses, not depicted participants; the prince is only the object of the summons at516."
+      ]
+    },
+    {
+      "chapter": 24,
+      "characters": [
+        "tariel",
+        "nestan",
+        "asmat"
+      ],
+      "notes": [
+        "517–547: Asmat brings Tariel to Nestan and conducts him away; the lovers speak at length. Tariel is the active first-person narrator; Avtandil is not individually depicted acting or speaking in this chapter."
+      ]
+    },
+    {
+      "chapter": 25,
+      "characters": [
+        "tariel",
+        "nestan",
+        "asmat",
+        "parsadan",
+        "khvarazmsha"
+      ],
+      "notes": [
+        "548–552: Parsadan welcomes the bridegroom’s arrival and gives orders;553–556: Tariel/Asmat/Nestan meet;557–558: Tariel kills the prince;561–566: Parsadan and Tariel exchange messages."
+      ]
+    },
+    {
+      "chapter": 26,
+      "characters": [
+        "tariel",
+        "nestan",
+        "asmat",
+        "parsadan",
+        "davari"
+      ],
+      "notes": [
+        "567–571 and582–590: Tariel and Asmat speak and depart.572–581 is an enacted, sustained flashback through Asmat’s testimony: Parsadan threatens Davar, Davar beats and abducts Nestan, then kills herself. These are depicted actions rather than names in a passing recap."
+      ]
+    },
+    {
+      "chapter": 27,
+      "characters": [
+        "tariel",
+        "pridon",
+        "tariel_surgeon"
+      ],
+      "notes": [
+        "591–612: Tariel encounters and befriends Pridon.598 Georgian explicitly depicts Tariel’s surgeon removing the arrows and dressing Pridon’s injuries. Asmat is not individually depicted here; she is only known from the preceding chapter to accompany Tariel. Anonymous members of the camp do not automatically give Asmat a filled circle."
+      ]
+    },
+    {
+      "chapter": 28,
+      "characters": [
+        "tariel",
+        "pridon"
+      ],
+      "notes": [
+        "613–621: Tariel and Pridon fight together and return in triumph. The cousins are uncarded figures. No individually depicted Asmat scene occurs."
+      ]
+    },
+    {
+      "chapter": 29,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "asmat",
+        "pridon"
+      ],
+      "notes": [
+        "622–649: Tariel and Pridon confer, hunt, plan the search and part.625–628 is an extended direct-observation flashback of Nestan landing and escaping in a boat, so Nestan is counted.650–657: Tariel directly addresses Asmat/remaining attendants;659–671 returns to Avtandil/Tariel/Asmat speaking and acting in the cave frame."
+      ]
+    },
+    {
+      "chapter": 30,
+      "characters": [
+        "avtandil",
+        "tinatin",
+        "rostevan",
+        "shermadin"
+      ],
+      "notes": [
+        "672–727: Avtandil returns; Shermadin greets him and gives news to Rostevan and Tinatin; both sovereigns receive Avtandil. Tariel and Asmat occur in Avtandil’s summary of the search, not as chapter participants."
+      ]
+    },
+    {
+      "chapter": 31,
+      "characters": [
+        "avtandil",
+        "rostevan",
+        "sograt"
+      ],
+      "notes": [
+        "728–773: Avtandil visits the vizier, who petitions Rostevan and returns to Avtandil. The vizier is treated as Sograt under the main card catalog’s established identification; Ustasra is a title, not another person. Tariel/Asmat are objects of Avtandil’s explanation, not present participants."
+      ]
+    },
+    {
+      "chapter": 32,
+      "characters": [
+        "avtandil",
+        "shermadin"
+      ],
+      "notes": [
+        "774–787: Avtandil speaks with Shermadin and entrusts the household/testament to him. Rostevan, Tinatin and Tariel are discussed only."
+      ]
+    },
+    {
+      "chapter": 33,
+      "characters": [
+        "avtandil",
+        "shermadin"
+      ],
+      "notes": [
+        "788–807: Avtandil writes his own testament, which counts as his direct authored speech;808: he hands it to Shermadin and embraces him. Recipient Rostevan is not depicted in this chapter."
+      ]
+    },
+    {
+      "chapter": 34,
+      "characters": [
+        "avtandil",
+        "shermadin"
+      ],
+      "notes": [
+        "809–812: Avtandil prays and leaves;812 explicitly depicts Shermadin being sent back, weeping."
+      ]
+    },
+    {
+      "chapter": 35,
+      "characters": [
+        "rostevan",
+        "shermadin",
+        "sograt"
+      ],
+      "notes": [
+        "813–829 Georgian: Rostevan summons and speaks with the vizier/Sograt;827–829: Shermadin delivers the testament. Avtandil is absent; the news of his flight and the fact that his earlier testament is read are not a new depicted Avtandil scene. The text of the testament is not repeated here."
+      ]
+    },
+    {
+      "chapter": 36,
+      "characters": [
+        "avtandil",
+        "asmat"
+      ],
+      "notes": [
+        "830–865: Avtandil travels to the cave and speaks with Asmat. Tariel’s departure and promises are briefly recounted by Asmat; Tariel is not present or directly observed. This agrees with the prior Tariel mask."
+      ]
+    },
+    {
+      "chapter": 37,
+      "characters": [
+        "avtandil",
+        "tariel"
+      ],
+      "notes": [
+        "866–905: Avtandil finds, revives and speaks with Tariel. Asmat is discussed as a reason to return, but not yet encountered."
+      ]
+    },
+    {
+      "chapter": 38,
+      "characters": [
+        "avtandil",
+        "tariel"
+      ],
+      "notes": [
+        "906–913 Georgian: Tariel directly narrates the lion/panther fight.914–915 Georgian explicitly depicts Avtandil weeping and answering; these rows have null/misaligned English, so primary Georgian is decisive. Nestan is only the metaphorically recalled beloved."
+      ]
+    },
+    {
+      "chapter": 39,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "notes": [
+        "916–950: Tariel, Avtandil and Asmat reunite in the cave, eat and speak; the knights later travel together. Tinatin appears only in Avtandil’s short report of her permission."
+      ]
+    },
+    {
+      "chapter": 40,
+      "characters": [
+        "avtandil"
+      ],
+      "notes": [
+        "951–968: Avtandil travels alone and sings to the heavenly bodies. Tinatin/Tariel are remembered or addressed in absence; Pridon is merely the destination, not a scene participant."
+      ]
+    },
+    {
+      "chapter": 41,
+      "characters": [
+        "avtandil",
+        "pridon"
+      ],
+      "notes": [
+        "969–1024: Avtandil meets Pridon, tells his story, is hosted and departs.993–1008 is a compressed recap of Tariel and Arabia;1022–1023 briefly repeats the prior Nestan sighting rather than staging a new sustained flashback. Tariel, Nestan, Asmat, Rostevan and the hunters are excluded from this chapter’s presence mask."
+      ]
+    },
+    {
+      "chapter": 42,
+      "characters": [
+        "avtandil",
+        "usam"
+      ],
+      "notes": [
+        "1025–1060: Avtandil meets Usam, protects the caravan and receives the merchants’ thanks. Usam is distinct from Fatman’s husband Usen. Fatman/Nestan/Usen do not appear in the caravan scene."
+      ]
+    },
+    {
+      "chapter": 43,
+      "characters": [
+        "avtandil",
+        "fatman",
+        "usen_gardener"
+      ],
+      "notes": [
+        "1061–1080: Avtandil questions Usen’s gardener; the gardener directly reports to Fatman; she receives Avtandil.1070 explicitly says Usen is absent. Surkhavi is named as ruler, not depicted acting. Usam is not individually depicted merely because a merchant crowd remains present."
+      ]
+    },
+    {
+      "chapter": 44,
+      "characters": [
+        "fatman"
+      ],
+      "notes": [
+        "1081–1083 Georgian: Fatman alone is individually depicted, struggling with and voicing her desire. Avtandil is the object of her inward monologue, not described acting/speaking or directly observed in this chapter; therefore he receives no filled circle here."
+      ]
+    },
+    {
+      "chapter": 45,
+      "characters": [
+        "avtandil",
+        "fatman"
+      ],
+      "notes": "1084–1089: Fatman writes and sends; Avtandil reads and responds in thought. Tinatin/Nestan are recalled, not depicted."
+    },
+    {
+      "chapter": 46,
+      "characters": [
+        "avtandil",
+        "fatman",
+        "chashnagiri"
+      ],
+      "notes": "1095–1119: exchange of replies, Fatman/Avtandil meeting, Chashnagir confrontation and killing. Usen1120 is only mentioned."
+    },
+    {
+      "chapter": 47,
+      "characters": [
+        "avtandil",
+        "nestan",
+        "fatman",
+        "usen",
+        "chashnagiri",
+        "surkhavi"
+      ],
+      "notes": "1121–1212: Fatman sustained narration; Avtandil directly interrupts1137–1138,1211–1212. Full enacted retrospective scenes include Nestan, Usen, Sea King, and Chashnagir1205–1208. Sea King’s son1186 is described as away at war; no depicted scene."
+    },
+    {
+      "chapter": 48,
+      "characters": [
+        "avtandil",
+        "nestan",
+        "fatman",
+        "dulardukht",
+        "rosan",
+        "rodia",
+        "roshak",
+        "fatman_messenger",
+        "kadji_informant"
+      ],
+      "notes": "1217–1243 contains informant’s enacted capture account, Roshak’s orders and actions, Dulardukht’s explicit quoted decision/custody. Rosan/Rodia1220–1221 are the children being raised (explicit care in the flashback). Fatman’s messenger1238–1239 is one of the two scouts and appears again1268–1269. Usen1215 is an absent reference, not action."
+    },
+    {
+      "chapter": 49,
+      "characters": [
+        "nestan",
+        "fatman",
+        "fatman_messenger"
+      ],
+      "notes": "1270–1275: Fatman authors and hands over letter; 1276–1284 messenger enters Nestan’s prison and they converse. Avtandil is named inside letter and report, without direct scene presence."
+    },
+    {
+      "chapter": 50,
+      "characters": [
+        "nestan"
+      ],
+      "notes": "1285–1291: Nestan authors letter. Fatman is addressed; Tariel and Dulardukht are mentioned, not depicted."
+    },
+    {
+      "chapter": 51,
+      "characters": [
+        "avtandil",
+        "nestan",
+        "fatman",
+        "fatman_messenger"
+      ],
+      "notes": "1292–1310: Nestan writes and cuts the veil;1311 messenger returns;1312–1317 Avtandil speaks with Fatman and sends Pridon’s attendants away. Tariel is only the letter’s recipient; Pridon only message recipient."
+    },
+    {
+      "chapter": 52,
+      "characters": [
+        "avtandil",
+        "fatman",
+        "usen"
+      ],
+      "notes": "1318–1324: Avtandil authors letter;1325–1326 departure and Fatman/Usen farewell. Pridon is recipient only."
+    },
+    {
+      "chapter": 53,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "asmat"
+      ],
+      "notes": "1327–1373: Avtandil reunites with Tariel, revives him, both meet Asmat and open treasury. Nestan is recalled via earlier letter, not newly authored or physically depicted."
+    },
+    {
+      "chapter": 54,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "asmat",
+        "pridon"
+      ],
+      "notes": "1374–1389: journey with Asmat, meeting Pridon, hospitality, Asmat left at Pridon’s.1390–1392: three approach Kadjeti;1392 directly locates/visually presents the bright moon Nestan in the city. Included that brief observed presence, not just the search objective."
+    },
+    {
+      "chapter": 55,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "pridon"
+      ],
+      "notes": "1393–1396: Pridon addresses his two companions in the ongoing council. Both addressed listeners count in this immediate scene, although only Pridon speaks."
+    },
+    {
+      "chapter": 56,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "pridon"
+      ],
+      "notes": "1397–1401: Avtandil replies to Pridon and addresses both companions at the council. Hypothetical future actions are not additional people."
+    },
+    {
+      "chapter": 57,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "pridon"
+      ],
+      "notes": "1402–1427: joint council, attack, Nestan rescue and greetings. Dulardukht is away and does not appear; no Rosan/Rodia battle invented."
+    },
+    {
+      "chapter": 58,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "asmat",
+        "pridon",
+        "fatman",
+        "surkhavi"
+      ],
+      "notes": "1428–1447: Tariel’s message, Sea King and Fatman arrive, greetings/gifts/ship;1451–1453 Asmat embraces Nestan. Usen1431 is only a directed request recipient, without a depicted reception/action."
+    },
+    {
+      "chapter": 59,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "pridon"
+      ],
+      "notes": "1463–1491: wedding and brotherly consultation. Asmat not individually depicted despite probable continued residence. Tinatin/Rostevan are discussed as absent people."
+    },
+    {
+      "chapter": 60,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "tinatin",
+        "asmat",
+        "pridon",
+        "rostevan"
+      ],
+      "notes": "1496–1497: Asmat explicitly hosts in cave.1504–1548 Tariel’s message and Arabian reunion depict Rostevan/Tinatin and all three knights/Nestan. No named Shermadin or Sograt greeting."
+    },
+    {
+      "chapter": 61,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "tinatin",
+        "pridon",
+        "rostevan"
+      ],
+      "notes": "1549–1578: Arabian wedding, gifts, farewells, sisters’ exchange, three knights’ departure. Asmat absent from individual action."
+    },
+    {
+      "chapter": 62,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "pridon"
+      ],
+      "notes": "1579–1597 continues the three companions’ journey/meal begun1577–1578; Tariel and Nestan directly react to news. Parsadan/Davar/prince are only a brief recap; queen and Ramaz only a report about India, excluded under the brief-recap rule."
+    },
+    {
+      "chapter": 63,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "pridon",
+        "queen_india",
+        "ramaz"
+      ],
+      "notes": "1598–1618: joint approach and Ramaz’s surrender.1620–1633: Nestan and Tariel enter India, queen embraces them; Avtandil/Pridon offer condolences1631. Parsadan is dead and mourned, not present."
+    },
+    {
+      "chapter": 64,
+      "characters": [
+        "avtandil",
+        "tariel",
+        "nestan",
+        "tinatin",
+        "asmat",
+        "pridon",
+        "queen_india",
+        "ramaz"
+      ],
+      "notes": "1634–1664: enthronement, queen, Ramaz’s pardon, Asmat’s grant/marriage, brothers part;1662 Avtandil returns and sees/sits beside his sun Tinatin. Rostevan1658 is gift recipient only, not shown receiving it."
+    },
+    {
+      "chapter": 65,
+      "characters": [
+        "rustaveli"
+      ],
+      "notes": "1665–1669: explicit poet’s authorial self-identification. Tariel1669 is a literary reference, not fictional scene participation."
+    }
+  ],
+  "editorial_note": "Conservative scene-based masks. Source notes document borderline decisions; interaction correspondence and chapter appearance are different measures."
+}

@@ -1,0 +1,2780 @@
+{
+  "schema_version": "1.0.0",
+  "status": "reviewed_draft",
+  "character_source": "data/character-cards.json",
+  "definition": "Source-supported encounters, actions, explicitly narrated care/custody, directed assistance, joint actions, or actual correspondence (including directed messages through intermediaries). Mere kinship, employment, shared crowd presence, mentions, and proposed marriages do not establish contact. Lists are reciprocal, omit self-links, and use stable profile IDs. Evidence and excluded/uncertain pairs are in the interaction catalog.",
+  "reference_system": "project_record_locator",
+  "source_note": "Checked representative source spans, not an exhaustive index of every interaction or every appearance. Local Georgian text governs when paired English rows are displaced. No inference from chapter active_characters metadata.",
+  "edge_count": 84,
+  "edges": [
+    {
+      "characters": [
+        "avtandil",
+        "tariel"
+      ],
+      "types": [
+        "conversation",
+        "affection",
+        "oaths",
+        "care",
+        "joint_action"
+      ],
+      "chapters": [
+        9,
+        37,
+        57,
+        61
+      ],
+      "summary": "They meet and embrace, share their histories, and become sworn brothers. Avtandil revives and consoles Tariel, then joins him in the rescue and further service.",
+      "sources": [
+        {
+          "chapter": 9,
+          "stanza_start": 280,
+          "stanza_end": 309,
+          "file": "data/chapters/chapter-09.json"
+        },
+        {
+          "chapter": 37,
+          "stanza_start": 868,
+          "stanza_end": 874,
+          "file": "data/chapters/chapter-37.json"
+        },
+        {
+          "chapter": 57,
+          "stanza_start": 1402,
+          "stanza_end": 1424,
+          "file": "data/chapters/chapter-57.json"
+        },
+        {
+          "chapter": 61,
+          "stanza_start": 1561,
+          "stanza_end": 1566,
+          "file": "data/chapters/chapter-61.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "nestan"
+      ],
+      "types": [
+        "mediated_correspondence",
+        "rescue",
+        "greeting",
+        "conversation"
+      ],
+      "chapters": [
+        49,
+        57
+      ],
+      "summary": "Avtandil’s search and commission are communicated through Fatman and her messenger; after the rescue Nestan personally greets, kisses, and thanks both helpers.",
+      "sources": [
+        {
+          "chapter": 49,
+          "stanza_start": 1272,
+          "stanza_end": 1274,
+          "file": "data/chapters/chapter-49.json"
+        },
+        {
+          "chapter": 57,
+          "stanza_start": 1422,
+          "stanza_end": 1423,
+          "file": "data/chapters/chapter-57.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "tinatin"
+      ],
+      "types": [
+        "conversation",
+        "love",
+        "oaths",
+        "marriage"
+      ],
+      "chapters": [
+        5,
+        30,
+        60,
+        61
+      ],
+      "summary": "Tinatin commissions the search and exchanges promises with Avtandil; they discuss his obligation to Tariel and are finally seated together and married.",
+      "sources": [
+        {
+          "chapter": 5,
+          "stanza_start": 120,
+          "stanza_end": 136,
+          "file": "data/chapters/chapter-05.json"
+        },
+        {
+          "chapter": 30,
+          "stanza_start": 694,
+          "stanza_end": 710,
+          "file": "data/chapters/chapter-30.json"
+        },
+        {
+          "chapter": 60,
+          "stanza_start": 1543,
+          "stanza_end": 1545,
+          "file": "data/chapters/chapter-60.json"
+        },
+        {
+          "chapter": 61,
+          "stanza_start": 1549,
+          "stanza_end": 1556,
+          "file": "data/chapters/chapter-61.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "asmat"
+      ],
+      "types": [
+        "conversation",
+        "conflict",
+        "mediation",
+        "affection",
+        "hospitality"
+      ],
+      "chapters": [
+        8,
+        36,
+        39
+      ],
+      "summary": "Avtandil first coerces and then gains Asmat’s trust; she introduces him to Tariel, welcomes his return, and discusses Tariel’s disappearance with him.",
+      "sources": [
+        {
+          "chapter": 8,
+          "stanza_start": 230,
+          "stanza_end": 261,
+          "file": "data/chapters/chapter-08.json"
+        },
+        {
+          "chapter": 36,
+          "stanza_start": 843,
+          "stanza_end": 848,
+          "file": "data/chapters/chapter-36.json"
+        },
+        {
+          "chapter": 39,
+          "stanza_start": 916,
+          "stanza_end": 922,
+          "file": "data/chapters/chapter-39.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "pridon"
+      ],
+      "types": [
+        "greeting",
+        "conversation",
+        "affection",
+        "hospitality",
+        "joint_action",
+        "message_delivery"
+      ],
+      "chapters": [
+        41,
+        57,
+        60
+      ],
+      "summary": "They meet and embrace at Pridon’s court, confer and fight together at Kadjeti; Pridon later brings Avtandil the news of Rostevan’s agreement.",
+      "sources": [
+        {
+          "chapter": 41,
+          "stanza_start": 987,
+          "stanza_end": 993,
+          "file": "data/chapters/chapter-41.json"
+        },
+        {
+          "chapter": 57,
+          "stanza_start": 1404,
+          "stanza_end": 1417,
+          "file": "data/chapters/chapter-57.json"
+        },
+        {
+          "chapter": 60,
+          "stanza_start": 1529,
+          "stanza_end": 1529,
+          "file": "data/chapters/chapter-60.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "fatman"
+      ],
+      "types": [
+        "conversation",
+        "hospitality",
+        "intimacy",
+        "correspondence",
+        "cooperation"
+      ],
+      "chapters": [
+        43,
+        48,
+        51
+      ],
+      "summary": "Fatman personally receives Avtandil and becomes intimate with him; he reveals his identity, learns Nestan’s history, and cooperates with her in sending the messenger.",
+      "sources": [
+        {
+          "chapter": 43,
+          "stanza_start": 1076,
+          "stanza_end": 1080,
+          "file": "data/chapters/chapter-43.json"
+        },
+        {
+          "chapter": 48,
+          "stanza_start": 1261,
+          "stanza_end": 1269,
+          "file": "data/chapters/chapter-48.json"
+        },
+        {
+          "chapter": 51,
+          "stanza_start": 1312,
+          "stanza_end": 1313,
+          "file": "data/chapters/chapter-51.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "rostevan"
+      ],
+      "types": [
+        "conversation",
+        "affection",
+        "authority",
+        "joint_action",
+        "correspondence"
+      ],
+      "chapters": [
+        2,
+        3,
+        5,
+        35,
+        60
+      ],
+      "summary": "They speak and hunt together; Rostevan grants the first journey, receives the testament after the secret departure, and reconciles with Avtandil on his return.",
+      "sources": [
+        {
+          "chapter": 2,
+          "stanza_start": 64,
+          "stanza_end": 70,
+          "file": "data/chapters/chapter-02.json"
+        },
+        {
+          "chapter": 3,
+          "stanza_start": 72,
+          "stanza_end": 82,
+          "file": "data/chapters/chapter-03.json"
+        },
+        {
+          "chapter": 5,
+          "stanza_start": 142,
+          "stanza_end": 146,
+          "file": "data/chapters/chapter-05.json"
+        },
+        {
+          "chapter": 35,
+          "stanza_start": 827,
+          "stanza_end": 829,
+          "file": "data/chapters/chapter-35.json"
+        },
+        {
+          "chapter": 60,
+          "stanza_start": 1529,
+          "stanza_end": 1547,
+          "file": "data/chapters/chapter-60.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "shermadin"
+      ],
+      "types": [
+        "conversation",
+        "service",
+        "authority",
+        "affection",
+        "message_delivery"
+      ],
+      "chapters": [
+        5,
+        30,
+        32,
+        33
+      ],
+      "summary": "Avtandil confides in Shermadin, makes him deputy, receives his account of the household, and entrusts him with the testament for Rostevan.",
+      "sources": [
+        {
+          "chapter": 5,
+          "stanza_start": 149,
+          "stanza_end": 164,
+          "file": "data/chapters/chapter-05.json"
+        },
+        {
+          "chapter": 30,
+          "stanza_start": 677,
+          "stanza_end": 678,
+          "file": "data/chapters/chapter-30.json"
+        },
+        {
+          "chapter": 32,
+          "stanza_start": 774,
+          "stanza_end": 787,
+          "file": "data/chapters/chapter-32.json"
+        },
+        {
+          "chapter": 33,
+          "stanza_start": 808,
+          "stanza_end": 808,
+          "file": "data/chapters/chapter-33.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "sograt"
+      ],
+      "types": [
+        "conversation",
+        "joint_action",
+        "counsel",
+        "hospitality"
+      ],
+      "chapters": [
+        2,
+        31
+      ],
+      "summary": "They plan and make the banquet approach to Rostevan together; later Avtandil asks the vizier to obtain leave and receives his account of the failed intercession.",
+      "sources": [
+        {
+          "chapter": 2,
+          "stanza_start": 57,
+          "stanza_end": 59,
+          "file": "data/chapters/chapter-02.json"
+        },
+        {
+          "chapter": 31,
+          "stanza_start": 728,
+          "stanza_end": 751,
+          "file": "data/chapters/chapter-31.json"
+        },
+        {
+          "chapter": 31,
+          "stanza_start": 763,
+          "stanza_end": 772,
+          "file": "data/chapters/chapter-31.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "queen_india"
+      ],
+      "types": [
+        "condolence",
+        "conversation",
+        "gifts"
+      ],
+      "chapters": [
+        63,
+        64
+      ],
+      "summary": "Avtandil and Pridon explicitly offer condolences to the Queen of India; she later thanks and richly rewards them as her rescuers.",
+      "sources": [
+        {
+          "chapter": 63,
+          "stanza_start": 1631,
+          "stanza_end": 1631,
+          "file": "data/chapters/chapter-63.json"
+        },
+        {
+          "chapter": 64,
+          "stanza_start": 1646,
+          "stanza_end": 1646,
+          "file": "data/chapters/chapter-64.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "usen"
+      ],
+      "types": [
+        "farewell_address"
+      ],
+      "chapters": [
+        52
+      ],
+      "summary": "Usen joins Fatman and the household in lamenting and directly addressing Avtandil as he departs.",
+      "sources": [
+        {
+          "chapter": 52,
+          "stanza_start": 1326,
+          "stanza_end": 1326,
+          "file": "data/chapters/chapter-52.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "usam"
+      ],
+      "types": [
+        "conversation",
+        "protection",
+        "gifts"
+      ],
+      "chapters": [
+        42
+      ],
+      "summary": "Usam welcomes Avtandil and explains the caravan’s danger; Avtandil undertakes its protection, after which Usam conveys the merchants’ praise and offer.",
+      "sources": [
+        {
+          "chapter": 42,
+          "stanza_start": 1029,
+          "stanza_end": 1035,
+          "file": "data/chapters/chapter-42.json"
+        },
+        {
+          "chapter": 42,
+          "stanza_start": 1047,
+          "stanza_end": 1054,
+          "file": "data/chapters/chapter-42.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "chashnagiri"
+      ],
+      "types": [
+        "fatal_conflict"
+      ],
+      "chapters": [
+        46
+      ],
+      "summary": "Avtandil kills the Chashnagir, takes the ring-bearing finger, and reports the act to Fatman with the physical evidence.",
+      "sources": [
+        {
+          "chapter": 46,
+          "stanza_start": 1115,
+          "stanza_end": 1118,
+          "file": "data/chapters/chapter-46.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "surkhavi"
+      ],
+      "types": [
+        "greeting",
+        "hospitality",
+        "gifts",
+        "conversation"
+      ],
+      "chapters": [
+        58
+      ],
+      "summary": "All three knights personally greet the Sea King; he gives Avtandil gifts, hears their collective address, and provides a vessel.",
+      "sources": [
+        {
+          "chapter": 58,
+          "stanza_start": 1434,
+          "stanza_end": 1434,
+          "file": "data/chapters/chapter-58.json"
+        },
+        {
+          "chapter": 58,
+          "stanza_start": 1440,
+          "stanza_end": 1440,
+          "file": "data/chapters/chapter-58.json"
+        },
+        {
+          "chapter": 58,
+          "stanza_start": 1445,
+          "stanza_end": 1447,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "eldest_hunting_brother"
+      ],
+      "types": [
+        "conversation",
+        "testimony",
+        "assistance"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "Avtandil questions the two older brothers, hears their account of Tariel, learns which way he is going, and directs them toward a resting place for the injured youth.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 197,
+          "stanza_end": 199,
+          "file": "data/chapters/chapter-07.json"
+        },
+        {
+          "chapter": 7,
+          "stanza_start": 206,
+          "stanza_end": 213,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "middle_hunting_brother"
+      ],
+      "types": [
+        "conversation",
+        "testimony",
+        "assistance"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "Avtandil questions the two older brothers, hears their account of Tariel, learns which way he is going, and directs them toward a resting place for the injured youth.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 197,
+          "stanza_end": 199,
+          "file": "data/chapters/chapter-07.json"
+        },
+        {
+          "chapter": 7,
+          "stanza_start": 206,
+          "stanza_end": 213,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "youngest_hunting_brother"
+      ],
+      "types": [
+        "assistance"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "Avtandil encounters the severely wounded youth with his brothers, expresses concern for him, and offers a shaded resting place. No dialogue with the unconscious youth is claimed.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 197,
+          "stanza_end": 199,
+          "file": "data/chapters/chapter-07.json"
+        },
+        {
+          "chapter": 7,
+          "stanza_start": 212,
+          "stanza_end": 213,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "usen_gardener"
+      ],
+      "types": [
+        "conversation",
+        "introduction",
+        "message_delivery"
+      ],
+      "chapters": [
+        43
+      ],
+      "summary": "Avtandil questions Usen’s gardener about the city and its commerce; the gardener identifies himself and obtains permission to announce him to Fatman.",
+      "sources": [
+        {
+          "chapter": 43,
+          "stanza_start": 1063,
+          "stanza_end": 1072,
+          "file": "data/chapters/chapter-43.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "avtandil",
+        "fatman_messenger"
+      ],
+      "types": [
+        "joint_commission",
+        "mediated_correspondence"
+      ],
+      "chapters": [
+        48,
+        49,
+        51
+      ],
+      "summary": "Avtandil requests the messenger whom Fatman produces and commissions; the letter identifies their joint mission, and his return completes Avtandil’s business. Direct dialogue between them is not claimed.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1267,
+          "stanza_end": 1269,
+          "file": "data/chapters/chapter-48.json"
+        },
+        {
+          "chapter": 49,
+          "stanza_start": 1272,
+          "stanza_end": 1274,
+          "file": "data/chapters/chapter-49.json"
+        },
+        {
+          "chapter": 51,
+          "stanza_start": 1311,
+          "stanza_end": 1311,
+          "file": "data/chapters/chapter-51.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "nestan"
+      ],
+      "types": [
+        "encounter",
+        "correspondence"
+      ],
+      "chapters": [
+        12,
+        25,
+        57
+      ],
+      "summary": "The lovers meet privately, exchange messages, quarrel over the proposed marriage, and reunite after the rescue.",
+      "sources": [
+        {
+          "chapter": 12,
+          "stanza_start": 376,
+          "stanza_end": 380,
+          "file": "data/chapters/chapter-12.json"
+        },
+        {
+          "chapter": 25,
+          "stanza_start": 553,
+          "stanza_end": 556,
+          "file": "data/chapters/chapter-25.json"
+        },
+        {
+          "chapter": 57,
+          "stanza_start": 1420,
+          "stanza_end": 1423,
+          "file": "data/chapters/chapter-57.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "tinatin"
+      ],
+      "types": [
+        "greeting",
+        "conversation",
+        "hospitality",
+        "pledge"
+      ],
+      "chapters": [
+        60
+      ],
+      "summary": "Tariel and Nestan greet and kiss Tinatin; she invites them to the throne, and Tariel later addresses her directly and pledges brotherly protection.",
+      "sources": [
+        {
+          "chapter": 60,
+          "stanza_start": 1541,
+          "stanza_end": 1542,
+          "file": "data/chapters/chapter-60.json"
+        },
+        {
+          "chapter": 60,
+          "stanza_start": 1548,
+          "stanza_end": 1548,
+          "file": "data/chapters/chapter-60.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "asmat"
+      ],
+      "types": [
+        "mediation",
+        "care",
+        "joint_action"
+      ],
+      "chapters": [
+        25,
+        29,
+        64
+      ],
+      "summary": "Asmat mediates the lovers’ meetings, tends Tariel, remains with him in exile, and is rewarded by him on their return.",
+      "sources": [
+        {
+          "chapter": 25,
+          "stanza_start": 553,
+          "stanza_end": 554,
+          "file": "data/chapters/chapter-25.json"
+        },
+        {
+          "chapter": 29,
+          "stanza_start": 650,
+          "stanza_end": 656,
+          "file": "data/chapters/chapter-29.json"
+        },
+        {
+          "chapter": 64,
+          "stanza_start": 1649,
+          "stanza_end": 1653,
+          "file": "data/chapters/chapter-64.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "pridon"
+      ],
+      "types": [
+        "care",
+        "joint_action",
+        "hospitality"
+      ],
+      "chapters": [
+        27,
+        28,
+        54
+      ],
+      "summary": "Tariel befriends the wounded Pridon, helps him against his cousins, receives his assistance, and joins him in the rescue.",
+      "sources": [
+        {
+          "chapter": 27,
+          "stanza_start": 593,
+          "stanza_end": 610,
+          "file": "data/chapters/chapter-27.json"
+        },
+        {
+          "chapter": 28,
+          "stanza_start": 613,
+          "stanza_end": 621,
+          "file": "data/chapters/chapter-28.json"
+        },
+        {
+          "chapter": 54,
+          "stanza_start": 1374,
+          "stanza_end": 1389,
+          "file": "data/chapters/chapter-54.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "fatman"
+      ],
+      "types": [
+        "encounter",
+        "gift"
+      ],
+      "chapters": [
+        58
+      ],
+      "summary": "After the rescue, Tariel thanks Fatman, calls her his sister, and gives her the treasure brought from Kadjeti.",
+      "sources": [
+        {
+          "chapter": 58,
+          "stanza_start": 1433,
+          "stanza_end": 1444,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "rostevan"
+      ],
+      "types": [
+        "conflict",
+        "correspondence",
+        "conversation",
+        "hospitality",
+        "affection"
+      ],
+      "chapters": [
+        4,
+        60,
+        61
+      ],
+      "summary": "Rostevan first orders the stranger’s capture and pursues him. Later Tariel sends a message, meets him personally, negotiates the lovers’ marriage, and receives an affectionate farewell.",
+      "sources": [
+        {
+          "chapter": 4,
+          "stanza_start": 91,
+          "stanza_end": 98,
+          "file": "data/chapters/chapter-04.json"
+        },
+        {
+          "chapter": 60,
+          "stanza_start": 1504,
+          "stanza_end": 1528,
+          "file": "data/chapters/chapter-60.json"
+        },
+        {
+          "chapter": 61,
+          "stanza_start": 1574,
+          "stanza_end": 1576,
+          "file": "data/chapters/chapter-61.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "parsadan"
+      ],
+      "types": [
+        "care",
+        "command",
+        "correspondence"
+      ],
+      "chapters": [
+        10,
+        19,
+        25
+      ],
+      "summary": "Parsadan raises Tariel, appoints him Amirbar, receives him after the Khataeti campaign, and exchanges accusatory messages after the prince’s death.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 318,
+          "stanza_end": 338,
+          "file": "data/chapters/chapter-10.json"
+        },
+        {
+          "chapter": 19,
+          "stanza_start": 463,
+          "stanza_end": 470,
+          "file": "data/chapters/chapter-19.json"
+        },
+        {
+          "chapter": 25,
+          "stanza_start": 561,
+          "stanza_end": 566,
+          "file": "data/chapters/chapter-25.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "queen_india"
+      ],
+      "types": [
+        "care",
+        "encounter"
+      ],
+      "chapters": [
+        10,
+        63,
+        64
+      ],
+      "summary": "The queen helps raise Tariel; he reunites with her after returning to India, and she enthrones him and Nestan.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 318,
+          "stanza_end": 338,
+          "file": "data/chapters/chapter-10.json"
+        },
+        {
+          "chapter": 63,
+          "stanza_start": 1626,
+          "stanza_end": 1631,
+          "file": "data/chapters/chapter-63.json"
+        },
+        {
+          "chapter": 64,
+          "stanza_start": 1634,
+          "stanza_end": 1643,
+          "file": "data/chapters/chapter-64.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "saridan"
+      ],
+      "types": [
+        "care"
+      ],
+      "chapters": [
+        10
+      ],
+      "summary": "Tariel is returned to his father’s care when Nestan is recognized as heir; he later mourns Saridan’s death.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 328,
+          "stanza_end": 338,
+          "file": "data/chapters/chapter-10.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "khvarazmsha"
+      ],
+      "types": [
+        "conflict"
+      ],
+      "chapters": [
+        25
+      ],
+      "summary": "Tariel enters the foreign prince’s tent and kills him.",
+      "sources": [
+        {
+          "chapter": 25,
+          "stanza_start": 557,
+          "stanza_end": 558,
+          "file": "data/chapters/chapter-25.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "ramaz"
+      ],
+      "types": [
+        "correspondence",
+        "conflict",
+        "mercy"
+      ],
+      "chapters": [
+        18,
+        19,
+        64
+      ],
+      "summary": "Tariel exchanges messages with Ramaz, defeats and captures him, and later secures his pardon and restores tributary relations.",
+      "sources": [
+        {
+          "chapter": 18,
+          "stanza_start": 420,
+          "stanza_end": 457,
+          "file": "data/chapters/chapter-18.json"
+        },
+        {
+          "chapter": 19,
+          "stanza_start": 468,
+          "stanza_end": 472,
+          "file": "data/chapters/chapter-19.json"
+        },
+        {
+          "chapter": 64,
+          "stanza_start": 1642,
+          "stanza_end": 1648,
+          "file": "data/chapters/chapter-64.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "usen"
+      ],
+      "types": [
+        "indirect_message"
+      ],
+      "chapters": [
+        58
+      ],
+      "summary": "Through the Sea King, Tariel asks Usen to send Fatman to the reunion. This is a directed message, not a recorded face-to-face meeting.",
+      "sources": [
+        {
+          "chapter": 58,
+          "stanza_start": 1431,
+          "stanza_end": 1433,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "surkhavi"
+      ],
+      "types": [
+        "correspondence",
+        "hospitality",
+        "gift"
+      ],
+      "chapters": [
+        58
+      ],
+      "summary": "Tariel invites the Sea King to meet the rescued company, gives him Kadjeti, and accepts his welcome, gifts, and onward ship.",
+      "sources": [
+        {
+          "chapter": 58,
+          "stanza_start": 1428,
+          "stanza_end": 1447,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "eldest_hunting_brother"
+      ],
+      "types": [
+        "attempted_capture",
+        "conflict"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "The brothers collectively try to seize the strange knight; their account describes his response to their presumptuous approach before the youngest receives the head wound.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 204,
+          "stanza_end": 208,
+          "file": "data/chapters/chapter-07.json"
+        },
+        {
+          "chapter": 7,
+          "stanza_start": 209,
+          "stanza_end": 210,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "middle_hunting_brother"
+      ],
+      "types": [
+        "attempted_capture",
+        "conflict"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "The brothers collectively try to seize the strange knight; their account describes his response to their presumptuous approach before the youngest receives the head wound.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 204,
+          "stanza_end": 208,
+          "file": "data/chapters/chapter-07.json"
+        },
+        {
+          "chapter": 7,
+          "stanza_start": 209,
+          "stanza_end": 210,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "youngest_hunting_brother"
+      ],
+      "types": [
+        "conflict",
+        "injury"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "The youngest brother seizes Tariel and orders him to stop; Tariel strikes his head with the whip, leaving him severely wounded.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 206,
+          "stanza_end": 209,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "khatavian_informant"
+      ],
+      "types": [
+        "warning",
+        "encounter"
+      ],
+      "chapters": [
+        18
+      ],
+      "summary": "The Khatavian envoy returns privately, warns Tariel about the ambush, and receives his thanks and promise of repayment.",
+      "sources": [
+        {
+          "chapter": 18,
+          "stanza_start": 432,
+          "stanza_end": 436,
+          "file": "data/chapters/chapter-18.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tariel",
+        "tariel_surgeon"
+      ],
+      "types": [
+        "joint_action"
+      ],
+      "chapters": [
+        27
+      ],
+      "summary": "Tariel’s attendant treats Pridon during Tariel’s first encounter with the wounded knight.",
+      "sources": [
+        {
+          "chapter": 27,
+          "stanza_start": 597,
+          "stanza_end": 600,
+          "file": "data/chapters/chapter-27.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "tinatin"
+      ],
+      "types": [
+        "greeting",
+        "conversation",
+        "affection",
+        "oaths"
+      ],
+      "chapters": [
+        60,
+        61
+      ],
+      "summary": "The two women greet and kiss in Arabia, form a sworn sisterhood, and exchange affectionate words and kisses when parting.",
+      "sources": [
+        {
+          "chapter": 60,
+          "stanza_start": 1540,
+          "stanza_end": 1541,
+          "file": "data/chapters/chapter-60.json"
+        },
+        {
+          "chapter": 61,
+          "stanza_start": 1568,
+          "stanza_end": 1573,
+          "file": "data/chapters/chapter-61.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "asmat"
+      ],
+      "types": [
+        "care",
+        "mediation"
+      ],
+      "chapters": [
+        10,
+        12,
+        58
+      ],
+      "summary": "Asmat serves as Nestan’s companion and messenger, and the two embrace when reunited after the rescue.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 330,
+          "stanza_end": 331,
+          "file": "data/chapters/chapter-10.json"
+        },
+        {
+          "chapter": 12,
+          "stanza_start": 376,
+          "stanza_end": 380,
+          "file": "data/chapters/chapter-12.json"
+        },
+        {
+          "chapter": 58,
+          "stanza_start": 1451,
+          "stanza_end": 1453,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "pridon"
+      ],
+      "types": [
+        "rescue",
+        "encounter",
+        "hospitality"
+      ],
+      "chapters": [
+        57,
+        59
+      ],
+      "summary": "Pridon helps free Nestan; she greets and thanks her rescuers, and he later hosts the wedding festivities.",
+      "sources": [
+        {
+          "chapter": 57,
+          "stanza_start": 1422,
+          "stanza_end": 1423,
+          "file": "data/chapters/chapter-57.json"
+        },
+        {
+          "chapter": 59,
+          "stanza_start": 1463,
+          "stanza_end": 1468,
+          "file": "data/chapters/chapter-59.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "fatman"
+      ],
+      "types": [
+        "care",
+        "correspondence"
+      ],
+      "chapters": [
+        47,
+        58
+      ],
+      "summary": "Fatman shelters Nestan, equips her escape, later exchanges letters with her, and embraces her after the rescue.",
+      "sources": [
+        {
+          "chapter": 47,
+          "stanza_start": 1133,
+          "stanza_end": 1148,
+          "file": "data/chapters/chapter-47.json"
+        },
+        {
+          "chapter": 47,
+          "stanza_start": 1174,
+          "stanza_end": 1201,
+          "file": "data/chapters/chapter-47.json"
+        },
+        {
+          "chapter": 58,
+          "stanza_start": 1435,
+          "stanza_end": 1436,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "rostevan"
+      ],
+      "types": [
+        "greeting",
+        "conversation",
+        "hospitality",
+        "gifts"
+      ],
+      "chapters": [
+        60,
+        61
+      ],
+      "summary": "Rostevan dismounts to greet Nestan, receives her kiss and praises her; he later honors her and Tariel with royal gifts.",
+      "sources": [
+        {
+          "chapter": 60,
+          "stanza_start": 1535,
+          "stanza_end": 1537,
+          "file": "data/chapters/chapter-60.json"
+        },
+        {
+          "chapter": 61,
+          "stanza_start": 1557,
+          "stanza_end": 1558,
+          "file": "data/chapters/chapter-61.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "parsadan"
+      ],
+      "types": [
+        "care",
+        "encounter"
+      ],
+      "chapters": [
+        10,
+        11,
+        23
+      ],
+      "summary": "Parsadan raises Nestan and visits her apartments; he plans her marriage and entrusts her education to Davar.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 325,
+          "stanza_end": 331,
+          "file": "data/chapters/chapter-10.json"
+        },
+        {
+          "chapter": 11,
+          "stanza_start": 342,
+          "stanza_end": 344,
+          "file": "data/chapters/chapter-11.json"
+        },
+        {
+          "chapter": 23,
+          "stanza_start": 507,
+          "stanza_end": 516,
+          "file": "data/chapters/chapter-23.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "queen_india"
+      ],
+      "types": [
+        "care",
+        "encounter"
+      ],
+      "chapters": [
+        10,
+        63,
+        64
+      ],
+      "summary": "Her mother helps raise her and embraces her on her return; the queen seats Nestan and Tariel together on the throne.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 322,
+          "stanza_end": 325,
+          "file": "data/chapters/chapter-10.json"
+        },
+        {
+          "chapter": 63,
+          "stanza_start": 1626,
+          "stanza_end": 1629,
+          "file": "data/chapters/chapter-63.json"
+        },
+        {
+          "chapter": 64,
+          "stanza_start": 1634,
+          "stanza_end": 1638,
+          "file": "data/chapters/chapter-64.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "davari"
+      ],
+      "types": [
+        "care",
+        "conflict",
+        "captivity"
+      ],
+      "chapters": [
+        10,
+        26
+      ],
+      "summary": "Davar educates Nestan, then assaults her and has her carried away after the bridegroom’s death.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 330,
+          "stanza_end": 331,
+          "file": "data/chapters/chapter-10.json"
+        },
+        {
+          "chapter": 26,
+          "stanza_start": 577,
+          "stanza_end": 581,
+          "file": "data/chapters/chapter-26.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "usen"
+      ],
+      "types": [
+        "encounter"
+      ],
+      "chapters": [
+        47
+      ],
+      "summary": "Usen visits Nestan with Fatman and questions and comforts her; he later reveals her presence to the Sea King.",
+      "sources": [
+        {
+          "chapter": 47,
+          "stanza_start": 1153,
+          "stanza_end": 1170,
+          "file": "data/chapters/chapter-47.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "surkhavi"
+      ],
+      "types": [
+        "encounter",
+        "captivity",
+        "gift"
+      ],
+      "chapters": [
+        47,
+        58
+      ],
+      "summary": "The Sea King questions and confines Nestan as a prospective bride for his absent son; later he welcomes and gives gifts to her after the rescue.",
+      "sources": [
+        {
+          "chapter": 47,
+          "stanza_start": 1178,
+          "stanza_end": 1189,
+          "file": "data/chapters/chapter-47.json"
+        },
+        {
+          "chapter": 58,
+          "stanza_start": 1434,
+          "stanza_end": 1439,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "dulardukht"
+      ],
+      "types": [
+        "captivity",
+        "command"
+      ],
+      "chapters": [
+        48
+      ],
+      "summary": "Dulardukht receives the captive Nestan, orders her betrothal to Rosan, and confines her in the fortress.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1238,
+          "stanza_end": 1243,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "roshak"
+      ],
+      "types": [
+        "encounter",
+        "captivity"
+      ],
+      "chapters": [
+        48
+      ],
+      "summary": "Roshak questions the disguised traveler, recognizes that she is a woman, and leads the party that captures her for his ruler.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1227,
+          "stanza_end": 1234,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "fatman_messenger"
+      ],
+      "types": [
+        "correspondence",
+        "encounter"
+      ],
+      "chapters": [
+        49,
+        51
+      ],
+      "summary": "The invisible messenger enters Nestan’s prison, delivers Fatman’s letter, talks with her, and carries her replies and token.",
+      "sources": [
+        {
+          "chapter": 49,
+          "stanza_start": 1275,
+          "stanza_end": 1284,
+          "file": "data/chapters/chapter-49.json"
+        },
+        {
+          "chapter": 51,
+          "stanza_start": 1309,
+          "stanza_end": 1310,
+          "file": "data/chapters/chapter-51.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "nestan",
+        "kadji_informant"
+      ],
+      "types": [
+        "encounter",
+        "captivity"
+      ],
+      "chapters": [
+        48
+      ],
+      "summary": "The informant takes part in Roshak’s raiding party, which questions and captures Nestan before he leaves for Gulansharo.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1224,
+          "stanza_end": 1235,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tinatin",
+        "rostevan"
+      ],
+      "types": [
+        "conversation",
+        "authority",
+        "affection"
+      ],
+      "chapters": [
+        2,
+        4,
+        60
+      ],
+      "summary": "Rostevan crowns and counsels Tinatin; they discuss the mysterious knight, and he later blesses her union with Avtandil.",
+      "sources": [
+        {
+          "chapter": 2,
+          "stanza_start": 45,
+          "stanza_end": 51,
+          "file": "data/chapters/chapter-02.json"
+        },
+        {
+          "chapter": 4,
+          "stanza_start": 102,
+          "stanza_end": 115,
+          "file": "data/chapters/chapter-04.json"
+        },
+        {
+          "chapter": 60,
+          "stanza_start": 1543,
+          "stanza_end": 1545,
+          "file": "data/chapters/chapter-60.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "tinatin",
+        "shermadin"
+      ],
+      "types": [
+        "conversation",
+        "message_delivery",
+        "gifts"
+      ],
+      "chapters": [
+        30
+      ],
+      "summary": "Shermadin tells Tinatin that Avtandil is returning; she rewards him and clothes his company.",
+      "sources": [
+        {
+          "chapter": 30,
+          "stanza_start": 682,
+          "stanza_end": 682,
+          "file": "data/chapters/chapter-30.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "asmat",
+        "pridon"
+      ],
+      "types": [
+        "hospitality",
+        "gift"
+      ],
+      "chapters": [
+        54
+      ],
+      "summary": "Pridon hosts Asmat and gives her a gift when the knights leave her in his land before the rescue.",
+      "sources": [
+        {
+          "chapter": 54,
+          "stanza_start": 1383,
+          "stanza_end": 1389,
+          "file": "data/chapters/chapter-54.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "pridon",
+        "rostevan"
+      ],
+      "types": [
+        "greeting",
+        "hospitality",
+        "gifts"
+      ],
+      "chapters": [
+        60,
+        61
+      ],
+      "summary": "Pridon personally salutes Rostevan on arrival in Arabia, and Rostevan later gives him pearls and richly saddled horses.",
+      "sources": [
+        {
+          "chapter": 60,
+          "stanza_start": 1514,
+          "stanza_end": 1516,
+          "file": "data/chapters/chapter-60.json"
+        },
+        {
+          "chapter": 61,
+          "stanza_start": 1559,
+          "stanza_end": 1559,
+          "file": "data/chapters/chapter-61.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "pridon",
+        "queen_india"
+      ],
+      "types": [
+        "encounter",
+        "gift"
+      ],
+      "chapters": [
+        63,
+        64
+      ],
+      "summary": "Pridon offers condolences to the queen, is introduced as a rescuer, and receives her gifts and gratitude.",
+      "sources": [
+        {
+          "chapter": 63,
+          "stanza_start": 1630,
+          "stanza_end": 1633,
+          "file": "data/chapters/chapter-63.json"
+        },
+        {
+          "chapter": 64,
+          "stanza_start": 1639,
+          "stanza_end": 1646,
+          "file": "data/chapters/chapter-64.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "pridon",
+        "surkhavi"
+      ],
+      "types": [
+        "encounter",
+        "hospitality",
+        "gift"
+      ],
+      "chapters": [
+        58
+      ],
+      "summary": "Pridon greets the Sea King with his sworn brothers and receives his gifts; the king provides their onward ship.",
+      "sources": [
+        {
+          "chapter": 58,
+          "stanza_start": 1434,
+          "stanza_end": 1447,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "pridon",
+        "tariel_surgeon"
+      ],
+      "types": [
+        "care"
+      ],
+      "chapters": [
+        27
+      ],
+      "summary": "Tariel’s surgeon extracts arrowheads and binds Pridon’s injuries.",
+      "sources": [
+        {
+          "chapter": 27,
+          "stanza_start": 597,
+          "stanza_end": 600,
+          "file": "data/chapters/chapter-27.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "fatman",
+        "usen"
+      ],
+      "types": [
+        "encounter",
+        "confidence"
+      ],
+      "chapters": [
+        47,
+        48
+      ],
+      "summary": "Fatman makes Usen swear secrecy, shows him Nestan, and later confronts the consequences of his broken oath.",
+      "sources": [
+        {
+          "chapter": 47,
+          "stanza_start": 1150,
+          "stanza_end": 1170,
+          "file": "data/chapters/chapter-47.json"
+        },
+        {
+          "chapter": 48,
+          "stanza_start": 1214,
+          "stanza_end": 1215,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "fatman",
+        "chashnagiri"
+      ],
+      "types": [
+        "encounter",
+        "conflict"
+      ],
+      "chapters": [
+        46,
+        47
+      ],
+      "summary": "Fatman and the Chashnagir are lovers; he threatens to expose her part in Nestan’s escape after finding Avtandil with her.",
+      "sources": [
+        {
+          "chapter": 46,
+          "stanza_start": 1099,
+          "stanza_end": 1108,
+          "file": "data/chapters/chapter-46.json"
+        },
+        {
+          "chapter": 47,
+          "stanza_start": 1204,
+          "stanza_end": 1209,
+          "file": "data/chapters/chapter-47.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "fatman",
+        "surkhavi"
+      ],
+      "types": [
+        "indirect_message",
+        "encounter"
+      ],
+      "chapters": [
+        47,
+        58
+      ],
+      "summary": "The Sea King orders Fatman to surrender Nestan through his attendants; later he takes Fatman with him to the reunion.",
+      "sources": [
+        {
+          "chapter": 47,
+          "stanza_start": 1171,
+          "stanza_end": 1178,
+          "file": "data/chapters/chapter-47.json"
+        },
+        {
+          "chapter": 58,
+          "stanza_start": 1431,
+          "stanza_end": 1436,
+          "file": "data/chapters/chapter-58.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "fatman",
+        "usen_gardener"
+      ],
+      "types": [
+        "encounter",
+        "message"
+      ],
+      "chapters": [
+        43
+      ],
+      "summary": "The gardener runs to Fatman and describes the newly arrived traveler, prompting her welcome.",
+      "sources": [
+        {
+          "chapter": 43,
+          "stanza_start": 1071,
+          "stanza_end": 1074,
+          "file": "data/chapters/chapter-43.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "fatman",
+        "fatman_messenger"
+      ],
+      "types": [
+        "command",
+        "message"
+      ],
+      "chapters": [
+        48,
+        49
+      ],
+      "summary": "Fatman sends the invisible messenger to Kadjeti for information and later entrusts him with a letter to Nestan.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1238,
+          "stanza_end": 1239,
+          "file": "data/chapters/chapter-48.json"
+        },
+        {
+          "chapter": 48,
+          "stanza_start": 1267,
+          "stanza_end": 1269,
+          "file": "data/chapters/chapter-48.json"
+        },
+        {
+          "chapter": 49,
+          "stanza_start": 1275,
+          "stanza_end": 1278,
+          "file": "data/chapters/chapter-49.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "fatman",
+        "kadji_informant"
+      ],
+      "types": [
+        "encounter",
+        "information"
+      ],
+      "chapters": [
+        48
+      ],
+      "summary": "After overhearing the informant’s account, Fatman seats him before her and asks him to repeat the story of Nestan’s capture.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1235,
+          "stanza_end": 1237,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "rostevan",
+        "shermadin"
+      ],
+      "types": [
+        "conversation",
+        "service",
+        "message_delivery"
+      ],
+      "chapters": [
+        30,
+        35
+      ],
+      "summary": "Shermadin personally announces Avtandil’s first return to Rostevan and later presents his testament after the secret second departure.",
+      "sources": [
+        {
+          "chapter": 30,
+          "stanza_start": 681,
+          "stanza_end": 681,
+          "file": "data/chapters/chapter-30.json"
+        },
+        {
+          "chapter": 35,
+          "stanza_start": 827,
+          "stanza_end": 829,
+          "file": "data/chapters/chapter-35.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "rostevan",
+        "sograt"
+      ],
+      "types": [
+        "conversation",
+        "counsel",
+        "authority"
+      ],
+      "chapters": [
+        2,
+        31,
+        35
+      ],
+      "summary": "The vizier jokes with Rostevan, conveys Avtandil’s request for leave, and later reports his secret departure; the king’s responses range from amusement to anger.",
+      "sources": [
+        {
+          "chapter": 2,
+          "stanza_start": 57,
+          "stanza_end": 61,
+          "file": "data/chapters/chapter-02.json"
+        },
+        {
+          "chapter": 31,
+          "stanza_start": 752,
+          "stanza_end": 761,
+          "file": "data/chapters/chapter-31.json"
+        },
+        {
+          "chapter": 35,
+          "stanza_start": 813,
+          "stanza_end": 820,
+          "file": "data/chapters/chapter-35.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "parsadan",
+        "queen_india"
+      ],
+      "types": [
+        "joint_action",
+        "care"
+      ],
+      "chapters": [
+        10,
+        23
+      ],
+      "summary": "The king and queen jointly raise Tariel and Nestan and jointly consult Tariel about Nestan’s marriage.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 318,
+          "stanza_end": 338,
+          "file": "data/chapters/chapter-10.json"
+        },
+        {
+          "chapter": 23,
+          "stanza_start": 507,
+          "stanza_end": 516,
+          "file": "data/chapters/chapter-23.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "parsadan",
+        "saridan"
+      ],
+      "types": [
+        "correspondence",
+        "joint_action"
+      ],
+      "chapters": [
+        10
+      ],
+      "summary": "The two rulers exchange messages, meet, and establish Saridan as Amirbar; they campaign and hunt together.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 314,
+          "stanza_end": 317,
+          "file": "data/chapters/chapter-10.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "parsadan",
+        "davari"
+      ],
+      "types": [
+        "command"
+      ],
+      "chapters": [
+        10,
+        26
+      ],
+      "summary": "Parsadan entrusts Nestan’s education to Davar. His later threat against Davar reaches her through another person.",
+      "sources": [
+        {
+          "chapter": 10,
+          "stanza_start": 330,
+          "stanza_end": 331,
+          "file": "data/chapters/chapter-10.json"
+        },
+        {
+          "chapter": 26,
+          "stanza_start": 574,
+          "stanza_end": 576,
+          "file": "data/chapters/chapter-26.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "parsadan",
+        "khvarazmsha"
+      ],
+      "types": [
+        "indirect_message",
+        "hospitality"
+      ],
+      "chapters": [
+        23,
+        25
+      ],
+      "summary": "Parsadan sends for the prince and orders his reception and encampment as the intended bridegroom.",
+      "sources": [
+        {
+          "chapter": 23,
+          "stanza_start": 514,
+          "stanza_end": 516,
+          "file": "data/chapters/chapter-23.json"
+        },
+        {
+          "chapter": 25,
+          "stanza_start": 548,
+          "stanza_end": 552,
+          "file": "data/chapters/chapter-25.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "parsadan",
+        "khvarazmshah"
+      ],
+      "types": [
+        "correspondence"
+      ],
+      "chapters": [
+        23
+      ],
+      "summary": "The two courts exchange a marriage proposal and acceptance through messengers.",
+      "sources": [
+        {
+          "chapter": 23,
+          "stanza_start": 511,
+          "stanza_end": 516,
+          "file": "data/chapters/chapter-23.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "parsadan",
+        "ramaz"
+      ],
+      "types": [
+        "encounter",
+        "mercy"
+      ],
+      "chapters": [
+        19
+      ],
+      "summary": "Parsadan receives the captured Ramaz, converses with him, pardons him, and dismisses him under tribute.",
+      "sources": [
+        {
+          "chapter": 19,
+          "stanza_start": 468,
+          "stanza_end": 472,
+          "file": "data/chapters/chapter-19.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "queen_india",
+        "khvarazmshah"
+      ],
+      "types": [
+        "correspondence"
+      ],
+      "chapters": [
+        23
+      ],
+      "summary": "The queen joins Parsadan in selecting the Khwarazmian prince and sending the marriage proposal to his father.",
+      "sources": [
+        {
+          "chapter": 23,
+          "stanza_start": 507,
+          "stanza_end": 516,
+          "file": "data/chapters/chapter-23.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "queen_india",
+        "ramaz"
+      ],
+      "types": [
+        "mercy",
+        "encounter"
+      ],
+      "chapters": [
+        64
+      ],
+      "summary": "At Tariel’s request the queen pardons Ramaz and has him brought before the rulers.",
+      "sources": [
+        {
+          "chapter": 64,
+          "stanza_start": 1642,
+          "stanza_end": 1648,
+          "file": "data/chapters/chapter-64.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "saridan",
+        "khatavian_informant"
+      ],
+      "types": [
+        "care"
+      ],
+      "chapters": [
+        18
+      ],
+      "summary": "The informant explicitly says Saridan helped raise him; this past care motivates his warning to Tariel.",
+      "sources": [
+        {
+          "chapter": 18,
+          "stanza_start": 432,
+          "stanza_end": 433,
+          "file": "data/chapters/chapter-18.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "ramaz",
+        "khatavian_informant"
+      ],
+      "types": [
+        "indirect_message"
+      ],
+      "chapters": [
+        18
+      ],
+      "summary": "The informant is one of the embassy carrying Ramaz’s messages and gifts to Tariel before privately revealing the plot.",
+      "sources": [
+        {
+          "chapter": 18,
+          "stanza_start": 430,
+          "stanza_end": 436,
+          "file": "data/chapters/chapter-18.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "usen",
+        "surkhavi"
+      ],
+      "types": [
+        "encounter",
+        "gift"
+      ],
+      "chapters": [
+        47
+      ],
+      "summary": "Usen attends the king’s feast, gives him jewels, reveals Nestan’s presence, and receives gifts in return.",
+      "sources": [
+        {
+          "chapter": 47,
+          "stanza_start": 1163,
+          "stanza_end": 1170,
+          "file": "data/chapters/chapter-47.json"
+        },
+        {
+          "chapter": 47,
+          "stanza_start": 1189,
+          "stanza_end": 1189,
+          "file": "data/chapters/chapter-47.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "dulardukht",
+        "rosan"
+      ],
+      "types": [
+        "care",
+        "command"
+      ],
+      "chapters": [
+        48
+      ],
+      "summary": "Dulardukht raises her nephew Rosan and orders that Nestan be kept as his future bride.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1220,
+          "stanza_end": 1221,
+          "file": "data/chapters/chapter-48.json"
+        },
+        {
+          "chapter": 48,
+          "stanza_start": 1239,
+          "stanza_end": 1240,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "dulardukht",
+        "rodia"
+      ],
+      "types": [
+        "care"
+      ],
+      "chapters": [
+        48
+      ],
+      "summary": "The account explicitly says Dulardukht raises Rodia and Rosan after their father’s death.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1220,
+          "stanza_end": 1221,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "dulardukht",
+        "roshak"
+      ],
+      "types": [
+        "gift",
+        "command"
+      ],
+      "chapters": [
+        48
+      ],
+      "summary": "Roshak leads the raiders who decide to deliver Nestan as a gift to their ruler; the subsequent report confirms she has been brought to Dulardukht.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1232,
+          "stanza_end": 1240,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "roshak",
+        "kadji_informant"
+      ],
+      "types": [
+        "command",
+        "encounter"
+      ],
+      "chapters": [
+        48
+      ],
+      "summary": "Roshak chooses and commands the raiding party; the informant asks his leave to go to Gulansharo and is released.",
+      "sources": [
+        {
+          "chapter": 48,
+          "stanza_start": 1223,
+          "stanza_end": 1224,
+          "file": "data/chapters/chapter-48.json"
+        },
+        {
+          "chapter": 48,
+          "stanza_start": 1232,
+          "stanza_end": 1235,
+          "file": "data/chapters/chapter-48.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "eldest_hunting_brother",
+        "middle_hunting_brother"
+      ],
+      "types": [
+        "joint_action",
+        "conversation"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "They hunt and compete together, agree on the youngest brother’s challenge, and together bring the wounded youth away.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 197,
+          "stanza_end": 203,
+          "file": "data/chapters/chapter-07.json"
+        },
+        {
+          "chapter": 7,
+          "stanza_start": 206,
+          "stanza_end": 213,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "eldest_hunting_brother",
+        "youngest_hunting_brother"
+      ],
+      "types": [
+        "joint_action",
+        "care"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "The brothers hunt and compete together; the older brother permits the youngest to challenge Tariel and subsequently helps bring him away wounded.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 197,
+          "stanza_end": 203,
+          "file": "data/chapters/chapter-07.json"
+        },
+        {
+          "chapter": 7,
+          "stanza_start": 206,
+          "stanza_end": 213,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    },
+    {
+      "characters": [
+        "middle_hunting_brother",
+        "youngest_hunting_brother"
+      ],
+      "types": [
+        "joint_action",
+        "care"
+      ],
+      "chapters": [
+        7
+      ],
+      "summary": "The brothers hunt and compete together; the older brother permits the youngest to challenge Tariel and subsequently helps bring him away wounded.",
+      "sources": [
+        {
+          "chapter": 7,
+          "stanza_start": 197,
+          "stanza_end": 203,
+          "file": "data/chapters/chapter-07.json"
+        },
+        {
+          "chapter": 7,
+          "stanza_start": 206,
+          "stanza_end": 213,
+          "file": "data/chapters/chapter-07.json"
+        }
+      ]
+    }
+  ],
+  "audit_notes": [
+    {
+      "scope": [
+        "rostevan",
+        "tinatin",
+        "avtandil",
+        "shermadin",
+        "sograt",
+        "rustaveli",
+        "eldest_hunting_brother",
+        "middle_hunting_brother",
+        "youngest_hunting_brother"
+      ],
+      "method": "Edges require depicted contact, joint action, directed assistance, explicit hospitality, or actual correspondence/commission. Source spans are representative checked examples, not an exhaustive chapter index. Local Georgian record locators govern where attached English differs.",
+      "identification_notes": [
+        "Sograt is explicitly named in chapter 2; the later vizier in 31/35 is treated as Sograt on the previously established lexical and scholarly identification. Ustasra is a title, not another character.",
+        "The three hunting brothers have separate IDs but no supplied personal names. Their shared actions support sibling interaction edges; kinship alone is not the reason.",
+        "The youngest brother is unconscious or nearly lifeless when Avtandil encounters him. Their edge records concern and directed assistance, not a conversation.",
+        "Fatman’s messenger has no direct depicted dialogue with Avtandil, but their joint commission and correspondence are explicit and count under the requested rule.",
+        "Named intermediary messages are included; mere discussion of a third person is not.",
+        "Minor pairs with only one depicted contact retain one source episode rather than inventing a second."
+      ],
+      "excluded_or_uncertain": [
+        {
+          "characters": [
+            "rustaveli",
+            "all_story_characters"
+          ],
+          "status": "excluded",
+          "reason": "Narration, praise, and rhetorical address do not establish fictional-world encounters. No story-character contact edges are assigned to Rustaveli."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "parsadan"
+          ],
+          "status": "excluded",
+          "reason": "Parsadan is dead before Avtandil’s arrival in India. Hearing Tariel’s account is not an encounter."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "saridan"
+          ],
+          "status": "excluded",
+          "reason": "Only a person in Tariel’s retrospective history; no encounter with Avtandil is depicted."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "davari"
+          ],
+          "status": "excluded",
+          "reason": "Her actions and death occur in Tariel’s backstory; no encounter with Avtandil is depicted."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "ramaz"
+          ],
+          "status": "uncertain_not_added",
+          "reason": "The late armed approach includes Avtandil, but Ramaz’s message, surrender, and pardon are directed to Tariel. No distinct Avtandil–Ramaz exchange was verified."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "khatavian_informant"
+          ],
+          "status": "not_added",
+          "reason": "The informant’s direct episode belongs to Tariel’s history; no Avtandil contact was verified. Do not infer it from the travelling party."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "tariel_surgeon"
+          ],
+          "status": "excluded",
+          "reason": "The surgeon belongs to Tariel’s recalled illness; no encounter or correspondence with Avtandil is depicted."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "kadji_informant"
+          ],
+          "status": "excluded",
+          "reason": "Avtandil hears the reported history; he does not thereby encounter its informant."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "sea_kings_son"
+          ],
+          "status": "excluded",
+          "reason": "The prince appears within the reported history of Nestan’s intended marriage, not in a verified encounter with Avtandil."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "dulardukht"
+          ],
+          "status": "excluded",
+          "reason": "Her actions are reported in the history of Nestan’s capture; no verified personal encounter or correspondence with Avtandil."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "rosan"
+          ],
+          "status": "excluded",
+          "reason": "A proposed marriage and reported third-party history do not establish contact."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "rodia"
+          ],
+          "status": "excluded",
+          "reason": "Reported captor-family history does not establish contact."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "roshak"
+          ],
+          "status": "excluded",
+          "reason": "Reported history does not establish contact."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "khvarazmsha"
+          ],
+          "status": "excluded",
+          "reason": "The killed bridegroom belongs to Tariel’s history before Avtandil’s involvement."
+        },
+        {
+          "characters": [
+            "avtandil",
+            "khvarazmshah"
+          ],
+          "status": "excluded",
+          "reason": "A proposed marriage involving the ruler’s son does not establish contact with Avtandil."
+        },
+        {
+          "characters": [
+            "tinatin",
+            "pridon"
+          ],
+          "status": "uncertain_not_added",
+          "reason": "They are present in the Arabian wedding sequence, but no distinct mutual greeting, speech, or explicit Tinatin-hosting-Pridon action was verified. Shared celebration alone was not converted into an edge."
+        },
+        {
+          "characters": [
+            "tinatin",
+            "sograt"
+          ],
+          "status": "uncertain_not_added",
+          "reason": "Sograt attends the coronation and speaks about Tinatin’s generosity to Rostevan. He is not clearly depicted speaking to or acting jointly with Tinatin; the throne-placement plural at 44 is not individualized securely."
+        },
+        {
+          "characters": [
+            "shermadin",
+            "sograt"
+          ],
+          "status": "not_added",
+          "reason": "They serve the same court and occur in the departure sequence, but no mutual contact was verified."
+        },
+        {
+          "characters": [
+            "shermadin",
+            "tariel"
+          ],
+          "status": "not_added",
+          "reason": "No verified personal encounter or explicit correspondence. Shermadin’s named primary-text occurrences end in chapter 35."
+        },
+        {
+          "characters": [
+            "shermadin",
+            "nestan"
+          ],
+          "status": "not_added",
+          "reason": "No verified personal encounter or explicit correspondence."
+        },
+        {
+          "characters": [
+            "shermadin",
+            "pridon"
+          ],
+          "status": "not_added",
+          "reason": "No verified personal encounter or explicit correspondence."
+        }
+      ]
+    },
+    {
+      "scope": "Non-Arabia pairs, excluding all Avtandil pairs and Arabian-court/hunting pairs handled by the other audit.",
+      "reference_system": "project_record_locator; citations checked against Georgian text where translation rows are displaced.",
+      "inclusion": "Directed messages and commands count even when mediated; narrative actions involving care, custody, joint service, or explicit hospitality count. Genealogy, job titles, shared court presence, passing mentions, and unfulfilled marriages alone do not.",
+      "empty_or_unverified_profiles": {
+        "sea_kings_son": "Away at war throughout this account; no recorded encounter, message, or shared action with any of the carded people. Surkhavi prepares a bride in his absence; Nestan escapes first.",
+        "khvarazmshah": "Has correspondence with Parsadan and the Indian queen. His fatherhood of the prince alone does not establish a narrated interaction with that son.",
+        "rosan": "Upbringing by Dulardukht is explicit; no narrated encounter with Nestan, Tariel or the rescue party.",
+        "rodia": "Upbringing by Dulardukht is explicit; no narrated shared action with Rosan beyond both being raised. No Nestan or rescue-party encounter."
+      },
+      "excluded_pairs": [
+        {
+          "characters": [
+            "nestan",
+            "khvarazmsha"
+          ],
+          "reason": "Proposed marriage; no actual meeting or exchange is narrated before Tariel kills the prince."
+        },
+        {
+          "characters": [
+            "nestan",
+            "sea_kings_son"
+          ],
+          "reason": "Proposed marriage in the son’s absence; she escapes before his return."
+        },
+        {
+          "characters": [
+            "nestan",
+            "rosan"
+          ],
+          "reason": "Betrothal ordered by Dulardukht, without a narrated meeting or exchange."
+        },
+        {
+          "characters": [
+            "tariel",
+            "dulardukht"
+          ],
+          "reason": "Dulardukht is away at the time of the rescue; no personal battle with Tariel."
+        },
+        {
+          "characters": [
+            "chashnagiri",
+            "surkhavi"
+          ],
+          "reason": "Court-favorite status and threatened denunciation do not show an actual encounter or message within the poem."
+        },
+        {
+          "characters": [
+            "usen_gardener",
+            "usen"
+          ],
+          "reason": "Employment is identified, but Usen is absent in the gardener’s scene; no recorded encounter, command or exchange between them."
+        },
+        {
+          "characters": [
+            "asmat",
+            "davari"
+          ],
+          "reason": "Asmat reports/witnesses Davar’s assault on Nestan; no distinct action or exchange between Asmat and Davar is securely identified."
+        },
+        {
+          "characters": [
+            "fatman",
+            "pridon"
+          ],
+          "reason": "Both attend the reunion, but no distinct exchange between them is narrated."
+        },
+        {
+          "characters": [
+            "rustaveli",
+            "tariel"
+          ],
+          "reason": "Narrator relationship is not a fictional-world encounter."
+        },
+        {
+          "characters": [
+            "rustaveli",
+            "avtandil"
+          ],
+          "reason": "Narrator relationship is not a fictional-world encounter."
+        }
+      ],
+      "edge_limits": [
+        {
+          "characters": [
+            "tariel",
+            "tariel_surgeon"
+          ],
+          "reason": "Depicted joint action rather than quoted dialogue: Tariel brings the injured Pridon and his attendant treats him."
+        },
+        {
+          "characters": [
+            "tariel",
+            "usen"
+          ],
+          "reason": "One-way directed request through the Sea King, chapter58:1431; no claim of a face-to-face meeting."
+        },
+        {
+          "characters": [
+            "ramaz",
+            "khatavian_informant"
+          ],
+          "reason": "The named profile represents one of Ramaz’s envoys; a mediated embassy connection rather than a quoted face-to-face exchange."
+        },
+        {
+          "characters": [
+            "pridon",
+            "ramaz"
+          ],
+          "reason": "Joint campaign; not a personal duel. Chapter63 Georgian text is the source."
+        }
+      ]
+    },
+    {
+      "excluded_pairs": [
+        {
+          "characters": [
+            "pridon",
+            "ramaz"
+          ],
+          "reason": "Like Avtandil, Pridon accompanies the armed approach, but Ramaz surrenders before combat and addresses Tariel. A shared campaign without a depicted exchange is not counted."
+        }
+      ]
+    }
+  ]
+}

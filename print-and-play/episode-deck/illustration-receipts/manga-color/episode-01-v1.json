@@ -1,0 +1,24 @@
+{
+  "episode_number": 1,
+  "asset": "assets/episodes/episode-01-manga-color-v1.png",
+  "prompt": "Use case: style-transfer. Input1 is the APPROVED manga Episode01 illustration and is the EDIT TARGET. Add restrained full manga COLOR while keeping its exact new composition, perspective, mature poet's identity and expression, foreshortened quill hand, blank open book, candle, stone room, window, night mountains, poses and objects unchanged. The user likes this new manga drawing and wants it a bit more colorful.\nKeep bold black ink contours, clear black shadow shapes, stylized2D faces, simple folds and sparse screentones. Use flat clean color plus two-tone cel-shaded shadows, NOT painted/photorealistic modeling. Warm natural skin and candlelit amber highlights, dark umber hair with grey temples, deep petrol-teal cloak, cream tunic and book paper, warm brown desk, cool slate stone and muted indigo night sky. Moderate, cohesive saturation; keep linework legible and dramatic. No new brocade or ornamental patterns. Medieval Georgian/Eastern clothing. Exactly one poet.\nSame landscape16:10 canvas, ideally1586x992, fullimagevisible. Bookpagesremaincompletelyblank. NO TEXT, LETTERS, NUMBERS, SPEECH BUBBLES, SOUND-EFFECT LETTERING, CAPTIONS, BANNERS, SCROLLS OR WATERMARKS.",
+  "references": [
+    "assets/episodes/episode-01-manga-v2.png"
+  ],
+  "tool": "built-in image_gen.imagegen",
+  "mode": "built-in edit; restrained colour added to approved manga composition",
+  "sha256": "3fbd893e60d40ae7f6f85f01da595d0e9d79d843867f8319f5a8159170ec50ed",
+  "native_pixels": [
+    1586,
+    992
+  ],
+  "image_mode": "RGB",
+  "processing": "Native PNG copied unchanged; no resampling",
+  "visual_review": {
+    "status": "passed",
+    "composition_preserved": true,
+    "no_lettering": true,
+    "manga_ink_and_cel_shading": true,
+    "moderate_jewel_colours": true
+  }
+}

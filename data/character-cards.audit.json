@@ -1,0 +1,1039 @@
+{
+  "status": "scope_and_source_review",
+  "profile_count": 35,
+  "included_profile_ids": [
+    "avtandil",
+    "tariel",
+    "nestan",
+    "tinatin",
+    "asmat",
+    "pridon",
+    "fatman",
+    "rostevan",
+    "shermadin",
+    "sograt",
+    "parsadan",
+    "queen_india",
+    "saridan",
+    "davari",
+    "khvarazmsha",
+    "khvarazmshah",
+    "ramaz",
+    "usen",
+    "usam",
+    "chashnagiri",
+    "surkhavi",
+    "dulardukht",
+    "rosan",
+    "rodia",
+    "roshak",
+    "eldest_hunting_brother",
+    "middle_hunting_brother",
+    "youngest_hunting_brother",
+    "khatavian_informant",
+    "tariel_surgeon",
+    "usen_gardener",
+    "fatman_messenger",
+    "kadji_informant",
+    "sea_kings_son",
+    "rustaveli"
+  ],
+  "candidate_notes": "Entries can overlap across regional reviews. A listed candidate is not automatically a separate card: some are already profiled, some are groups, and Ustasra is rejected as a duplicate title.",
+  "candidates": [
+    {
+      "region_review": "arabia",
+      "name": "Tamar",
+      "description": "The ruler praised by the prologue’s poetic voice, explicitly named in chapter 1, stanzas 3–4.",
+      "chapters": [
+        1
+      ],
+      "reason": "Framing figure only. She belongs to the dedication and praise surrounding the fictional story, not to the Arabian or Indian adventure.",
+      "source_text_excerpt_optional": "მეფისა მზის თამარისა",
+      "status": "framing_or_literary_reference"
+    },
+    {
+      "region_review": "arabia",
+      "name": "David of the epilogue",
+      "description": "David is praised in the closing verses at 1666–1667. The Georgian text and the local English explanatory gloss do not frame these lines identically.",
+      "chapters": [
+        65
+      ],
+      "reason": "Framing figure only. Retain the name as written; a precise historical identification requires editorial sourcing beyond the English gloss.",
+      "source_text_excerpt_optional": "ქართველთა ღმრთისა დავითის",
+      "status": "framing_or_literary_reference"
+    },
+    {
+      "region_review": "arabia",
+      "name": "The Meskhian poet of the epilogue",
+      "description": "The closing voice describes itself at 1665 as a Meskhian poet connected with Rustaveli.",
+      "chapters": [
+        65
+      ],
+      "reason": "Authorial or scribal framing voice. Do not automatically turn this into a separate story character or treat it as a secure physical or biographical description of the historical Rustaveli.",
+      "source_text_excerpt_optional": "ვსწერ ვინმე მესხი მელექსე მე რუსთველისად ამისა.",
+      "status": "framing_or_literary_reference"
+    },
+    {
+      "region_review": "arabia",
+      "name": "The prologue speaker’s unnamed beloved",
+      "description": "The poetic voice refers to a beloved, for example in stanzas 8–10 and 18–19.",
+      "chapters": [
+        1
+      ],
+      "reason": "A framing addressee or poetic figure. Do not automatically identify this figure with Tamar, or create a biographical woman from the lyric language.",
+      "status": "framing_or_literary_reference"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Mose Khoneli",
+      "description": "Named at 1669 as the poet who praised Amiran, son of Darejan.",
+      "chapters": [
+        65
+      ],
+      "reason": "A historical or literary name in the epilogue’s catalogue, not an acting participant in the heroes’ story.",
+      "status": "framing_or_literary_reference"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Shavteli",
+      "description": "Named at 1669 in connection with Abdul-Mesia.",
+      "chapters": [
+        65
+      ],
+      "reason": "A historical or literary name in the epilogue’s catalogue, not an acting participant in the heroes’ story.",
+      "status": "framing_or_literary_reference"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Sargis Tmogveli",
+      "description": "Named at 1669 in connection with Dilargeth.",
+      "chapters": [
+        65
+      ],
+      "reason": "A historical or literary name in the epilogue’s catalogue, not an acting participant in the heroes’ story.",
+      "status": "framing_or_literary_reference"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Amiran, Abdul-Mesia, and Dilargeth",
+      "description": "Names of figures or works associated with other poets in the literary catalogue at 1669.",
+      "chapters": [
+        65
+      ],
+      "reason": "References to other literary traditions rather than additional participants in this story; do not create story-cast cards from the catalogue alone.",
+      "status": "framing_or_literary_reference"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Tinatin’s trusted tutor or guardian of her treasure",
+      "description": "The unnamed trusted attendant at stanza 52 has custody of Tinatin’s sealed childhood treasure and brings it for distribution.",
+      "chapters": [
+        2
+      ],
+      "reason": "An individuated unnamed person performing a specific action. A possible minor card if exhaustive coverage includes briefly appearing attendants.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "arabia",
+      "name": "The Master of the Horse",
+      "description": "At stanza 54 Tinatin orders this unnamed official to bring droves of animals for distribution.",
+      "chapters": [
+        2
+      ],
+      "reason": "An individuated office-holder with a specific action, though the appearance is brief. No basis to merge this person with her tutor or another court attendant.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "arabia",
+      "name": "The first messenger to the stranger",
+      "description": "The unnamed enslaved attendant sent to address the weeping knight in chapter 4, stanzas 86–90, returns without gaining his attention.",
+      "chapters": [
+        4
+      ],
+      "reason": "An individuated unnamed participant. Distinguish this messenger from the collective twelve armed attendants unless the edition explicitly identifies him with one of them.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Rostevan’s chamberlain or chamberlains",
+      "description": "An unnamed court attendant reports Rostevan’s state to Tinatin in chapter 4, stanzas 102–105; a chamberlain also carries Avtandil’s message in chapter 5.",
+      "chapters": [
+        4,
+        5
+      ],
+      "reason": "Individuated service roles. The shared office does not prove that all occurrences refer to the same person.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Tinatin’s enslaved messenger",
+      "description": "The messenger who summons Avtandil from his chamber at Georgian stanza 120; the verse describes him as a Black or African enslaved man.",
+      "chapters": [
+        5
+      ],
+      "reason": "An individuated unnamed person with a dialogue line. If included, preserve his actual role without inventing a name, biography, or facial features.",
+      "source_text_excerpt_optional": "თინათინის მონა ზანგი",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Avtandil’s unnamed father",
+      "description": "Avtandil is introduced at stanza 40 as the son of a commander-in-chief.",
+      "chapters": [
+        2
+      ],
+      "reason": "A genealogical reference to an individual, with no checked scene of his own. Flag for scope review rather than automatically treating him as an active story character.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "arabia",
+      "name": "The eldest hunting brother",
+      "description": "One of the three brothers from the Khataeti region encountered during Avtandil’s search; he asks to claim the strange knight and narrates the encounter.",
+      "chapters": [
+        7
+      ],
+      "reason": "An individuated unnamed participant in stanzas 197–213. Potential overlap with the wilderness audit; the brothers should not be merged into Tariel’s allies.",
+      "status": "profiled",
+      "profile_id": "eldest_hunting_brother"
+    },
+    {
+      "region_review": "arabia",
+      "name": "The middle hunting brother",
+      "description": "One of the three hunting brothers; he asks to have the stranger’s horse.",
+      "chapters": [
+        7
+      ],
+      "reason": "Individuated by kinship order and a distinct request in the brothers’ account. Potential overlap with the wilderness audit.",
+      "status": "profiled",
+      "profile_id": "middle_hunting_brother"
+    },
+    {
+      "region_review": "arabia",
+      "name": "The youngest hunting brother",
+      "description": "The beardless brother attempts to stop Tariel and receives a severe head wound from his whip; his brothers carry him.",
+      "chapters": [
+        7
+      ],
+      "reason": "An individuated unnamed participant with a distinct action and physical consequence. Potential overlap with the wilderness audit.",
+      "status": "profiled",
+      "profile_id": "youngest_hunting_brother"
+    },
+    {
+      "region_review": "arabia",
+      "name": "The Arabian court’s unnamed messengers in the departure episode",
+      "description": "Servants are individually sent to summon the vizier and report on the absent Avtandil in chapter 35, around stanzas 817–819.",
+      "chapters": [
+        35
+      ],
+      "reason": "Briefly individuated functionaries. Their separate summons do not establish stable identities or justify merging them with earlier chamberlains.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "arabia",
+      "name": "Ustasra",
+      "description": "The English attached to stanza 737 capitalizes this as 'Vizier Ustasra'; the Georgian reads უსტასრასა.",
+      "chapters": [
+        31
+      ],
+      "reason": "Rejected as a separate personal-name candidate. NPLG’s poem lexicon identifies უსტასრა as the office or title of palace chief/major vizier, and scholarship identifies the later vizier’s speech with Sograt.",
+      "status": "rejected_duplicate_title",
+      "profile_id": "sograt"
+    },
+    {
+      "region_review": "india",
+      "name": "Queen of India",
+      "description": "Nestan’s unnamed mother and Parsadan’s wife; she helps choose the bridegroom, welcomes the returning couple, enthrones them, distributes gifts, and pardons Ramaz.",
+      "chapters": [
+        10,
+        11,
+        19,
+        23,
+        63,
+        64
+      ],
+      "reason": "Individually active recurring character. Full additional profile supplied in data/character-cards.json as queen_india.",
+      "source_text_excerpt_optional": "დედოფალმან მათ ცოლ-ქმართა თვითო ხელი დაუჭირა (64:1634)",
+      "status": "profiled",
+      "profile_id": "queen_india"
+    },
+    {
+      "region_review": "india",
+      "name": "King of Khwarazm / Khvarazmshah",
+      "description": "The father of the visiting prince; he welcomes the proposal brought from the Indian court.",
+      "chapters": [
+        23
+      ],
+      "reason": "Distinct from the existing project character khvarazmsha, who is the son. Full additional profile supplied as khvarazmshah; the designation is a title, not a verified personal name.",
+      "source_text_excerpt_optional": "მეფემან ბრძანა: “ხვარაზმშა, ხელმწიფე ხვარაზმელია, / თუ მოგვცემს შვილსა სასიძოდ, მისებრივ არ რომელია”. (23:511)",
+      "status": "profiled",
+      "profile_id": "khvarazmshah"
+    },
+    {
+      "region_review": "india",
+      "name": "Unnamed Khatavian informant",
+      "description": "One man returns secretly from the envoys and warns Tariel of the planned ambush; he says Saridan had partly raised him.",
+      "chapters": [
+        18
+      ],
+      "reason": "Distinct individual with a decisive action at Georgian stanzas 432–436. The checked text does not establish a personal name or noble rank.",
+      "source_text_excerpt_optional": "მე მამისა თქვენისაგან ვარ ცოტაი განაზარდი. (18:433)",
+      "status": "profiled",
+      "profile_id": "khatavian_informant"
+    },
+    {
+      "region_review": "india",
+      "name": "Tariel’s surgeon-retainer",
+      "description": "An unnamed servant removes arrowheads and binds Pridon’s wounds when Tariel first meets him.",
+      "chapters": [
+        27
+      ],
+      "reason": "An individually specified specialist at Georgian stanza 598; do not invent a name or identify him with another servant.",
+      "source_text_excerpt_optional": "ერთი მონა დასტაქარი მყვა და წყლულნი შეუხვივნა (27:598)",
+      "status": "profiled",
+      "profile_id": "tariel_surgeon"
+    },
+    {
+      "region_review": "india",
+      "name": "Pridon’s uncle",
+      "description": "Pridon’s paternal uncle receives part of the grandfather’s divided territory; his sons fight Pridon over an island.",
+      "chapters": [
+        27
+      ],
+      "reason": "Individuated family relationship at Georgian stanza 601. He is not necessarily present at the ambush, and no name is given.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Pridon’s two cousins",
+      "description": "The unnamed sons of Pridon’s paternal uncle ambush him; Pridon and Tariel later defeat them.",
+      "chapters": [
+        27,
+        28
+      ],
+      "reason": "Individuated antagonistic pair, not two separately named figures. Do not manufacture different names or personal histories.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Davar’s two abductors",
+      "description": "Two unnamed servants put Nestan in a chest and carry her toward the sea at Davar’s command.",
+      "chapters": [
+        26
+      ],
+      "reason": "Distinct pair with a central action at Georgian stanzas 580–582; later Nestan testimony overlaps the Gulansharo region audit.",
+      "source_text_excerpt_optional": "წამოდგეს ორნი მონანი, პირითა მით ქაჯებითა (26:580)",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Davar’s informant",
+      "description": "An unidentified person conveys Parsadan’s death threat to Davar.",
+      "chapters": [
+        26
+      ],
+      "reason": "The narration explicitly leaves the identity uncertain at Georgian stanzas 575–576. Preserve the uncertainty rather than assigning this action to another character.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Asmat’s messenger or messengers",
+      "description": "Unnamed messengers carry letters between Asmat and Tariel during the lovers’ secret exchanges.",
+      "chapters": [
+        11,
+        15,
+        16,
+        24,
+        25
+      ],
+      "reason": "A recurring function is clear, but the checked text does not establish that every appearance belongs to the same individual.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Tariel’s household treasurer",
+      "description": "An unnamed household officer tells Tariel that a veiled woman seeks a meeting; she proves to be Asmat.",
+      "chapters": [
+        11
+      ],
+      "reason": "An individually described household role. Too little personal identity is supplied for a distinct named profile; retain as a minor candidate.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Tariel’s doorkeeper",
+      "description": "An unnamed doorkeeper announces arrivals and messages at Tariel’s chambers.",
+      "chapters": [
+        11,
+        15
+      ],
+      "reason": "An incidental household role; the passages do not establish a distinct personal name or confirm continuity across appearances.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Lord of the Marches",
+      "description": "An unnamed officer is sent to summon the Indian army before Tariel’s campaign.",
+      "chapters": [
+        16
+      ],
+      "reason": "A specific office is mentioned at stanza 401, but no personal name or further identity is supplied.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Ramaz’s entrusted magnate",
+      "description": "After capture, Ramaz asks for one magnate to contact the fortress governors; Tariel sends him with escorts.",
+      "chapters": [
+        18
+      ],
+      "reason": "A singular emissary has a specified task at stanzas 455–456. He must not be silently equated with the earlier informer.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Parsadan’s three envoys",
+      "description": "Three lords bring Parsadan’s protest to Tariel after the killing of the proposed bridegroom.",
+      "chapters": [
+        25
+      ],
+      "reason": "An individuated group rather than three separately identifiable characters; no personal names are supplied.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "News-bearing merchant leader",
+      "description": "The leader of a mourning caravan reports Parsadan’s death and the invasion of India to the returning companions.",
+      "chapters": [
+        62
+      ],
+      "reason": "Georgian stanzas 1579–1597 identify merchants, not official royal envoys. A leader is singled out, but no name is given.",
+      "source_text_excerpt_optional": "მოასხნეს იგი ვაჭარნი და მათი უხუცესია (62:1580)",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Merchant who sells Asmat a horse",
+      "description": "An unnamed merchant sells a horse for Asmat when the party reaches Pridon’s land.",
+      "chapters": [
+        54
+      ],
+      "reason": "A specific transaction at stanza 1374; the text expressly describes a purchase rather than a gift.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Asmat’s unnamed husband",
+      "description": "A good, sensible young man is brought forward and married to Asmat after her reward in India.",
+      "chapters": [
+        64
+      ],
+      "reason": "A distinct individual at Georgian stanza 1653, but without an established personal name or earlier narrative role.",
+      "source_text_excerpt_optional": "მოიყვანეს კარგი მოყმე, გონიერი, არ ხელია (64:1653)",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Pridon’s herdsmen",
+      "description": "The keepers of his horses raise the alarm when Tariel and Avtandil play their horse-herd prank.",
+      "chapters": [
+        54
+      ],
+      "reason": "Collective function, not individually named or consistently differentiated people; background role rather than extra personal profiles.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "india",
+      "name": "Nestan’s two household servants",
+      "description": "Two servants accompany Nestan and Asmat in the secluded Indian residence.",
+      "chapters": [
+        10
+      ],
+      "reason": "Mentioned as a pair at Georgian stanza 331. Do not equate them with Davar’s later abductors without explicit evidence.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Usam / უსამ",
+      "description": "Named wise caravan leader who welcomes Avtandil and speaks for the rescued merchants; local chapter 42 rows 1030, 1046, 1053.",
+      "chapters": [
+        42
+      ],
+      "reason": "Confirmed named person missing from the 21-character project graph; full profile created in data/character-cards.json. Distinct from Usen.",
+      "source_text_excerpt_optional": "Usam was the chief of the caravan, a wise man.",
+      "status": "profiled",
+      "profile_id": "usam"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Roshak / როშაქ",
+      "description": "Named Kadji commander who leads the hundred raiders and orders Nestan taken as a gift; local rows 1222–1235.",
+      "chapters": [
+        48
+      ],
+      "reason": "Confirmed named person missing from the project graph; full profile created in data/character-cards.json. Distinct from Rosan.",
+      "source_text_excerpt_optional": "Roshak is a slave, the chief of many thousand slaves.",
+      "status": "profiled",
+      "profile_id": "roshak"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Rodia / როდია",
+      "description": "The second young nephew of Dulardukht, named beside Rosan; local rows 1220–1221.",
+      "chapters": [
+        48
+      ],
+      "reason": "Confirmed named person missing from the project graph; full profile created in data/character-cards.json. Do not describe him as unnamed.",
+      "source_text_excerpt_optional": "She had little nephews: Rosan and Rodia",
+      "status": "profiled",
+      "profile_id": "rodia"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Fatman's invisible letter messenger",
+      "description": "An individuated speaking messenger, formerly one of Fatman's two invisible scouts; he carries her letter to Nestan and returns with replies; local rows 1238–1239, 1267–1269, 1275–1283, 1309–1310.",
+      "chapters": [
+        48,
+        49,
+        51
+      ],
+      "reason": "Full supporting-role profile created as fatman_messenger in data/character-cards.json. Green-mantle appearance belongs to this specific messenger. His statement about the earlier visit establishes continuity with one scout, not identity with both scouts.",
+      "source_text_excerpt_optional": "Once already I brought news of thee to her.",
+      "status": "profiled",
+      "profile_id": "fatman_messenger"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The other invisible scout",
+      "description": "The second of the two enslaved sorcerers sent to discover Nestan's location; local rows 1238–1243.",
+      "chapters": [
+        48
+      ],
+      "reason": "A second person exists, but is not independently distinguished in speech, appearance beyond the pair's stated dark skin, or action; retain as an audit candidate rather than inventing a separate personality.",
+      "source_text_excerpt_optional": "I had two black slaves full of sorcery",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The Kadji informant",
+      "description": "An unnamed member of Roshak's raiding party whose first-person account Fatman overhears and asks him to repeat; local rows 1217–1237.",
+      "chapters": [
+        48
+      ],
+      "reason": "Full supporting-role profile created as kadji_informant in data/character-cards.json. Do not merge with Fatman's messenger or label him a willing rescue ally.",
+      "source_text_excerpt_optional": "I am the slave of the exalted king, the ruler of the Kadjis.",
+      "status": "profiled",
+      "profile_id": "kadji_informant"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Usen's gardener",
+      "description": "The speaking gardener at the harbor garden who explains local customs and runs to inform Fatman; local rows 1063–1073.",
+      "chapters": [
+        43
+      ],
+      "reason": "Full supporting-role profile created under the identifier usen_gardener in data/character-cards.json; actual employer is Usen, and head-gardener rank is not established.",
+      "source_text_excerpt_optional": "I am gardener to Usen, chief of the merchants.",
+      "status": "profiled",
+      "profile_id": "usen_gardener"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The Sea King's son",
+      "description": "The unnamed absent prince, handsome and away at war, for whom the king prepares Nestan as a bride; local rows 1169–1170, 1185–1189.",
+      "chapters": [
+        47
+      ],
+      "reason": "Full supporting-role profile created as sea_kings_son in data/character-cards.json. A separate intended bridegroom from Rosan.",
+      "source_text_excerpt_optional": "at that time he was gone forth to war",
+      "status": "profiled",
+      "profile_id": "sea_kings_son"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Queen of the Sea Realm",
+      "description": "The queen to whom Fatman and the merchant women bring New Year gifts; local rows 1121–1124.",
+      "chapters": [
+        47
+      ],
+      "reason": "Distinct royal role, but the checked passage gives her no individual speech or separately narrated action; keep as an audit candidate. Do not invent a name or portrait cues.",
+      "source_text_excerpt_optional": "we give, presents to the queen",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The deceased king of the Kadjis",
+      "description": "Dulardukht's unnamed brother and father of the two princes; remembered as a helper of widows and orphans; local rows 1220–1221.",
+      "chapters": [
+        48
+      ],
+      "reason": "Individuated deceased person whose death explains the guardianship. The verses do not supply the personal name Dularadukht; that name in a generated synopsis is unsafe.",
+      "source_text_excerpt_optional": "now his sister, better than a parent, rears his children",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Dulardukht's deceased sister",
+      "description": "The unnamed sister whose death overseas prompts Dulardukht's mourning journey; local rows 1222–1223, 1240–1241.",
+      "chapters": [
+        48
+      ],
+      "reason": "Distinct from the dead brother and the living Dulardukht. No independent action or portrait description is provided.",
+      "source_text_excerpt_optional": "news of the death overseas of her sister",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The shipwrecked Egyptian caravan survivor",
+      "description": "An unnamed man found unconscious and revived by the merchants; his first-person account warns them of the pirates; local rows 1032–1033.",
+      "chapters": [
+        42
+      ],
+      "reason": "Individuated speaking person deserving review for a supporting-role card. His former caravan is Egyptian; no personal name, ethnicity, or detailed appearance is established.",
+      "source_text_excerpt_optional": "From Egypt we set out with a caravan and a guard",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Fatman's guide to the Chashnagir",
+      "description": "An unnamed enslaved guide points out the Chashnagir's seaward palace and is later cited as witness of the killing; local rows 1110–1113, 1118.",
+      "chapters": [
+        46
+      ],
+      "reason": "Individuated speaking guide, separate from the magical letter messenger unless further evidence establishes identity. No name or portrait cues supplied.",
+      "source_text_excerpt_optional": "This is the palace of him thou seekest.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Fatman's invitation-cancelling messenger",
+      "description": "An unnamed slave meets Avtandil on the road with a request not to visit that night; local row 1097, recalled at 1207.",
+      "chapters": [
+        46,
+        47
+      ],
+      "reason": "Specific message-bearing action, but no proof this servant is the later guide, invisible courier, or initial love-letter carrier. Retain separately as an identity question.",
+      "source_text_excerpt_optional": "Come not to-night; thou shalt find me unready for thee.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The chief of the Sea King's slaves",
+      "description": "An unnamed leader brings sixty slaves to Fatman's house to take Nestan to court; local rows 1171–1173.",
+      "chapters": [
+        47
+      ],
+      "reason": "Individuated office and arrival, with a demand spoken by the delegation. Possible supporting-role card; do not silently merge him with the eunuchs.",
+      "source_text_excerpt_optional": "the chief of the king's slaves",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The eunuch who lends Nestan clothing",
+      "description": "One of the palace guards gives Nestan his own garment during the bribed escape; local rows 1192–1199, especially 1198.",
+      "chapters": [
+        47
+      ],
+      "reason": "Individuated by a specific act within the nine guards, but unnamed and without separate dialogue. Other eunuchs remain an ensemble.",
+      "source_text_excerpt_optional": "one took off his garment and gave it to her",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The nine palace eunuchs",
+      "description": "Nine guards placed at Nestan's door; bribed with jewels, they help her escape and leave with her; local rows 1189, 1192–1199.",
+      "chapters": [
+        47
+      ],
+      "reason": "Collective role, not nine individually specified characters. Avoid manufacturing separate personalities or treating their help as purely altruistic.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Nestan's servant in Fatman's house",
+      "description": "A black servant is assigned to the hidden Nestan; local row 1144.",
+      "chapters": [
+        47
+      ],
+      "reason": "One assigned attendant is mentioned, but no separate action or dialogue; uncertain identity relative to other household servants. Do not merge with the magical messenger.",
+      "source_text_excerpt_optional": "I caused a negro to serve her",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Fatman's four rescuing servants",
+      "description": "Four enslaved household servants bargain for Nestan and kill the two captors on Fatman's command; local rows 1133–1135.",
+      "chapters": [
+        47
+      ],
+      "reason": "An acting ensemble, not four individually differentiated people. Distinct from the two invisible scouts in chapter 48 unless proven otherwise.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Nestan's two captors in the boat",
+      "description": "The two dark-clad, dark-skinned men with the chest whom Fatman's servants kill; local rows 1129–1135.",
+      "chapters": [
+        47
+      ],
+      "reason": "Pair of acting people, tied to the earlier abduction. Do not confuse them with Fatman's black servants or invisible scouts. Earlier Indian episodes may establish continuity and should be checked before duplicating them.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The Chashnagir's armed attendant",
+      "description": "An unnamed slave follows the Chashnagir with sword and shield when he enters Fatman's room; local row 1099.",
+      "chapters": [
+        46
+      ],
+      "reason": "Individual accompanying figure, but no independent speech or proof of identity with either palace guard later killed.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The Chashnagir's two guards",
+      "description": "Two guards lie before the door and are killed by Avtandil; local row 1114.",
+      "chapters": [
+        46
+      ],
+      "reason": "A pair of guards, not separately characterized; do not equate either with the earlier sword-and-shield attendant without evidence.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Pridon's herald to Avtandil",
+      "description": "An unnamed slave is sent to investigate the hunting party's disturbance and carries greetings between the two men; local rows 983–985.",
+      "chapters": [
+        41
+      ],
+      "reason": "Individuated speaking messenger. May overlap the other realm's audit, so root should deduplicate by this scene rather than invent a name.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Pridon's four attendants",
+      "description": "Four trusted slaves accompany Avtandil and later return with gifts and his letter to Pridon; local rows 1019, 1027, 1313–1317, 1323–1324.",
+      "chapters": [
+        41,
+        42,
+        51,
+        52
+      ],
+      "reason": "Continuing ensemble with important courier duties. The supplied poem does not differentiate four named individuals. Distinct from Fatman's invisible messenger.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "The merchant who sells Asmat a horse",
+      "description": "An unnamed merchant sells a horse in Pridon's land after Asmat travels mounted behind the knights; local row 1374.",
+      "chapters": [
+        54
+      ],
+      "reason": "Individuated transaction but no voice, name, appearance, or further role; possible minimal supporting role rather than a full named card.",
+      "status": "additional_scope_candidate"
+    },
+    {
+      "region_review": "gulf",
+      "name": "Tariel's herald to the Sea King",
+      "description": "An unnamed messenger carries Tariel's announcement of the rescue and offer of Kadjeti; local rows 1428–1432.",
+      "chapters": [
+        58
+      ],
+      "reason": "Individuated message bearer, but the text supplies no personal identity or evidence of continuity with other messengers.",
+      "status": "additional_scope_candidate"
+    }
+  ],
+  "source_corrections": [
+    {
+      "region_review": "arabia",
+      "correction": "Do not create a separate character named Ustasra solely from the local English capitalization at 737. It is a title; Sograt’s card incorporates the later vizier episode following the scholarly identification supplied by the root agent."
+    },
+    {
+      "region_review": "arabia",
+      "correction": "Sograt is explicitly named in chapter 2; his identification in chapters 31 and 35 is editorial and should retain the supporting lexical and scholarly note."
+    },
+    {
+      "region_review": "arabia",
+      "correction": "The current story graph places Rustaveli in Arabia. His card belongs to the authorial frame and must not imply that he lives in, visits, or acts within the Arabian plot."
+    },
+    {
+      "region_review": "arabia",
+      "correction": "Tinatin is a reigning sovereign after the opening coronation, not only a princess or a romantic prize."
+    },
+    {
+      "region_review": "arabia",
+      "correction": "English-to-Georgian stanza attachments can shift even in early chapters: the private-audience physical description is Georgian 123 but English attached to 124; Rostevan’s beard-tearing is Georgian 821 but English attached to 820. Use the chapter ranges as project locators and check Georgian for exact appearance citations."
+    },
+    {
+      "region_review": "arabia",
+      "correction": "The phrase 'sunlike' and the crystal/ruby/jet imagery often describe ideal beauty poetically. Such language must not be converted automatically into literal eye colors, complexion, height, or ethnicity."
+    },
+    {
+      "region_review": "arabia",
+      "correction": "Tamar, David, the prologue’s beloved, and names in the epilogue catalogue belong to framing or literary-reference scope. They should not silently expand the fictional story cast."
+    },
+    {
+      "region_review": "arabia",
+      "correction": "No rhetorical invocations of God, planets, philosophers, or sages are proposed as character cards. Collective armies, huntsmen, guards, and entertainers are likewise not split into invented individuals."
+    },
+    {
+      "region_review": "india",
+      "correction": "Current story_graph data contains 65 chapter_steps, rather than the 26 keyframe episodes mentioned in README."
+    },
+    {
+      "region_review": "india",
+      "correction": "English translations can be displaced relative to Georgian stanza_number: in chapter 8, black clothing appears in Georgian stanza 266, while its English rendering is attached to entry 263. Source locators here follow the checked Georgian text."
+    },
+    {
+      "region_review": "india",
+      "correction": "Chapter 62 English entries 1579–1588 render later enthronement material. Georgian stanza 1587 actually reports Parsadan’s death; Georgian stanzas 1594–1596 report Ramaz’s attack on India."
+    },
+    {
+      "region_review": "india",
+      "correction": "Chapter 63 English translations are null. The second Ramaz submission is supported by the actual Georgian text, including stanzas 1602–1618, rather than the generated English summary alone."
+    },
+    {
+      "region_review": "india",
+      "correction": "Asmat receives one seventh of India at Georgian chapter 64 stanzas 1649–1650. Her marriage appears at stanza 1653; the corresponding English narrative is not aligned to those entries."
+    },
+    {
+      "region_review": "india",
+      "correction": "The queen of India pardons Ramaz after Tariel’s request at Georgian chapter 64 stanzas 1642–1643; Tariel gives him gifts and imposes tribute at stanza 1648."
+    },
+    {
+      "region_review": "india",
+      "correction": "Chapter 50 generated summary incorrectly says the Kadjeti queen has returned. The text and surrounding letters establish that the queen and Kadjis have not yet returned, creating urgency before their arrival."
+    },
+    {
+      "region_review": "india",
+      "correction": "Tariel’s killing of the bridegroom is intentional and follows Nestan’s instructions. The plan to spare the army does not make the whole escape bloodless: Tariel also describes killing pursuers."
+    },
+    {
+      "region_review": "india",
+      "correction": "The original Khvarazmsha portrait/id identifies the visiting prince, while the marriage negotiations also contain the separate father called Khvarazmsha, ruler of Khwarazm."
+    },
+    {
+      "region_review": "india",
+      "correction": "Pridon is injured during a dispute with his cousins over an island. Saying Tariel restores an already lost throne goes beyond the checked text."
+    },
+    {
+      "region_review": "india",
+      "correction": "The treasure chamber supplies exceptional armor, but the inscription does not establish that the equipment was manufactured by the Kadjis; it refers to a possible conflict between Kadjis and Devis."
+    },
+    {
+      "region_review": "india",
+      "correction": "Davar’s Kadjeti connection and sorcery do not provide a literal witch outfit, facial features, or complexion."
+    },
+    {
+      "region_review": "india",
+      "correction": "Poetic comparisons to the sun, crystal, rubies, lions, and trees are not literal appearance specifications or evidence for a modern nationality or skin color."
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Usam confused with Usen",
+        "correction": "Usam (უსამ), the caravan leader, and Usen (უსენი), Fatman's husband, are separate named people.",
+        "evidence": [
+          {
+            "chapter": 42,
+            "local_rows": [
+              1030,
+              1046,
+              1053
+            ]
+          },
+          {
+            "chapter": 43,
+            "local_rows": [
+              1068
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Rosan confused with Roshak",
+        "correction": "Rosan is Dulardukht's young nephew and the proposed bridegroom; Roshak is the raiding commander who captures Nestan.",
+        "evidence": [
+          {
+            "chapter": 48,
+            "local_rows": [
+              1221,
+              1222,
+              1229,
+              1239,
+              1240
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Rosan's brother treated as unnamed",
+        "correction": "Both Georgian and attached English at local1221 name the other nephew Rodia (როდია).",
+        "evidence": [
+          {
+            "chapter": 48,
+            "local_rows": [
+              1220,
+              1221
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Dulardukht's kinship and status",
+        "correction": "She is the deceased king's sister, the princes' paternal aunt and guardian, and the present sovereign. Her dead brother is unnamed in these verses. Her dead sister is another person.",
+        "evidence": [
+          {
+            "chapter": 48,
+            "local_rows": [
+              1220,
+              1221,
+              1222,
+              1240,
+              1241
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Dulardukht incorrectly said to have returned",
+        "correction": "The actual letter in chapter50 says the Kadji ruler has NOT returned; the generated synopsis claiming her arrival contradicts it. Do not assert she fights or dies in the rescue.",
+        "evidence": [
+          {
+            "chapter": 50,
+            "local_rows": [
+              1287
+            ]
+          },
+          {
+            "chapter": 48,
+            "local_rows": [
+              1241
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Chashnagir labeled chamberlain",
+        "correction": "The checked verse calls him a favored gentleman at court and Fatman's lover. The chamberlain office is not established. The literal taster gloss occurs in generated commentary, so this card uses court favorite.",
+        "evidence": [
+          {
+            "chapter": 47,
+            "local_rows": [
+              1204,
+              1205,
+              1206,
+              1207
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Kadjeti reward attributed entirely to Fatman",
+        "correction": "Tariel gives Kadjeti's kingdom/castle to the Sea King; the treasure brought away is given to Fatman, whom he adopts as his sister.",
+        "evidence": [
+          {
+            "chapter": 58,
+            "local_rows": [
+              1430,
+              1437,
+              1443
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Invisible messenger duplicated or merged with the wrong man",
+        "correction": "The green-mantle courier is one of Fatman's earlier two scouts, supported by same-messenger wording and his own recollection of his prior journey. He is not the Kadji informant who serves the ruler/Roshak.",
+        "evidence": [
+          {
+            "chapter": 48,
+            "local_rows": [
+              1238,
+              1267,
+              1268
+            ]
+          },
+          {
+            "chapter": 49,
+            "local_rows": [
+              1275,
+              1278,
+              1281,
+              1282
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Garden servant promoted to head gardener",
+        "correction": "The speaker identifies himself simply as Usen's gardener. No superior rank is established.",
+        "evidence": [
+          {
+            "chapter": 43,
+            "local_rows": [
+              1068
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "region_review": "gulf",
+      "correction": {
+        "issue": "Local stanza rows treated as an aligned critical edition",
+        "correction": "The supplied stanza_number is a local record locator. Parts of chapters42 and49 attach shifted English translations to Georgian rows; some rows are missing English or combine English passages. Sources must not imply one-to-one bilingual alignment.",
+        "evidence": [
+          {
+            "chapter": 42,
+            "local_rows": [
+              1046,
+              1053
+            ]
+          },
+          {
+            "chapter": 49,
+            "local_rows": [
+              1274,
+              1275,
+              1276,
+              1277,
+              1278,
+              1281,
+              1282
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_status_counts": {
+    "additional_scope_candidate": 41,
+    "framing_or_literary_reference": 8,
+    "profiled": 14,
+    "rejected_duplicate_title": 1
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "status": "single_example_for_review",
+  "revision": 3,
+  "character_id": "tariel",
+  "display_language": "en",
+  "one_language_per_card": true,
+  "content_source": "data/character-cards.json",
+  "card_size_mm": {
+    "width": 90,
+    "height": 140
+  },
+  "size_status": "proposed_for_this_example_only",
+  "direction": "A restrained manuscript-inspired card with an ivory surface, dark green typography, fine antique-gold rules, and a large portrait medallion.",
+  "portrait_asset": "assets/characters/tariel.png",
+  "portrait_use": "Existing project artwork reused unchanged as a layout placeholder. No new portrait has been generated.",
+  "front": {
+    "hierarchy": [
+      "realm",
+      "large portrait",
+      "name",
+      "role",
+      "short description"
+    ],
+    "realm_label": "INDIA / THE WILDERNESS",
+    "role_lines": [
+      "Commander of India",
+      "The knight in the panther's skin"
+    ],
+    "description_source": "front.short_description"
+  },
+  "back": {
+    "hierarchy": [
+      "name",
+      "Story",
+      "Interpretation",
+      "Connections",
+      "chapter appearance strip"
+    ],
+    "story_source": "back.overview",
+    "insights_source": "back.insights[].text",
+    "connections": [
+      {
+        "name": "Nestan-Darejan",
+        "label": "Beloved"
+      },
+      {
+        "name": "Avtandil",
+        "label": "Sworn brother"
+      },
+      {
+        "name": "Pridon",
+        "label": "Sworn brother"
+      },
+      {
+        "name": "Asmat",
+        "label": "Confidante and companion"
+      }
+    ],
+    "editorial_note": "The overview carries the main plot actions. Full relationship paragraphs and the separate key-actions list remain in the source JSON; this sample condenses those details to keep the back readable.",
+    "chapter_strip": {
+      "presence_source": "data/character-cards.json",
+      "presence_field": "characters[id=tariel].chapter_presence",
+      "audit_file": "print-and-play/card-design-sample/tariel-chapter-presence.json",
+      "total_chapters": 65,
+      "layout": "single_horizontal_row",
+      "filled": "appears",
+      "outlined": "absent",
+      "group_size": 5,
+      "circle_diameter_pt": 2.6,
+      "center_pitch_pt": 3.25,
+      "extra_group_gap_pt": 0.6,
+      "index_labels": [
+        1,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        65
+      ],
+      "ticks": {
+        "major_interval": 10,
+        "minor_interval": 5,
+        "include_endpoints": true,
+        "start_y_pt": 18.2,
+        "major_length_pt": 2.8,
+        "minor_length_pt": 1.5,
+        "major_stroke_pt": 0.35,
+        "minor_stroke_pt": 0.25
+      }
+    }
+  },
+  "palette": {
+    "ivory": "#F8F5EC",
+    "dark_green": "#203D37",
+    "body_ink": "#303B34",
+    "antique_gold": "#A58958",
+    "muted_ink": "#647168"
+  },
+  "type": {
+    "display": "Georgia",
+    "body": "Arial"
+  },
+  "shared_deck_contract_changed": true,
+  "shared_deck_contract_notes": "Single display language and a 65-position chapter-presence strip are recorded as deck-wide requirements. Appearance values are reviewed for Tariel only."
+}

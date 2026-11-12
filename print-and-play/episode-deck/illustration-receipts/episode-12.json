@@ -1,0 +1,149 @@
+{
+  "episode_number": 12,
+  "episode_id": "ep_12_pridon_and_exile",
+  "tool": "built-in image_gen.imagegen",
+  "asset_path": "assets/episodes/episode-12-v2.png",
+  "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c548-b674-7412-83b3-6dc524376742/exec-0b2f14d3-da67-44b5-a23f-6950e17fa574.png",
+  "prompt": "Use case: precise-object-edit. Edit the attached existing Episode12 Georgian-Persian illuminated manuscript painting with ONLY two local color corrections. Preserve EXACT1586x992 pixel canvas and existing framing, soft ivory vellum vignette, original miniature style, all figure poses/identities, natural clasped hands, Pridon's arm bandage, embroidered red/gold/blue clothes, coastal meadow, bay, domed city, boats, rocks, flowers and lighting.\n1. TARIEL is the LEFT-HAND man with long curly hair and beard. Make ALL his hair and ALL his beard a youthful deep dark brown/black. Remove every grey, silver, white or pale-grey streak from the curls, temples and beard. Highlights can be subtle dark warm brown but must not read as grey/silver hair. Preserve his facial features, olive skin, curly hairstyle and beard shape; do not change his identity, costume, age through wrinkles, gesture or expression. Pridon at right stays exactly as he is.\n2. Change the HORSE BEHIND TARIEL at far left from white/grey to his canonical JET-BLACK STEED: lustrous black coat, black mane, black muzzle, black ears, black legs and black tail, no white blaze or socks. Preserve the horse's pose and anatomy and its existing ornate red/blue/gold saddlecloth and bridle without recoloring that tack.\nDo not change anything else or add any person. No panther fur is to be added. No letters, numbers, text, captions, inscriptions, calligraphy, banners, flags, scrolls or watermarks. Keep the original horizontal16:10 manuscript scene and exact1586x992 native dimensions.",
+  "referenced_image_paths": [
+    "assets/episodes/episode-12-v1.png"
+  ],
+  "scene_character_ids": [
+    "tariel",
+    "pridon"
+  ],
+  "actual_scene": "Tariel's hair and beard are uniformly dark brown/black without grey streaks. His horse is jet-black with black mane, tail, muzzle and legs. Pridon's wound/bandage, clasped hands, both identities/costumes, coastal setting and manuscript vellum style retained.",
+  "qa": {
+    "passed": true,
+    "status": "passed",
+    "no_text_letters_numbers_banners_scrolls": true,
+    "requested_corrections": "Tariel's hair and beard are uniformly dark brown/black without grey streaks. His horse is jet-black with black mane, tail, muzzle and legs. Pridon's wound/bandage, clasped hands, both identities/costumes, coastal setting and manuscript vellum style retained."
+  },
+  "dimensions_px": [
+    1586,
+    992
+  ],
+  "aspect_ratio": 1.5977822580645162,
+  "sha256": "50745b9345b8c16387b1bb0c9fd5a1b3f056fb0ebc8e6d81a1acacdc046ecd96",
+  "bytes": 3402865,
+  "asset": "assets/episodes/episode-12-v2.png",
+  "selected_asset": "assets/episodes/episode-12-v2.png",
+  "references": [
+    "assets/episodes/episode-12-v1.png"
+  ],
+  "character_ids": [
+    "tariel",
+    "pridon"
+  ],
+  "visual_qa": {
+    "passed": true,
+    "status": "passed",
+    "no_text_letters_numbers_banners_scrolls": true,
+    "requested_corrections": "Tariel's hair and beard are uniformly dark brown/black without grey streaks. His horse is jet-black with black mane, tail, muzzle and legs. Pridon's wound/bandage, clasped hands, both identities/costumes, coastal setting and manuscript vellum style retained.",
+    "export_pixels_verified": [
+      1586,
+      992
+    ]
+  },
+  "pixel_dimensions": [
+    1586,
+    992
+  ],
+  "native_pixel_size": [
+    1585,
+    992
+  ],
+  "attempts": [
+    {
+      "episode_number": 12,
+      "episode_id": "ep_12_pridon_and_exile",
+      "tool": "built-in image_gen.imagegen",
+      "asset_path": "assets/episodes/episode-12-v1.png",
+      "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c48e-46eb-73e0-b833-a01082e9fa61/exec-fa249400-1ece-47ba-a834-7b3f83568a89.png",
+      "prompt": "Use case: illustration-story.\nMedieval Georgian-Persian illuminated manuscript miniature painting illustrating Episode 12 of Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი): Brotherhood with Pridon in Mulghazanzar & Retreat to the Cave.\nSetting: Mulghazanzar, a sheltered coastal meadow beneath Pridon’s distant domed city.\nScene: Tariel meets the wounded Pridon by the sea and supports him beside his horse. Pridon’s arm is lightly bound; the two men’s clasped hands foreshadow their sworn friendship. A calm blue bay and the far coastal city provide the setting. Place both men standing in the coastal meadow beside one saddled horse. Pridon rests his injured left arm in a plain pale cloth binding; Tariel steadies Pridon's right forearm and the two clasp their right hands in a solemn gesture of friendship. Their full faces and hands must be easily readable. The distant walled port with patterned domes, a lapis blue bay, ornamental cypress and pomegranate trees and faceted cliffs provide shallow layered manuscript space. This is their FIRST meeting, not a palace feast or a second later event. Only these TWO men appear.\nCharacters: Tariel matches reference 2: strong olive-skinned man with thick dark flowing curls, strong brows and a dark beard. After a year of searching he wears dignified dark wine-red and ochre travelling clothes with gold trim, not a crown or ceremonial throne attire. Avoid a fur hat. Pridon matches reference 3: olive-skinned athletic young king with close-cropped dark hair and a short neat dark beard, wearing a lapis blue tunic with fine gold edging, a red cloak, belt and boots, a glimpse of mail at the collar. His injury is conveyed ONLY by the plain bandage and weary posture, with no blood.\nStory constraints: Show their first meeting after Tariel’s year of searching, not Avtandil’s later visit. Do not add Nestan, who is absent and known only through Pridon’s account. Keep injuries non-graphic; Asmat may remain outside the depicted moment. Do NOT add Nestan, Avtandil or a portrait of any absent person. Asmat is outside this chosen moment.\nReference 1 is STYLE ONLY; ignore the poet, book and courtyard. References 2 and 3 are IDENTITY ONLY for Tariel and Pridon; ignore circular medallion frames. A coherent scene, not a collage, separate panels or portrait medallions.\nMedieval Georgian-Persian illuminated manuscript miniature painting for Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი). 16th–17th-century Georgian royal manuscript miniature, Mamuka Tavakarashvili / King Vakhtang VI illumination tradition blended with classical Persian-Safavid tempera miniature. Egg tempera, lapis lazuli, malachite green, vermilion, warm ochre and burnished antique gold leaf on aged ivory-parchment vellum. Stylized faceted rocky cliffs, ornamental cypress and pomegranate trees, intricately patterned arches and domes, expressive courtly figures in medieval Georgian-Eastern attire. Fine controlled contours, delicately patterned fabrics, luminous matte mineral pigments, slightly flattened layered miniature space with expressive narrative gestures. A painted manuscript scene, not photorealism, cinematic rendering, modern digital fantasy or a collage of circular portraits. Reuse referenced character faces and coloring but adapt costume to the actual chronological story scene; Tariel wears ordinary Indian court or military attire in early backstory, his panther skin belongs to his later exile. Exact horizontal 16:10 composition, preferably native 1600x1000 pixels, a single coherent scene framed for a card vignette. Soft natural painted vignette dissolving to warm aged ivory vellum at edges, modest antique-gold floral flourishes at the perimeter, no rigid border. Key faces and gestures comfortably inside the central safe area, no important content cut off. STRICTLY NO TEXT, NO LETTERS, NO CAPTIONS, NO NUMBERS, NO INSCRIPTIONS, NO CALLIGRAPHY, NO BANNERS, NO SCROLLS, NO SIGNATURES, NO WATERMARKS anywhere. Architectural ornament must be purely floral/geometric with no pseudo-writing. If letters are narratively necessary, use a small closed plain unmarked folded paper or sealed envelope, never visible writing or rolled scrolls. All book covers/pages must be plain and unmarked. Do not show graphic blood or gore; imply violent events through gestures, context and intact clothing.\nMandatory horizontal16:10 painting, ideally native1600x1000. Strictly no letters, numbers, banners or scrolls.",
+      "referenced_image_paths": [
+        "/Users/Nikoloz/Desktop/pantersskin/assets/episodes/episode-01-v1.png",
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/tariel-v13.png",
+        "/Users/Nikoloz/Desktop/pantersskin/assets/characters/pridon-v3.png"
+      ],
+      "scene_character_ids": [
+        "tariel",
+        "pridon"
+      ],
+      "actual_scene": "Tariel meets the wounded Pridon by the sea and supports him beside his horse. Pridon’s arm is lightly bound; the two men’s clasped hands foreshadow their sworn friendship. A calm blue bay and the far coastal city provide the setting.",
+      "qa": {
+        "visually_reviewed": true,
+        "text_free": true,
+        "no_banners_or_scrolls": true,
+        "chronology_costumes": true,
+        "single_scene": true,
+        "no_graphic_violence": true,
+        "aspect_ratio_16_10_within_one_percent": true
+      },
+      "dimensions_px": [
+        1586,
+        992
+      ],
+      "aspect_ratio": 1.5987903225806452,
+      "sha256": "49d4967ec576ef410de29cba0783c2670b9c27a1aaebb8dca07e9bf0ecf5724f",
+      "bytes": 4169100
+    },
+    {
+      "asset": "assets/episodes/generated-native/episode-12-v2.png",
+      "prompt": "Use case: precise-object-edit. Edit the attached existing Episode12 Georgian-Persian illuminated manuscript painting with ONLY two local color corrections. Preserve EXACT1586x992 pixel canvas and existing framing, soft ivory vellum vignette, original miniature style, all figure poses/identities, natural clasped hands, Pridon's arm bandage, embroidered red/gold/blue clothes, coastal meadow, bay, domed city, boats, rocks, flowers and lighting.\n1. TARIEL is the LEFT-HAND man with long curly hair and beard. Make ALL his hair and ALL his beard a youthful deep dark brown/black. Remove every grey, silver, white or pale-grey streak from the curls, temples and beard. Highlights can be subtle dark warm brown but must not read as grey/silver hair. Preserve his facial features, olive skin, curly hairstyle and beard shape; do not change his identity, costume, age through wrinkles, gesture or expression. Pridon at right stays exactly as he is.\n2. Change the HORSE BEHIND TARIEL at far left from white/grey to his canonical JET-BLACK STEED: lustrous black coat, black mane, black muzzle, black ears, black legs and black tail, no white blaze or socks. Preserve the horse's pose and anatomy and its existing ornate red/blue/gold saddlecloth and bridle without recoloring that tack.\nDo not change anything else or add any person. No panther fur is to be added. No letters, numbers, text, captions, inscriptions, calligraphy, banners, flags, scrolls or watermarks. Keep the original horizontal16:10 manuscript scene and exact1586x992 native dimensions.",
+      "references": [
+        "assets/episodes/episode-12-v1.png"
+      ],
+      "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c548-b674-7412-83b3-6dc524376742/exec-0b2f14d3-da67-44b5-a23f-6950e17fa574.png",
+      "tool": "built-in image_gen.imagegen",
+      "native_pixels": [
+        1585,
+        992
+      ],
+      "sha256": "0734e9482ead36887a76def50e571b23609cd997cb5c28f4468d4dbef1cf8b85",
+      "visual_qa": {
+        "passed": true,
+        "status": "passed",
+        "no_text_letters_numbers_banners_scrolls": true,
+        "requested_corrections": "Tariel's hair and beard are uniformly dark brown/black without grey streaks. His horse is jet-black with black mane, tail, muzzle and legs. Pridon's wound/bandage, clasped hands, both identities/costumes, coastal setting and manuscript vellum style retained."
+      },
+      "native_generated_pixels": [
+        1585,
+        992
+      ],
+      "native_generated_sha256": "0734e9482ead36887a76def50e571b23609cd997cb5c28f4468d4dbef1cf8b85",
+      "selected_export": "assets/episodes/episode-12-v2.png",
+      "export_pixels": [
+        1586,
+        992
+      ],
+      "export_sha256": "50745b9345b8c16387b1bb0c9fd5a1b3f056fb0ebc8e6d81a1acacdc046ecd96"
+    }
+  ],
+  "art_processing": "Native generated PNG copied unchanged; no cropping, resizing or raster retouching.",
+  "native_generated_pixels": [
+    1585,
+    992
+  ],
+  "native_generated_asset": "assets/episodes/generated-native/episode-12-v2.png",
+  "native_generated_sha256": "0734e9482ead36887a76def50e571b23609cd997cb5c28f4468d4dbef1cf8b85",
+  "export_pixels": [
+    1586,
+    992
+  ],
+  "export_processing": {
+    "tool": "macOS sips",
+    "operation": "one-pixel horizontal export-dimension normalization",
+    "from_pixels": [
+      1585,
+      992
+    ],
+    "to_pixels": [
+      1586,
+      992
+    ],
+    "content_edits": "Built-in image generation only; no crop or manual repaint",
+    "native_generated_asset": "assets/episodes/generated-native/episode-12-v2.png",
+    "native_generated_sha256": "0734e9482ead36887a76def50e571b23609cd997cb5c28f4468d4dbef1cf8b85"
+  }
+}

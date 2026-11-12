@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ვეფხისტყაოსანი — ეპიზოდების სრული ტექსტი</title>
+  <meta name="description" content="შოთა რუსთაველის „ვეფხისტყაოსნის“ 24 ეპიზოდის სრული ქართული ტექსტი, აფორიზმები და პერსონაჟთა სვლები.">
+  
+  <style>
+    :root {
+      --bg: #F7F4EB;
+      --card-bg: #FFFFFF;
+      --card-border: #E3DAC9;
+      --ink: #1F2923;
+      --ink-muted: #586960;
+      --green: #1F3F37;
+      --green-light: #EBF2EE;
+      --gold: #A67C38;
+      --gold-bg: #FDF9EE;
+      --gold-border: #E8D5B0;
+      --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-serif: "Georgia", "Times New Roman", serif;
+      --max-w: 760px;
+    }
+
+    [data-theme="dark"] {
+      --bg: #141A17;
+      --card-bg: #1C2420;
+      --card-border: #2D3A34;
+      --ink: #EDE8DE;
+      --ink-muted: #9BAEA4;
+      --green: #48A388;
+      --green-light: #22352D;
+      --gold: #D4A962;
+      --gold-bg: #272318;
+      --gold-border: #4A3F2A;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      padding-bottom: 90px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Navigation Bar */
+    .top-header {
+      position: sticky;
+      top: 0;
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--card-border);
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    }
+    .header-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .brand-title {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--green);
+      white-space: nowrap;
+    }
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    select.ep-selector {
+      background: var(--bg);
+      color: var(--ink);
+      border: 1px solid var(--card-border);
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      outline: none;
+      cursor: pointer;
+      max-width: 220px;
+    }
+    .btn-icon {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      color: var(--ink);
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    /* Episode Hero Card */
+    .hero-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.03);
+    }
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+    .badge-ep {
+      background: var(--green);
+      color: #FFFFFF;
+    }
+    .badge-act {
+      background: var(--green-light);
+      color: var(--green);
+    }
+    .badge-realm {
+      background: #F0E8DD;
+      color: #7A4F32;
+    }
+    .badge-stanzas {
+      background: #EFEFEF;
+      color: #555555;
+    }
+    [data-theme="dark"] .badge-realm {
+      background: #3B2A1E;
+      color: #E2B591;
+    }
+    [data-theme="dark"] .badge-stanzas {
+      background: #2A332E;
+      color: #B2C2B9;
+    }
+
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: 1.45rem;
+      line-height: 1.35;
+      color: var(--ink);
+      margin-bottom: 10px;
+    }
+    .hero-summary {
+      font-size: 0.95rem;
+      color: var(--ink-muted);
+      line-height: 1.55;
+    }
+
+    /* Aphorisms Block */
+    .aphorisms-box {
+      background: var(--gold-bg);
+      border: 1px solid var(--gold-border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 24px;
+    }
+    .aphorisms-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .aphorism-item {
+      padding: 10px 0;
+      border-bottom: 1px dashed var(--gold-border);
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .aphorism-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    .aphorism-item:hover {
+      opacity: 0.85;
+    }
+    .aphorism-quote {
+      font-style: italic;
+      font-weight: 600;
+      font-size: 0.98rem;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+    .aphorism-meta {
+      font-size: 0.8rem;
+      color: var(--gold);
+      display: flex;
+      gap: 12px;
+    }
+
+    /* Stanzas List */
+    .section-heading {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      color: var(--green);
+      margin: 28px 0 16px 0;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .chapter-tag {
+      font-size: 0.85rem;
+      font-family: var(--font-body);
+      color: var(--ink-muted);
+      font-weight: normal;
+    }
+
+    .stanza-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 14px;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+    .stanza-card.has-aphorism {
+      border-left: 4px solid var(--gold);
+      background: var(--gold-bg);
+    }
+    .stanza-num {
+      display: inline-block;
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: var(--green);
+      background: var(--green-light);
+      padding: 2px 7px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .stanza-card.has-aphorism .stanza-num {
+      color: var(--gold);
+      background: var(--card-bg);
+      border: 1px solid var(--gold-border);
+    }
+    .stanza-text {
+      font-family: var(--font-serif);
+      font-size: 1.04rem;
+      line-height: 1.7;
+      color: var(--ink);
+      white-space: pre-line;
+      letter-spacing: 0.1px;
+    }
+    .aphorism-tag {
+      margin-top: 8px;
+      font-size: 0.78rem;
+      color: var(--gold);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Bottom Fixed Nav */
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--card-bg);
+      border-top: 1px solid var(--card-border);
+      padding: 12px 16px;
+      box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.05);
+      z-index: 90;
+    }
+    .bottom-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .btn-nav {
+      flex: 1;
+      background: var(--green);
+      color: #FFFFFF;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: opacity 0.15s;
+    }
+    .btn-nav:disabled, .btn-nav.disabled {
+      opacity: 0.35;
+      pointer-events: none;
+    }
+    .btn-nav-outline {
+      background: var(--bg);
+      color: var(--ink);
+      border: 1px solid var(--card-border);
+      flex: 0 0 auto;
+      padding: 10px 16px;
+    }
+
+    /* Loading / Error */
+    .loading-wrap {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--ink-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Header -->
+  <header class="top-header">
+    <div class="header-inner">
+      <div class="brand-title">ვეფხისტყაოსანი</div>
+      <div class="header-controls">
+        <select id="episodeSelect" class="ep-selector" aria-label="ეპიზოდის არჩევა">
+          <option value="">იტვირთება...</option>
+        </select>
+        <button id="themeToggleBtn" class="btn-icon" title="ფერების შეცვლა" aria-label="ფერების შეცვლა">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container">
+    <div id="contentArea">
+      <div class="loading-wrap">
+        <h2>ტექსტი იტვირთება...</h2>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bottom Navigation Bar -->
+  <nav class="bottom-bar">
+    <div class="bottom-inner">
+      <button id="prevBtn" class="btn-nav">⬅ წინა</button>
+      <button id="scrollToAphorismsBtn" class="btn-nav btn-nav-outline">📜 აფორიზმები</button>
+      <button id="nextBtn" class="btn-nav">შემდეგი ➡</button>
+    </div>
+  </nav>
+
+  <!-- Fallback local data if offline -->
+  <script src="data/poem-bundle.js"></script>
+
+  <script>
+    (function() {
+      let episodesData = null;
+      let currentEpNum = 1;
+
+      // Theme toggle
+      const themeBtn = document.getElementById("themeToggleBtn");
+      const currentTheme = localStorage.getItem("pantersskin_theme") || "light";
+      if (currentTheme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        themeBtn.textContent = "☀️";
+      }
+      themeBtn.addEventListener("click", () => {
+        const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+        const newTheme = isDark ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", newTheme);
+        themeBtn.textContent = isDark ? "🌙" : "☀️";
+        localStorage.setItem("pantersskin_theme", newTheme);
+      });
+
+      // Parse Query Param ?ep=01 or ?episode=1
+      function getRequestedEpisode() {
+        const params = new URLSearchParams(window.location.search);
+        const epParam = params.get("ep") || params.get("episode");
+        if (epParam) {
+          const num = parseInt(epParam, 10);
+          if (num >= 1 && num <= 24) return num;
+        }
+        return 1;
+      }
+
+      // Initialize
+      async function init() {
+        try {
+          const resp = await fetch("data/episode-cards.json");
+          episodesData = await resp.json();
+        } catch (e) {
+          console.warn("Could not fetch episode-cards.json, attempting fallback", e);
+        }
+
+        currentEpNum = getRequestedEpisode();
+        populateDropdown();
+        renderEpisode(currentEpNum);
+      }
+
+      function populateDropdown() {
+        const select = document.getElementById("episodeSelect");
+        select.innerHTML = "";
+        for (let i = 1; i <= 24; i++) {
+          const opt = document.createElement("option");
+          opt.value = i;
+          let title = `ეპიზოდი ${i}`;
+          if (episodesData && episodesData.episodes && episodesData.episodes[i - 1]) {
+            title = `${i}. ${episodesData.episodes[i - 1].title_ka}`;
+          }
+          opt.textContent = title;
+          select.appendChild(opt);
+        }
+        select.value = currentEpNum;
+        select.addEventListener("change", (e) => {
+          navigateToEpisode(parseInt(e.target.value, 10));
+        });
+      }
+
+      function navigateToEpisode(num) {
+        if (num < 1 || num > 24) return;
+        currentEpNum = num;
+        const select = document.getElementById("episodeSelect");
+        if (select) select.value = currentEpNum;
+        
+        // Update URL without reload
+        const newUrl = `${window.location.pathname}?ep=${String(currentEpNum).padStart(2, "0")}`;
+        window.history.pushState({ ep: currentEpNum }, "", newUrl);
+        
+        renderEpisode(currentEpNum);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      window.addEventListener("popstate", () => {
+        currentEpNum = getRequestedEpisode();
+        const select = document.getElementById("episodeSelect");
+        if (select) select.value = currentEpNum;
+        renderEpisode(currentEpNum);
+      });
+
+      document.getElementById("prevBtn").addEventListener("click", () => {
+        navigateToEpisode(currentEpNum - 1);
+      });
+      document.getElementById("nextBtn").addEventListener("click", () => {
+        navigateToEpisode(currentEpNum + 1);
+      });
+      document.getElementById("scrollToAphorismsBtn").addEventListener("click", () => {
+        const aphEl = document.getElementById("aphorismsBlock");
+        if (aphEl) {
+          aphEl.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+
+      // Render Episode
+      function renderEpisode(num) {
+        const container = document.getElementById("contentArea");
+        const ep = episodesData && episodesData.episodes ? episodesData.episodes[num - 1] : null;
+
+        // Button states
+        document.getElementById("prevBtn").classList.toggle("disabled", num <= 1);
+        document.getElementById("nextBtn").classList.toggle("disabled", num >= 24);
+
+        if (!ep) {
+          container.innerHTML = `<div class="loading-wrap"><h2>ეპიზოდი ${num} იტვირთება...</h2></div>`;
+          return;
+        }
+
+        // Build Hero
+        let html = `
+          <div class="hero-card">
+            <div class="hero-badges">
+              <span class="badge badge-ep">ეპიზოდი ${String(ep.episode_number).padStart(2, "0")} / 24</span>
+              <span class="badge badge-act">${ep.act_title_ka}</span>
+              <span class="badge badge-realm">${ep.primary_realm ? ep.primary_realm.name_ka : "სამეფო"}</span>
+              <span class="badge badge-stanzas">${ep.chapter_range_label_ka} • სტრ. ${ep.stanza_range}</span>
+            </div>
+            <h1 class="hero-title">${ep.title_ka}</h1>
+            <p class="hero-summary">${ep.summary_ka}</p>
+          </div>
+        `;
+
+        // Aphorisms Section
+        const aphorisms = ep.aphorisms_ka || [];
+        if (aphorisms.length > 0) {
+          html += `
+            <div class="aphorisms-box" id="aphorismsBlock">
+              <div class="aphorisms-header">
+                <span>📜</span> ამ ეპიზოდის მთავარი აფორიზმები
+              </div>
+          `;
+          aphorisms.forEach(aph => {
+            html += `
+              <div class="aphorism-item" onclick="scrollToStanza(${aph.stanza_number})">
+                <div class="aphorism-quote">„${aph.line_ka.replace(/^„|“$/g, "")}“</div>
+                <div class="aphorism-meta">
+                  <span>სტროფი ${aph.stanza_number}</span>
+                  <span>თავი ${aph.chapter_number}</span>
+                  <span>${aph.speaker_ka || "შოთა რუსთაველი"}</span>
+                </div>
+              </div>
+            `;
+          });
+          html += `</div>`;
+        }
+
+        // Load Stanzas from poem bundle
+        const aphorismStanzaSet = new Set(aphorisms.map(a => a.stanza_number));
+        const bundle = window.VEPKHISTKAOSANI_BUNDLE;
+
+        if (bundle && bundle.chapters) {
+          const chapters = bundle.chapters.filter(ch => ep.chapters.includes(ch.chapter_number));
+          
+          chapters.forEach(ch => {
+            html += `
+              <div class="section-heading">
+                <span>თავი ${ch.chapter_number}: ${ch.chapter_title_ka}</span>
+                <span class="chapter-tag">სტრ. ${ch.stanza_range}</span>
+              </div>
+            `;
+
+            (ch.stanzas || []).forEach(st => {
+              const hasAph = aphorismStanzaSet.has(st.stanza_number);
+              const aphObj = aphorisms.find(a => a.stanza_number === st.stanza_number);
+              html += `
+                <div class="stanza-card ${hasAph ? 'has-aphorism' : ''}" id="stanza-${st.stanza_number}">
+                  <span class="stanza-num">სტრ. ${st.stanza_number}</span>
+                  <div class="stanza-text">${st.georgian_raw_text}</div>
+                  ${hasAph && aphObj ? `<div class="aphorism-tag">⭐ აფორიზმი: ${aphObj.speaker_ka || ''}</div>` : ''}
+                </div>
+              `;
+            });
+          });
+        } else {
+          html += `<div class="loading-wrap"><p>პოემის ტექსტი ხელმისაწვდომია ონლაინ.</p></div>`;
+        }
+
+        container.innerHTML = html;
+      }
+
+      window.scrollToStanza = function(num) {
+        const el = document.getElementById(`stanza-${num}`);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+          el.style.boxShadow = "0 0 0 3px var(--gold)";
+          setTimeout(() => {
+            el.style.boxShadow = "";
+          }, 1800);
+        }
+      };
+
+      // Start
+      document.addEventListener("DOMContentLoaded", init);
+    })();
+  </script>
+</body>
+</html>

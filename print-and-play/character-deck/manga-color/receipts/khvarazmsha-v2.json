@@ -1,0 +1,27 @@
+{
+  "character_id": "khvarazmsha",
+  "date": "2026-11-12T11:53:34.830204+00:00",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "built-in",
+  "asset": "assets/characters/manga-color/khvarazmsha-v2.png",
+  "source_generated_png": "/Users/Nikoloz/.codex/generated_images/01a1aaf7-6a62-7982-84ce-8495241cc8a7/exec-c3fd4184-aab6-4380-8ae0-98925f8ec776.png",
+  "references": [
+    "assets/characters/manga-color/khvarazmsha-v1.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Keep this young prince's exact coloured manga portrait drawing, face, dark hair, small moustache, purple cap and robe, gold rim, pose and all details. Make this a fullyopaque printable PNG. Inside the circle, fill the entire background behind the character with continuous smooth opaque muted teal. Remove any transparent spots or blotches. Outside circle use plain warm ivory #F6F1E4, fullyopaque as well. Every pixel must be opaque; no transparent cutout. Change only damagedalpha/background, preserve character and colour. Square1254x1254 requested. No text, letters, numbers, captions, bubbles, SFX, banners, scrolls or watermark.",
+  "prompt_set": "print-and-play/character-deck/manga-color/repair-khvarazmsha.json",
+  "sha256": "339d9aa3b13056ddfe83d3075c12f76825f6c5d8dcafdd5c0a1f5d5de803a8e0",
+  "bytes": 1716756,
+  "native_pixels": [
+    1254,
+    1254
+  ],
+  "image_mode": "RGB",
+  "alpha_extrema": null,
+  "processing": "Copied unchanged; native pixels and alpha preserved",
+  "visual_review": {
+    "status": "passed",
+    "review": "Inspected individually or at final cast contact sheet; coloured manga ink/cel shading, recognizable character identity and age, single complete medallion, no lettering, intact background."
+  },
+  "final_cast_review": "passed"
+}

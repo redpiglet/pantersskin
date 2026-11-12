@@ -1,0 +1,39 @@
+{
+  "episode_number": 2,
+  "episode_id": "ep_02_tinatin_coronation",
+  "asset": "assets/episodes/episode-02-v1.png",
+  "tool": "built-in image_gen.imagegen",
+  "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c48e-1d4a-7631-85ad-d544372f23db/exec-8f123458-ea10-4425-9883-9602851bdd35.png",
+  "prompt": "Use case: illustration-story.\nMedieval Georgian-Persian illuminated manuscript miniature painting for Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი). 16th–17th-century Georgian royal manuscript miniature, Mamuka Tavakarashvili / King Vakhtang VI illumination tradition blended with classical Persian-Safavid tempera miniature. Egg tempera, lapis lazuli, malachite green, vermilion, warm ochre and burnished antique gold leaf on aged ivory-parchment vellum. Stylized faceted rocky cliffs, ornamental cypress and pomegranate trees, intricately patterned arches and domes, expressive courtly figures in medieval Georgian-Eastern attire. Fine controlled contours, delicately patterned fabrics, luminous matte mineral pigments, slightly flattened layered miniature space with expressive narrative gestures. A painted manuscript scene, not photorealism, cinematic rendering, modern digital fantasy or a collage of circular portraits. Reuse referenced character faces and coloring but adapt costume to the actual chronological story scene; Tariel wears ordinary Indian court or military attire in early backstory, his panther skin belongs to his later exile. Exact horizontal 16:10 composition, preferably native 1600x1000 pixels, a single coherent scene framed for a card vignette. Soft natural painted vignette dissolving to warm aged ivory vellum at edges, modest antique-gold floral flourishes at the perimeter, no rigid border. Key faces and gestures comfortably inside the central safe area, no important content cut off. STRICTLY NO TEXT, NO LETTERS, NO CAPTIONS, NO NUMBERS, NO INSCRIPTIONS, NO CALLIGRAPHY, NO BANNERS, NO SCROLLS, NO SIGNATURES, NO WATERMARKS anywhere. Architectural ornament must be purely floral/geometric with no pseudo-writing. If letters are narratively necessary, use a small closed plain unmarked folded paper or sealed envelope, never visible writing or rolled scrolls. All book covers/pages must be plain and unmarked. Do not show graphic blood or gore; imply violent events through gestures, context and intact clothing.\nEpisode 02: Coronation of Tinatin & the Royal Hunt.\nSelected scene: Tinatin's coronation in the royal palace of Arabia. A single coherent moment: the elderly king Rostevan stands beside the throne and gently settles a jeweled crown onto his daughter Tinatin's head. Tinatin sits upright with calm authority on an ornate golden throne beneath a lapis-blue arch, wearing her purple-and-gold embroidered royal gown. Rostevan has long white hair and a long flowing white beard and wears a burgundy-and-gold royal robe; he is bareheaded while crowning her. Young clean-shaven Avtandil, brown curls under a modest silver-and-gold Eastern helmet, chainmail and a vermilion cloak, bows respectfully to the new sovereign. The elderly vizier Sograt stands near him with a long narrow white beard, green turban and green-and-gold brocade robe. Courtly congratulations are shown through open graceful hands. Four principal figures only. Ornamental cypress and pomegranate trees in an open palace courtyard behind them, floral tiles, gold and lapis arches. The solemn transfer of royal authority is the focus.\nInput references: image 1 is STYLE ONLY, use its vellum, palette, linework and miniature framing, not its poet or exact garden. Images 2–5 identify Rostevan, Tinatin, Avtandil and Sograt respectively. Preserve their recognizable faces and signature colors, translated into the miniature painting's style. Do not reproduce the circular medallion frames. Landscape 16:10 canvas. STRICTLY NO TEXT, LETTERS, NUMBERS, BANNERS OR SCROLLS. No readable or imitation writing on any ornament.",
+  "reference_assets": [
+    "assets/episodes/episode-01-v1.png",
+    "assets/characters/rostevan-v2.png",
+    "assets/characters/tinatin-v3.png",
+    "assets/characters/avtandil-v5.png",
+    "assets/characters/sograt-v2.png"
+  ],
+  "character_ids": [
+    "rostevan",
+    "tinatin",
+    "avtandil",
+    "sograt"
+  ],
+  "visual_qa": {
+    "status": "passed",
+    "scene": "Tinatin seated and crowned by bareheaded Rostevan; Avtandil bows and Sograt congratulates.",
+    "no_lettering": true,
+    "style_consistent": true,
+    "chronology_consistent": true
+  },
+  "native_pixel_size": [
+    1586,
+    992
+  ],
+  "aspect_ratio": 1.59879032,
+  "target_aspect_ratio": 1.6,
+  "aspect_ratio_within_one_percent": true,
+  "bytes": 4326081,
+  "sha256": "e5166ff7d7337eda357cc342f97ef5f19e657454018a62e600e7c597de9de12d",
+  "date": "2026-11-10",
+  "art_processing": "Built-in image generation output copied unchanged; no raster retouching or cropping."
+}

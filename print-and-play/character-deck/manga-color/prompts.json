@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-12",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "built-in",
+  "style_anchor": "assets/characters/manga-color/tinatin-v1.png",
+  "count": 21,
+  "placeholders": "Keep all 14 source silhouettes unchanged",
+  "original_manifest": "print-and-play/character-deck/portrait-manifest.json",
+  "entries": [
+    {
+      "id": "tinatin",
+      "original_asset": "assets/characters/tinatin-v3.png",
+      "asset": "assets/characters/manga-color/tinatin-v1.png",
+      "prompt": "Use case: illustration-story. Create a NEW COLOURED MANGA CHARACTER PORTRAIT of Tinatin, designed as the style anchor for a matching set of21 character medallions for a medieval Georgian poem board game.\nInput1 is her original painted portrait: use ONLY for identity, dark wavy hair, adult age, complexion, crown and restrained plum/gold color cues. Input2 is the approved manga coronation scene: use its Tinatin character design, expressive2D manga face, bold ink contours, simplified clothing, large black shapes and clear dramatic character acting. Do NOT copy painted rendering or all-over brocade fromInput1.\nNEW FORMAT: square canvas, ideally1536x1536. Exactly one young adult queen, head, shoulders and upper chest, three-quarter pose, open confident expression. A complete circular medallion centered on canvas, diameter94% ofcanvas; simple narrow antique-gold rim and one thin dark outline. All hair, crown and shoulders lie inside circle. Insidebackground is flat muted petrol-teal, no scenery or patterns. Outsidecircle is genuinely TRANSPARENT alpha.\nSTYLE/COLOR: organic Japanese historical-adventure manga drawing, clearly stylized adult face and expressive eyes, designed dark hair locks, clean bold black ink, simple broad folds and two-tone CEL SHADING. Rich but restrained color: warm natural olive skin, dark chestnut hair, muted plum cloak/robe, cream collar, small antique-gold crown/clasps/earrings. Moderate color saturation, readable jewel tones, no neon. Distinct flat color shapes, no soft painted realism, no engraved dense hatching or ornamental texture. Crown fullyvisible, modest court clothing. No Japanese kimono or modern accessories.\nNO TEXT, LETTERS, NUMBERS, NAME LABELS, SPEECH BUBBLES, SOUND EFFECTS, BANNERS, SCROLLS, LOGOS OR WATERMARKS. Exactly one circular portrait on transparent canvas, not a page or collage.",
+      "references": [
+        "assets/characters/tinatin-v3.png",
+        "assets/episodes/episode-02-manga-v2.png"
+      ]
+    },
+    {
+      "id": "avtandil",
+      "original_asset": "assets/characters/avtandil-v5.png",
+      "asset": "assets/characters/manga-color/avtandil-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Young adult male Arabian knight, clean-shaven angular face, olive complexion, expressive warm eyes, thick dark loose curls, bareheaded. Confident and kind. Muted crimson travelling cloak and simplified cool steel Eastern lamellar armour, cream collar. No crown, no beard. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/avtandil-v5.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "tariel",
+      "original_asset": "assets/characters/tariel-v13.png",
+      "asset": "assets/characters/manga-color/tariel-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Young adult muscular Indian knight. Dark brown/black wavy hair and short dark beard, strong features, sorrowful resolute gaze. Distinct panther-skin cap and pelt mantle in ochre with black leopard rosettes/markings, bare muscular upper arm, simple cream underlayer. No grey hair. Keep panther skin recognizable. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/tariel-v13.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "nestan",
+      "original_asset": "assets/characters/nestan-v3.png",
+      "asset": "assets/characters/manga-color/nestan-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Young adult Indian princess, long dark wavy hair and strong beautiful features. Deep green robe, black/charcoal silk head veil with gold border and a few simplified gold vine/pomegranate thread motifs. Restrained gold hair ornament. Veil must remain black-and-gold, never blue or white. Calm proud intelligent expression. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/nestan-v3.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "asmat",
+      "original_asset": "assets/characters/asmat-v2.png",
+      "asset": "assets/characters/manga-color/asmat-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Adult woman, dark hair, warm olive complexion, calm and resolute with practical serious expression. Black/dark charcoal headscarf and cloak with very minimal gold edging. Simple covered neckline. No crown and no elaborate queen's jewellery. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/asmat-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "pridon",
+      "original_asset": "assets/characters/pridon-v3.png",
+      "asset": "assets/characters/manga-color/pridon-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Adult male warrior king with short dark hair, neatly trimmed dark beard, warm medium skin, sturdy build and friendly confident face. Rust-red cloak over navy tunic with a small simplified chainmail neckline. No panther pelt or crown. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/pridon-v3.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "fatman",
+      "original_asset": "assets/characters/fatman-v7.png",
+      "asset": "assets/characters/manga-color/fatman-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Mature woman about 40, fuller cheeks and full-faced, dark warm complexion, lively clever eyes, confident generous smile. Ochre-gold head veil with burgundy band, burgundy dress, gold earrings and a few pearls, small beauty mark. Preserve mature merchant woman's dignity. Not a teenage princess. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/fatman-v7.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "rostevan",
+      "original_asset": "assets/characters/rostevan-v2.png",
+      "asset": "assets/characters/manga-color/rostevan-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Elderly Arabian king, long flowing white hair and large thick white beard, strong broad lined face, warm proud gaze. Royal gold crown and forest-green cloak over cream/gold court robe. He must look much older than the young heroes. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/rostevan-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "shermadin",
+      "original_asset": "assets/characters/shermadin-v2.png",
+      "asset": "assets/characters/manga-color/shermadin-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Sturdy adult male retainer with short dark beard, broad practical face and steady loyal expression. Small simple navy-blue cap and blue quilted coat with three gold toggles. No crown and no teenage face. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/shermadin-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "sograt",
+      "original_asset": "assets/characters/sograt-v2.png",
+      "asset": "assets/characters/manga-color/sograt-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Old male vizier, long white beard and thin angular kindly wise face with visible age lines. Simple green wrapped turban and muted ochre/green robe. No crown. Distinct from the broad king Rostevan. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/sograt-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "parsadan",
+      "original_asset": "assets/characters/parsadan-v2.png",
+      "asset": "assets/characters/manga-color/parsadan-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Aged Indian king, grey wavy hair and short trimmed grey beard, stern thin angular lined face. Gold royal crown and muted red court robe with restrained gold border. Beard significantly shorter than Rostevan's. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume. ALPHA REQUIREMENT: every pixel inside the circular gold rim, including the entire teal background field, must be fully opaque alpha255. Transparency ONLY outside the rim. No interior holes or erased dark regions.",
+      "references": [
+        "assets/characters/parsadan-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "saridan",
+      "original_asset": "assets/characters/saridan-v2.png",
+      "asset": "assets/characters/manga-color/saridan-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Mature warrior king and Tariel's father, sturdy square jaw, short grey beard, weathered strong face. Plain gold circlet/headband, simplified bronze Eastern lamellar armour, olive cloak. No tall royal crown. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume. ALPHA REQUIREMENT: every pixel inside the circular gold rim, including the entire teal background field, must be fully opaque alpha255. Transparency ONLY outside the rim. No interior holes or erased dark regions.",
+      "references": [
+        "assets/characters/saridan-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "davari",
+      "original_asset": "assets/characters/davari-v2.png",
+      "asset": "assets/characters/manga-color/davari-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Middle-aged noblewoman and Nestan's guardian, stern sharp face with visible age, dark burgundy/plum hooded veil with simple gold edging, modest dark robe. No crown, no witch hat, no demonic attributes. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume. ALPHA REQUIREMENT: every pixel inside the circular gold rim, including the entire teal background field, must be fully opaque alpha255. Transparency ONLY outside the rim. No interior holes or erased dark regions.",
+      "references": [
+        "assets/characters/davari-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "khvarazmsha",
+      "original_asset": "assets/characters/khvarazmsha-v2.png",
+      "asset": "assets/characters/manga-color/khvarazmsha-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Young adult Khwarazmian prince, dark curls, small narrow dark moustache, handsome proud face. Low purple royal cap with simple gold band and plum court coat with restrained gold accents. This is the young prince, NOT his older father. No grey beard. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume. ALPHA REQUIREMENT: every pixel inside the circular gold rim, including the entire teal background field, must be fully opaque alpha255. Transparency ONLY outside the rim. No interior holes or erased dark regions.",
+      "references": [
+        "assets/characters/khvarazmsha-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "ramaz",
+      "original_asset": "assets/characters/ramaz-v2.png",
+      "asset": "assets/characters/manga-color/ramaz-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Mature Khataetian warrior king, strong black beard, thick eyebrows, stern forceful face. Bronze Eastern conical helmet and simplified bronze armour with circular shoulder plate, muted wine cloak. Historical Georgian-Eastern attire, not Japanese samurai armour. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/ramaz-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "usen",
+      "original_asset": "assets/characters/usen-v3.png",
+      "asset": "assets/characters/manga-color/usen-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Lean aging male merchant, narrow weathered face, wispy grey beard and moustache, blue wrapped turban with a simple small jewel and ochre robe with blue accents. Thin not plump, not young. Thoughtful worldly slightly worried eyes. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/usen-v3.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "chashnagiri",
+      "original_asset": "assets/characters/chashnagiri-v2.png",
+      "asset": "assets/characters/manga-color/chashnagiri-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Elegant young adult male courtier with neat dark moustache and short goatee/beard, slender angular face and shrewd expression. Fitted dark pointed court cap with thin gold trim, charcoal/wine court garment with simple gold neckline. No crown. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/chashnagiri-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "surkhavi",
+      "original_asset": "assets/characters/surkhavi-v2.png",
+      "asset": "assets/characters/manga-color/surkhavi-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Elderly Sea Realm king with long grey-white hair and beard, strong lined face and stern dignified expression. Green-accented royal gold crown and deep green robe with minimal gold trimming. Clearly old, not young Pridon. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/surkhavi-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "dulardukht",
+      "original_asset": "assets/characters/dulardukht-v2.png",
+      "asset": "assets/characters/manga-color/dulardukht-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Mature to older queen, sharp resolute female face with age lines. Gold royal crown over purple hood and purple royal robe with restrained gold edging. Formidable dignity. Female, no beard. Unlike Davar she wears a crown. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/dulardukht-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "rosan",
+      "original_asset": "assets/characters/rosan-v3.png",
+      "asset": "assets/characters/manga-color/rosan-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Young teenage boy about 13–15, dark curly hair, youthful rounder face, no facial hair. Purple tunic with simple gold neck trim and a plain narrow gold circlet. Solemn young royal ward, not an adult warrior. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/rosan-v3.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    },
+    {
+      "id": "rustaveli",
+      "original_asset": "assets/characters/rustaveli-v2.png",
+      "asset": "assets/characters/manga-color/rustaveli-v1.png",
+      "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Mature Georgian male poet, wavy dark hair grey at temples and short dark beard, thoughtful upward gaze, gentle lined face. Plain muted teal cloak over cream tunic, a white feather quill held low at chest as a small cue. No crown. Match the poet in the coloured first episode scene. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle genuinely transparent alpha. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+      "references": [
+        "assets/characters/rustaveli-v2.png",
+        "assets/characters/manga-color/tinatin-v1.png"
+      ]
+    }
+  ]
+}

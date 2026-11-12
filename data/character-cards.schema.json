@@ -1,0 +1,430 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:pantersskin:character-cards:1",
+  "title": "Pantersskin character-card content",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "status",
+    "work",
+    "scope",
+    "card_contract",
+    "characters"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "status": {
+      "const": "draft_for_content_review"
+    },
+    "work": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "card_contract": {
+      "type": "object"
+    },
+    "editorial_policy": {
+      "type": "object"
+    },
+    "external_editorial_sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "cast_audit_file": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/character"
+      }
+    },
+    "interaction_catalog_file": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "character": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_project_id",
+        "section",
+        "identity_type",
+        "name",
+        "front",
+        "back",
+        "interacted_with",
+        "chapter_presence",
+        "episode_presence",
+        "portrait",
+        "sources",
+        "editorial_notes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "source_project_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "section": {
+          "enum": [
+            "story",
+            "frame"
+          ]
+        },
+        "identity_type": {
+          "enum": [
+            "personal_name",
+            "identified_by_title",
+            "unnamed_individual",
+            "author_narrator"
+          ]
+        },
+        "name": {
+          "type": "object",
+          "required": [
+            "en",
+            "ka",
+            "aliases"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "ka": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "aliases": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false
+        },
+        "front": {
+          "type": "object",
+          "required": [
+            "role",
+            "short_description"
+          ],
+          "properties": {
+            "role": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 180
+            },
+            "short_description": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 350
+            }
+          },
+          "additionalProperties": false
+        },
+        "back": {
+          "type": "object",
+          "required": [
+            "overview",
+            "key_actions",
+            "insights",
+            "relationships"
+          ],
+          "properties": {
+            "overview": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            },
+            "key_actions": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "insights": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "text",
+                  "type",
+                  "source_chapters"
+                ],
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "type": {
+                    "const": "interpretation"
+                  },
+                  "source_chapters": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 65
+                    }
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "relationships": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "character_id",
+                  "name",
+                  "relationship",
+                  "detail"
+                ],
+                "properties": {
+                  "character_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "relationship": {
+                    "type": "string"
+                  },
+                  "detail": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "chapter_presence": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "Null means not reviewed, not absent. A completed mask has one binary value per chapter, beginning with chapter 1.",
+          "required": [
+            "status",
+            "total_chapters",
+            "definition",
+            "included_chapters",
+            "binary",
+            "audit_file"
+          ],
+          "properties": {
+            "status": {
+              "const": "reviewed_draft"
+            },
+            "total_chapters": {
+              "const": 65
+            },
+            "definition": {
+              "type": "string"
+            },
+            "included_chapters": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 65
+              }
+            },
+            "binary": {
+              "type": "array",
+              "minItems": 65,
+              "maxItems": 65,
+              "items": {
+                "enum": [
+                  0,
+                  1
+                ]
+              }
+            },
+            "audit_file": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "episode_presence": {
+          "type": "object",
+          "description": "24-episode presence mask combining poem participation in episode chapters and explicit board token actions.",
+          "required": [
+            "status",
+            "total_episodes",
+            "definition",
+            "included_episodes",
+            "token_action_only_episodes",
+            "binary"
+          ],
+          "properties": {
+            "status": {
+              "const": "reviewed_draft"
+            },
+            "total_episodes": {
+              "const": 24
+            },
+            "definition": {
+              "type": "string"
+            },
+            "included_episodes": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 24
+              }
+            },
+            "token_action_only_episodes": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 24
+              }
+            },
+            "binary": {
+              "type": "array",
+              "minItems": 24,
+              "maxItems": 24,
+              "items": {
+                "enum": [
+                  0,
+                  1
+                ]
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "portrait": {
+          "type": "object",
+          "required": [
+            "canonical_cues",
+            "narrative_motifs",
+            "existing_asset",
+            "status"
+          ],
+          "properties": {
+            "canonical_cues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "narrative_motifs": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "existing_asset": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "status": {
+              "enum": [
+                "not_generated",
+                "existing_asset_selected",
+                "generic_silhouette"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "file",
+              "chapter",
+              "project_stanza_start",
+              "project_stanza_end",
+              "reference_system"
+            ],
+            "properties": {
+              "file": {
+                "type": "string"
+              },
+              "chapter": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 65
+              },
+              "project_stanza_start": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 1669
+              },
+              "project_stanza_end": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 1669
+              },
+              "reference_system": {
+                "const": "project_record_locator"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "editorial_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "interacted_with": {
+          "type": "array",
+          "uniqueItems": true,
+          "description": "IDs of other profiles with source-supported encounters, actions, or explicit correspondence. Reciprocal; no self-links. Evidence is stored in data/character-interactions.json. Empty means no established contact within this carded cast, not that the character is absent from the poem.",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

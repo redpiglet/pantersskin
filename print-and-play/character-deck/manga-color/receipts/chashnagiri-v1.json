@@ -1,0 +1,28 @@
+{
+  "character_id": "chashnagiri",
+  "date": "2026-11-12T11:54:05.300619+00:00",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "built-in",
+  "asset": "assets/characters/manga-color/chashnagiri-v1.png",
+  "source_generated_png": "/Users/Nikoloz/.codex/generated_images/01a1ceec-5878-7f81-bad7-c9cd2b5b6cda/exec-6ed79f0c-1b83-48ca-8a78-98551d3cbb93.png",
+  "references": [
+    "assets/characters/chashnagiri-v2.png",
+    "assets/characters/manga-color/tinatin-v1.png"
+  ],
+  "prompt": "Use case: style-transfer. Asset: a single character portrait PNG for Vepkhistkaosani game cards and tokens. Create a NEW COLOURED MANGA interpretation, organically redesigning the drawing and simplifying costume surfaces; not a recoloured manuscript painting. Input 1 is the ORIGINAL INDIVIDUAL IDENTITY AND COSTUME REFERENCE. Input 2 is TINATIN COLOUR MANGA STYLE/FORMAT REFERENCE ONLY: copy its bold ink, clean facial construction, moderate jewel colour, flat cel shadows and circular framing, NOT its woman's face, crown, age or costume. Subject: Elegant young adult male courtier with neat dark moustache and short goatee/beard, slender angular face and shrewd expression. Fitted dark pointed court cap with thin gold trim, charcoal/wine court garment with simple gold neckline. No crown. Style: expressive manga linework, confident thick/thin black contours, bold dark hair shapes, two-tone cel shading, selective light hatch shadow only; adult/age appropriate face, natural warm skin, muted jewel colours, moderate richness. No dense engraving, no photorealism, no painterly manuscript brushwork or all-over brocade. Format: square 1536 x 1536 requested; centered circular head/shoulders/upper-chest medallion filling about 94% of canvas; whole hair/headgear inside circle with comfortable margin; same thin simple antique-gold ring/dark outline as Tinatin; flat muted teal interior; outside circle a flat warm ivory square corner field (#F6F1E4); the ENTIRE image must be fully opaque, alpha 255, including the teal circle interior and ivory corners. NO transparency or transparent holes anywhere. One figure only. No text, letters, captions, numbers, symbols, speech bubbles, SFX, banners, scrolls, watermark or scenery. Preserve this character's individuality and recognizable costume.",
+  "prompt_set": "print-and-play/character-deck/manga-color/overrides/chashnagiri-v1.json",
+  "sha256": "fccf52393218e7fc321187f6d9ef52eb498aa4372e8ef0554dbf4f08f6ae574b",
+  "bytes": 1665107,
+  "native_pixels": [
+    1254,
+    1254
+  ],
+  "image_mode": "RGB",
+  "alpha_extrema": null,
+  "processing": "Copied unchanged; native pixels and alpha preserved",
+  "visual_review": {
+    "status": "passed",
+    "review": "Inspected individually or at final cast contact sheet; coloured manga ink/cel shading, recognizable character identity and age, single complete medallion, no lettering, intact background."
+  },
+  "final_cast_review": "passed"
+}

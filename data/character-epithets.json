@@ -1,0 +1,3759 @@
+{
+  "work": {
+    "title_ka": "ვეფხისტყაოსანი",
+    "title_en": "The Knight in the Panther's Skin",
+    "author_ka": "შოთა რუსთაველი",
+    "author_en": "Shota Rustaveli",
+    "editorial_note": "Every characteristic, epithet, and metaphor below is strictly verified against the Georgian stanza text in data/chapters/chapter-01.json through chapter-65.json. Only the most evident, canonical, and directly attested descriptions, epithets, and figurative metaphors are included.",
+    "total_chapters": 65,
+    "total_stanzas": 1669,
+    "stats_methodology": "Direct mentions count stanzas and total word occurrences where the character’s proper name (or canonical title for the Chashnagir) appears verbatim in the Georgian verse (1,669 stanzas across 65 chapters), plus occurrences in chapter headings. Indirect mentions count stanzas where the character actively speaks, acts, writes, or is referred to by title, pronoun, or poetic epithet/metaphor (e.g., mepe, spaspeti, amirbari, vaziri, mze, lomi, kali, kma) without their personal name being repeated in that stanza."
+  },
+  "characters": [
+    {
+      "id": "rostevan",
+      "name_ka": "როსტევანი",
+      "name_en": "Rostevan",
+      "role_ka": "არაბეთის მეფე, თინათინის მამა",
+      "role_en": "King of Arabia, father of Tinatin",
+      "characteristics": [
+        {
+          "ka": "ღვთისგან ბედნიერი და იღბლიანი ხელმწიფე",
+          "en": "Sovereign blessed with fortune by God",
+          "quote_ka": "მეფე ღმრთისაგან სვიანი",
+          "stanza": 32
+        },
+        {
+          "ka": "დიდებული, გულუხვი და ქვეშევრდომთათვის თავმდაბალი",
+          "en": "Exalted, generous, and accessible/humble toward his subjects",
+          "quote_ka": "მაღალი, უხვი, მდაბალი",
+          "stanza": 32
+        },
+        {
+          "ka": "მრავალრიცხოვანი ლაშქრისა და ყმების პატრონი",
+          "en": "Lord of numerous troops and vassals",
+          "quote_ka": "ლაშქარ-მრავალი, ყმიანი",
+          "stanza": 32
+        },
+        {
+          "ka": "სამართლიანი მსაჯული, მოწყალე და წინდახედული მმართველი",
+          "en": "Just judge, merciful, majestic, and wise in governance",
+          "quote_ka": "მოსამართლე და მოწყალე, მორჭმული, განგებიანი",
+          "stanza": 32
+        },
+        {
+          "ka": "უბადლო მეომარი და მჭევრმეტყველი მოსაუბრე",
+          "en": "Peerless warrior and eloquent, gracious speaker",
+          "quote_ka": "თვით მეომარი უებრო, კვლა მოუბარი წყლიანი",
+          "stanza": 32
+        },
+        {
+          "ka": "ლაღი, დინჯი და ნებიერი ბუნების მქონე",
+          "en": "Confident, calm, and benevolent in demeanor",
+          "quote_ka": "თვით ზის ლაღი და წყნარია / ხელმწიფე ნებიერი",
+          "stanza": 34
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "მეფე ღმრთისაგან სვიანი",
+          "epithet_en": "King blessed with fortune by God",
+          "quote_ka": "იყო არაბეთს როსტევან, მეფე ღმრთისაგან სვიანი",
+          "stanza": 32
+        },
+        {
+          "epithet_ka": "მაღალი, უხვი, მდაბალი, ლაშქარ-მრავალი, ყმიანი",
+          "epithet_en": "Exalted, generous, humble, many-trooped, rich in vassals",
+          "quote_ka": "მაღალი, უხვი, მდაბალი, ლაშქარ-მრავალი, ყმიანი",
+          "stanza": 32
+        },
+        {
+          "epithet_ka": "მოსამართლე და მოწყალე, მორჭმული, განგებიანი",
+          "epithet_en": "Just judge and merciful, majestic, prudent",
+          "quote_ka": "მოსამართლე და მოწყალე, მორჭმული, განგებიანი",
+          "stanza": 32
+        },
+        {
+          "epithet_ka": "მეომარი უებრო, მოუბარი წყლიანი",
+          "epithet_en": "Peerless warrior, eloquent speaker",
+          "quote_ka": "თვით მეომარი უებრო, კვლა მოუბარი წყლიანი",
+          "stanza": 32
+        },
+        {
+          "epithet_ka": "მეფე უკადრი, მორჭმული, შეუპოველი",
+          "epithet_en": "Proud/unassailable, majestic, indomitable king",
+          "quote_ka": "როსტევან, მეფე უკადრი, მორჭმული, შეუპოველი",
+          "stanza": 681
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "დამჭკნარი ვარდი ტურფა საბაღნაროში (საკუთარ სიბერეზე)",
+          "metaphor_en": "A fading rose in a fair garden giving way to a fresh bloom (referring to his own old age)",
+          "quote_ka": "რა ვარდმან მისი ყვავილი გაახმოს, დაამჭნაროსა, იგი წავა და სხვა მოვა ტურფასა საბაღნაროსა",
+          "stanza": 35
+        },
+        {
+          "metaphor_ka": "ჩასვენებული მზე და უმთვარო ღამე (საკუთარი ძალის მილევაზე)",
+          "metaphor_en": "A setting sun and moonless night (describing the waning of his youth and reign)",
+          "quote_ka": "მზე ჩაგვისვენდა, ბნელსა ვსჭვრეტთ, ღამესა ჩვენ უმთვაროსა",
+          "stanza": 35
+        },
+        {
+          "metaphor_ka": "ედემში დარგული ალვა (მეფური სიუხვის სახე)",
+          "metaphor_en": "A cypress planted in Eden (metaphor for his defining royal generosity)",
+          "quote_ka": "მეფეთა შიგან სიუხვე ვით ედემს ალვა რგულია",
+          "stanza": 50
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 20,
+        "direct_name_occurrences": 20,
+        "named_in_chapter_titles": 5,
+        "indirect_mentions_stanzas": 147,
+        "total_active_or_mentioned_stanzas": 167,
+        "poem_stanza_share_percent": 10.01,
+        "chapters_active_count": 15,
+        "first_appearance_stanza": 32,
+        "last_appearance_stanza": 1634,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "არაბეთი",
+        "primary_realm_en": "Arabia",
+        "key_relationships": [
+          "tinatin",
+          "avtandil",
+          "sograt",
+          "shermadin",
+          "tariel"
+        ],
+        "interacted_characters_count": 7
+      },
+      "interacted_characters": [
+        {
+          "character_id": "tinatin",
+          "name_ka": "თინათინი",
+          "name_en": "Tinatin",
+          "relationship_ka": "მამა და ტახტის მემკვიდრე ასული",
+          "relationship_en": "Father and royal daughter/successor",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "საკუთარი ხელით სვამს თინათინს არაბეთის ტახტზე, არიგებს სიუხვესა და სამართლიანობას, ბოლოს კი ლოცავს მისსა და ავთანდილის ქორწინებას.",
+          "summary_en": "Crowns Tinatin sovereign of Arabia during his lifetime, counsels her on royal generosity, and later blesses her marriage to Avtandil.",
+          "chapters": [
+            2,
+            4,
+            30,
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "ხელმწიფე, გამზრდელი და სპასპეტი",
+          "relationship_en": "Sovereign, foster-father, and Commander-in-Chief",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ეჯიბრება ნადირობაში, უარს ეუბნება ტარიელთან მეორედ წასვლაზე, გლოვობს მის გაპარვას, ბოლოს კი პატიობს და სიძედ იღებს.",
+          "summary_en": "Competes with him in the royal hunt, refuses his leave, mourns his secret departure after reading his Testament, and welcomes him back as Tinatin’s husband.",
+          "chapters": [
+            2,
+            3,
+            4,
+            5,
+            30,
+            33,
+            35,
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "sograt",
+          "name_ka": "სოგრატი",
+          "name_en": "Sograt",
+          "relationship_ka": "მეფე და უახლოესი ვაზირი",
+          "relationship_en": "King and chief vizier",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ლაღად ეხუმრება ნადიმზე, ხოლო ავთანდილის გაშვების თხოვნისას განრისხებული სკამს ესვრის, თუმცა შემდეგ კვლავ იახლოებს.",
+          "summary_en": "Jests with him at the banquet, furiously hurls a chair at him when he pleads for Avtandil’s leave, and later hears Avtandil’s testament through him.",
+          "chapters": [
+            2,
+            31,
+            35
+          ]
+        },
+        {
+          "character_id": "shermadin",
+          "name_ka": "შერმადინი",
+          "name_en": "Shermadin",
+          "relationship_ka": "მეფე და ავთანდილის ერთგული მსახური",
+          "relationship_en": "King and Avtandil’s faithful retainer",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "შერმადინისგან იგებს ავთანდილის პირველი დაბრუნების ხარებას და მოგვიანებით მისგანვე იბარებს გაპარული ავთანდილის ანდერძს.",
+          "summary_en": "Receives glad tidings of Avtandil’s first return from Shermadin and later receives Avtandil’s farewell testament from him.",
+          "chapters": [
+            2,
+            30,
+            35
+          ]
+        },
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "თავდაპირველად უცნობი მოყმე, შემდგომ ძვირფასი სტუმარი და მოყვარე",
+          "relationship_en": "Initially unknown stranger knight, later honored guest and ally",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "წყლის პირას ხვდება მტირალ უცხო მოყმეს და მარცხდება მის დევნაში; ფინალში კი დიდი პატივით მასპინძლობს არაბეთში.",
+          "summary_en": "Encounters and pursues the weeping stranger by the stream; later welcomes Tariel with royal honor in Arabia and grants his plea for Avtandil’s marriage.",
+          "chapters": [
+            4,
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "მასპინძელი მეფე და სტუმარი დედოფალი",
+          "relationship_en": "Royal host and honored guest queen",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "დიდი პატივით ხვდება ქაჯეთიდან დახსნილ ნესტან-დარეჯანს არაბეთში.",
+          "summary_en": "Welcomes the rescued Nestan-Darejan with royal splendor in Arabia.",
+          "chapters": [
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "pridon",
+          "name_ka": "ნურადინ-ფრიდონი",
+          "name_en": "Nuradin-Pridon",
+          "relationship_ka": "მასპინძელი მეფე და მოკავშირე ხელმწიფე",
+          "relationship_en": "Royal host and allied king",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "მასპინძლობს ნურადინ-ფრიდონს არაბეთში ავთანდილისა და თინათინის ქორწილში.",
+          "summary_en": "Welcomes Nuradin-Pridon as an honored guest at the Arabian royal wedding.",
+          "chapters": [
+            60,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tinatin",
+      "name_ka": "თინათინი",
+      "name_en": "Tinatin",
+      "role_ka": "არაბეთის მეფე-ქალი, როსტევანის ასული, ავთანდილის სატრფო",
+      "role_en": "Female sovereign of Arabia, daughter of Rostevan, beloved of Avtandil",
+      "characteristics": [
+        {
+          "ka": "მზის სადარი სილამაზის მქონე, რომელიც მზესაც კი ჩრდილავს",
+          "en": "Possessing sun-like beauty that outshines the sun itself",
+          "quote_ka": "რა გაიზარდა, გაივსო, მზე მისგან საწუნარია",
+          "stanza": 34
+        },
+        {
+          "ka": "მჭვრეტელთა გულის, გონებისა და სულის დამტყვევებელი",
+          "en": "Captivator of the heart, mind, and soul of all who behold her",
+          "quote_ka": "მან მისთა მჭვრეტთა წაუღის გული, გონება და სული",
+          "stanza": 33
+        },
+        {
+          "ka": "თეთრყელიანი, ხშირი გრძელი შავი თმით, გიშრის ნაწნავებითა და გულის გამგმირავი შავი წამწამებით",
+          "en": "White-necked, with thick long jet-black hair, thick brows, and heart-piercing black eyelashes",
+          "quote_ka": "ჰშვენოდეს შავნი წამწამნი, გულისა გასაგმირონი, მას თეთრსა ყელსა ეხვივნეს გრძლად თმანი არ უხშირონი",
+          "stanza": 123
+        },
+        {
+          "ka": "დინჯი, მშვიდი გონებისა და ღრმა სიბრძნის პატრონი",
+          "en": "Calm, serene-minded, and wise in counsel",
+          "quote_ka": "ავთანდილს უთხრა დაჯდომა წყნარად, ცნობითა მშვიდითა",
+          "stanza": 124
+        },
+        {
+          "ka": "უხვი და მოწყალე მეფე, სკიპტრისა და გვირგვინის მპყრობელი",
+          "en": "Generous sovereign bearing sceptre, crown, and royal purple",
+          "quote_ka": "სკიპტროსან-გვირგვინოსანსა ჰშვენოდა ცმა პორფირისა",
+          "stanza": 1540
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "სოფლისა მნათი მნათობი",
+          "epithet_en": "World-illuminating luminary",
+          "quote_ka": "სოფლისა მნათი მნათობი, მზისაცა დასთა დასული",
+          "stanza": 33
+        },
+        {
+          "epithet_ka": "წყნარი და ცნობილი",
+          "epithet_en": "Calm and wise/discerning",
+          "quote_ka": "ხარმცა ბრძნად მქმნელი საქმისა, იყავ წყნარი და ცნობილი!",
+          "stanza": 48
+        },
+        {
+          "epithet_ka": "შავნი წამწამნი, გულისა გასაგმირონი",
+          "epithet_en": "Heart-piercing black eyelashes",
+          "quote_ka": "ჰშვენოდეს შავნი წამწამნი, გულისა გასაგმირონი",
+          "stanza": 123
+        },
+        {
+          "epithet_ka": "მჭვრეტთა მიმცემი ჭირისა",
+          "epithet_en": "Bestower of longing/woe upon beholders",
+          "quote_ka": "შევიდეს, ნახეს თინათინ მჭვრეტთა მიმცემი ჭირისა",
+          "stanza": 1540
+        },
+        {
+          "epithet_ka": "სკიპტროსან-გვირგვინოსანი",
+          "epithet_en": "Sceptre-and-crown bearer",
+          "quote_ka": "სკიპტროსან-გვირგვინოსანსა ჰშვენოდა ცმა პორფირისა",
+          "stanza": 1540
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "მზე უკადრი / მზისა დასთა დასული / ნათელი უღამო",
+          "metaphor_en": "Proud Sun / ranked among the heavenly suns / nightless light",
+          "quote_ka": "მზე უკადრი ტახტსა ზედა ზის მორჭმული, არ ნადევრი / თინათინს ჰკადრა შერმადინ, ნათელსა მას უღამოსა",
+          "stanza": 694
+        },
+        {
+          "metaphor_ka": "ეფრატის წყლით მორწყული, ედემში დარგული ალვა მჭევრი (ტანადობა)",
+          "metaphor_en": "Graceful cypress tree planted in Eden and watered by the Euphrates (her stature)",
+          "quote_ka": "წყლად ეფრატსა უხვად ერწყო ედემს რგული ალვა მჭევრი",
+          "stanza": 694
+        },
+        {
+          "metaphor_ka": "ტანი ალვა, პირი მანგი",
+          "metaphor_en": "Cypress in stature, full moon (mangi) in countenance",
+          "quote_ka": "და მოახსენა: გიბრძანებსო ტანი ალვა, პირი მანგი",
+          "stanza": 120
+        },
+        {
+          "metaphor_ka": "ბროლ-ბადახში, თმა გიშერი და წარბი ტევრი (სახის კანი, ბაგე, თმა და წარბები)",
+          "metaphor_en": "Crystal and ruby (skin and lips) adorned by black jet (hair) and a dense forest (brows)",
+          "quote_ka": "ბროლ-ბადახშსა აშვენებდა თმა გიშერი, წარბი ტევრი",
+          "stanza": 694
+        },
+        {
+          "metaphor_ka": "ყორნის ბოლო-ფრთანი (შავი წამწამები) და ვარდის ბაღი (ღაწვები)",
+          "metaphor_en": "Raven's wingtips (her black eyelashes) and a rose garden filled with tears (her face)",
+          "quote_ka": "ქალი ტირს და ცრემლსა აფრქვევს, ჰხრის ყორნისა ბოლო-ფრთათა / ამად ტირს, ბაღი ვარდისა ცრემლითა აივსებოდა",
+          "stanza": 46
+        },
+        {
+          "metaphor_ka": "პირისა ელვა",
+          "metaphor_en": "Lightning flash of her face",
+          "quote_ka": "მოსრულთა პირსა შეადგა ელვა მისისა პირისა",
+          "stanza": 1540
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 26,
+        "direct_name_occurrences": 27,
+        "named_in_chapter_titles": 2,
+        "indirect_mentions_stanzas": 195,
+        "total_active_or_mentioned_stanzas": 221,
+        "poem_stanza_share_percent": 13.24,
+        "chapters_active_count": 16,
+        "first_appearance_stanza": 33,
+        "last_appearance_stanza": 1661,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "არაბეთი",
+        "primary_realm_en": "Arabia",
+        "key_relationships": [
+          "avtandil",
+          "rostevan",
+          "tariel",
+          "nestan"
+        ],
+        "interacted_characters_count": 6
+      },
+      "interacted_characters": [
+        {
+          "character_id": "rostevan",
+          "name_ka": "როსტევანი",
+          "name_en": "Rostevan",
+          "relationship_ka": "ასული და ტახტის მემკვიდრე",
+          "relationship_en": "Daughter and royal successor",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "მამის ნებით ადის არაბეთის სამეფო ტახტზე და იღებს მისგან მეფური სიუხვის დარიგებას.",
+          "summary_en": "Ascends the throne of Arabia at her father’s command and receives his counsel on royal generosity.",
+          "chapters": [
+            2,
+            4,
+            30,
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "მიჯნური და შემდგომ მეუღლე / თანამოსაყდრე",
+          "relationship_en": "Beloved and later husband / co-ruler",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "უცხო მოყმის მოძებნას ავალებს, ფიცსა და სამახსოვროს უცვლის, მხარს უჭერს ტარიელის დასახმარებლად წასვლაში და ბოლოს ქორწინდება მასზე.",
+          "summary_en": "Commissions his quest for the mysterious knight, exchanges vows with him, supports his duty to rescue Tariel, and weds him.",
+          "chapters": [
+            2,
+            5,
+            30,
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "shermadin",
+          "name_ka": "შერმადინი",
+          "name_en": "Shermadin",
+          "relationship_ka": "ხელმწიფე და მახარობელი",
+          "relationship_en": "Sovereign and bearer of glad tidings",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "უხვად ასაჩუქრებს შერმადინს, როდესაც იგი ავთანდილის დაბრუნებას ახარებს.",
+          "summary_en": "Lavishly rewards Shermadin when he brings news of Avtandil’s return.",
+          "chapters": [
+            30
+          ]
+        },
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "მასპინძელი ხელმწიფე და ავთანდილის ძმადნაფიცი",
+          "relationship_en": "Royal hostess and Avtandil’s sworn brother",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "პატივით იღებს ტარიელს არაბეთის ტახტზე და ისმენს მის შუამდგომლობას ავთანდილთან ქორწინების თაობაზე.",
+          "summary_en": "Receives Tariel at the Arabian court and accepts his intercession for her marriage to Avtandil.",
+          "chapters": [
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "დობილი და თანასწორი დედოფალი",
+          "relationship_en": "Sworn sister and fellow queen",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "არაბეთში მასპინძლობს ნესტან-დარეჯანს და დობილობის ფიცით ეყრება ინდოეთში გამგზავრების წინ.",
+          "summary_en": "Hosts Nestan-Darejan in Arabia and parts with her as a sworn sister.",
+          "chapters": [
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "pridon",
+          "name_ka": "ნურადინ-ფრიდონი",
+          "name_en": "Nuradin-Pridon",
+          "relationship_ka": "მასპინძელი ხელმწიფე და საპატიო სტუმარი",
+          "relationship_en": "Royal hostess and honored guest",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "მასპინძლობს ფრიდონს არაბეთის სასახლესა და საქორწილო ზეიმზე.",
+          "summary_en": "Welcomes Pridon at the Arabian court during the wedding festivities.",
+          "chapters": [
+            60,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avtandil",
+      "name_ka": "ავთანდილი",
+      "name_en": "Avtandil",
+      "role_ka": "არაბეთის სპასპეტი, ამირსპასალარის ძე, თინათინის მიჯნური და ტარიელის ძმადნაფიცი",
+      "role_en": "Commander-in-Chief (Spaspeti) of Arabia, son of the Amirspasalar, beloved of Tinatin and sworn brother of Tariel",
+      "characteristics": [
+        {
+          "ka": "არაბეთის მრავალათასიანი ლაშქრის სპასპეტი",
+          "en": "Commander-in-Chief of Arabia's myriad armies",
+          "quote_ka": "ავთანდილ იყო სპასპეტი, ძე ამირ-სპასალარისა / სპასპეტი ლაშქრისა ბევრ-ათასისა",
+          "stanza": 40
+        },
+        {
+          "ka": "საროზე (კვიპაროსზე) უფრო ტანადი, მზისა და მთვარის მსგავსი, დასაწყისში უწვერული ჭაბუკი",
+          "en": "More graceful in stature than a cypress, like the sun and moon, initially a beardless youth",
+          "quote_ka": "საროსა მჯობი, ნაზარდი, მსგავსი მზისა და მთვარისა, ჯერ უწვერული, სადარო ბროლ-მინა საცნობარისა",
+          "stanza": 40
+        },
+        {
+          "ka": "ვეფხვივითა და ლომივით სწრაფი, მარჯვე და შეუპოვარი მეომარი",
+          "en": "Agile and fierce in battle as a panther and a lion",
+          "quote_ka": "სპათა სპასპეტი, ჩაუქი, ვითა ვეფხი და ლომია",
+          "stanza": 57
+        },
+        {
+          "ka": "უბადლო მშვილდოსანი და მოასპარეზე",
+          "en": "Unrivaled archer and huntsman",
+          "quote_ka": "მიწაცა თქვენი ავთანდილ თქვენს წინა მშვილდოსანია; მოასპარეზედ ვინ მგავსო?",
+          "stanza": 67
+        },
+        {
+          "ka": "გონიერი, მოთმინების მქონე, ჭირთა დამთმენი და ფიცის ერთგული მოყვასი",
+          "en": "Wise, patient in adversity, and self-sacrificingly loyal to his sworn friend",
+          "quote_ka": "წესი არის მამაცისა მოჭირვება, ჭირთა თმენა",
+          "stanza": 795
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "სპასპეტი ლაშქრისა ბევრ-ათასისა",
+          "epithet_en": "Commander-in-Chief of myriad troops",
+          "quote_ka": "ავთანდილ პირ-მზე, სპასპეტი ლაშქრისა ბევრ-ათასისა",
+          "stanza": 44
+        },
+        {
+          "epithet_ka": "პირ-მზე, ნათელთა მფენელი",
+          "epithet_en": "Sun-faced shedder of radiance",
+          "quote_ka": "შერმადინს ეტყვის, უბრძანებს პირ-მზე, ნათელთა მფენელი",
+          "stanza": 774
+        },
+        {
+          "epithet_ka": "მჭვრეტთაგან მოსანდომი",
+          "epithet_en": "Desired and admired by all beholders",
+          "quote_ka": "თავსა ზის პირ-მზე ავთანდილ, მჭვრეტთაგან მოსანდომია",
+          "stanza": 57
+        },
+        {
+          "epithet_ka": "ქარქაშოსანი, თეთრ-ტაიჭოსანი",
+          "epithet_en": "Quiver-bearing rider of a white steed",
+          "quote_ka": "პირ-ოქრო რიდე ეხვია, ჰშვენოდა ქარქაშოსანი... მოდგა თეთრ-ტაიჭოსანი",
+          "stanza": 72
+        },
+        {
+          "epithet_ka": "ლაღი, ბუნება-ზიარი, მოყმე წყლიანი",
+          "epithet_en": "Noble, generous-natured, gracious knight",
+          "quote_ka": "რა ესე ესმა ავთანდილს ლაღსა, ბუნება-ზიარსა / შევიდა ლომი, მზე, მოყმე წყლიანი",
+          "stanza": 1109
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "საროსა მჯობი, მსგავსი მზისა და მთვარისა, სადარო ბროლ-მინა",
+          "metaphor_en": "Excelling the cypress tree, like the sun and moon, comparable to crystal and glass",
+          "quote_ka": "საროსა მჯობი, ნაზარდი, მსგავსი მზისა და მთვარისა, ჯერ უწვერული, სადარო ბროლ-მინა საცნობარისა",
+          "stanza": 40
+        },
+        {
+          "metaphor_ka": "ნაზარდი სოსანი, პირად ბროლ-ბადახშოსანი",
+          "metaphor_en": "Well-grown lily, with a face of crystal and ruby",
+          "quote_ka": "დილასა ადრე მოვიდა იგი ნაზარდი სოსანი, ძოწეულითა მოსილი, პირად ბროლ-ბადახშოსანი",
+          "stanza": 72
+        },
+        {
+          "metaphor_ka": "ღაწვი-ვარდი, ბროლ-ბადახში, მინა, სათი და გიშერი",
+          "metaphor_en": "Rose-cheeked, crystal, ruby, glass, and black jet/amber",
+          "quote_ka": "შემოვიდა ღაწვი-ვარდი, ბროლ-ბადახში, მინა, სათი; მისთა მჭვრეტთა დაუსახეს ვეფხსა ტოტი, ლომსა – თათი",
+          "stanza": 1074
+        },
+        {
+          "metaphor_ka": "ჩაუქი, ვითა ვეფხი და ლომი / ვეფხსა ტოტი, ლომსა – თათი",
+          "metaphor_en": "Agile as a panther and a lion, with a panther's paw and a lion's claw",
+          "quote_ka": "სპათა სპასპეტი, ჩაუქი, ვითა ვეფხი და ლომია",
+          "stanza": 57
+        },
+        {
+          "metaphor_ka": "ფიფქით დათრთვილული ვარდი (ცრემლიანი სახე)",
+          "metaphor_en": "A rose dusted with fresh snow and frost (his tear-streaked face)",
+          "quote_ka": "ახალმან ფიფქმან დათოვა, ვარდი დათრთვილა, დანასა",
+          "stanza": 179
+        },
+        {
+          "metaphor_ka": "მჭვრეტელთა მზე და მებრძოლთა მხეცი და ზარი / ვარდი ტკბილი",
+          "metaphor_en": "A sun to beholders, a wild beast and terror to foes / a sweet rose",
+          "quote_ka": "მჭვრეტელთა მზე და მებრძოლთა მხეცი და ვითა ზარია... წამოვიდა ვარდი ტკბილი",
+          "stanza": 1116
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 176,
+        "direct_name_occurrences": 181,
+        "named_in_chapter_titles": 29,
+        "indirect_mentions_stanzas": 684,
+        "total_active_or_mentioned_stanzas": 860,
+        "poem_stanza_share_percent": 51.53,
+        "chapters_active_count": 48,
+        "first_appearance_stanza": 6,
+        "last_appearance_stanza": 1664,
+        "epistolary_letters_written": 5,
+        "primary_realm_ka": "არაბეთი",
+        "primary_realm_en": "Arabia",
+        "key_relationships": [
+          "tinatin",
+          "tariel",
+          "pridon",
+          "rostevan",
+          "shermadin",
+          "asmat",
+          "fatman"
+        ],
+        "interacted_characters_count": 12
+      },
+      "interacted_characters": [
+        {
+          "character_id": "tinatin",
+          "name_ka": "თინათინი",
+          "name_en": "Tinatin",
+          "relationship_ka": "მიჯნური, ხელმწიფე და მეუღლე",
+          "relationship_en": "Beloved, sovereign, and wife",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ასრულებს თინათინის დავალებას უცხო მოყმის მოსაძებნად, უზიარებს ტარიელის ამბავს და ქაჯეთის აღების შემდეგ ქორწინდება მასზე.",
+          "summary_en": "Fulfils Tinatin’s quest to find the mysterious knight, reports Tariel’s story to her, and weds her after the conquest of Kadjeti.",
+          "chapters": [
+            2,
+            5,
+            30,
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "ძმადნაფიცი და თანამებრძოლი",
+          "relationship_en": "Sworn brother and fellow warrior",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "პოულობს ტარიელს გამოქვაბულში, ისმენს მის თავგადასავალს, გულანშაროში იგებს ნესტანის სამყოფელს და ტარიელთან ერთად იღებს ქაჯეთის ციხეს.",
+          "summary_en": "Finds Tariel in the cave, hears his story, revives him from despair, discovers Nestan’s captivity in Kadjeti, and storms the fortress beside him.",
+          "chapters": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            29,
+            37,
+            38,
+            53,
+            54,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "pridon",
+          "name_ka": "ნურადინ-ფრიდონი",
+          "name_en": "Nuradin-Pridon",
+          "relationship_ka": "ძმადნაფიცი და თანამებრძოლი",
+          "relationship_en": "Sworn brother and comrade-in-arms",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "სტუმრობს მულღაზანზარში, იგებს ნესტანის ზღვაზე მოტაცების ამბავს და ფრიდონთან და ტარიელთან ერთად ათავისუფლებს ნესტანს.",
+          "summary_en": "Visits Pridon in Mulghazanzar, hears his account of Nestan, writes to his court, and fights alongside him at Kadjeti.",
+          "chapters": [
+            40,
+            41,
+            52,
+            54,
+            55,
+            56,
+            57,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "rostevan",
+          "name_ka": "როსტევანი",
+          "name_en": "Rostevan",
+          "relationship_ka": "გამზრდელი მეფე და სიმამრი",
+          "relationship_en": "Foster-father, king, and father-in-law",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ასპარეზობს მეფესთან ერთად, უტოვებს ცნობილ ანდერძს ტარიელთან გაპარვის წინ და გამარჯვებული უბრუნდება არაბეთს.",
+          "summary_en": "Competes with Rostevan in the hunt, leaves him his famous Testament before departing secretly to aid Tariel, and returns in triumph.",
+          "chapters": [
+            2,
+            3,
+            4,
+            5,
+            30,
+            33,
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "shermadin",
+          "name_ka": "შერმადინი",
+          "name_en": "Shermadin",
+          "relationship_ka": "გაზრდილი, უერთგულესი მსახური და მოადგილე",
+          "relationship_en": "Foster-brother, chief retainer, and deputy",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ანდობს თავის საიდუმლოს, სამფლობელოსა და ლაშქარს სამწლიანი ძიებისა და მეორე გამგზავრების დროს.",
+          "summary_en": "Entrusts his secret, domain, and armies to Shermadin during both of his quests.",
+          "chapters": [
+            2,
+            5,
+            6,
+            30,
+            32
+          ]
+        },
+        {
+          "character_id": "asmat",
+          "name_ka": "ასმათი",
+          "name_en": "Asmat",
+          "relationship_ka": "მეგზური, მესაიდუმლე და მოკავშირე",
+          "relationship_en": "Intermediary, confidante, and ally",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "გამოქვაბულთან აговориებს ასმათს, თინათინის სახელით მოიპოვებს მის ნდობას და მისი მეშვეობით უმეგობრდება ტარიელს.",
+          "summary_en": "Questions Asmat at the cave, wins her trust by invoking Tinatin, and relies on her to comfort and locate Tariel.",
+          "chapters": [
+            7,
+            8,
+            9,
+            37,
+            38,
+            53
+          ]
+        },
+        {
+          "character_id": "fatman",
+          "name_ka": "ფატმან ხათუნი",
+          "name_en": "Fatman Khatun",
+          "relationship_ka": "გულანშაროელი მასპინძელი, სატრფო და მოკავშირე",
+          "relationship_en": "Gulansharo hostess, lover, and ally",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ვაჭრის სამოსით ჩერდება ფატმანის სახლში, კლავს მის დამშანტაჟებელ ჭაშნაგირს და ფატმანის დახმარებით იგებს ნესტანის ქაჯეთში ტყვეობას.",
+          "summary_en": "Lodges at Fatman’s home in Gulansharo, slays her blackmailer the Chashnagir, and learns through her of Nestan’s imprisonment in Kadjeti.",
+          "chapters": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            51,
+            52,
+            58
+          ]
+        },
+        {
+          "character_id": "chashnagiri",
+          "name_ka": "ჭაშნაგირი",
+          "name_en": "The Chashnagir",
+          "relationship_ka": "მეტოქე და ფატმანის დამშანტაჟებელი",
+          "relationship_en": "Rival and Fatman’s blackmailer",
+          "interaction_mode": "combat",
+          "summary_ka": "ფატმანის თხოვნით ღამით იპარება ჭაშნაგირის სასახლეში, კლავს მას და ბეჭდიან თითს ფატმანს უბრუნებს.",
+          "summary_en": "Secretly enters the Chashnagir’s palace at night, slays him and his guards, and brings his ringed finger back to Fatman.",
+          "chapters": [
+            46
+          ]
+        },
+        {
+          "character_id": "sograt",
+          "name_ka": "სოგრატი",
+          "name_en": "Sograt",
+          "relationship_ka": "მეგობარი და შუამავალი მეფესთან",
+          "relationship_en": "Court ally and intermediary with the king",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სოგრატთან ერთად ახალისებს დაღონებულ როსტევანს და მოგვიანებით სთხოვს მეფესთან შუამდგომლობას წასვლის ნებართვაზე.",
+          "summary_en": "Cheers Rostevan alongside Sograt at the banquet and later asks Sograt to petition the king for leave to depart.",
+          "chapters": [
+            2,
+            31
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "ძმადნაფიცი და გამათავისუფლებელი",
+          "relationship_en": "Sworn brother and liberator",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ფატმანის გრძნეული მონის მეშვეობით უკავშირდება ნესტანს ქაჯეთში, ტარიელთან და ფრიდონთან ერთად ათავისუფლებს მას და მიაცილებს არაბეთსა და ინდოეთში.",
+          "summary_en": "Reaches Nestan in Kadjeti via Fatman’s messenger, liberates her alongside Tariel and Pridon, and celebrates her wedding.",
+          "chapters": [
+            50,
+            51,
+            57,
+            58,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "usen",
+          "name_ka": "უსენი",
+          "name_en": "Usen",
+          "relationship_ka": "მასპინძელი ვაჭართუხუცესი",
+          "relationship_en": "Host merchant chief",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "იხსნის უსენის ოჯახს ჭაშნაგირის შურისძიებისგან და ემშვიდობება გულანშაროდან წასვლისას.",
+          "summary_en": "Saves Usen’s household from the Chashnagir’s threat and bids him farewell upon leaving Gulansharo.",
+          "chapters": [
+            46,
+            52
+          ]
+        },
+        {
+          "character_id": "surkhavi",
+          "name_ka": "მელიქ-სურხავი",
+          "name_en": "Melik-Surkhavi",
+          "relationship_ka": "მასპინძელი ხელმწიფე გულანშაროში",
+          "relationship_en": "Royal host in Gulansharo",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ქაჯეთის აღების შემდეგ ტარიელთან, ნესტანთან და ფრიდონთან ერთად სტუმრობს მელიქ-სურხავს.",
+          "summary_en": "Feasts with King Melik-Surkhavi in Gulansharo after the liberation of Nestan from Kadjeti.",
+          "chapters": [
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tariel",
+      "name_ka": "ტარიელი",
+      "name_en": "Tariel",
+      "role_ka": "ინდოეთის ამირბარი, სარიდანის ძე, ნესტან-დარეჯანის მიჯნური, ვეფხისტყაოსანი მოყმე",
+      "role_en": "Amirbar (High Commander) of India, son of King Saridan, beloved of Nestan-Darejan, the Knight in the Panther's Skin",
+      "characteristics": [
+        {
+          "ka": "ინდოეთის ამირბარი და ამირსპასალარი, ფარსადანის კარზე შვილივით აღზრდილი",
+          "en": "Amirbar and Commander-in-Chief of India, raised like a son by King Parsadan",
+          "quote_ka": "არ მომეშვნეს, დავმორჩილდი, თაყვანი ვეც ამირბარად",
+          "stanza": 338
+        },
+        {
+          "ka": "ვეფხვის ტყავის კაბითა და ქუდით შემოსილი, შავ მერანზე ამხედრებული",
+          "en": "Clad in a coat and cap of panther skin, riding a jet-black steed",
+          "quote_ka": "მას ტანსა კაბა ემოსა, გარე-თმა ვეფხის ტყავისა, ვეფხის ტყავისა ქუდივე იყო სარქმელი თავისა",
+          "stanza": 85
+        },
+        {
+          "ka": "უძლეველი ძალისა და სიმამაცის პატრონი, რომელიც ლომს კატასავით ხოცავს",
+          "en": "Possessing unmatched strength and valor, slaying lions as if they were cats",
+          "quote_ka": "ვბურთობდი და ვნადირობდი, ვით კატასა ვხოცდი ლომსა",
+          "stanza": 328
+        },
+        {
+          "ka": "კაცთაგან უნახავი მშვენებისა და წერწეტი ტანის მქონე",
+          "en": "Of beauty unseen among mortals and slender, graceful build",
+          "quote_ka": "ჯერ მისი მსგავსი შვენება კაცთაგან უნახავია / ტარიელ შავსა ზედან ზის ტანითა მით წერწეტითა",
+          "stanza": 204
+        },
+        {
+          "ka": "ნესტანის დაკარგვით გულდამწვარი, მტირალი და სიყვარულით გახელებული (შმაგი) მიჯნური",
+          "en": "Broken-hearted, weeping, and frenzied with devotion over the loss of Nestan",
+          "quote_ka": "ცრემლსა ვარდი დაეთრთვილა, გულსა მდუღრად ანატირსა / ტარიელ არის სახელი იმა მოყმისა ხელისა",
+          "stanza": 84
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "უცხო მოყმე",
+          "epithet_en": "Mysterious / wondrous knight",
+          "quote_ka": "ნახეს უცხო მოყმე ვინმე, ჯდა მტირალი წყლისა პირსა",
+          "stanza": 84
+        },
+        {
+          "epithet_ka": "ყმა მოსილი ვეფხის ტყავითა (ვეფხისტყაოსანი)",
+          "epithet_en": "Knight clad in the panther's skin",
+          "quote_ka": "რა ტყენი გავლნა მან ყმამან, მოსილმან ვეფხის ტყავითა",
+          "stanza": 221
+        },
+        {
+          "epithet_ka": "ყმა გულ-მდუღარე, თავ-ჩამოგდებით მტირალი",
+          "epithet_en": "Scalding-hearted knight, weeping with bowed head",
+          "quote_ka": "წავიდა მონა საუბრად მის ყმისა გულ-მდუღარისად, თავ-ჩამოგდებით მტირლისა",
+          "stanza": 86
+        },
+        {
+          "epithet_ka": "კუშტი, პირ-გამქუშავი",
+          "epithet_en": "Stern, dark-browed",
+          "quote_ka": "ანაზდად მოყმე გამოჩნდა კუშტი, პირ-გამქუშავია",
+          "stanza": 204
+        },
+        {
+          "epithet_ka": "მოყმე ხელი / დამწვარი, დაალებული",
+          "epithet_en": "Knight frenzied with love / scorched and consumed by flames",
+          "quote_ka": "ტარიელ არის სახელი იმა მოყმისა ხელისა / ამას დაყმუნდა ტარიელ დამწვარი, დაალებული",
+          "stanza": 260
+        },
+        {
+          "epithet_ka": "საქები ბრძენთა ენისა",
+          "epithet_en": "Worthy of praise by the tongues of sages",
+          "quote_ka": "ავთანდილ უთხრა: ვით მაქებ საქები ბრძენთა ენისა?",
+          "stanza": 297
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "მზესა თვალად, ლომსა ნაკვთად / სახე მზისა ერთისა, ზეცით მნათისა ზენისა",
+          "metaphor_en": "Like the Sun in countenance and a Lion in build / image of the supreme heavenly Sun",
+          "quote_ka": "მოვიწიფე, დავემსგავსე მზესა თვალად, ლომსა ნაკვთად / სახე ხარ მზისა ერთისა, ზეცით მნათისა ზენისა",
+          "stanza": 319
+        },
+        {
+          "metaphor_ka": "ცრემლით დათრთვილული ვარდი, ბროლის წვიმა და გიშრის ღარი (მტირალი სახე და წამწამები)",
+          "metaphor_en": "A rose frosted by tears, with crystal rain pouring through a channel of black jet (his weeping eyes and lashes)",
+          "quote_ka": "ცრემლსა ვარდი დაეთრთვილა... მუნვე წვიმს წვიმა ბროლისა, ჰგია გიშრისა ღარი სად",
+          "stanza": 84
+        },
+        {
+          "metaphor_ka": "ვარდისა ბაღსა მოგუბდა ცრემლისა საგუბარი",
+          "metaphor_en": "A pool of tears dammed up in a rose garden (his face)",
+          "quote_ka": "ვარდისა ბაღსა მოგუბდა ცრემლისა საგუბარია",
+          "stanza": 244
+        },
+        {
+          "metaphor_ka": "გაშლილი ვარდისა და ედემს ზრდილის მსგავსი, აწ საკუთარი თავის ჩრდილი",
+          "metaphor_en": "Like a blooming rose and one raised in Eden, now reduced to the shadow of his former self",
+          "quote_ka": "ხუთისა წლისა შევიქმენ მსგავსი ვარდისა შლილისა... მსგავსია ედემს ზრდილისა. აწ მაშინდლისა ჩემისა სახე ვარ ოდენ ჩრდილისა",
+          "stanza": 320
+        },
+        {
+          "metaphor_ka": "ლომის კატასავით და ჩიტივით (სირივით) დამხოცველი",
+          "metaphor_en": "Slaying a lion as easily as a small bird (siri) or a cat",
+          "quote_ka": "ჭირად არ მიჩნდის ლომისა მოკლვა, მართ ვითა სირისა / ვით კატასა ვხოცდი ლომსა",
+          "stanza": 320
+        },
+        {
+          "metaphor_ka": "შვიდთავე მნათობთა მსგავსი (ავთანდილთან და ფრიდონთან ერთად)",
+          "metaphor_en": "Resembling all seven celestial luminaries",
+          "quote_ka": "ჰგვანდეს შვიდთავე მნათობთა, სხვადმცა რისად ვთქვა მე და რად!",
+          "stanza": 281
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 118,
+        "direct_name_occurrences": 120,
+        "named_in_chapter_titles": 29,
+        "indirect_mentions_stanzas": 564,
+        "total_active_or_mentioned_stanzas": 682,
+        "poem_stanza_share_percent": 40.86,
+        "chapters_active_count": 49,
+        "first_appearance_stanza": 6,
+        "last_appearance_stanza": 1669,
+        "epistolary_letters_written": 5,
+        "primary_realm_ka": "ინდოეთი / ქვაბოვანი",
+        "primary_realm_en": "India / Wilderness Cave",
+        "key_relationships": [
+          "nestan",
+          "avtandil",
+          "pridon",
+          "asmat",
+          "parsadan",
+          "saridan",
+          "ramaz"
+        ],
+        "interacted_characters_count": 12
+      },
+      "interacted_characters": [
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "სاطრფო და შემდგომ მეუღლე / ინდოეთის თანამოსაყდრე",
+          "relationship_en": "Beloved and later wife / co-ruler of India",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "უყვარდება ნესტანი, ცვლის მასთან წერილებსა და ფიცს, მისი რჩევით კლავს ხვარაზმშას ძეს, ათავისუფლებს ქაჯეთიდან და ინდოეთის ტახტზე ჯდება მასთან ერთად.",
+          "summary_en": "Falls in love with Nestan, exchanges letters and oaths, slays the Khwarazmian bridegroom at her urging, rescues her from Kadjeti, and rules India beside her.",
+          "chapters": [
+            10,
+            11,
+            12,
+            13,
+            15,
+            17,
+            20,
+            21,
+            22,
+            24,
+            51,
+            57,
+            58,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "ძმადნაფიცი და მხსნელი",
+          "relationship_en": "Sworn brother and savior",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "უამბობს თავის თავგადასავალს, მისი წყალობით იგებს ნესტანის ადგილსამყოფელს, ერთად იღებენ ქაჯეთს და შუამდგომლობს ავთანდილს როსტევანთან.",
+          "summary_en": "Confides his story to Avtandil, learns of Nestan’s survival from him, storms Kadjeti with him, and intercedes with Rostevan for Avtandil’s marriage.",
+          "chapters": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            29,
+            37,
+            38,
+            53,
+            54,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "pridon",
+          "name_ka": "ნურადინ-ფრიდონი",
+          "name_en": "Nuradin-Pridon",
+          "relationship_ka": "ძმადნაფიცი და თანამებრძოლი",
+          "relationship_en": "Sworn brother and comrade-in-arms",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ეხმარება ფრიდონს ბიძაშვილებთან ბრძოლაში, ისმენს მისგან ნესტანის ნავით მოტაცების ამბავს, მასთან ერთად იღებს ქაჯეთს და იხდის ქორწილს მულღაზანზარში.",
+          "summary_en": "Aids Pridon against his cousins, learns from him of Nestan’s abduction by sea, conquers Kadjeti with him, and celebrates his wedding in Mulghazanzar.",
+          "chapters": [
+            27,
+            28,
+            29,
+            54,
+            55,
+            56,
+            57,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "asmat",
+          "name_ka": "ასმათი",
+          "name_en": "Asmat",
+          "relationship_ka": "ერთგული დაფიცი და მესაიდუმლე",
+          "relationship_en": "Devoted sworn sister and confidante",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ასმათის ხელით იღებს ნესტანის წერილებს, მასთან ერთად ცხოვრობს გამოქვაბულში და ფინალში ინდოეთის მეშვიდე სამეფოს უბოძებს.",
+          "summary_en": "Receives Nestan’s letters through Asmat, is tended by her during his years in the wilderness cave, and rewards her with a seventh of India.",
+          "chapters": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            17,
+            20,
+            24,
+            25,
+            26,
+            29,
+            37,
+            38,
+            53,
+            64
+          ]
+        },
+        {
+          "character_id": "parsadan",
+          "name_ka": "ფარსადანი",
+          "name_en": "Parsadan",
+          "relationship_ka": "გამზრდელი მეფე და სიმამრი",
+          "relationship_en": "Foster-father and King of India",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "იზრდება ფარსადანის კარზე შვილივით, მსახურებს ამირბარად, უპირისპირდება სასიძოს მოკვლის გამო, ბოლოს კი გლოვობს მის სიკვდილს.",
+          "summary_en": "Raised like a son by Parsadan and serves as Amirbar until killing the Khwarazmian bridegroom; later mourns Parsadan’s death and saves India.",
+          "chapters": [
+            10,
+            11,
+            14,
+            19,
+            23,
+            25,
+            62
+          ]
+        },
+        {
+          "character_id": "saridan",
+          "name_ka": "სარიდანი",
+          "name_en": "Saridan",
+          "relationship_ka": "მამა და წინამორბედი ამირბარი",
+          "relationship_en": "Father and predecessor as Amirbar",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ადრეულ ბავშვობაში იზრდება მამასთან, გლოვობს მის გარდაცვალებას და იკავებს მის ამირბარობის პატივს.",
+          "summary_en": "Raised by Saridan in early childhood, mourns his death for a year, and inherits his office as Amirbar of India.",
+          "chapters": [
+            10
+          ]
+        },
+        {
+          "character_id": "ramaz",
+          "name_ka": "რამაზ მეფე",
+          "name_en": "King Ramaz",
+          "relationship_ka": "დამარცხებული და შეწყალებული მოქიშპე მეფე",
+          "relationship_en": "Defeated and pardoned rival king",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ამარცხებს მოღალატე რამაზს ხატაეთში და აწყალებინებს ფარსადანს; პოემის ბოლოს კვლავ ამარცხებს ინდოეთზე თავდასხმულ რამაზს და ისევ შეიწყალებს.",
+          "summary_en": "Defeats Ramaz’s treacherous ambush in Khataeti and secures his pardon; later crushes Ramaz’s invasion of India and pardons him again.",
+          "chapters": [
+            14,
+            16,
+            18,
+            19,
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "character_id": "khvarazmsha",
+          "name_ka": "ხვარაზმშას ძე",
+          "name_en": "Prince of Khwarazm",
+          "relationship_ka": "მოკლული მეტოქე სასიძო",
+          "relationship_en": "Slain rival bridegroom",
+          "interaction_mode": "combat",
+          "summary_ka": "ღამით შედის ხვარაზმშას ძის კარავში და კლავს მას, რათა ჩაშალოს ნესტანის იძულებითი ქორწინება.",
+          "summary_en": "Enters the Khwarazmian prince’s tent at night and slays him to prevent his forced marriage to Nestan.",
+          "chapters": [
+            24,
+            25
+          ]
+        },
+        {
+          "character_id": "fatman",
+          "name_ka": "ფატმან ხათუნი",
+          "name_en": "Fatman Khatun",
+          "relationship_ka": "ნესტანის მფარველი და დაჯილდოებული მასპინძელი",
+          "relationship_en": "Nestan’s protector and rewarded hostess",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "მადლიერებით ხვდება ფატმანს ზღვათა სამეფოში და ქაჯეთის მთელ საჭურჭლეს ჩუქნის ნესტანის გადარჩენისათვის.",
+          "summary_en": "Meets Fatman in the Sea Realm after Kadjeti’s fall and gifts her the entire treasure of Kadjeti in gratitude for saving Nestan.",
+          "chapters": [
+            58
+          ]
+        },
+        {
+          "character_id": "surkhavi",
+          "name_ka": "მელიქ-სურხავი",
+          "name_en": "Melik-Surkhavi",
+          "relationship_ka": "მასპინძელი და დამოყვრებული მეფე",
+          "relationship_en": "Royal host and allied monarch",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სტუმრობს მელიქ-სურხავს გულანშაროში და ქაჯეთის სამეფოს უბოძებს მას.",
+          "summary_en": "Honored by King Melik-Surkhavi in Gulansharo and grants him sovereignty over conquered Kadjeti.",
+          "chapters": [
+            58
+          ]
+        },
+        {
+          "character_id": "rostevan",
+          "name_ka": "როსტევანი",
+          "name_en": "Rostevan",
+          "relationship_ka": "არაბეთის მეფე, ჯერ მდევარი, შემდეგ კი მასპინძელი",
+          "relationship_en": "King of Arabia, initially pursuer and later royal host",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "წყლის პირას უჩინარდება როსტევანის ლაშქრის წინაშე, ფინალში კი არაბეთში ჩადის და როსტევანს ავთანდილისა და თინათინის ქორწინებაზე ითანხმებს.",
+          "summary_en": "Vanishes before Rostevan’s troops in Chapter 4; later visits Arabia and persuades Rostevan to wed Tinatin to Avtandil.",
+          "chapters": [
+            4,
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "tinatin",
+          "name_ka": "თინათინი",
+          "name_en": "Tinatin",
+          "relationship_ka": "არაბეთის მეფე-ქალი და ავთანდილის სატრფო",
+          "relationship_en": "Sovereign of Arabia and Avtandil’s beloved",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ესწრება თინათინისა და ავთანდილის ქორწილს არაბეთში და ლოცავს მათ.",
+          "summary_en": "Intercedes for Tinatin’s marriage to Avtandil and celebrates their royal wedding in Arabia.",
+          "chapters": [
+            60,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nestan",
+      "name_ka": "ნესტან-დარეჯანი",
+      "name_en": "Nestan-Darejan",
+      "role_ka": "ინდოეთის მეფის ასული და ტახტის მემკვიდრე, ტარიელის სატრფო",
+      "role_en": "Princess and royal heir of India, beloved of Tariel",
+      "characteristics": [
+        {
+          "ka": "შვიდი წლის ასაკიდანვე წყნარი, გონიერი და მეფობის შემძლე",
+          "en": "Serene, discerning from age seven, and recognized by her father as fit for kingship",
+          "quote_ka": "შვიდისა წლისა შეიქმნა ქალი წყნარი და ცნობილი... მეფე ქალსა ვით ხედვიდა მეფობისა ქმნისა მწთომსა",
+          "stanza": 327
+        },
+        {
+          "ka": "დაბადებიდანვე მზისა და მთვარის მსგავსი, უბადლო მშვენების პატრონი",
+          "en": "Resembling the sun and moon from birth, of peerless radiance",
+          "quote_ka": "მთვარისა მსგავსი, შვენებით მზისაგან ვერშეფრობილი",
+          "stanza": 327
+        },
+        {
+          "ka": "მტკიცე ნებისყოფის, სამშობლოსა და მიჯნურის ერთგული, უსამართლო ქორწინების შეურიგებელი მოწინააღმდეგე",
+          "en": "Resolute, devoted to her beloved and rightful succession, refusing forced marriage to a foreign prince",
+          "quote_ka": "სხვა მეფე დაჯდეს ინდოეთს, მერტყას მე ჩემი ხრმალია?!",
+          "stanza": 565
+        },
+        {
+          "ka": "ქაჯეთის ტყვეობაშიც სულიერად გაუტეხელი და ამაღლებული",
+          "en": "Spiritually unbroken and noble even while imprisoned in Kadjeti",
+          "quote_ka": "კმა ჩვენად იმედად, ვინ მზესა დაედარების",
+          "stanza": 510
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "ქალი წყნარი და ცნობილი",
+          "epithet_en": "Calm and wise/discerning maiden",
+          "quote_ka": "შვიდისა წლისა შეიქმნა ქალი წყნარი და ცნობილი",
+          "stanza": 327
+        },
+        {
+          "epithet_ka": "მეფობისა ქმნისა მწთომი",
+          "epithet_en": "Capable and worthy of exercising kingship",
+          "quote_ka": "მეფე ქალსა ვით ხედვიდა მეფობისა ქმნისა მწთომსა",
+          "stanza": 328
+        },
+        {
+          "epithet_ka": "უებრო",
+          "epithet_en": "Peerless one",
+          "quote_ka": "მითვე მწვანითა უებრო მიწოლით ტახტსა მჯდომელი",
+          "stanza": 521
+        },
+        {
+          "epithet_ka": "ცისა მზედ ნაქები",
+          "epithet_en": "Praised as the Sun of heaven",
+          "quote_ka": "შემოვიქცევი, შევისძლობ, ვინ ცისა მზედ ნაქებია",
+          "stanza": 1240
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "მზე და პირ-გავსებული მთვარე (მზისგან ვერშეფრობილი მშვენება)",
+          "metaphor_en": "The Sun and the full Moon on earth, whose beauty cannot be rivaled even by the sun",
+          "quote_ka": "მთვარისა მსგავსი, შვენებით მზისაგან ვერშეფრობილი / ანუ მზე იყო ქვეყანად, ან მთვარე პირ-გავსებული",
+          "stanza": 327
+        },
+        {
+          "metaphor_ka": "ალვა თლილი და გაბაონს განაზარდი ხე (ტანადობა)",
+          "metaphor_en": "Sculpted cypress tree and a tree grown in Gibeon (her slender stature)",
+          "quote_ka": "დღე და ღამე მუჯამრითა ეკმეოდის ალვა თლილი / მუნ იზრდებოდის ტანითა, გაბაონს განაზარდითა",
+          "stanza": 330
+        },
+        {
+          "metaphor_ka": "პირი მინა-ვარდი და ვარდსა შუა ძოწ-მარგალიტნი ტყუბანი (სახე, ბაგე და კბილები)",
+          "metaphor_en": "Crystal-and-rose face, with twin rows of ruby/coral and pearls gleaming amidst the rose (her lips and teeth)",
+          "quote_ka": "ვერვინ ვხედევდით, შეიქმნა პირითა მინა-ვარდითა / მუნ ვარდსა შუა შვენოდეს ძოწ-მარგალიტნი ტყუბანი",
+          "stanza": 331
+        },
+        {
+          "metaphor_ka": "მელნისა ტბები/მორევი, გიშრის შუბები და ძოწ-აყიყს შუა მარგალიტი (თვალები, წამწამები, ბაგე-კბილები)",
+          "metaphor_en": "Whirlpools and lakes of ink (dark eyes), spears of black jet (eyelashes), and twin pearls between coral and carnelian",
+          "quote_ka": "შიგან მელნისა მორევსა ეყარის გიშრის შუბები, მელნისა ტბათათ იღვრების სავსე სათისა რუბები, შუა ძოწსა და აყიყსა სჭვირს მარგალიტი ტყუბები",
+          "stanza": 1146
+        },
+        {
+          "metaphor_ka": "პირი, ელვათა მკრთომელი / ბროლი ფისსა შუა",
+          "metaphor_en": "Face flashing like lightning / shining brighter than the sun like crystal against pitch",
+          "quote_ka": "ცრემლისა ღვარსა მოეცვა პირი, ელვათა მკრთომელი / ვინ მზესაცა უნათლეა, ასრე ვითა ბროლი ფისსა!",
+          "stanza": 521
+        },
+        {
+          "metaphor_ka": "ნაღველში ამონაწები კალამი (საკუთარ დარდით განაწამებ სხეულზე)",
+          "metaphor_en": "A reed pen dipped in gall (her own metaphor for her grief-worn body in her letter to Tariel)",
+          "quote_ka": "ტანი კალმად მაქვს, კალამი ნაღველსა ამონაწები, მე გული შენი ქაღალდად გულსავე ჩემსა ვაწები",
+          "stanza": 1293
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 10,
+        "direct_name_occurrences": 10,
+        "named_in_chapter_titles": 16,
+        "indirect_mentions_stanzas": 291,
+        "total_active_or_mentioned_stanzas": 301,
+        "poem_stanza_share_percent": 18.03,
+        "chapters_active_count": 31,
+        "first_appearance_stanza": 322,
+        "last_appearance_stanza": 1669,
+        "epistolary_letters_written": 4,
+        "primary_realm_ka": "ინდოეთი / ქაჯეთი (ტყვეობაში)",
+        "primary_realm_en": "India / Kadjeti (in captivity)",
+        "key_relationships": [
+          "tariel",
+          "asmat",
+          "fatman",
+          "parsadan",
+          "davari",
+          "avtandil"
+        ],
+        "interacted_characters_count": 14
+      },
+      "interacted_characters": [
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "მიჯნური და შემდგომ მეუღლე / ინდოეთის თანამოსაყდრე",
+          "relationship_en": "Beloved and later husband / co-ruler of India",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "უცხადებს სიყვარულს, უგზავნის წერილებს ინდოეთსა და ქაჯეთიდან, ავალებს სასიძოს მოკვლას და დახსნის შემდეგ ქორწინდება მასზე.",
+          "summary_en": "Pledges her love to Tariel, exchanges letters with him from India and Kadjeti, directs the slaying of the foreign suitor, and weds Tariel after her rescue.",
+          "chapters": [
+            10,
+            11,
+            12,
+            13,
+            15,
+            17,
+            20,
+            21,
+            22,
+            24,
+            51,
+            57,
+            58,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "asmat",
+          "name_ka": "ასმათი",
+          "name_en": "Asmat",
+          "relationship_ka": "უახლოესი მესაიდუმლე და გამზრდელი-მოახლე",
+          "relationship_en": "Closest confidante and attendant",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ანდობს თავის საიდუმლოსა და ტარიელთან მიმოწერას, ქაჯეთიდან დახსნის შემდეგ კი ინდოეთში სამეფო პატივით აჯილდოებს.",
+          "summary_en": "Entrusts her secret love and letters to Asmat, and upon returning to India rewards her with royal rank.",
+          "chapters": [
+            10,
+            11,
+            12,
+            15,
+            17,
+            20,
+            24,
+            25,
+            26,
+            57,
+            64
+          ]
+        },
+        {
+          "character_id": "fatman",
+          "name_ka": "ფატმან ხათუნი",
+          "name_en": "Fatman Khatun",
+          "relationship_ka": "შემფარებელი, მხსნელი და დედობილი",
+          "relationship_en": "Protector, rescuer, and maternal friend",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "გულანშაროში თავს აფარებს ფატმანს, მისი დახმარებით გარბის სურხავის სასახლიდან და ქაჯეთის ციხიდან წერილს სწერს.",
+          "summary_en": "Sheltered by Fatman in Gulansharo, escapes King Surkhavi’s guards with her help, corresponds with her from Kadjeti, and richly rewards her.",
+          "chapters": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            58
+          ]
+        },
+        {
+          "character_id": "parsadan",
+          "name_ka": "ფარსადანი",
+          "name_en": "Parsadan",
+          "relationship_ka": "მამა და ინდოეთის მეფე",
+          "relationship_en": "Father and King of India",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "იზრდება მამის მიერ ტახტის მემკვიდრედ, მაგრამ მტკიცედ ეწინააღმდეგება მის გადაწყვეტილებას ხვარაზმშას ძეზე გათხოვების შესახებ.",
+          "summary_en": "Raised by her father as fit for kingship, but resolutely opposes his decision to wed her to the Prince of Khwarazm.",
+          "chapters": [
+            10,
+            23,
+            25,
+            26
+          ]
+        },
+        {
+          "character_id": "davari",
+          "name_ka": "დავარი",
+          "name_en": "Davar",
+          "relationship_ka": "მამიდა, აღმზრდელი და დამსჯელი",
+          "relationship_en": "Paternal aunt, tutor, and punisher",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სწავლობს სიბრძნეს დავარისგან, ხოლო სასიძოს მოკვლის შემდეგ დავარი სცემს მას და კიდობნით ზღვაში გადააკარგვინებს.",
+          "summary_en": "Taught wisdom by Davar, who later beats her upon learning of her love for Tariel and casts her adrift at sea in an ark.",
+          "chapters": [
+            10,
+            26
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "გამათავისუფლებელი და ძმადნაფიცი",
+          "relationship_en": "Liberator and sworn brother",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ფატმანის წერილით იგებს ავთანდილის ძიების შესახებ, თავისუფლდება მისი, ტარიელისა და ფრიდონის მიერ და სტუმრობს მას არაბეთში.",
+          "summary_en": "Learns of Avtandil’s rescue mission via Fatman, is liberated from Kadjeti by the three heroes, and celebrates his wedding in Arabia.",
+          "chapters": [
+            50,
+            51,
+            57,
+            58,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "pridon",
+          "name_ka": "ნურადინ-ფრიდონი",
+          "name_en": "Nuradin-Pridon",
+          "relationship_ka": "გამათავისუფლებელი და მასპინძელი მეფე",
+          "relationship_en": "Liberator and royal host in Mulghazanzar",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "თავისუფლდება ფრიდონის, ტარიელისა და ავთანდილის მიერ და მულღაზანზარში იხდის პირველ საქორწილო ნადიმს.",
+          "summary_en": "Rescued from Kadjeti with Pridon’s aid and honored at her wedding feast in Mulghazanzar.",
+          "chapters": [
+            29,
+            57,
+            58,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "tinatin",
+          "name_ka": "თინათინი",
+          "name_en": "Tinatin",
+          "relationship_ka": "დობილი და არაბეთის ხელმწიფე",
+          "relationship_en": "Sworn sister and sovereign of Arabia",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სტუმრობს თინათინს არაბეთში და დობილობის ფიცით ეყრება მას.",
+          "summary_en": "Visits Tinatin in Arabia and exchanges vows of sworn sisterhood with her.",
+          "chapters": [
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "rostevan",
+          "name_ka": "როსტევანი",
+          "name_en": "Rostevan",
+          "relationship_ka": "მასპინძელი მეფე არაბეთში",
+          "relationship_en": "Royal host in Arabia",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სტუმრობს მეფე როსტევანს არაბეთში ტარიელთან ერთად.",
+          "summary_en": "Received with royal honor by King Rostevan in Arabia.",
+          "chapters": [
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "usen",
+          "name_ka": "უსენი",
+          "name_en": "Usen",
+          "relationship_ka": "მასპინძელი და ფიცის გამტეხი გამცემი",
+          "relationship_en": "Host and oath-breaking betrayer",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "უსენი ფიცს დებს მის დასაფარავად, მაგრამ სიმთვრალეში მეფე სურხავს უმხელს მის ადგილსამყოფელს.",
+          "summary_en": "Usen swears to keep her presence secret in Gulansharo, but drunkenly reveals her to King Melik-Surkhavi.",
+          "chapters": [
+            47
+          ]
+        },
+        {
+          "character_id": "surkhavi",
+          "name_ka": "მელიქ-სურხავი",
+          "name_en": "Melik-Surkhavi",
+          "relationship_ka": "ზღვათა მეფე, ჯერ დამტყვევებელი, შემდეგ კი მასპინძელი",
+          "relationship_en": "King of the Sea Realm, initially captor and later royal host",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სურხავი იჭერს მას თავისი ძის სასძლოდ, ქაჯეთიდან დახსნის შემდეგ კი ბოდიშითა და სამეფო პატივით მასპინძლობს.",
+          "summary_en": "Seized by Surkhavi as an intended bride for his son, and later hosted with royal honor after her rescue from Kadjeti.",
+          "chapters": [
+            47,
+            58
+          ]
+        },
+        {
+          "character_id": "dulardukht",
+          "name_ka": "დულარდუხტი",
+          "name_en": "Dulardukht",
+          "relationship_ka": "ქაჯეთის მმართველი და დამტყვევებელი",
+          "relationship_en": "Sovereign of Kadjeti and captor",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "დულარდუხტი ატყვევებს ნესტანს ქაჯეთის მიუვალ ციხეში თავისი ძმისწულის, როსანის საცოლედ.",
+          "summary_en": "Imprisoned by Queen Dulardukht in the fortress of Kadjeti as a future bride for Prince Rosan.",
+          "chapters": [
+            48,
+            50
+          ]
+        },
+        {
+          "character_id": "rosan",
+          "name_ka": "როსანი",
+          "name_en": "Rosan",
+          "relationship_ka": "ქაჯეთის მცირეწლოვანი უფლისწული (დაწინდული სასიძო)",
+          "relationship_en": "Young prince of Kadjeti (intended bridegroom)",
+          "interaction_mode": "epistolary_or_envoys",
+          "summary_ka": "დულარდუხტი ნესტანს მცირეწლოვან როსანზე წინდავს ნესტანის ნების გარეშე.",
+          "summary_en": "Betrothed against her will to the young prince Rosan by Queen Dulardukht.",
+          "chapters": [
+            48,
+            50
+          ]
+        },
+        {
+          "character_id": "khvarazmsha",
+          "name_ka": "ხვარაზმშას ძე",
+          "name_en": "Prince of Khwarazm",
+          "relationship_ka": "უარყოფილი სასიძო",
+          "relationship_en": "Rejected foreign bridegroom",
+          "interaction_mode": "epistolary_or_envoys",
+          "summary_ka": "კატეგორიულად უარყოფს მშობლების მიერ შერჩეულ ხვარაზმშას ძეს და ტარიელს მის მოკვლას ავალებს.",
+          "summary_en": "Rejects the Khwarazmian prince chosen by her parents and directs Tariel to slay him.",
+          "chapters": [
+            23,
+            24,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pridon",
+      "name_ka": "ნურადინ-ფრიდონი",
+      "name_en": "Nuradin-Pridon",
+      "role_ka": "მულღაზანზარის მეფე, ტარიელისა და ავთანდილის ძმადნაფიცი",
+      "role_en": "King of Mulghazanzar, sworn brother of Tariel and Avtandil",
+      "characteristics": [
+        {
+          "ka": "მულღაზანზარის მეფე, მცირე, მაგრამ ყოველმხრივ უნაკლო და მდიდარი სამეფოს პატრონი",
+          "en": "King of Mulghazanzar, ruler of a small but prosperous and flawless realm",
+          "quote_ka": "ნურადინ-ფრიდონ სახელ მძეს, მეფე ვარ მუნა მჯდომელი... ცოტაა, მაგრა ყოველგნით სიკეთე-მიუწდომელი",
+          "stanza": 600
+        },
+        {
+          "ka": "ბრძოლაში ფიცხი, ქარივით სწრაფი და შეუპოვარი მეომარი",
+          "en": "Fierce, swift as the wind, and fearless in battle",
+          "quote_ka": "მართ ვითა ქარი მოქროდა გაფიცხებული, მწყრომელი / მუნ მომეწონნეს ფრიდონის სიქველე-სიფიცხენია",
+          "stanza": 594
+        },
+        {
+          "ka": "გულმოწყალე, თანამგრძნობი და ერთგული ძმადნაფიცი",
+          "en": "Compassionate, devoted, and unfailingly loyal sworn brother",
+          "quote_ka": "მაგრა მეტად შევებრალე, ტირილითა მესათნოვა; ვითა შვილი დამადუმა, მემუდარა, შემეპოვა",
+          "stanza": 630
+        },
+        {
+          "ka": "მარჯვე მოისარი, საბელზე (თოკზე) მავლობის მცოდნე და რთულ ბრძოლებში მრჩეველი",
+          "en": "Skilled warrior and bold counselor in the assault on Kadjeti",
+          "quote_ka": "ლომთა მკლავთაგან იმედი გაქვს, არა წყლულნი გტკივიან; სთათბირობ ძნელთა თათბირთა",
+          "stanza": 1397
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "მულღაზანზარის მეფე",
+          "epithet_en": "King of Mulghazanzar",
+          "quote_ka": "მულღაზანზარის ქალაქი, ახლოს მე მაქვსო რომელი, ნურადინ-ფრიდონ სახელ მძეს, მეფე ვარ მუნა მჯდომელი",
+          "stanza": 600
+        },
+        {
+          "epithet_ka": "გაფიცხებული, მწყრომელი",
+          "epithet_en": "Fierce and wrathful in battle",
+          "quote_ka": "მართ ვითა ქარი მოქროდა გაფიცხებული, მწყრომელი",
+          "stanza": 594
+        },
+        {
+          "epithet_ka": "ძნელთა თათბირთა მთათბირებელი",
+          "epithet_en": "Counselor of bold/difficult plans",
+          "quote_ka": "სთათბირობ ძნელთა თათბირთა, მტერთა ივაგლახ–ივიან",
+          "stanza": 1397
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "ლომი და პირად მზე, ალვისა ხე",
+          "metaphor_en": "A Lion in battle, the Sun in countenance, and a Cypress tree in stature",
+          "quote_ka": "იბრძვის ლომი და პირად მზე, იგი ალვისაც ხენია",
+          "stanza": 616
+        },
+        {
+          "metaphor_ka": "ლომთა მკლავთა (მქონე)",
+          "metaphor_en": "Possessing the arms of a lion",
+          "quote_ka": "ლომთა მკლავთაგან იმედი გაქვს, არა წყლულნი გტკივიან",
+          "stanza": 1397
+        },
+        {
+          "metaphor_ka": "ვითა ქარი (სისწრაფესა და იერიშში)",
+          "metaphor_en": "Rushing like the wind",
+          "quote_ka": "მართ ვითა ქარი მოქროდა გაფიცხებული, მწყრომელი",
+          "stanza": 594
+        },
+        {
+          "metaphor_ka": "მარგალიტივით გარდმოთოვილი ცხელი ცრემლი",
+          "metaphor_en": "Hot tears snowing down from his eyes like pearls",
+          "quote_ka": "თვალთა, ვითა მარგალიტი ცრემლი ცხელი გარდმოთოვა",
+          "stanza": 630
+        },
+        {
+          "metaphor_ka": "წყაროს მონატრული ირემი (ტარიელთან განშორებისას)",
+          "metaphor_en": "A deer longing for a spring (describing his longing for Tariel)",
+          "quote_ka": "შენთვის ასრე მომსურდების, წყაროსათვის ვით ირემსა",
+          "stanza": 1656
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 104,
+        "direct_name_occurrences": 116,
+        "named_in_chapter_titles": 9,
+        "indirect_mentions_stanzas": 155,
+        "total_active_or_mentioned_stanzas": 259,
+        "poem_stanza_share_percent": 15.52,
+        "chapters_active_count": 21,
+        "first_appearance_stanza": 6,
+        "last_appearance_stanza": 1664,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "მულღაზანზარი",
+        "primary_realm_en": "Mulghazanzar",
+        "key_relationships": [
+          "tariel",
+          "avtandil",
+          "nestan"
+        ],
+        "interacted_characters_count": 7
+      },
+      "interacted_characters": [
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "ძმადნაფიცი და თანამებრძოლი",
+          "relationship_en": "Sworn brother and comrade-in-arms",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "უძმობილდება ტარიელს, მისი დახმარებით ამარცხებს ბიძაშვილებს, უამბობს ნესტანის ნახვის ამბავს და ეხმარება ქაჯეთის აღებაში.",
+          "summary_en": "Becomes Tariel’s sworn brother, defeats his cousins with Tariel’s help, recounts sighting Nestan at sea, and storms Kadjeti with him.",
+          "chapters": [
+            27,
+            28,
+            29,
+            54,
+            55,
+            56,
+            57,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "ძმადნაფიცი და თანამებრძოლი",
+          "relationship_en": "Sworn brother and comrade-in-arms",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "მასპინძლობს ავთანდილს მულღაზანზარში, ეხმარება ნესტანის ძიებაში და იბრძვის მის გვერდით ქაჯეთში.",
+          "summary_en": "Hosts Avtandil in Mulghazanzar, aids his search for Nestan, and fights beside him at Kadjeti.",
+          "chapters": [
+            40,
+            41,
+            52,
+            54,
+            55,
+            56,
+            57,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "თვითმხილველი, გამათავისუფლებელი და მასპინძელი",
+          "relationship_en": "Witness, liberator, and royal host",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ზღვის პირას ხედავს კიდობნიდან გადმოსმულ ნესტანს, მოგვიანებით ათავისუფლებს ქაჯეთიდან და მულღაზანზარში იხდის მის ქორწილს.",
+          "summary_en": "Witnesses Nestan on the coast after her abduction, helps rescue her from Kadjeti, and hosts her wedding in Mulghazanzar.",
+          "chapters": [
+            29,
+            57,
+            58,
+            59,
+            60,
+            61,
+            64
+          ]
+        },
+        {
+          "character_id": "surkhavi",
+          "name_ka": "მელიქ-სურხავი",
+          "name_en": "Melik-Surkhavi",
+          "relationship_ka": "მასპინძელი მეფე გულანშაროში",
+          "relationship_en": "Royal host in Gulansharo",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ტარიელთან და ავთანდილთან ერთად სტუმრობს მელიქ-სურხავს ქაჯეთის დალაშქვრის შემდეგ.",
+          "summary_en": "Celebrates the victory over Kadjeti at King Melik-Surkhavi’s court.",
+          "chapters": [
+            58
+          ]
+        },
+        {
+          "character_id": "fatman",
+          "name_ka": "ფატმან ხათუნი",
+          "name_en": "Fatman Khatun",
+          "relationship_ka": "გულანშაროელი მოკავშირე",
+          "relationship_en": "Gulansharo ally",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ხვდება ფატმან ხათუნს ზღვათა სამეფოში ნესტანის გათავისუფლების შემდეგ.",
+          "summary_en": "Meets and honors Fatman Khatun in the Sea Realm after Nestan’s rescue.",
+          "chapters": [
+            58
+          ]
+        },
+        {
+          "character_id": "rostevan",
+          "name_ka": "როსტევანი",
+          "name_en": "Rostevan",
+          "relationship_ka": "მასპინძელი მეფე არაბეთში",
+          "relationship_en": "Royal host in Arabia",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სტუმრობს მეფე როსტევანს არაბეთში და ესწრება ავთანდილისა და თინათინის ქორწილს.",
+          "summary_en": "Visits King Rostevan in Arabia and attends Avtandil and Tinatin’s wedding.",
+          "chapters": [
+            60,
+            61
+          ]
+        },
+        {
+          "character_id": "tinatin",
+          "name_ka": "თინათინი",
+          "name_en": "Tinatin",
+          "relationship_ka": "არაბეთის ხელმწიფე და ძმადნაფიცის მეუღლე",
+          "relationship_en": "Sovereign of Arabia and bride of his sworn brother",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "უძღვნის ძვირფას საჩუქრებს თინათინსა და ავთანდილს მათ ქორწილში.",
+          "summary_en": "Presents royal gifts to Tinatin and Avtandil at their wedding in Arabia.",
+          "chapters": [
+            60,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asmat",
+      "name_ka": "ასმათი",
+      "name_en": "Asmat",
+      "role_ka": "ნესტან-დარეჯანის მესაიდუმლე და ტარიელის ერთგული დაფიცი გაჭირვებაში",
+      "role_en": "Nestan-Darejan's confidante and Tariel's devoted sworn sister in exile",
+      "characteristics": [
+        {
+          "ka": "თავდადებული და უანგაროდ ერთგული, რომელიც ტარიელს უდაბურ გამოქვაბულში ემსახურება",
+          "en": "Selflessly loyal companion who shares Tariel's wilderness exile in the cave",
+          "quote_ka": "ვინმცა გასძლნა ჭირნი ჩემნი, ანუ ვინმცა შეეცადა? შენგან კიდე ხორციელი, დაო, მივის არასადა",
+          "stanza": 275
+        },
+        {
+          "ka": "შავი ჯუბით (სამოსით) მოსილი, პატრონის უბედურებით მგლოვიარე",
+          "en": "Clad in a black gown in mourning for her lost mistress",
+          "quote_ka": "ქვაბისა კარსა გამოდგა ქალი ჯუბითა შავითა",
+          "stanza": 221
+        },
+        {
+          "ka": "გონიერი ნუგეშისმცემელი და შუამავალი ტარიელს, ნესტანსა და ავთანდილს შორის",
+          "en": "Wise comforter and intermediary between Nestan, Tariel, and Avtandil",
+          "quote_ka": "ასმათი სულსა უღებდა, სიტყვითა საკვირველითა",
+          "stanza": 283
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "ქალი ჯუბითა შავითა",
+          "epithet_en": "Maiden in a black gown",
+          "quote_ka": "ქვაბისა კარსა გამოდგა ქალი ჯუბითა შავითა",
+          "stanza": 221
+        },
+        {
+          "epithet_ka": "დაო ასმათ / დად საესავი",
+          "epithet_en": "Sister Asmat / trusted as a sister",
+          "quote_ka": "ყმამან უთხრა: დაო ასმათ / ჩემგან დად საესავისა",
+          "stanza": 222
+        },
+        {
+          "epithet_ka": "ასმათი ტკბილი / სიტყვითა საკვირველითა",
+          "epithet_en": "Sweet Asmat / comforter of wondrous speech",
+          "quote_ka": "მომართვა წიგნი ასმათის ტკბილისა / ასმათი სულსა უღებდა, სიტყვითა საკვირველითა",
+          "stanza": 553
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "ზღვათა შესართავი ცრემლი",
+          "metaphor_en": "Tears flowing like rivers feeding the seas",
+          "quote_ka": "ატირდა მაღლად ცრემლითა, ზღვათაცა შესართავითა",
+          "stanza": 221
+        },
+        {
+          "metaphor_ka": "თმისა ტევრი",
+          "metaphor_en": "A dense forest/thicket of hair (which she tears in mourning)",
+          "quote_ka": "ქალი ტირს და მკერდსა იცემს, თმისა ტევრსა გაიგლეჯდა",
+          "stanza": 226
+        },
+        {
+          "metaphor_ka": "უსტარი ბედითი (საკუთარი სიცოცხლის შედარება უბრალო წერილთან)",
+          "metaphor_en": "A worthless letter to be easily torn up (comparing her own life when refusing to betray Tariel's secret)",
+          "quote_ka": "მე თავი ჩემი ნებითა ჩემითა მოგაკლვევინო, ვითა უსტარი ბედითი, ადვილად დაგახევინო",
+          "stanza": 241
+        },
+        {
+          "metaphor_ka": "ცხელი ცეცხლით წვა",
+          "metaphor_en": "Burning with hot fire (of grief and loyalty)",
+          "quote_ka": "მე ასმათ მქვიან, რომელსა წვა მაქვს ცეცხლისა ცხელისა",
+          "stanza": 260
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 74,
+        "direct_name_occurrences": 74,
+        "named_in_chapter_titles": 2,
+        "indirect_mentions_stanzas": 69,
+        "total_active_or_mentioned_stanzas": 143,
+        "poem_stanza_share_percent": 8.57,
+        "chapters_active_count": 28,
+        "first_appearance_stanza": 221,
+        "last_appearance_stanza": 1653,
+        "epistolary_letters_written": 2,
+        "primary_realm_ka": "ინდოეთი / ქვაბოვანი",
+        "primary_realm_en": "India / Wilderness Cave",
+        "key_relationships": [
+          "nestan",
+          "tariel",
+          "avtandil"
+        ],
+        "interacted_characters_count": 5
+      },
+      "interacted_characters": [
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "პატრონი და უახლოესი მესაიდუმლე",
+          "relationship_en": "Mistress and closest confidante",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ემსახურება ნესტანს ინდოეთში, აკავშირებს ტარიელთან, შეესწრება მის გადაკარგვას და დახსნის შემდეგ კვლავ ხვდება მას.",
+          "summary_en": "Serves Nestan in India, carries her secret letters to Tariel, witnesses her banishment by Davar, and is reunited with her after Kadjeti.",
+          "chapters": [
+            10,
+            11,
+            12,
+            15,
+            17,
+            20,
+            24,
+            25,
+            26,
+            57,
+            64
+          ]
+        },
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "ძმადნაფიცი პატრონი და თანამგზავრი უბედურებაში",
+          "relationship_en": "Sworn brother, lord, and companion in exile",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "უვლის და ანუგეშებს ტარიელს გამოქვაბულში, ახლავს არაბეთსა და ინდოეთში და იღებს მისგან ინდოეთის მეშვიდე სამეფოს.",
+          "summary_en": "Cares for and consoles Tariel in the wilderness cave, accompanies him to Arabia and India, and receives a seventh of India from him.",
+          "chapters": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            17,
+            20,
+            24,
+            25,
+            26,
+            29,
+            37,
+            38,
+            53,
+            64
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "მოკავშირე და შუამავალი",
+          "relationship_en": "Ally and mediator",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "უამბობს ავთანდილს ტარიელის ვინაობას, აახლოებს ორ გმირს და ეხმარება ავთანდილს ტარიელის პოვნაში.",
+          "summary_en": "Reveals Tariel’s name to Avtandil, brings the two knights together, and assists Avtandil in caring for Tariel.",
+          "chapters": [
+            7,
+            8,
+            9,
+            37,
+            38,
+            53
+          ]
+        },
+        {
+          "character_id": "davari",
+          "name_ka": "დავარი",
+          "name_en": "Davar",
+          "relationship_ka": "ნესტანის დამსჯელი მამიდა",
+          "relationship_en": "Nestan’s punishing aunt",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "შეესწრება დავარის მიერ ნესტანის ცემას, ზღვაში გადაკარგვასა და დავარის თვითმკვლელობას.",
+          "summary_en": "Witnesses Davar beating Nestan, ordering her cast out to sea, and committing suicide.",
+          "chapters": [
+            26
+          ]
+        },
+        {
+          "character_id": "parsadan",
+          "name_ka": "ფარსადანი",
+          "name_en": "Parsadan",
+          "relationship_ka": "ინდოეთის მეფე",
+          "relationship_en": "King of India",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "აცნობებს ფარსადანის კარს ნესტანის გაუჩინარებისა და დავარის სიკვდილის ამბავს.",
+          "summary_en": "Reports Nestan’s disappearance and Davar’s death to Parsadan’s court.",
+          "chapters": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fatman",
+      "name_ka": "ფატმან ხათუნი",
+      "name_en": "Fatman Khatun",
+      "role_ka": "გულანშაროს ვაჭართუხუცეს უსენის მეუღლე, ნესტან-დარეჯანის შემფარებელი და მხსნელი",
+      "role_en": "Wife of Usen (chief merchant of Gulansharo), protector and rescuer of Nestan-Darejan",
+      "characteristics": [
+        {
+          "ka": "შესახედავად მიმზიდველი, არა ნორჩი, მაგრამ ცოცხალი და მარჯვე ქალი",
+          "en": "Pleasing to the eye, no longer young, yet lively and charming",
+          "quote_ka": "ფატმან ხათუნ თვალად მარჯვე, არ ყმაწვილი, მაგრა მზმელი",
+          "stanza": 1077
+        },
+        {
+          "ka": "კარგი აღნაგობის, შავგრემანი და პირმსუქანი (სავსესახიანი)",
+          "en": "Well-proportioned, dark-complexioned, and full-faced (plump-faced)",
+          "quote_ka": "ნაკვთად კარგი, შავ-გრემანი, პირ-მსუქანი, არ-პირხმელი",
+          "stanza": 1077
+        },
+        {
+          "ka": "მომღერალ-მუტრიბთა და ღვინის მოყვარული, მდიდრულ სამოსელთა მფლობელი",
+          "en": "Lover of minstrels, singers, and wine, owning an abundance of fine garments",
+          "quote_ka": "მუტრიბთა და მომღერალთა მოყვარული, ღვინის-მსმელი, დია ედვა სასალუქო დასაბურავ-ჩასაცმელი",
+          "stanza": 1077
+        },
+        {
+          "ka": "გულუხვი, მოხერხებული და ნესტანისა და ავთანდილისადმი თავდადებული შემწე",
+          "en": "Resourceful, generous hostess who risks everything to save Nestan and aid Avtandil",
+          "quote_ka": "მისგან კიდე ინატრიდა ჭვრეტასამცა სხვად ღა ვისსა",
+          "stanza": 1431
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "თვალად მარჯვე, არ ყმაწვილი, მაგრა მზმელი",
+          "epithet_en": "Comely to the eye, not young, yet brisk/charming",
+          "quote_ka": "ფატმან ხათუნ თვალად მარჯვე, არ ყმაწვილი, მაგრა მზმელი",
+          "stanza": 1077
+        },
+        {
+          "epithet_ka": "ნაკვთად კარგი, შავ-გრემანი, პირ-მსუქანი, არ-პირხმელი",
+          "epithet_en": "Well-formed, dark-complexioned, plump-faced, not thin-faced",
+          "quote_ka": "ნაკვთად კარგი, შავ-გრემანი, პირ-მსუქანი, არ-პირხმელი",
+          "stanza": 1077
+        },
+        {
+          "epithet_ka": "მუტრიბთა და მომღერალთა მოყვარული, ღვინის-მსმელი",
+          "epithet_en": "Lover of minstrels and singers, wine-drinker",
+          "quote_ka": "მუტრიბთა და მომღერალთა მოყვარული, ღვინის-მსმელი",
+          "stanza": 1077
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "მზის წინაშე დამჭკნარი ყვავილი (ავთანდილის მშვენების წინაშე)",
+          "metaphor_en": "A flower withering before the radiance of the Rose and Sun (comparing her own beauty to Avtandil's)",
+          "quote_ka": "შენი შვენება ყვავილთა აჭნობს და ჩემნიც ჭნებიან, სრულად დამწვარვარ, თუ მზისა შუქნი არ მომესწრებიან",
+          "stanza": 1086
+        },
+        {
+          "metaphor_ka": "წყაროსებრ მჩქეფარე ცრემლი",
+          "metaphor_en": "Tears trickling and sounding like a running spring",
+          "quote_ka": "ცრემლთა, მისთა მონადენთა, წყაროსებრნი ისმნეს წკარნი",
+          "stanza": 1102
+        },
+        {
+          "metaphor_ka": "საკუთარი სისხლის მხვრეტი (საიდუმლოს გაცემით თავსდატეხილ განსაცდელზე)",
+          "metaphor_en": "One who drinks her own blood (metaphor for bringing ruin upon herself by failing to guard a secret)",
+          "quote_ka": "მკურნალმანცა ვერა ჰკურნოს თავისისა სისხლის მხვრეტსა",
+          "stanza": 1106
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 54,
+        "direct_name_occurrences": 60,
+        "named_in_chapter_titles": 7,
+        "indirect_mentions_stanzas": 191,
+        "total_active_or_mentioned_stanzas": 245,
+        "poem_stanza_share_percent": 14.68,
+        "chapters_active_count": 13,
+        "first_appearance_stanza": 1071,
+        "last_appearance_stanza": 1447,
+        "epistolary_letters_written": 2,
+        "primary_realm_ka": "გულანშარო (ზღვათა სამეფო)",
+        "primary_realm_en": "Gulansharo (Sea Realm)",
+        "key_relationships": [
+          "avtandil",
+          "nestan",
+          "usen",
+          "chashnagiri"
+        ],
+        "interacted_characters_count": 7
+      },
+      "interacted_characters": [
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "შეფარებული დედოფალი და შვილობილი",
+          "relationship_en": "Sheltered princess and beloved ward",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "იფარებს ზღვით მოყვანილ ნესტანს, აპარებს სურხავის მცველებისგან, უგზავნის წერილს ქაჯეთში და ეხმარება მის დახსნას.",
+          "summary_en": "Shelters Nestan in Gulansharo, helps her escape King Surkhavi’s guards, writes to her in Kadjeti, and aids her rescue.",
+          "chapters": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            58
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "სტუმარი, სატრფო და მხსნელი",
+          "relationship_en": "Guest, lover, and savior",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "მასპინძლობს ავთანდილს, უმხელს სიყვარულს, აკვლევინებს დამშანტაჟებელ ჭაშნაგირს და აგებინებს ნესტანის ქაჯეთში ტყვეობას.",
+          "summary_en": "Hosts Avtandil, confesses her love, enlists him to kill her blackmailer the Chashnagir, and enables him to locate Nestan in Kadjeti.",
+          "chapters": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            51,
+            52,
+            58
+          ]
+        },
+        {
+          "character_id": "usen",
+          "name_ka": "უსენი",
+          "name_en": "Usen",
+          "relationship_ka": "ქმარი",
+          "relationship_en": "Husband",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "აფიცებს უსენს ნესტანის დაფარვაზე, ხოლო ფიცის გატეხისა და ნესტანის გაცემის შემდეგ სასტიკად კიცხავს და იძულებს მას.",
+          "summary_en": "Binds her husband Usen by oath to keep Nestan hidden, then bitterly condemns him after he drunkenly betrays her to the king.",
+          "chapters": [
+            43,
+            46,
+            47,
+            48,
+            52,
+            58
+          ]
+        },
+        {
+          "character_id": "chashnagiri",
+          "name_ka": "ჭაშნაგირი",
+          "name_en": "The Chashnagir",
+          "relationship_ka": "საყვარელი და დამშანტაჟებელი",
+          "relationship_en": "Secret lover and blackmailer",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ანდობს ნესტანის საიდუმლოს, ხოლო წაკიდების შემდეგ ჭაშნაგირი მას და მის შვილებს დახოცვით ემუქრება, რის გამოც ფატმანი მას ავთანდილს აკვლევინებს.",
+          "summary_en": "Confides Nestan’s secret to him; when he catches her with Avtandil and threatens to have her and her children killed, she has Avtandil slay him.",
+          "chapters": [
+            46,
+            47
+          ]
+        },
+        {
+          "character_id": "surkhavi",
+          "name_ka": "მელიქ-სურხავი",
+          "name_en": "Melik-Surkhavi",
+          "relationship_ka": "ზღვათა სამეფოს ხელმწიფე",
+          "relationship_en": "King of the Sea Realm",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სტუმრობს სურხავის კარს, მოგვიანებით კი მასთან ერთად ეგებება ქაჯეთიდან გამარჯვებულ გმირებს.",
+          "summary_en": "Attends Melik-Surkhavi’s court festivals and later travels with him to welcome the victorious heroes.",
+          "chapters": [
+            47,
+            58
+          ]
+        },
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "ნესტანის მიჯნური და ქაჯეთის მძლეველი",
+          "relationship_en": "Nestan’s beloved and conqueror of Kadjeti",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ხვდება ტარიელს ნესტანის დახსნის შემდეგ და საჩუქრად იღებს მისგან ქაჯეთის მთელ სიმდიდრეს.",
+          "summary_en": "Meets Tariel after Nestan’s liberation and receives the entire treasure of Kadjeti from him.",
+          "chapters": [
+            58
+          ]
+        },
+        {
+          "character_id": "pridon",
+          "name_ka": "ნურადინ-ფრიდონი",
+          "name_en": "Nuradin-Pridon",
+          "relationship_ka": "ტარიელისა და ავთანდილის ძმადნაფიცი",
+          "relationship_en": "Sworn brother of Tariel and Avtandil",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ხვდება ფრიდონს გულანშაროში გამარჯვების ზეიმზე.",
+          "summary_en": "Meets Pridon during the victory celebrations in the Sea Realm.",
+          "chapters": [
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shermadin",
+      "name_ka": "შერმადინი",
+      "name_en": "Shermadin",
+      "role_ka": "ავთანდილის გაზრდილი, უერთგულესი მონა-მოყვასი და სავაზიროს გამგებელი",
+      "role_en": "Avtandil's foster-companion, chief retainer, and trusted deputy",
+      "characteristics": [
+        {
+          "ka": "ავთანდილთან ერთად შეზრდილი, უერთგულესი და პატრონისათვის თავდადებული",
+          "en": "Raised together with Avtandil, utterly faithful and self-sacrificing",
+          "quote_ka": "თანა შეზრდილი, ერთგული და მისთვის თავდადებული",
+          "stanza": 150
+        },
+        {
+          "ka": "სიმარჯვითა და სიზუსტით თორმეტ რჩეულ მსახურს გათანაბრებული",
+          "en": "Equal to twelve attendants in skill and unerring accuracy",
+          "quote_ka": "ერთაი შენი შერმადინ, არს მათად დასადარებლად",
+          "stanza": 70
+        },
+        {
+          "ka": "ავთანდილის არყოფნაში მისი სამფლობელოს ბრძნულად და სამართლიანად გამგებელი",
+          "en": "Capable steward who governs Avtandil's domain during his three-year quest",
+          "quote_ka": "მე შერმადინ დამიგდია, ჩემად კერძად პატრონობდეს",
+          "stanza": 168
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "თანა შეზრდილი, ერთგული და მისთვის თავდადებული",
+          "epithet_en": "Raised together with him, faithful and self-sacrificing",
+          "quote_ka": "თანა შეზრდილი, ერთგული და მისთვის თავდადებული",
+          "stanza": 150
+        },
+        {
+          "epithet_ka": "გაზრდილი მისი",
+          "epithet_en": "His foster-retainer / ward",
+          "quote_ka": "გაზრდილი მისი შერმადინ დაისვა სავაზიროსა",
+          "stanza": 149
+        },
+        {
+          "epithet_ka": "შერმადინ მახარობელი",
+          "epithet_en": "Shermadin, bearer of glad tidings",
+          "quote_ka": "შერმადინ მახარობელი წავა მისლვისა მათისა",
+          "stanza": 679
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "პატრონის ნებას აყოლილი ჩრდილი",
+          "metaphor_en": "A shadow following his lord's every desire",
+          "quote_ka": "თქვენ ჩემისა საწადლისა მიდგომილნო, ვითა ჩრდილნო",
+          "stanza": 165
+        },
+        {
+          "metaphor_ka": "მზეებრ მომფენელი, ვარდის არ-დამზრობი და შემცოდეთა ცვილივით დამდნობი",
+          "metaphor_en": "Shining like the sun upon all, keeping the rose unharmed, and melting wrongdoers like wax",
+          "quote_ka": "ყოვლთა მზეებრ მოგეფინოს, ვარდს არ ზრვიდეს, არ აჭნობდეს, შემცოდესა ყველაკასა, ვითა ცვილსა, დაადნობდეს",
+          "stanza": 168
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 17,
+        "direct_name_occurrences": 17,
+        "named_in_chapter_titles": 1,
+        "indirect_mentions_stanzas": 46,
+        "total_active_or_mentioned_stanzas": 63,
+        "poem_stanza_share_percent": 3.77,
+        "chapters_active_count": 9,
+        "first_appearance_stanza": 70,
+        "last_appearance_stanza": 829,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "არაბეთი",
+        "primary_realm_en": "Arabia",
+        "key_relationships": [
+          "avtandil",
+          "rostevan",
+          "tinatin",
+          "sograt"
+        ],
+        "interacted_characters_count": 4
+      },
+      "interacted_characters": [
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "პატრონი და თანაშეზრდილი ძმა",
+          "relationship_en": "Lord and foster-brother",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "ერთგულად განაგებს ავთანდილის სამფლობელოს მისი არყოფნისას, ინახავს მის საიდუმლოს და გადასცემს მის ანდერძს მეფეს.",
+          "summary_en": "Faithfully governs Avtandil’s domain during his quests, guards his secret, and delivers his testament to the royal court.",
+          "chapters": [
+            2,
+            5,
+            6,
+            30,
+            32
+          ]
+        },
+        {
+          "character_id": "rostevan",
+          "name_ka": "როსტევანი",
+          "name_en": "Rostevan",
+          "relationship_ka": "არაბეთის მეფე",
+          "relationship_en": "King of Arabia",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ახარებს როსტევანს ავთანდილის პირველ დაბრუნებას და მოგვიანებით წარუდგენს გაპარული ავთანდილის ანდერძს.",
+          "summary_en": "Brings Rostevan glad tidings of Avtandil’s first return and later presents Avtandil’s farewell testament.",
+          "chapters": [
+            2,
+            30,
+            35
+          ]
+        },
+        {
+          "character_id": "tinatin",
+          "name_ka": "თინათინი",
+          "name_en": "Tinatin",
+          "relationship_ka": "არაბეთის მეფე-ქალი",
+          "relationship_en": "Sovereign of Arabia",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ახარებს თინათინს ავთანდილის მოსვლას და იღებს მისგან საბოძვარს.",
+          "summary_en": "Announces Avtandil’s return to Tinatin and receives lavish gifts from her.",
+          "chapters": [
+            30
+          ]
+        },
+        {
+          "character_id": "sograt",
+          "name_ka": "სოგრატი",
+          "name_en": "Sograt",
+          "relationship_ka": "მეფის უახლოესი ვაზირი",
+          "relationship_en": "Chief vizier of the king",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "აცნობებს სოგრატს ავთანდილის ფარული წასვლის ამბავს და მასთან ერთად მიდის მეფის წინაშე.",
+          "summary_en": "Informs Vizier Sograt of Avtandil’s secret departure and goes with him before King Rostevan.",
+          "chapters": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sograt",
+      "name_ka": "სოგრატი",
+      "name_en": "Sograt",
+      "role_ka": "არაბეთის მეფის უახლოესი ხანდაზმული ვაზირი",
+      "role_en": "Elderly chief vizier and confidant of King Rostevan",
+      "characteristics": [
+        {
+          "ka": "მეფე როსტევანის კარის უახლოესი და უხუცესი ვაზირი",
+          "en": "Elderly chief vizier closest to King Rostevan at court",
+          "quote_ka": "ვაზირი სოგრატ, მოახლე მეფისა დასთა დასისა / ვაზირი ბერი სოგრატი",
+          "stanza": 44
+        },
+        {
+          "ka": "წყლიანი, მახვილგონიერი და ლაღად მოსაუბრე მრჩეველი",
+          "en": "Gracious, witty, and eloquent counselor",
+          "quote_ka": "ვაზირი ლაღობს ენითა, წყლიანად მოუბნარითა",
+          "stanza": 59
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "მოახლე მეფისა დასთა დასისა",
+          "epithet_en": "Closest attendant to the king among all his court",
+          "quote_ka": "ვაზირი სოგრატ, მოახლე მეფისა დასთა დასისა",
+          "stanza": 44
+        },
+        {
+          "epithet_ka": "ვაზირი ბერი სოგრატი",
+          "epithet_en": "Elderly Vizier Sograt",
+          "quote_ka": "ვაზირი ბერი სოგრატი თვით მასთანავე მჯდომია",
+          "stanza": 57
+        },
+        {
+          "epithet_ka": "ენითა წყლიანად მოუბნარი",
+          "epithet_en": "Graciously and wittily eloquent in speech",
+          "quote_ka": "ვაზირი ლაღობს ენითა, წყლიანად მოუბნარითა",
+          "stanza": 59
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "ტანითა კენარითა და წყლიანი ენით მოსაუბრე",
+          "metaphor_en": "Slender/graceful in bearing, with speech flowing like sparkling water (tsqliani)",
+          "quote_ka": "ადგეს სოგრატ და ავთანდილ ტანითა მით კენარითა... ვაზირი ლაღობს ენითა, წყლიანად მოუბნარითა",
+          "stanza": 59
+        },
+        {
+          "metaphor_ka": "ვითა ჩიტნი არ გაქორდენ (სოგრატის ხატოვანი თქმა შეუძლებელ საქმეზე)",
+          "metaphor_en": "Just as small birds cannot turn into hawks (Sograt's figurative saying on the impossibility of letting Avtandil leave)",
+          "quote_ka": "ეგე აგრე არ იქმნების, ვითა ჩიტნი არ გაქორდენ",
+          "stanza": 745
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 4,
+        "direct_name_occurrences": 4,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 61,
+        "total_active_or_mentioned_stanzas": 65,
+        "poem_stanza_share_percent": 3.89,
+        "chapters_active_count": 3,
+        "first_appearance_stanza": 34,
+        "last_appearance_stanza": 820,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "არაბეთი",
+        "primary_realm_en": "Arabia",
+        "key_relationships": [
+          "rostevan",
+          "avtandil",
+          "shermadin"
+        ],
+        "interacted_characters_count": 3
+      },
+      "interacted_characters": [
+        {
+          "character_id": "rostevan",
+          "name_ka": "როსტევანი",
+          "name_en": "Rostevan",
+          "relationship_ka": "მეფე და პატრონი",
+          "relationship_en": "King and sovereign",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ხუმრობით ართობს დაღონებულ მეფეს ნადიმზე, მოგვიანებით კი ავთანდილის თხოვნის გადაცემისას მეფის რისხვას იტანს.",
+          "summary_en": "Cheers Rostevan with witty banter at the feast, later endures the king’s wrath when asking leave for Avtandil, and brings Shermadin before him.",
+          "chapters": [
+            2,
+            31,
+            35
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "სპასპეტი და მეგობარი",
+          "relationship_en": "Commander-in-Chief and court friend",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ავთანდილთან ერთად მიდის მეფის გასამხიარულებლად, ხოლო შემდეგ უარს ვერ ეუბნება და შუამდგომლობს მეფესთან წასვლის ნებართვაზე.",
+          "summary_en": "Approaches Rostevan alongside Avtandil at the banquet and later intercedes with the king on Avtandil’s behalf.",
+          "chapters": [
+            2,
+            31
+          ]
+        },
+        {
+          "character_id": "shermadin",
+          "name_ka": "შერმადინი",
+          "name_en": "Shermadin",
+          "relationship_ka": "ავთანდილის ერთგული მსახური",
+          "relationship_en": "Avtandil’s faithful retainer",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "შერმადინისგან იგებს ავთანდილის გაპარვის ამბავს და წარადგენს მას როსტევანის წინაშე.",
+          "summary_en": "Learns of Avtandil’s secret departure from Shermadin and brings him before King Rostevan.",
+          "chapters": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parsadan",
+      "name_ka": "ფარსადანი",
+      "name_en": "Parsadan",
+      "role_ka": "ინდოეთის მეფეთ-მეფე, ნესტან-დარეჯანის მამა და ტარიელის გამზრდელი",
+      "role_en": "High King of India, father of Nestan-Darejan and foster-father of Tariel",
+      "characteristics": [
+        {
+          "ka": "ინდოეთის ექვსი სამეფოს უშუალო მპყრობელი და მეშვიდის (სარიდანის) უზენაესი ხელმწიფე",
+          "en": "Ruler of six of India's seven kingdoms and overlord of the seventh",
+          "quote_ka": "ექვსი სამეფო ფარსადანს ჰქონდა, თვით იყო მპყრობელი",
+          "stanza": 311
+        },
+        {
+          "ka": "უხვი, მდიდარი, ამაყი და ბრძოლაში ძლევამოსილი მეფე",
+          "en": "Generous, wealthy, proud, and victorious in battle",
+          "quote_ka": "უხვი, მდიდარი, უკადრი, მეფეთა ზედა მფლობელი, ტანად ლომი და პირად მზე, ომად მძლე, რაზმთა მწყობელი",
+          "stanza": 311
+        },
+        {
+          "ka": "ფიცხი და თავის ნათქვამსა თუ ფიცში შეუვალი ხასიათის მქონე",
+          "en": "Stern and unyielding once he swears an oath by his own head",
+          "quote_ka": "მის მეფისა წესი იყო: თავი მისი ძვირად ფიცის, და თუ ფიცის, არ გატეხის, მასვე წამსა დაამტკიცის",
+          "stanza": 575
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "უხვი, მდიდარი, უკადრი, მეფეთა ზედა მფლობელი",
+          "epithet_en": "Generous, wealthy, proud, overlord of kings",
+          "quote_ka": "უხვი, მდიდარი, უკადრი, მეფეთა ზედა მფლობელი",
+          "stanza": 311
+        },
+        {
+          "epithet_ka": "ომად მძლე, რაზმთა მწყობელი",
+          "epithet_en": "Victorious in war, arrayer of battle hosts",
+          "quote_ka": "ტანად ლომი და პირად მზე, ომად მძლე, რაზმთა მწყობელი",
+          "stanza": 311
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "ტანად ლომი და პირად მზე",
+          "metaphor_en": "A Lion in stature and the Sun in countenance",
+          "quote_ka": "ტანად ლომი და პირად მზე, ომად მძლე, რაზმთა მწყობელი",
+          "stanza": 311
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 8,
+        "direct_name_occurrences": 8,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 58,
+        "total_active_or_mentioned_stanzas": 66,
+        "poem_stanza_share_percent": 3.95,
+        "chapters_active_count": 12,
+        "first_appearance_stanza": 311,
+        "last_appearance_stanza": 1593,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "ინდოეთი",
+        "primary_realm_en": "India",
+        "key_relationships": [
+          "nestan",
+          "tariel",
+          "saridan",
+          "davari"
+        ],
+        "interacted_characters_count": 6
+      },
+      "interacted_characters": [
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "ასული და ტახტის მემკვიდრე",
+          "relationship_en": "Daughter and royal heir",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ზრდის ნესტანს სამეფოდ, მაგრამ მისი ნების გარეშე უპირებს ხვარაზმშას ძეზე გათხოვებას.",
+          "summary_en": "Raises Nestan as royal heir, but attempts to wed her to the Prince of Khwarazm without her consent.",
+          "chapters": [
+            10,
+            23,
+            25,
+            26
+          ]
+        },
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "შვილობილი და ინდოეთის ამირბარი",
+          "relationship_en": "Foster-son and Amirbar of India",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "სარიდანის სიკვდილის შემდეგ შვილივით ზრდის ტარიელს და უბოძებს ამირბარობას, სასიძოს მოკვლის შემდეგ კი უპირისპირდება მას.",
+          "summary_en": "Raises Tariel as a son and appoints him Amirbar, but breaks with him after Tariel slays the Khwarazmian bridegroom.",
+          "chapters": [
+            10,
+            11,
+            14,
+            19,
+            23,
+            25,
+            62
+          ]
+        },
+        {
+          "character_id": "saridan",
+          "name_ka": "სარიდანი",
+          "name_en": "Saridan",
+          "relationship_ka": "მეშვიდე სამეფოს მეფე და ამირბარი",
+          "relationship_en": "King of the seventh kingdom and Amirbar",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ძმასა და მშობელივით იღებს ნებით შეწყნარებულ სარიდანს, უბოძებს ამირბარობას და მწარედ გლოვობს მის სიკვდილს.",
+          "summary_en": "Welcomes Saridan as an equal, grants him the office of Amirbar, and deeply mourns his death.",
+          "chapters": [
+            10
+          ]
+        },
+        {
+          "character_id": "davari",
+          "name_ka": "დავარი",
+          "name_en": "Davar",
+          "relationship_ka": "და და ნესტანის აღმზრდელი",
+          "relationship_en": "Sister and tutor of Nestan",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ანდობს ნესტანის აღზრდას, ხოლო სასიძოს მოკვლის შემდეგ სიკვდილით ემუქრება მას.",
+          "summary_en": "Entrusts Nestan’s education to his sister Davar, then swears to kill her upon learning of Nestan’s love for Tariel.",
+          "chapters": [
+            10,
+            26
+          ]
+        },
+        {
+          "character_id": "khvarazmsha",
+          "name_ka": "ხვარაზმშას ძე",
+          "name_en": "Prince of Khwarazm",
+          "relationship_ka": "მოწვეული სასიძო",
+          "relationship_en": "Invited royal bridegroom",
+          "interaction_mode": "epistolary_or_envoys",
+          "summary_ka": "იწვევს ხვარაზმშას ძეს ნესტანის საქმროდ და ინდოეთის ტახტის მემკვიდრედ.",
+          "summary_en": "Summons the Prince of Khwarazm to wed Nestan and rule India.",
+          "chapters": [
+            23,
+            25
+          ]
+        },
+        {
+          "character_id": "ramaz",
+          "name_ka": "რამაზ მეფე",
+          "name_en": "King Ramaz",
+          "relationship_ka": "დამორჩილებული და შეწყალებული მოხარკე მეფე",
+          "relationship_en": "Subdued and pardoned tributary king",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ტარიელის თხოვნით ტკბილად იღებს და იწყალებს დატყვევებულ რამაზ მეფეს.",
+          "summary_en": "Pardons the captured King Ramaz at Tariel’s request upon receiving his tribute.",
+          "chapters": [
+            14,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saridan",
+      "name_ka": "სარიდანი",
+      "name_en": "Saridan",
+      "role_ka": "ტარიელის მამა, ინდოეთის მეშვიდე სამეფოს მეფე და ამირბარი",
+      "role_en": "Father of Tariel, King of the seventh kingdom of India and Amirbar",
+      "characteristics": [
+        {
+          "ka": "ინდოეთის მეშვიდე სამეფოს დამოუკიდებელი მეფე, რომელიც საკუთარი ნებით შეეწყნარა ფარსადანს",
+          "en": "Independent king of India's seventh kingdom who voluntarily united with Parsadan",
+          "quote_ka": "მამა ჩემი ჯდა მეშვიდე, მეფე მებრძოლთა მზარავი, სარიდან ერქვა სახელად",
+          "stanza": 312
+        },
+        {
+          "ka": "მტრების აშკარად მმუსვრელი და უძლეველი მხედართმთავარი (ამირბარი)",
+          "en": "Fearless conqueror of enemies and High Commander (Amirbar) of India",
+          "quote_ka": "მტერთა სრვად დაუფარავი; ვერვინ ჰკადრებდის წყენასა, ვერ ცხადი, ვერცა მპარავი",
+          "stanza": 312
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "მეფე მებრძოლთა მზარავი",
+          "epithet_en": "King who strikes terror into warriors",
+          "quote_ka": "მამა ჩემი ჯდა მეშვიდე, მეფე მებრძოლთა მზარავი",
+          "stanza": 312
+        },
+        {
+          "epithet_ka": "მტერთა სრვად დაუფარავი",
+          "epithet_en": "Open destroyer of foes",
+          "quote_ka": "სარიდან ერქვა სახელად, მტერთა სრვად დაუფარავი",
+          "stanza": 312
+        },
+        {
+          "epithet_ka": "საწუთრო-გაუმწარავი",
+          "epithet_en": "Untroubled / unembittered by the world",
+          "quote_ka": "ნადირობდის და იშვებდის საწუთრო-გაუმწარავი",
+          "stanza": 312
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "გულს კაეშანთა ჯარები (მარტოობით გამოწვეული სევდის მეტაფორა)",
+          "metaphor_en": "Armies of melancholy gathering in his heart (metaphor for his boredom with solitary rule)",
+          "quote_ka": "ხალვა მოსძულდა, შეექმნა გულს კაეშანთა ჯარები",
+          "stanza": 313
+        },
+        {
+          "metaphor_ka": "ვითა ძმა და მშობელი (ფარსადანის მიერ მისი თანასწორად მიღება)",
+          "metaphor_en": "Honored like a brother and a parent by King Parsadan",
+          "quote_ka": "აწ მოდი, ასრე პატივ გცე, ვითა ძმამან და მშობელმან",
+          "stanza": 315
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 1,
+        "direct_name_occurrences": 1,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 13,
+        "total_active_or_mentioned_stanzas": 14,
+        "poem_stanza_share_percent": 0.84,
+        "chapters_active_count": 2,
+        "first_appearance_stanza": 312,
+        "last_appearance_stanza": 433,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "ინდოეთი",
+        "primary_realm_en": "India",
+        "key_relationships": [
+          "tariel",
+          "parsadan"
+        ],
+        "interacted_characters_count": 2
+      },
+      "interacted_characters": [
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "ძე და მემკვიდრე",
+          "relationship_en": "Son and heir",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ზრდის ტარიელს ადრეულ ბავშვობაში და უტოვებს ინდოეთის ამირბარობის პატივს.",
+          "summary_en": "Raises Tariel in early childhood and leaves him the office of Amirbar of India.",
+          "chapters": [
+            10
+          ]
+        },
+        {
+          "character_id": "parsadan",
+          "name_ka": "ფარსადანი",
+          "name_en": "Parsadan",
+          "relationship_ka": "ინდოეთის მეფეთ-მეფე და მოკავშირე",
+          "relationship_en": "High King of India and overlord",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "საკუთარი ნებით უერთებს თავის მეშვიდე სამეფოს ფარსადანს და ხდება ინდოეთის ამირბარი.",
+          "summary_en": "Voluntarily unites his seventh kingdom with Parsadan’s realm and serves as his honored Amirbar.",
+          "chapters": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "davari",
+      "name_ka": "დავარი",
+      "name_en": "Davar",
+      "role_ka": "ფარსადან მეფის და, ქაჯეთს გათხოვილი ქვრივი, ნესტან-დარეჯანის აღმზრდელი",
+      "role_en": "Sister of King Parsadan, widow formerly married in Kadjeti, tutor of Nestan-Darejan",
+      "characteristics": [
+        {
+          "ka": "ფარსადან მეფის და, ქაჯეთში გათხოვილი ქვრივი, რომელსაც მეფემ ნესტანი სიბრძნის სასწავლელად მიაბარა",
+          "en": "Widowed sister of King Parsadan, formerly married in Kadjeti, entrusted with teaching wisdom to Nestan",
+          "quote_ka": "დავარ იყო და მეფისა, ქვრივი, ქაჯეთს გათხოვილი, მას სიბრძნისა სასწავლელად თვით მეფემან მისცა შვილი",
+          "stanza": 330
+        },
+        {
+          "ka": "გრძნეულებისა და ვარსკვლავთმრიცხველური სიბრძნის მცოდნე",
+          "en": "Skilled in esoteric sorcery/magic and knowledge of the heavens",
+          "quote_ka": "მან უამბო დავარ ქაჯსა, ვინ გრძნებითა ცაცა იცის",
+          "stanza": 575
+        },
+        {
+          "ka": "მრისხანე და სასტიკი ფარსადანის რისხვის შიშით, რომელიც ნესტანს ზღვაში გადააკარგვინებს და თავს იკლავს",
+          "en": "Wrathful under threat of Parsadan's vengeance, banishing Nestan to sea before taking her own life",
+          "quote_ka": "ვირე მომკლევდეს, მოვკვდები, სიცოცხლე გასაწყინარდა. დანა დაიცა, მოცაკვდა",
+          "stanza": 582
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "და მეფისა, ქვრივი, ქაჯეთს გათხოვილი",
+          "epithet_en": "Sister of the King, widow married in Kadjeti",
+          "quote_ka": "დავარ იყო და მეფისა, ქვრივი, ქაჯეთს გათხოვილი",
+          "stanza": 330
+        },
+        {
+          "epithet_ka": "დავარ ქაჯი, ვინ გრძნებითა ცაცა იცის",
+          "epithet_en": "Davar the Kadji, who by sorcery knows even the heavens",
+          "quote_ka": "მან უამბო დავარ ქაჯსა, ვინ გრძნებითა ცაცა იცის",
+          "stanza": 575
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "ეშმაკის ბადეში გაბმული (ფარსადანის სიტყვები დავარზე)",
+          "metaphor_en": "Entangled in the devil's net (Parsadan's metaphor accusing Davar of corrupting Nestan)",
+          "quote_ka": "მე ღმრთისა ვუთხარ, დაუბამს მას ეშმაკისა ბადესა",
+          "stanza": 574
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 6,
+        "direct_name_occurrences": 6,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 5,
+        "total_active_or_mentioned_stanzas": 11,
+        "poem_stanza_share_percent": 0.66,
+        "chapters_active_count": 2,
+        "first_appearance_stanza": 330,
+        "last_appearance_stanza": 583,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "ინდოეთი / ქაჯეთი",
+        "primary_realm_en": "India / Kadjeti",
+        "key_relationships": [
+          "nestan",
+          "parsadan",
+          "asmat"
+        ],
+        "interacted_characters_count": 3
+      },
+      "interacted_characters": [
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "ძმისწული და აღსაზრდელი",
+          "relationship_en": "Niece and pupil",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ასწავლის ნესტანს სიბრძნეს, ხოლო ფარსადანის რისხვის შიშით სცემს მას და კიდობნით ზღვაში გადააკარგვინებს.",
+          "summary_en": "Educates Nestan in wisdom, then beats her and orders two Kadji slaves to cast her adrift at sea before killing herself.",
+          "chapters": [
+            10,
+            26
+          ]
+        },
+        {
+          "character_id": "parsadan",
+          "name_ka": "ფარსადანი",
+          "name_en": "Parsadan",
+          "relationship_ka": "ძმა და ინდოეთის მეფე",
+          "relationship_en": "Brother and King of India",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "იღებს ფარსადანისგან ნესტანს აღსაზრდელად, ხოლო ძმის სასიკვდილო ფიცის გაგების შემდეგ თავს იკლავს.",
+          "summary_en": "Entrusted by Parsadan with Nestan’s upbringing; takes her own life after learning that Parsadan has sworn to kill her.",
+          "chapters": [
+            10,
+            26
+          ]
+        },
+        {
+          "character_id": "asmat",
+          "name_ka": "ასმათი",
+          "name_en": "Asmat",
+          "relationship_ka": "ნესტანის მესაიდუმლე მოახლე",
+          "relationship_en": "Nestan’s confidante",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ასმათის თვალწინ სჯის ნესტანს და იკლავს თავს.",
+          "summary_en": "Assaults and banishes Nestan in Asmat’s presence before stabbing herself.",
+          "chapters": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "khvarazmsha",
+      "name_ka": "ხვარაზმშას ძე",
+      "name_en": "Prince of Khwarazm",
+      "role_ka": "ხვარაზმის მეფის ძე, ნესტან-დარეჯანის საქმროდ მოწვეული უფლისწული",
+      "role_en": "Son of the Khwarazmshah, foreign prince summoned as bridegroom for Nestan-Darejan",
+      "characteristics": [
+        {
+          "ka": "ძლევამოსილი ხვარაზმშას ძე, ფარსადანისა და დედოფლის მიერ ინდოეთის სასიძოდ და ტახტის მემკვიდრედ შერჩეული",
+          "en": "Son of the mighty King of Khwarazm, chosen by Parsadan and the Queen as royal consort for India",
+          "quote_ka": "თუ მოგვცემს შვილსა სასიძოდ, მისებრივ არ რომელია",
+          "stanza": 511
+        },
+        {
+          "ka": "ტარიელის ხელით კარავში უბრალოდ (უდანაშაულოდ) მოკლული",
+          "en": "Slain in his tent without personal guilt by Tariel to prevent the marriage",
+          "quote_ka": "ხვარაზმშას სისხლი უბრალო სახლად რად დამადებინე?",
+          "stanza": 562
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "მისებრივ არ რომელია (სასიძოდ)",
+          "epithet_en": "Peerless match as a royal bridegroom (in Parsadan's words)",
+          "quote_ka": "თუ მოგვცემს შვილსა სასიძოდ, მისებრივ არ რომელია",
+          "stanza": 511
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "დღე ჰგვანდა არ აღვსებისა (მისი საბედისწერო მოსვლის შეპირისპირება აღდგომის დღესასწაულთან)",
+          "metaphor_en": "A day unlike Easter Day (ironic liturgical metaphor foreshadowing his fatal wedding arrival)",
+          "quote_ka": "მოვიდა სიძე, გარდახდა, დღე ჰგვანდა არ აღვსებისა",
+          "stanza": 552
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 7,
+        "direct_name_occurrences": 7,
+        "named_in_chapter_titles": 1,
+        "indirect_mentions_stanzas": 18,
+        "total_active_or_mentioned_stanzas": 25,
+        "poem_stanza_share_percent": 1.5,
+        "chapters_active_count": 4,
+        "first_appearance_stanza": 510,
+        "last_appearance_stanza": 572,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "ხვარაზმი / ინდოეთი",
+        "primary_realm_en": "Khwarazm / India",
+        "key_relationships": [
+          "parsadan",
+          "nestan",
+          "tariel"
+        ],
+        "interacted_characters_count": 3
+      },
+      "interacted_characters": [
+        {
+          "character_id": "parsadan",
+          "name_ka": "ფარსადანი",
+          "name_en": "Parsadan",
+          "relationship_ka": "ინდოეთის მეფე და მომწვევი სიმამრი",
+          "relationship_en": "King of India and prospective father-in-law",
+          "interaction_mode": "epistolary_or_envoys",
+          "summary_ka": "ფარსადანის მიწვევით მოდის ინდოეთში მრავალრიცხოვანი ლაშქრით ნესტანზე დასაქორწინებლად.",
+          "summary_en": "Travels to India with a vast host at Parsadan’s invitation to wed Nestan.",
+          "chapters": [
+            23,
+            25
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "დანიშნული საცოლე",
+          "relationship_en": "Intended royal bride",
+          "interaction_mode": "epistolary_or_envoys",
+          "summary_ka": "შერჩეულია ნესტანის საქმროდ, თუმცა ნესტანი უარყოფს მას და ტარიელს მის მოკვლას ავალებს.",
+          "summary_en": "Chosen as Nestan’s bridegroom by her parents, but rejected by Nestan.",
+          "chapters": [
+            23,
+            24,
+            25
+          ]
+        },
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "მეტოქე და მკვლელი",
+          "relationship_en": "Rival and slayer",
+          "interaction_mode": "combat",
+          "summary_ka": "ტარიელი ღამით იპარება მის კარავში და უსისხლოდ კლავს სვეტზე თავის მიხლით.",
+          "summary_en": "Slain in his tent at night by Tariel before the wedding can take place.",
+          "chapters": [
+            24,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ramaz",
+      "name_ka": "რამაზ მეფე",
+      "name_en": "King Ramaz",
+      "role_ka": "ხატაეთის მმართველი (ხანი და მეფე)",
+      "role_en": "King and Khan of Khataeti",
+      "characteristics": [
+        {
+          "ka": "ხატაეთის მრავალრიცხოვანი ერის ხელმწიფე და ხანი",
+          "en": "Ruler and Khan of the populous realm of Khataeti",
+          "quote_ka": "რამაზის კაცი მემთხვია, ვინ ხატაეთის ხანია / ვინ ვჰპატრონობ ბევრსა ერსა",
+          "stanza": 421
+        },
+        {
+          "ka": "ინდოეთის მოხარკე, რომელიც მზაკვრულ ჩასაფრებას უწყობს ტარიელს, მაგრამ მარცხდება და შეწყალებას იღებს",
+          "en": "Tributary ruler who plots a treacherous ambush against Tariel, is defeated, and is pardoned",
+          "quote_ka": "შემიგნია საქმე შენი სამუხთალე... ორგული და მოღალატე ნამსახურსა დავამგვანე",
+          "stanza": 456
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "ხატაეთის ხანი / რამაზ მეფე",
+          "epithet_en": "Khan of Khataeti / King Ramaz",
+          "quote_ka": "რამაზის კაცი მემთხვია, ვინ ხატაეთის ხანია",
+          "stanza": 421
+        },
+        {
+          "epithet_ka": "ორგული და მოღალატე",
+          "epithet_en": "Disloyal and traitorous (described by Tariel)",
+          "quote_ka": "ორგული და მოღალატე ნამსახურსა დავამგვანე",
+          "stanza": 468
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "მახის დამდგმელი (ტარიელისათვის მზაკვრული ჩასაფრების მოწყობაზე)",
+          "metaphor_en": "Setter of a hunter's snare/trap (Tariel's metaphor for Ramaz's ambush)",
+          "quote_ka": "ვთქვი თუ: მოვა რამაზ მეფე; ჩემთვის უდგამს თუცა მახე",
+          "stanza": 439
+        },
+        {
+          "metaphor_ka": "ვითა შვილი სააკვანე (ფარსადანის მიერ დატყვევებული რამაზის ტკბილად მიღება)",
+          "metaphor_en": "Received gently like a cradle-child by King Parsadan after his capture",
+          "quote_ka": "რამაზ მეფე მას წინაშე შეპყრობილი მოვიყვანე; ტკბილად ნახა ხელმწიფემან, ვითა შვილი სააკვანე",
+          "stanza": 468
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 20,
+        "direct_name_occurrences": 20,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 38,
+        "total_active_or_mentioned_stanzas": 58,
+        "poem_stanza_share_percent": 3.48,
+        "chapters_active_count": 8,
+        "first_appearance_stanza": 387,
+        "last_appearance_stanza": 1648,
+        "epistolary_letters_written": 1,
+        "primary_realm_ka": "ხატაეთი",
+        "primary_realm_en": "Khataeti",
+        "key_relationships": [
+          "tariel",
+          "parsadan"
+        ],
+        "interacted_characters_count": 2
+      },
+      "interacted_characters": [
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "მოწინააღმდეგე, დამმარცხებელი და შემწყალებელი",
+          "relationship_en": "Opponent, conqueror, and pardoner",
+          "interaction_mode": "epistolary_and_in_person",
+          "summary_ka": "უწყობს ტარიელს მზაკვრულ ჩასაფრებას, მარცხდება და იღებს შეწყალებას; მოგვიანებით კვლავ ლაშქრავს ინდოეთს და ისევ ტარიელისგან იღებს პატიებას.",
+          "summary_en": "Plots a treacherous ambush against Tariel, is defeated and pardoned, and later invades India again before being defeated and pardoned a second time.",
+          "chapters": [
+            14,
+            16,
+            18,
+            19,
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "character_id": "parsadan",
+          "name_ka": "ფარსადანი",
+          "name_en": "Parsadan",
+          "relationship_ka": "უზენაესი ხელმწიფე და შემწყალებელი",
+          "relationship_en": "Overlord and pardoner",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ტყვედ მოყვანილს ფარსადანი ტარიელის შუამდგომლობით იწყალებს და ხარკს აკისრებს.",
+          "summary_en": "Brought captive before Parsadan, who pardons him at Tariel’s request in exchange for tribute.",
+          "chapters": [
+            14,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usen",
+      "name_ka": "უსენი",
+      "name_en": "Usen",
+      "role_ka": "გულანშაროს ვაჭართა უხუცესი, ფატმან ხათუნის ქმარი",
+      "role_en": "Chief of the merchants of Gulansharo, husband of Fatman Khatun",
+      "characteristics": [
+        {
+          "ka": "ზღვათა სამეფოს დედაქალაქ გულანშაროს ვაჭართა უხუცესი და მეფე სურხავის თანამეინახე (არიფი)",
+          "en": "Chief merchant of Gulansharo and boon companion (aripi) of King Melik-Surkhavi",
+          "quote_ka": "მე ვარ მებაღე უსენის, ვაჭართა უხუცესისა / უსენ, არიფი მეფისა",
+          "stanza": 1068
+        },
+        {
+          "ka": "სიმთვრალეში ცქაფი, უჭკუო და ფიცის გამტეხი, რომელიც ნესტანის საიდუმლოს მეფეს გაუმხელს",
+          "en": "Hasty, foolish, and unreliable when drunk, breaking his solemn oath by revealing Nestan to the king",
+          "quote_ka": "აწ ნახეთ მთრვალი ვაჭარი, ცქაფი, უწრფელი, მსწრობელი / უთხრა დიდმან ხელმწიფემან უჭკუოსა უსენს, მთრვალსა",
+          "stanza": 1165
+        },
+        {
+          "ka": "გარეგნულად გამხდარი (მჭლე) და უშნო (ფატმანის შეფასებით)",
+          "en": "Physically lean and unsightly (as described by Fatman)",
+          "quote_ka": "მით არ ჯერ ვარ ქმარსა ჩემსა, მჭლე არის და თვალად ნასი",
+          "stanza": 1205
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "ვაჭართა უხუცესი",
+          "epithet_en": "Chief of the merchants",
+          "quote_ka": "მე ვარ მებაღე უსენის, ვაჭართა უხუცესისა",
+          "stanza": 1068
+        },
+        {
+          "epithet_ka": "არიფი მეფისა",
+          "epithet_en": "Boon companion of the King",
+          "quote_ka": "უსენ, არიფი მეფისა, მეფეცა მისი მდომელი",
+          "stanza": 1165
+        },
+        {
+          "epithet_ka": "მთრვალი ვაჭარი, ცქაფი, უწრფელი, მსწრობელი",
+          "epithet_en": "Drunken merchant, hasty, insincere, rash",
+          "quote_ka": "აწ ნახეთ მთრვალი ვაჭარი, ცქაფი, უწრფელი, მსწრობელი",
+          "stanza": 1165
+        },
+        {
+          "epithet_ka": "უჭკუო უსენი, მთრვალი",
+          "epithet_en": "Foolish, drunken Usen",
+          "quote_ka": "უთხრა დიდმან ხელმწიფემან უჭკუოსა უსენს, მთრვალსა",
+          "stanza": 1167
+        },
+        {
+          "epithet_ka": "მჭლე და თვალად ნასი",
+          "epithet_en": "Lean and ill-favored to the eye",
+          "quote_ka": "მით არ ჯერ ვარ ქმარსა ჩემსა, მჭლე არის და თვალად ნასი",
+          "stanza": 1205
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "არა ჰმართებს ყვავსა ვარდი, ვირსა რქანი (ყვავთან და ვირთან შედარება ფიცის გატეხისას)",
+          "metaphor_en": "A crow does not deserve a rose, nor a donkey horns (proverbial metaphor applied to Usen when he betrays Nestan, the Rose)",
+          "quote_ka": "დაავიწყდეს იგი ფიცნი, რა მუსაფნი, რა მაქანი! და მართლად თქმულა: არა ჰმართებს ყვავსა ვარდი, ვირსა რქანი",
+          "stanza": 1166
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 21,
+        "direct_name_occurrences": 22,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 15,
+        "total_active_or_mentioned_stanzas": 36,
+        "poem_stanza_share_percent": 2.16,
+        "chapters_active_count": 6,
+        "first_appearance_stanza": 1068,
+        "last_appearance_stanza": 1436,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "გულანშარო (ზღვათა სამეფო)",
+        "primary_realm_en": "Gulansharo (Sea Realm)",
+        "key_relationships": [
+          "fatman",
+          "surkhavi",
+          "nestan"
+        ],
+        "interacted_characters_count": 4
+      },
+      "interacted_characters": [
+        {
+          "character_id": "fatman",
+          "name_ka": "ფატმან ხათუნი",
+          "name_en": "Fatman Khatun",
+          "relationship_ka": "ცოლი",
+          "relationship_en": "Wife",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "უფიცებს ფატმანს ნესტანის საიდუმლოს შენახვას, მაგრამ ღალატობს ფიცს და იწვევს ცოლის სიძულვილს.",
+          "summary_en": "Swears to Fatman to keep Nestan hidden, then breaks his oath while drunk at court.",
+          "chapters": [
+            43,
+            46,
+            47,
+            48,
+            52,
+            58
+          ]
+        },
+        {
+          "character_id": "surkhavi",
+          "name_ka": "მელიქ-სურხავი",
+          "name_en": "Melik-Surkhavi",
+          "relationship_ka": "მეფე და თანამეინახე (არიფი)",
+          "relationship_en": "King and drinking companion",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ნადიმზე მიართმევს ძვირფას თვლებს მეფე სურხავს და სიმთვრალეში უმხელს ნესტანის მის სახლში ყოფნას.",
+          "summary_en": "Presents precious jewels to King Melik-Surkhavi at a banquet and drunkenly reveals Nestan as a bride for the king’s son.",
+          "chapters": [
+            47
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "შეფარებული სტუმარი, რომელსაც გასცემს",
+          "relationship_en": "Sheltered guest whom he betrays",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "გაოგნებულია ნესტანის სილამაზით და ფიცს დებს მის დასაცავად, მაგრამ ნადიმზე გასცემს მას.",
+          "summary_en": "Marvels at Nestan’s beauty and swears to protect her, only to betray her secret to the king.",
+          "chapters": [
+            47
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "სტუმარი და ოჯახის მხსნელი",
+          "relationship_en": "Guest and savior of his household",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "მადლიერებით ემშვიდობება ავთანდილს, რომელმაც მისი ოჯახი ჭაშნაგირის შურისძიებისგან იხსნა.",
+          "summary_en": "Bids a tearful, grateful farewell to Avtandil after learning how he saved their household.",
+          "chapters": [
+            46,
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chashnagiri",
+      "name_ka": "ჭაშნაგირი",
+      "name_en": "The Chashnagir",
+      "role_ka": "გულანშაროს სამეფო კარის წარჩინებული და ფატმანის საყვარელი",
+      "role_en": "Royal court favorite (taster) in Gulansharo and secret lover of Fatman",
+      "characteristics": [
+        {
+          "ka": "გარეგნულად კეკლუცი და კარგი აღნაგობის ახალგაზრდა დიდებული",
+          "en": "Handsome, elegant youth of graceful build",
+          "quote_ka": "შემოდგა კარსა ყმა ვინმე კეკლუცი, ტან-ნაკვთიანი",
+          "stanza": 1099
+        },
+        {
+          "ka": "სამეფო დარბაზში მეტად დაახლოებული კარისკაცი (ხასი), რომელიც ნესტანის საიდუმლოს გაცემით იმუქრება",
+          "en": "High favorite at the royal court who threatens to betray Nestan's hiding place",
+          "quote_ka": "ისი კაცი ჭაშნაგირი დარბაზს იყო მეტად ხასი",
+          "stanza": 1205
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "ყმა კეკლუცი, ტან-ნაკვთიანი",
+          "epithet_en": "Elegant youth of shapely build",
+          "quote_ka": "შემოდგა კარსა ყმა ვინმე კეკლუცი, ტან-ნაკვთიანი",
+          "stanza": 1099
+        },
+        {
+          "epithet_ka": "დარბაზს მეტად ხასი",
+          "epithet_en": "High favorite of the royal court",
+          "quote_ka": "ისი კაცი ჭაშნაგირი დარბაზს იყო მეტად ხასი",
+          "stanza": 1205
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "კლდიან გზაზე შემთხვეულივით დამფრთხალი (ავთანდილის დანახვისას)",
+          "metaphor_en": "Startled as if stumbling upon a rocky, impassable road (when he sees Avtandil)",
+          "quote_ka": "დაჰკრთა, რა ნახა ავთანდილ, ჰგავსო თუ გზაა კლდიანი",
+          "stanza": 1099
+        },
+        {
+          "metaphor_ka": "ზღვის ქვიშათა დარი (მოკლულის ზღვაში გადასროლისას)",
+          "metaphor_en": "Mingled with / made like the sands of the sea (when his corpse is hurled from the window into the sea)",
+          "quote_ka": "ზღვათაკე სარკმლით გასტყორცა, ზღვასა ქვიშათა დარია",
+          "stanza": 1116
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 1,
+        "direct_name_occurrences": 1,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 18,
+        "total_active_or_mentioned_stanzas": 19,
+        "poem_stanza_share_percent": 1.14,
+        "chapters_active_count": 2,
+        "first_appearance_stanza": 1099,
+        "last_appearance_stanza": 1206,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "გულანშარო (ზღვათა სამეფო)",
+        "primary_realm_en": "Gulansharo (Sea Realm)",
+        "key_relationships": [
+          "fatman",
+          "avtandil"
+        ],
+        "interacted_characters_count": 3
+      },
+      "interacted_characters": [
+        {
+          "character_id": "fatman",
+          "name_ka": "ფატმან ხათუნი",
+          "name_en": "Fatman Khatun",
+          "relationship_ka": "საყვარელი და დამშანტაჟებელი",
+          "relationship_en": "Secret lover and blackmailer",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "იგებს ფატმანისგან ნესტანის საიდუმლოს, ხოლო მასთან ავთანდილის დანახვისას შვილების დახოცვითა და გაცემით ემუქრება.",
+          "summary_en": "Learns Nestan’s secret from Fatman, then catches her with Avtandil and threatens to have her and her children killed.",
+          "chapters": [
+            46,
+            47
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "მეტოქე და მკვლელი",
+          "relationship_en": "Rival and slayer",
+          "interaction_mode": "combat",
+          "summary_ka": "ფატმანის სახლში აწყდება ავთანდილს და იმავე ღამეს ავთანდილის ხელით იღუპება საკუთარ სასახლეში.",
+          "summary_en": "Confronts Avtandil at Fatman’s house and is slain in his sleep by Avtandil that same night.",
+          "chapters": [
+            46
+          ]
+        },
+        {
+          "character_id": "surkhavi",
+          "name_ka": "მელიქ-სურხავი",
+          "name_en": "Melik-Surkhavi",
+          "relationship_ka": "მფარველი ხელმწიფე",
+          "relationship_en": "Royal patron",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "სარგებლობს დიდი გავლენით მელიქ-სურხავის კარზე, რითაც აშინებს ფატმანს.",
+          "summary_en": "Holds high favor at Melik-Surkhavi’s court, giving weight to his threat to denounce Fatman.",
+          "chapters": [
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surkhavi",
+      "name_ka": "მელიქ-სურხავი",
+      "name_en": "Melik-Surkhavi",
+      "role_ka": "ზღვათა სამეფოსა და გულანშაროს ხელმწიფე",
+      "role_en": "King of the Sea Realm and ruler of Gulansharo",
+      "characteristics": [
+        {
+          "ka": "ზღვათა სამეფოსა და აყვავებულ ქალაქ გულანშაროს ბედნიერი და დოვლათიანი ხელმწიფე",
+          "en": "Fortunate and prosperous monarch of the Sea Realm and the wealthy port city of Gulansharo",
+          "quote_ka": "მელიქ სურხავი ხელმწიფობს, სრული სვითა და დავლითა",
+          "stanza": 1065
+        },
+        {
+          "ka": "ნადიმისა და ძღვენთა მოყვარული ხელმწიფე, რომელსაც ნესტანი თავისი უფლისწულის სასძლოდ სურს",
+          "en": "Festive ruler who seeks to wed the newly discovered Nestan to his returning son",
+          "quote_ka": "უსენ მივიდა, ხელმწიფე დაჰხვდა ნადიმად მჯდომელი",
+          "stanza": 1165
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "სრული სვითა და დავლითა",
+          "epithet_en": "Complete in fortune and royal prosperity",
+          "quote_ka": "მელიქ სურხავი ხელმწიფობს, სრული სვითა და დავლითა",
+          "stanza": 1065
+        },
+        {
+          "epithet_ka": "დიდი ხელმწიფე",
+          "epithet_en": "Great sovereign",
+          "quote_ka": "უთხრა დიდმან ხელმწიფემან უჭკუოსა უსენს, მთრვალსა",
+          "stanza": 1167
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "ზეცით შუქთა მომფენელი, არსთა მარჩენალი მზე (უსენის მიმართვა მეფისადმი)",
+          "metaphor_en": "Sun shedding rays from heaven, sustainer of creatures (court panegyric metaphor addressed to him by Usen)",
+          "quote_ka": "ჰე მაღალო ხელმწიფეო, ზეცით შუქთა მომფენელო, მარჩენალო არსთა, მზეო!",
+          "stanza": 1168
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 1,
+        "direct_name_occurrences": 1,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 42,
+        "total_active_or_mentioned_stanzas": 43,
+        "poem_stanza_share_percent": 2.58,
+        "chapters_active_count": 4,
+        "first_appearance_stanza": 1065,
+        "last_appearance_stanza": 1447,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "გულანშარო (ზღვათა სამეფო)",
+        "primary_realm_en": "Gulansharo (Sea Realm)",
+        "key_relationships": [
+          "usen",
+          "fatman",
+          "avtandil",
+          "tariel",
+          "nestan"
+        ],
+        "interacted_characters_count": 6
+      },
+      "interacted_characters": [
+        {
+          "character_id": "usen",
+          "name_ka": "უსენი",
+          "name_en": "Usen",
+          "relationship_ka": "ვაჭართუხუცესი და თანამეინახე (არიფი)",
+          "relationship_en": "Chief merchant and drinking companion",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ნადიმზე იღებს უსენის ძღვენს და მისგან იგებს ნესტანის გულანშაროში ყოფნას.",
+          "summary_en": "Feasts with Usen, accepts his gifts, and learns from him of Nestan’s presence in Gulansharo.",
+          "chapters": [
+            43,
+            47
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "ჯერ დატყვევებული სასძლო, შემდეგ კი საპატიო სტუმარი",
+          "relationship_en": "Initially detained bride-to-be, later honored royal guest",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "უსენის ცნობით იჭერს ნესტანს თავისი ძის სასძლოდ, ხოლო ქაჯეთიდან მისი დახსნის შემდეგ მოწიწებითა და დიდი ზეიმით მასპინძლობს.",
+          "summary_en": "Detains Nestan as a bride for his absent son, and later hosts her and the heroes with royal splendor after Kadjeti’s fall.",
+          "chapters": [
+            47,
+            58
+          ]
+        },
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "ქაჯეთის მძლეველი და სამეფოს მბოძებელი",
+          "relationship_en": "Conqueror of Kadjeti and royal benefactor",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "დიდი პატივით მასპინძლობს ტარიელს და საჩუქრად იღებს მისგან დაპყრობილ ქაჯეთს.",
+          "summary_en": "Welcomes Tariel with royal feasts and receives the conquered realm of Kadjeti from him.",
+          "chapters": [
+            58
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "საპატიო სტუმარი და გმირი",
+          "relationship_en": "Honored guest and hero",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "მასპინძლობს ავთანდილს ქაჯეთზე გამარჯვების შემდეგ.",
+          "summary_en": "Hosts Avtandil during the victory celebrations in the Sea Realm.",
+          "chapters": [
+            58
+          ]
+        },
+        {
+          "character_id": "pridon",
+          "name_ka": "ნურადინ-ფრიდონი",
+          "name_en": "Nuradin-Pridon",
+          "relationship_ka": "საპატიო სტუმარი და გმირი",
+          "relationship_en": "Honored guest and hero",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "მასპინძლობს ფრიდონს ზღვათა სამეფოში.",
+          "summary_en": "Hosts Pridon during the celebrations in the Sea Realm.",
+          "chapters": [
+            58
+          ]
+        },
+        {
+          "character_id": "fatman",
+          "name_ka": "ფატმან ხათუნი",
+          "name_en": "Fatman Khatun",
+          "relationship_ka": "ქვეშევრდომი და ვაჭართუხუცესის მეუღლე",
+          "relationship_en": "Subject and wife of his chief merchant",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "მასპინძლობს ფატმანს სასახლეში და მოგვიანებით მასთან ერთად ეგებება ტარიელსა და ნესტანს.",
+          "summary_en": "Receives Fatman at court and later accompanies her to greet Tariel and Nestan.",
+          "chapters": [
+            47,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dulardukht",
+      "name_ka": "დულარდუხტი",
+      "name_en": "Dulardukht",
+      "role_ka": "ქაჯეთის მმართველი ხელმწიფე-ქალი, როსანისა და როდიას მამიდა",
+      "role_en": "Female sovereign of Kadjeti, aunt and guardian of Princes Rosan and Rodia",
+      "characteristics": [
+        {
+          "ka": "ქაჯეთის ტახტზე მჯდომი ძლევამოსილი მმართველი ქალი, გარდაცვლილი მეფე დულარდის და",
+          "en": "Mighty female ruler seated on the throne of Kadjeti, sister of the late King Dulard",
+          "quote_ka": "აწ იგი ქაჯეთს ხელმწიფედ ქვე ზის მორჭმული წოდია",
+          "stanza": 1221
+        },
+        {
+          "ka": "კლდესავითა და ლოდივით შეუვალი, მტკიცე და უძლეველი მეომრების პატრონი",
+          "en": "Unyielding as a cliff and a boulder, commanding invincible warriors",
+          "quote_ka": "დულარდუხტ არის დიაცი, მაგრა კლდე, ვითა ლოდია, ვისცა არ დაჰკოდს, ყმა მისი ვერავის დაუკოდია",
+          "stanza": 1221
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "ქაჯეთს ხელმწიფედ მჯდომი",
+          "epithet_en": "Seated as sovereign in Kadjeti",
+          "quote_ka": "აწ იგი ქაჯეთს ხელმწიფედ ქვე ზის მორჭმული წოდია",
+          "stanza": 1221
+        },
+        {
+          "epithet_ka": "მორჭმული წოდი",
+          "epithet_en": "Called 'the Mighty / Majestic'",
+          "quote_ka": "აწ იგი ქაჯეთს ხელმწიფედ ქვე ზის მორჭმული წოდია",
+          "stanza": 1221
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "კლდე, ვითა ლოდი (სიმტკიცისა და შეუვალობის მეტაფორა)",
+          "metaphor_en": "A cliff, like a boulder (metaphor for her unyielding hardness and power)",
+          "quote_ka": "დულარდუხტ არის დიაცი, მაგრა კლდე, ვითა ლოდია",
+          "stanza": 1221
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 2,
+        "direct_name_occurrences": 2,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 12,
+        "total_active_or_mentioned_stanzas": 14,
+        "poem_stanza_share_percent": 0.84,
+        "chapters_active_count": 2,
+        "first_appearance_stanza": 1220,
+        "last_appearance_stanza": 1287,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "ქაჯეთი",
+        "primary_realm_en": "Kadjeti",
+        "key_relationships": [
+          "rosan",
+          "nestan",
+          "davari"
+        ],
+        "interacted_characters_count": 3
+      },
+      "interacted_characters": [
+        {
+          "character_id": "rosan",
+          "name_ka": "როსანი",
+          "name_en": "Rosan",
+          "relationship_ka": "ძმისწული და აღსაზრდელი უფლისწული",
+          "relationship_en": "Nephew and royal ward",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ზრდის გარდაცვლილი ძმის შვილებს — როსანსა და როდიას — და როსანის საცოლედ წინდავს დატყვევებულ ნესტანს.",
+          "summary_en": "Raises her young nephews Rosan and Rodia and betroths the captive Nestan-Darejan to Rosan.",
+          "chapters": [
+            48
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "დატყვევებული სასძლო",
+          "relationship_en": "Captive intended bride",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "ათავსებს როშაქის მიერ მოყვანილ ნესტანს ქაჯეთის მიუვალ ციხეში და უნიშნავს მცველებს.",
+          "summary_en": "Imprisons Nestan-Darejan in the fortress tower of Kadjeti pending her marriage to Rosan.",
+          "chapters": [
+            48,
+            50
+          ]
+        },
+        {
+          "character_id": "davari",
+          "name_ka": "დავარი",
+          "name_en": "Davar",
+          "relationship_ka": "ქაჯეთში გათხოვილი რძალი",
+          "relationship_en": "Sister-in-law formerly married in Kadjeti",
+          "interaction_mode": "epistolary_or_envoys",
+          "summary_ka": "გლოვობს ზღვის გაღმა გარდაცვლილ დას/რძალს.",
+          "summary_en": "Mourns the death of her sister/relative overseas before Nestan is brought to Kadjeti.",
+          "chapters": [
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rosan",
+      "name_ka": "როსანი",
+      "name_en": "Rosan",
+      "role_ka": "ქაჯეთის მცირეწლოვანი უფლისწული, დულარდუხტის ძმისწული",
+      "role_en": "Young prince of Kadjeti, nephew of Dulardukht",
+      "characteristics": [
+        {
+          "ka": "დულარდუხტის მცირეწლოვანი ძმისწული (ძმასთან, როდიასთან ერთად)",
+          "en": "Young nephew of Queen Dulardukht (alongside his brother Rodia)",
+          "quote_ka": "მას უსხენ წვრილნი ძმის-წულნი: როსან და ერთი როდია",
+          "stanza": 1221
+        },
+        {
+          "ka": "მცირეწლოვანი უფლისწული, რომლის საცოლედაც დულარდუხტმა დატყვევებული ნესტანი დაწინდა",
+          "en": "Little prince to whom Dulardukht betrothed the captured Nestan-Darejan",
+          "quote_ka": "ქვე დაუწინდავს საცოლედ როსან ცოტასა ყმისადა",
+          "stanza": 1239
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "წვრილი ძმის-წული",
+          "epithet_en": "Little / young nephew",
+          "quote_ka": "მას უსხენ წვრილნი ძმის-წულნი: როსან და ერთი როდია",
+          "stanza": 1221
+        },
+        {
+          "epithet_ka": "როსან ცოტა ყმა",
+          "epithet_en": "Little boy / young prince Rosan",
+          "quote_ka": "ქვე დაუწინდავს საცოლედ როსან ცოტასა ყმისადა",
+          "stanza": 1239
+        }
+      ],
+      "metaphors": [],
+      "stats": {
+        "direct_name_mentions_stanzas": 3,
+        "direct_name_occurrences": 3,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 2,
+        "total_active_or_mentioned_stanzas": 5,
+        "poem_stanza_share_percent": 0.3,
+        "chapters_active_count": 2,
+        "first_appearance_stanza": 1220,
+        "last_appearance_stanza": 1287,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "ქაჯეთი",
+        "primary_realm_en": "Kadjeti",
+        "key_relationships": [
+          "dulardukht",
+          "nestan"
+        ],
+        "interacted_characters_count": 2
+      },
+      "interacted_characters": [
+        {
+          "character_id": "dulardukht",
+          "name_ka": "დულარდუხტი",
+          "name_en": "Dulardukht",
+          "relationship_ka": "მამიდა, აღმზრდელი და ქაჯეთის მმართველი",
+          "relationship_en": "Paternal aunt, guardian, and ruler of Kadjeti",
+          "interaction_mode": "direct_in_person",
+          "summary_ka": "იზრდება მამიდა დულარდუხტის მზრუნველობის ქვეშ, რომელიც მასზე წინდავს ნესტან-დარეჯანს.",
+          "summary_en": "Raised under the guardianship of his aunt Dulardukht, who arranges his betrothal to Nestan.",
+          "chapters": [
+            48
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "დაწინდული ტყვე სასძლო",
+          "relationship_en": "Betrothed captive princess",
+          "interaction_mode": "epistolary_or_envoys",
+          "summary_ka": "დულარდუხტი მცირეწლოვან როსანზე წინდავს ქაჯეთის ციხეში დატყვევებულ ნესტანს.",
+          "summary_en": "Betrothed by his aunt Dulardukht to the captive Nestan-Darejan.",
+          "chapters": [
+            48,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rustaveli",
+      "name_ka": "შოთა რუსთაველი",
+      "name_en": "Shota Rustaveli",
+      "role_ka": "პოემის ავტორი და მთხრობელი",
+      "role_en": "Poet, author, and framing narrator of the epic",
+      "characteristics": [
+        {
+          "ka": "მჭევრმეტყველი მელექსე, რომელმაც სპარსული ამბავი დაობლებულ მარგალიტივით ქართულ ლექსად გარდათქვა",
+          "en": "Master poet who set the tale into verse like a string of pearls",
+          "quote_ka": "დავჯე, რუსთველმან გავლექსე, მისთვის გულ-ლახვარ-სობილი, აქამდის ამბად ნათქვამი, აწ მარგალიტი წყობილი",
+          "stanza": 7
+        },
+        {
+          "ka": "თამარ მეფისადმი უიმედო მიჯნურობით გულგანგმირული და გახელებული",
+          "en": "Heart-pierced and frenzied with devoted love for his royal sovereign (Queen Tamar)",
+          "quote_ka": "ვის ჰმორჩილობს ჯარი სპათა, მისთვის ვხელობ, მისთვის მკვდარი",
+          "stanza": 8
+        }
+      ],
+      "epithets": [
+        {
+          "epithet_ka": "ხელობითა მოქმედი (მელექსე და მიჯნურობით შმაგი)",
+          "epithet_en": "Practitioner of poetic craft and frenzied with love",
+          "quote_ka": "მე, რუსთველი, ხელობითა ვიქმ საქმესა ამა დარი",
+          "stanza": 8
+        },
+        {
+          "epithet_ka": "მისთვის მკვდარი (მიჯნური)",
+          "epithet_en": "Dying for his beloved sovereign",
+          "quote_ka": "ვის ჰმორჩილობს ჯარი სპათა, მისთვის ვხელობ, მისთვის მკვდარი",
+          "stanza": 8
+        }
+      ],
+      "metaphors": [
+        {
+          "metaphor_ka": "გულ-ლახვარ-სობილი (შუბით გულგანგმირული)",
+          "metaphor_en": "Heart-pierced with a lance",
+          "quote_ka": "დავჯე, რუსთველმან გავლექსე, მისთვის გულ-ლახვარ-სობილი",
+          "stanza": 7
+        },
+        {
+          "metaphor_ka": "მარგალიტი წყობილი / მარგალიტი ობოლი (რუსთაველის ლექსად გარდათქმული პოემის მეტაფორა)",
+          "metaphor_en": "A strung necklace of pearls / a rare orphan pearl (his metaphor for the poem he versified)",
+          "quote_ka": "აქამდის ამბად ნათქვამი, აწ მარგალიტი წყობილი / ვით მარგალიტი ობოლი, ხელის-ხელ საგოგმანები",
+          "stanza": 7
+        }
+      ],
+      "stats": {
+        "direct_name_mentions_stanzas": 4,
+        "direct_name_occurrences": 4,
+        "named_in_chapter_titles": 0,
+        "indirect_mentions_stanzas": 39,
+        "total_active_or_mentioned_stanzas": 43,
+        "poem_stanza_share_percent": 2.58,
+        "chapters_active_count": 7,
+        "first_appearance_stanza": 1,
+        "last_appearance_stanza": 1669,
+        "epistolary_letters_written": 0,
+        "primary_realm_ka": "პროლოგი / ეპილოგი (ავტორისეული ჩართვები)",
+        "primary_realm_en": "Framing Narrative (Prologue, Epilogue & Lyrical Interjections)",
+        "key_relationships": [
+          "tariel",
+          "avtandil",
+          "pridon",
+          "nestan",
+          "tinatin"
+        ],
+        "interacted_characters_count": 5
+      },
+      "interacted_characters": [
+        {
+          "character_id": "tariel",
+          "name_ka": "ტარიელი",
+          "name_en": "Tariel",
+          "relationship_ka": "პოემის მთავარი გმირი და თანაგრძნობის ადრესატი",
+          "relationship_en": "Central hero of the poem and subject of the poet’s empathy",
+          "interaction_mode": "narratorial_frame",
+          "summary_ka": "პროლოგსა და ეპილოგში ცრემლით იხსენიებს ტარიელს და მისდამი თანაგრძნობით თხზავს პოემას.",
+          "summary_en": "Invokes Tariel with tears of empathy in the Prologue and closes the Epilogue with his name.",
+          "chapters": [
+            1,
+            57,
+            65
+          ]
+        },
+        {
+          "character_id": "avtandil",
+          "name_ka": "ავთანდილი",
+          "name_en": "Avtandil",
+          "relationship_ka": "პოემის გმირი და ქების ადრესატი",
+          "relationship_en": "Hero of the poem praised by the narrator",
+          "interaction_mode": "narratorial_frame",
+          "summary_ka": "ავტორისეულ ჩართვებში ხოტბას ასხამს ავთანდილის სილამაზეს, სიბრძნესა და სიმამაცეს.",
+          "summary_en": "Praises Avtandil’s beauty, loyalty, and valor across narrator interventions.",
+          "chapters": [
+            1,
+            9,
+            42,
+            57
+          ]
+        },
+        {
+          "character_id": "pridon",
+          "name_ka": "ნურადინ-ფრიდონი",
+          "name_en": "Nuradin-Pridon",
+          "relationship_ka": "პოემის სამთა მნათობ გმირთაგანი",
+          "relationship_en": "One of the three radiant star-heroes praised by the narrator",
+          "interaction_mode": "narratorial_frame",
+          "summary_ka": "ტარიელთან და ავთანდილთან ერთად მოიხსენიებს სამ მნათობ გმირს შორის.",
+          "summary_en": "Celebrates Pridon alongside Tariel and Avtandil as one of the three radiant heroes.",
+          "chapters": [
+            1,
+            57
+          ]
+        },
+        {
+          "character_id": "tinatin",
+          "name_ka": "თინათინი",
+          "name_en": "Tinatin",
+          "relationship_ka": "პოეტური ხოტბის ადრესატი",
+          "relationship_en": "Heroine praised by the narrator",
+          "interaction_mode": "narratorial_frame",
+          "summary_ka": "ავტორისეული ხმით აქებს თინათინის მზისებრ მშვენებასა და სიბრძნეს.",
+          "summary_en": "Extols Tinatin’s sun-like radiance that requires the sages of Athens to praise.",
+          "chapters": [
+            2,
+            30
+          ]
+        },
+        {
+          "character_id": "nestan",
+          "name_ka": "ნესტან-დარეჯანი",
+          "name_en": "Nestan-Darejan",
+          "relationship_ka": "პოემის მთავარი გმირი ქალი",
+          "relationship_en": "Central heroine of the poem",
+          "interaction_mode": "narratorial_frame",
+          "summary_ka": "დასაწყისსა და დასასრულში განადიდებს ნესტან-დარეჯანის სილამაზესა და ერთგულებას.",
+          "summary_en": "Celebrates Nestan-Darejan’s peerless beauty and constancy from the Prologue to the final stanza.",
+          "chapters": [
+            1,
+            65
+          ]
+        }
+      ]
+    }
+  ]
+}

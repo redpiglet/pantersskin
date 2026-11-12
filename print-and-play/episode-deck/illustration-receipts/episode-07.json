@@ -1,0 +1,38 @@
+{
+  "episode_number": 7,
+  "episode_id": "ep_07_first_letters_oath",
+  "asset": "assets/episodes/episode-07-v1.png",
+  "tool": "built-in image_gen.imagegen",
+  "source_generated_path": "/Users/Nikoloz/.codex/generated_images/01a1c48e-1d4a-7631-85ad-d544372f23db/exec-09ce4e9d-ed66-4cda-8f53-b7ba0190b840.png",
+  "prompt": "Use case: illustration-story.\nMedieval Georgian-Persian illuminated manuscript miniature painting for Shota Rustaveli's \"The Knight in the Panther's Skin\" (ვეფხისტყაოსანი). 16th–17th-century Georgian royal manuscript miniature, Mamuka Tavakarashvili / King Vakhtang VI illumination tradition blended with classical Persian-Safavid tempera miniature. Egg tempera, lapis lazuli, malachite green, vermilion, warm ochre and burnished antique gold leaf on aged ivory-parchment vellum. Stylized faceted rocky cliffs, ornamental cypress and pomegranate trees, intricately patterned arches and domes, expressive courtly figures in medieval Georgian-Eastern attire. Fine controlled contours, delicately patterned fabrics, luminous matte mineral pigments, slightly flattened layered miniature space with expressive narrative gestures. A painted manuscript scene, not photorealism, cinematic rendering, modern digital fantasy or a collage of circular portraits. Reuse referenced character faces and coloring but adapt costume to the actual chronological story scene; Tariel wears ordinary Indian court or military attire in early backstory, his panther skin belongs to his later exile. Exact horizontal 16:10 composition, preferably native 1600x1000 pixels, a single coherent scene framed for a card vignette. Soft natural painted vignette dissolving to warm aged ivory vellum at edges, modest antique-gold floral flourishes at the perimeter, no rigid border. Key faces and gestures comfortably inside the central safe area, no important content cut off. STRICTLY NO TEXT, NO LETTERS, NO CAPTIONS, NO NUMBERS, NO INSCRIPTIONS, NO CALLIGRAPHY, NO BANNERS, NO SCROLLS, NO SIGNATURES, NO WATERMARKS anywhere. Architectural ornament must be purely floral/geometric with no pseudo-writing. If letters are narratively necessary, use a small closed plain unmarked folded paper or sealed envelope, never visible writing or rolled scrolls. All book covers/pages must be plain and unmarked. Do not show graphic blood or gore; imply violent events through gestures, context and intact clothing.\nEpisode 07: First Love Letters, Summons to Khataeti & Mutual Oath.\nSelected single scene in the remembered Indian past: Nestan and Tariel make their first solemn mutual oath of fidelity in Nestan's private court pavilion at night. Nestan sits with shy majesty on a low lapis-and-gold cushioned dais. Her youthful dark-haired face, emerald-and-gold circlet, fine dark veil and luminous green gown with antique-gold pomegranate embroidery match her portrait. She raises one graceful hand over her heart, facing Tariel with serious affection. Tariel stands before her with his right hand over his own heart, his dark curls loose and his short dark beard and expressive eyes matching his portrait. His attire is an elegant lapis-blue court tunic densely embroidered with gold vines, leather belt and soft boots. Asmat discreetly attends near the patterned pavilion curtain, in her simple charcoal-black hooded dress with gold edging. Exactly these three principal human figures, physically co-present. A tiny closed plain unmarked folded parchment packet, tied with a simple red cord, rests on a cushion nearby; show NO writing and no open sheet. Emotional focus: private trust and solemn promises between lovers, witnessed by the loyal mediator.\nNight setting: gold-lamped pavilion arches, malachite and lapis floral tiles, patterned carpet, cypress silhouettes and a pomegranate tree beneath a deep lapis night sky scattered with small golden star shapes. Warm mineral colors and matte vellum texture still consistent with the daylight style anchor. Soft painted ivory vignette at all edges, tiny gold floral perimeter flourishes, no hard border.\nChronology: Tariel has not yet entered exile. Absolutely no panther pelt or striped fur cap in this image; use court dress. Ramaz is away in Khataeti and must NOT appear in the lovers' meeting. No king or extra court attendants.\nReferences: image1 is STYLE ONLY; image2 identifies Tariel's face but NOT his later fur costume; image3 identifies Nestan; image4 identifies Asmat. Integrate them as full figures in one painted miniature, no circular portrait frames. Exact horizontal16:10 composition, approximately1600x1000 native. STRICTLY NO TEXT, LETTERS, NUMBERS, CAPTIONS, CALLIGRAPHY, INSCRIPTIONS, BANNERS OR SCROLLS anywhere. No pseudo-writing on architectural ornament or paper.",
+  "reference_assets": [
+    "assets/episodes/episode-01-v1.png",
+    "assets/characters/tariel-v13.png",
+    "assets/characters/nestan-v3.png",
+    "assets/characters/asmat-v2.png"
+  ],
+  "character_ids": [
+    "tariel",
+    "nestan",
+    "asmat"
+  ],
+  "visual_qa": {
+    "status": "passed",
+    "scene": "Tariel and Nestan make their mutual oath with hands to heart; Asmat discreetly witnesses at the night pavilion. Closed blank packet on cushion.",
+    "no_lettering": true,
+    "style_consistent": true,
+    "chronology_consistent": true,
+    "early_tariel_costume": "Blue/gold court tunic, no panther pelt; Ramaz absent."
+  },
+  "native_pixel_size": [
+    1586,
+    992
+  ],
+  "aspect_ratio": 1.59879032,
+  "target_aspect_ratio": 1.6,
+  "aspect_ratio_within_one_percent": true,
+  "bytes": 4200218,
+  "sha256": "b60446ca8ab2eb1290db2c9e8d934c2ad46032b674d5d5d7af442556ad0242f3",
+  "date": "2026-11-10",
+  "art_processing": "Built-in image generation output copied unchanged; no raster retouching or cropping."
+}

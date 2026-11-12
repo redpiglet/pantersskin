@@ -1,0 +1,8 @@
+{
+  "id": "davari",
+  "asset": "assets/characters/manga-color/davari-v2.png",
+  "references": [
+    "assets/characters/manga-color/davari-v1.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit the davari coloured manga medallion. Preserve the exact character drawing, face, age, hair, costume, headwear, colours, pose, gold circular rim and clean manga ink. Repair only the damaged transparent background: put a completely smooth continuous opaque muted teal field behind the whole figure inside the circular rim. No dark damaged patches and no holes. Outside the circular rim put plain warm ivory #F6F1E4. Entire PNG COMPLETELY OPAQUE, no transparency at all, everypixel includingcorners. Keep all figure details unchanged, square1254x1254 requested. No text, letters, numbers, bubbles, SFX, banners, scrolls, watermark."
+}

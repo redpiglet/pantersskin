@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ვეფხისტყაოსანი — სიუჟეტის განმარტებითი რუკა და პერსონაჟთა ბარათები (Print &amp; Play)</title>
+  <style>
+    :root {
+      --bg-screen: #0f131f;
+      --paper-bg: #fcf9f2;
+      --paper-border: #c59b27;
+      --ink-dark: #1a1510;
+      --ink-muted: #57493a;
+      --gold: #b8860b;
+      --gold-bright: #d4af37;
+      --crimson: #8b1e24;
+      --arabia: #d96b43;
+      --wilderness: #3b8568;
+      --india: #cf8d18;
+      --khataveti: #c2555a;
+      --mulgazanzar: #237c8c;
+      --gulansharo: #345278;
+      --kajeti: #7136b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Sylfaen", "BPG Nino Mtavruli", "Noto Serif Georgian", "DejaVu Serif", Georgia, serif;
+      background: var(--bg-screen);
+      color: var(--ink-dark);
+      line-height: 1.4;
+      padding-bottom: 60px;
+    }
+
+    /* ================= SCREEN TOOLBAR ================= */
+    .screen-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(15, 19, 31, 0.96);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+      backdrop-filter: blur(10px);
+      padding: 12px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      color: #f4efe6;
+    }
+
+    .toolbar-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .toolbar-brand h1 {
+      font-size: 1.08rem;
+      color: #ffd166;
+    }
+
+    .toolbar-badge {
+      background: rgba(212, 175, 55, 0.18);
+      border: 1px solid #d4af37;
+      color: #ffd166;
+      font-size: 0.74rem;
+      padding: 2px 9px;
+      border-radius: 999px;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-pill, .action-btn {
+      background: #1b2236;
+      color: #e6e9f2;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      padding: 6px 11px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      cursor: pointer;
+      font-family: inherit;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+
+    .nav-pill:hover, .action-btn:hover {
+      border-color: #ffd166;
+      color: #ffd166;
+    }
+
+    .nav-pill.active {
+      background: #d4af37;
+      color: #121521;
+      border-color: #d4af37;
+      font-weight: 700;
+    }
+
+    .action-btn.primary {
+      background: linear-gradient(135deg, #d4af37, #b8860b);
+      color: #111;
+      border-color: #ffd166;
+      font-weight: 700;
+    }
+
+    /* ================= A4 WORKSPACE ================= */
+    .pnp-workspace {
+      max-width: 216mm;
+      margin: 22px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 26px;
+      padding: 0 10px;
+    }
+
+    .a4-sheet {
+      width: 210mm;
+      min-height: 294mm;
+      background: var(--paper-bg);
+      border: 2px solid var(--paper-border);
+      border-radius: 4px;
+      padding: 9mm 10mm;
+      margin: 0 auto;
+      box-shadow: 0 16px 44px rgba(0, 0, 0, 0.55);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      page-break-after: always;
+      break-after: page;
+    }
+
+    .sheet-header {
+      border-bottom: 2px double var(--gold);
+      padding-bottom: 5px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .sheet-title {
+      font-size: 1.14rem;
+      color: var(--crimson);
+      font-weight: 700;
+    }
+
+    .sheet-subtitle {
+      font-size: 0.74rem;
+      color: var(--ink-muted);
+    }
+
+    .sheet-footer {
+      border-top: 1px solid rgba(184, 134, 11, 0.4);
+      padding-top: 4px;
+      margin-top: 6px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.66rem;
+      color: var(--ink-muted);
+    }
+
+    /* ================= SHEET 1: OVERVIEW & CLASSROOM GUIDE ================= */
+    .guide-banner {
+      background: linear-gradient(135deg, #2b1810, #4a1c1f);
+      color: #fdf8ed;
+      border: 2px solid var(--gold-bright);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 10px;
+    }
+
+    .guide-banner h2 {
+      font-size: 1.32rem;
+      color: #ffd166;
+      margin-bottom: 4px;
+    }
+
+    .guide-banner p {
+      font-size: 0.8rem;
+      color: #f3e9d2;
+    }
+
+    .structure-flow {
+      background: #fffdf8;
+      border: 1.5px solid #d8c297;
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-bottom: 10px;
+    }
+
+    .structure-flow h3 {
+      font-size: 0.92rem;
+      color: var(--crimson);
+      margin-bottom: 6px;
+      border-bottom: 1px solid #ead8b1;
+      padding-bottom: 3px;
+    }
+
+    .act-timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+    }
+
+    .act-pillar {
+      background: #f9f3e4;
+      border: 1px solid #d5be8e;
+      border-top: 4px solid var(--gold);
+      border-radius: 5px;
+      padding: 6px;
+      font-size: 0.68rem;
+    }
+
+    .act-pillar.flashback-pillar {
+      background: #fdf0e6;
+      border-top-color: var(--crimson);
+    }
+
+    .act-pillar strong {
+      display: block;
+      color: var(--crimson);
+      font-size: 0.72rem;
+      margin-bottom: 2px;
+    }
+
+    .two-lines-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .info-card {
+      background: #fffdf8;
+      border: 1.5px solid #d8c297;
+      border-radius: 7px;
+      padding: 9px 11px;
+      font-size: 0.76rem;
+    }
+
+    .info-card h3 {
+      font-size: 0.88rem;
+      color: var(--crimson);
+      border-bottom: 1px solid #ead8b1;
+      padding-bottom: 3px;
+      margin-bottom: 5px;
+    }
+
+    .info-card ul {
+      padding-left: 16px;
+    }
+
+    .info-card li {
+      margin-bottom: 4px;
+    }
+
+    .modes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .mode-box {
+      background: #fffdf7;
+      border: 2px solid var(--gold);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 0.73rem;
+    }
+
+    .mode-badge-num {
+      display: inline-block;
+      background: var(--crimson);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.66rem;
+      padding: 1px 7px;
+      border-radius: 99px;
+      margin-bottom: 4px;
+    }
+
+    .mode-box h4 {
+      font-size: 0.83rem;
+      margin-bottom: 4px;
+      color: var(--ink-dark);
+    }
+
+    /* ================= SHEET 2: EXPLANATORY PLOT MAP ================= */
+    .plot-map-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .route-legend-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 6px;
+      background: #231b14;
+      color: #fdf6e7;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1.5px solid var(--gold);
+      font-size: 0.68rem;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: 700;
+    }
+
+    .legend-line {
+      width: 22px;
+      height: 4px;
+      border-radius: 2px;
+      display: inline-block;
+    }
+
+    .visual-svg-map {
+      width: 100%;
+      height: 235px;
+      background: linear-gradient(180deg, #f6edd9 0%, #eadbc0 100%);
+      border: 2px solid var(--gold);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .realms-explanatory-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
+      flex: 1;
+    }
+
+    .realm-explain-box {
+      background: #fffdf9;
+      border: 1.5px solid #cbb382;
+      border-radius: 7px;
+      padding: 7px 9px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .realm-explain-box.kadjeti-wide {
+      grid-column: 1 / -1;
+      background: linear-gradient(135deg, #241436, #391c54);
+      color: #f9f2ff;
+      border-color: #b779ff;
+    }
+
+    .reb-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      padding-bottom: 2px;
+    }
+
+    .kadjeti-wide .reb-head {
+      border-bottom-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .reb-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .reb-cast {
+      font-size: 0.63rem;
+      font-weight: 700;
+      color: var(--ink-muted);
+    }
+
+    .kadjeti-wide .reb-cast {
+      color: #ffd166;
+    }
+
+    .reb-steps {
+      list-style: none;
+      font-size: 0.65rem;
+      line-height: 1.32;
+    }
+
+    .reb-steps li {
+      margin-bottom: 3px;
+      display: flex;
+      align-items: baseline;
+      gap: 4px;
+    }
+
+    .step-circle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--crimson);
+      color: #fff;
+      font-size: 0.56rem;
+      font-weight: 700;
+      padding: 0 3px;
+      flex-shrink: 0;
+    }
+
+    .step-circle.flash {
+      background: #b86b11;
+    }
+
+    /* ================= SHEETS 3-5: CHARACTER & CONCEPT CARDS (3x3) ================= */
+    .cards-grid-3x3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 5.5mm;
+      flex: 1;
+    }
+
+    .char-card {
+      border: 1.5px solid #b58d3d;
+      border-radius: 8px;
+      background: #fffdf9;
+      padding: 7px 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: inset 0 0 0 1px rgba(212, 175, 55, 0.2);
+      font-size: 0.63rem;
+    }
+
+    .char-card-top {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      border-bottom: 1px solid #ead8b1;
+      padding-bottom: 5px;
+      margin-bottom: 4px;
+    }
+
+    .char-avatar-wrap {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      border: 2.5px solid var(--gold);
+      overflow: hidden;
+      flex-shrink: 0;
+      background: #141824;
+    }
+
+    .char-avatar-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .char-title-block {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .char-realm-badge {
+      display: inline-block;
+      font-size: 0.54rem;
+      font-weight: 700;
+      color: #fff;
+      padding: 1px 6px;
+      border-radius: 99px;
+      margin-bottom: 2px;
+    }
+
+    .char-name {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--ink-dark);
+      line-height: 1.15;
+    }
+
+    .char-subtitle {
+      font-size: 0.58rem;
+      color: var(--ink-muted);
+      line-height: 1.15;
+    }
+
+    .char-section-label {
+      font-weight: 700;
+      color: var(--crimson);
+      font-size: 0.58rem;
+      margin-top: 2px;
+    }
+
+    .char-who-text {
+      font-size: 0.61rem;
+      color: #261e16;
+      line-height: 1.28;
+      margin-bottom: 3px;
+    }
+
+    .char-actions-list {
+      padding-left: 13px;
+      font-size: 0.59rem;
+      color: #2f251b;
+      line-height: 1.25;
+      margin-bottom: 3px;
+    }
+
+    .char-actions-list li {
+      margin-bottom: 1.5px;
+    }
+
+    .char-bonds-strip {
+      background: #f6efe0;
+      border: 1px solid #e0cda3;
+      border-radius: 4px;
+      padding: 2px 5px;
+      font-size: 0.56rem;
+      color: #3d2f1d;
+      margin-bottom: 3px;
+    }
+
+    .char-quote-box {
+      background: #241911;
+      color: #ffd166;
+      border-radius: 4px;
+      padding: 3px 6px;
+      font-size: 0.56rem;
+      font-style: italic;
+      line-height: 1.22;
+    }
+
+    /* Concept Cards on Sheet 5 */
+    .concept-card {
+      border: 2px solid var(--crimson);
+      border-radius: 8px;
+      background: linear-gradient(180deg, #fffaf0 0%, #f7ebd2 100%);
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 0.63rem;
+    }
+
+    .concept-badge {
+      display: inline-block;
+      background: var(--crimson);
+      color: #ffd166;
+      font-size: 0.56rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 99px;
+      margin-bottom: 4px;
+    }
+
+    .concept-title {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--crimson);
+      margin-bottom: 4px;
+      line-height: 1.2;
+    }
+
+    /* ================= SHEETS 6-7: 18 PLOT STEP CARDS ================= */
+    .plot-step-card {
+      border: 1.5px solid #b58d3d;
+      border-radius: 8px;
+      background: #fffdf9;
+      padding: 7px 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 0.62rem;
+    }
+
+    .plot-step-card.flashback-step {
+      background: #fdf5e8;
+      border-color: #b86b11;
+    }
+
+    .ps-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .ps-num {
+      background: var(--crimson);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.62rem;
+      padding: 1px 7px;
+      border-radius: 99px;
+    }
+
+    .flashback-step .ps-num {
+      background: #b86b11;
+    }
+
+    .ps-route {
+      font-size: 0.56rem;
+      font-weight: 700;
+      color: var(--ink-muted);
+      background: #f3ead6;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+
+    .ps-title-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+
+    .ps-avatars {
+      display: flex;
+      flex-shrink: 0;
+    }
+
+    .ps-avatars img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      border: 1.5px solid var(--gold);
+      margin-right: -6px;
+      background: #141824;
+    }
+
+    .ps-title {
+      font-size: 0.73rem;
+      font-weight: 700;
+      color: var(--ink-dark);
+      padding-left: 6px;
+      line-height: 1.18;
+    }
+
+    .ps-what-happens {
+      font-size: 0.61rem;
+      color: #241d15;
+      line-height: 1.28;
+      margin-bottom: 4px;
+    }
+
+    .ps-why-important {
+      background: #f6efe0;
+      border-left: 3px solid var(--gold);
+      padding: 3px 5px;
+      font-size: 0.58rem;
+      color: #3b2d1d;
+      margin-bottom: 4px;
+      line-height: 1.24;
+    }
+
+    .ps-quiz-box {
+      background: #241911;
+      color: #ffd166;
+      border-radius: 4px;
+      padding: 3px 6px;
+      font-size: 0.56rem;
+      line-height: 1.22;
+      cursor: pointer;
+    }
+
+    .ps-quiz-box .ans-line {
+      display: block;
+      color: #fff;
+      margin-top: 2px;
+    }
+
+    body.hide-answers .ps-quiz-box .ans-line {
+      filter: blur(4px);
+      transition: filter 0.15s ease;
+    }
+
+    body.hide-answers .ps-quiz-box:hover .ans-line,
+    body.hide-answers .ps-quiz-box.revealed .ans-line {
+      filter: none;
+    }
+
+    @media print {
+      @page {
+        size: A4 portrait;
+        margin: 0;
+      }
+
+      body {
+        background: #fff;
+        padding: 0;
+      }
+
+      .screen-toolbar {
+        display: none !important;
+      }
+
+      .pnp-workspace {
+        margin: 0;
+        padding: 0;
+        max-width: none;
+        gap: 0;
+      }
+
+      .a4-sheet {
+        box-shadow: none;
+        border: none;
+        margin: 0;
+        width: 210mm;
+        height: 297mm;
+        padding: 8mm 10mm;
+        page-break-after: always;
+        break-after: page;
+      }
+
+      .a4-sheet.hidden-sheet {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation & Print Toolbar -->
+  <header class="screen-toolbar">
+    <div class="toolbar-brand">
+      <a href="index.html" class="nav-pill" title="მთავარ გვერდზე დაბრუნება">← ინტერაქტიული პოემა</a>
+      <h1>ვეფხისტყაოსანი — სასწავლო-სათამაშო რუკა და პერსონაჟთა ბარათები</h1>
+      <span class="toolbar-badge">მოსწავლეებისა და მკითხველებისთვის • 7 A4 ფურცელი</span>
+    </div>
+
+    <div class="toolbar-actions">
+      <button class="nav-pill active" data-sheet="all">ყველა ფურცელი (7)</button>
+      <button class="nav-pill" data-sheet="guide">1. გზამკვლევი</button>
+      <button class="nav-pill" data-sheet="map">2. სიუჟეტის რუკა</button>
+      <button class="nav-pill" data-sheet="characters">3–5. პერსონაჟთა ბარათები (21+6)</button>
+      <button class="nav-pill" data-sheet="steps">6–7. სიუჟეტის 18 ნაბიჯი</button>
+      <button class="action-btn" id="toggleAnswersBtn">👁️ პასუხების დაფარვა</button>
+      <button class="action-btn primary" onclick="window.print()">🖨️ ამობეჭდვა (A4 PDF)</button>
+    </div>
+  </header>
+
+  <main class="pnp-workspace">
+
+    <!-- ================================================================= -->
+    <!-- ფურცელი 1: როგორ გავიგოთ „ვეფხისტყაოსანი“ (სასწავლო გზამკვლევი)     -->
+    <!-- ================================================================= -->
+    <section class="a4-sheet" data-category="guide">
+      <div>
+        <div class="sheet-header">
+          <div class="sheet-title">როგორ გავიგოთ „ვეფხისტყაოსანი“ — გზამკვლევი და თამაშის წესები</div>
+          <div class="sheet-subtitle">ფურცელი 1 / 7 • თვალსაჩინო სასწავლო-სათამაშო კომპლექტი მოსწავლეებისა და მკითხველებისთვის</div>
+        </div>
+
+        <div class="guide-banner">
+          <h2>რატომ ეძნელებათ დამწყებ მკითხველებს პოემის სიუჟეტის გაგება?</h2>
+          <p>
+            „ვეფხისტყაოსანში“ მოქმედება <strong>7 სხვადასხვა სამეფოში</strong> ვითარდება, მონაწილეობს <strong>21 პერსონაჟი</strong>,
+            ხოლო თხრობა დროში ინაცვლებს: პოემა იწყება <strong>არაბეთში (აწმყო)</strong>, შემდეგ ქვაბში ტარიელი იხსენებს
+            <strong>ინდოეთის ამბავს (წარსული / მოგონება)</strong>, ბოლოს კი სამივე ძმადნაფიცი ერთიანდება <strong>ქაჯეთის ციხის</strong> ასაღებად.
+            ეს სამაგიდო კომპლექტი მთელ პოემას ხელისგულზე გაშლილ რუკად და პერსონაჟთა ბარათებად აქცევს!
+          </p>
+        </div>
+
+        <!-- 5-Act Visual Structure -->
+        <div class="structure-flow">
+          <h3>🧭 პოემის 5 მოქმედება (როგორ ლაგდება სიუჟეტი ქრონოლოგიურად)</h3>
+          <div class="act-timeline-grid">
+            <div class="act-pillar">
+              <strong>მოქმედება I (აწმყო)</strong>
+              <b>არაბეთი ➔ ქვაბი</b><br/>
+              როსტევანი ამეფებს თინათინს. ნადირობისას ნახულობენ მტირალ ტარიელს. ავთანდილი 3 წელი ეძებს მას და პოულობს დევთა ქვაბში.
+            </div>
+            <div class="act-pillar flashback-pillar">
+              <strong>მოქმედება II (მოგონება)</strong>
+              <b>ინდოეთი ➔ ხატაეთი</b><br/>
+              ტარიელი უყვება ავთანდილს თავის წარსულს: ნესტანის სიყვარულს, ხატაეთის ომს, სასიძოს მოკვლასა და ნესტანის ზღვაში გადაკარგვას.
+            </div>
+            <div class="act-pillar">
+              <strong>მოქმედება III (აწმყო)</strong>
+              <b>არაბეთი ➔ მულღაზანზარი</b><br/>
+              ავთანდილი ბრუნდება არაბეთში, წერს „ანდერძს“, იპარება ძმადნაფიცის დასახმარებლად, აცოცხლებს ტარიელს და მიდის ფრიდონთან.
+            </div>
+            <div class="act-pillar">
+              <strong>მოქმედება IV (აწმყო)</strong>
+              <b>გულანშარო ➔ ქაჯეთი</b><br/>
+              ვაჭრად გადაცმული ავთანდილი ჩადის გულანშაროში. ფატმან ხათუნის დახმარებით იგებს, რომ ნესტანი ქაჯეთის ციხეშია დატყვევებული!
+            </div>
+            <div class="act-pillar">
+              <strong>მოქმედება V (დასკვნა)</strong>
+              <b>ქაჯეთი ➔ ქორწილები</b><br/>
+              ტარიელი, ავთანდილი და ფრიდონი 300 მოყმით იღებენ ქაჯეთს, ათავისუფლებენ ნესტანს და არაბეთსა და ინდოეთში ქორწილებს იხდიან!
+            </div>
+          </div>
+        </div>
+
+        <!-- Two Parallel Royal Lines -->
+        <div class="two-lines-grid">
+          <div class="info-card">
+            <h3>👑 ორი სამეფო ხაზის შეპირისპირება (არაბეთი vs ინდოეთი)</h3>
+            <ul>
+              <li><strong>არაბეთის სამეფო (ჰარმონია და თანხმობა):</strong> მეფე <strong>როსტევანი</strong> ვეზირთა თათბირით საკუთარ სიცოცხლეშივე ამეფებს ასულ <strong>თინათინს</strong> („ლეკვი ლომისა სწორია“). თინათინისა და სპასპეტ <strong>ავთანდილის</strong> სიყვარული გონიერებასა და მოვალეობაზეა დაფუძნებული.</li>
+              <li><strong>ინდოეთის სამეფო (კონფლიქტი და ტრაგედია):</strong> მეფე <strong>ფარსადანი</strong> ტახტის მემკვიდრე <strong>ნესტან-დარეჯანს</strong> დაუკითხავად უპირებს უცხოელ <strong>ხვარაზმშას ძეზე</strong> გათხოვებას. ამ უსამართლობას მოჰყვება სასიძოს მოკვლა და ნესტანის დაკარგვა.</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <h3>📦 რა შედის ამ ამოსაბეჭდ კომპლექტში?</h3>
+            <ul>
+              <li><strong>ფურცელი 2 — სიუჟეტის განმარტებითი რუკა:</strong> აჩვენებს 7 სამეფოს, გმირების მოძრაობის ისრებსა და სიუჟეტის <strong>18 საკვანძო გაჩერებას (①–⑱)</strong>.</li>
+              <li><strong>ფურცლები 3–5 — 21 პერსონაჟის ბარათი + 6 გასაღები:</strong> თითოეულ ბარათზე მარტივი ენით წერია: <em>ვინ არის პერსონაჟი, რას აკეთებს პოემაში, ვისთან არის დაკავშირებული</em> და მისი მთავარი აფორიზმი.</li>
+              <li><strong>ფურცლები 6–7 — სიუჟეტის 18 ნაბიჯის ბარათი:</strong> რუკის ნომრების შესაბამისი ისტორიის ბარათები შეკითხვებით.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3 Ways to Play in Class or at Home -->
+        <h3 style="font-size:0.92rem; color:var(--crimson); margin-bottom:6px;">🎲 3 მარტივი თამაშის წესი (კლასში, ოჯახში ან მეგობრებთან)</h3>
+        <div class="modes-grid">
+          <div class="mode-box">
+            <span class="mode-badge-num">თამაში 1</span>
+            <h4>„გააცოცხლე სიუჟეტის რუკა“</h4>
+            <p>
+              დადეთ რუკა ცენტრში. მოთამაშეებს დაურიგეთ <strong>21 პერსონაჟის ბარათი</strong>. თანმიმდევრობით გახსენით <strong>სიუჟეტის ნაბიჯები (①–⑱)</strong>:
+              ვისაც ხელში აღმოაჩნდება ეპიზოდში მონაწილე პერსონაჟი, აჩვენებს ბარათს, აცნობს გმირს ჯგუფს, გადაადგილებს მას რუკაზე და პასუხობს ბარათის შეკითხვას!
+            </p>
+          </div>
+
+          <div class="mode-box">
+            <span class="mode-badge-num">თამაში 2</span>
+            <h4>„ვინ ვინ არის ვეფხისტყაოსანში?“</h4>
+            <p>
+              წამყვანი იღებს ერთ <strong>პერსონაჟის ბარათს</strong> (სახელის დაუსახელებლად) და კითხულობს მხოლოდ მის <em>„როლს სიუჟეტში“</em> ან <em>„საკვანძო ფრაზას“</em>.
+              დანარჩენები იცნობენ პერსონაჟს და ასახელებენ, რომელ სამეფოს ეკუთვნის იგი რუკაზე.
+            </p>
+          </div>
+
+          <div class="mode-box">
+            <span class="mode-badge-num">თამაში 3</span>
+            <h4>„დაალაგე ქრონოლოგია“</h4>
+            <p>
+              აურიეთ ერთი მოქმედების <strong>სიუჟეტის ნაბიჯის ბარათები</strong> (პასუხების მხარის დაფარვით). მოსწავლეებმა რუკაზე დატანილი ისრებისა და სამეფოების დახმარებით სწორი თანმიმდევრობით უნდა აღადგინონ მოვლენათა ჯაჭვი!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sheet-footer">
+        <span>ფურცელი 1 / 7 • სასწავლო გზამკვლევი</span>
+        <span>შოთა რუსთაველის „ვეფხისტყაოსნის“ ილუსტრირებული გზამკვლევი</span>
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- ფურცელი 2: სიუჟეტის განმარტებითი რუკა-დაფა (7 სამეფო და გზები)      -->
+    <!-- ================================================================= -->
+    <section class="a4-sheet" data-category="map">
+      <div class="plot-map-wrapper">
+        <div class="sheet-header">
+          <div class="sheet-title">სიუჟეტის განმარტებითი რუკა — გმირთა გზები და 18 საკვანძო ეპიზოდი</div>
+          <div class="sheet-subtitle">ფურცელი 2 / 7 • მიჰყევით ნომრებს ①-დან ⑱-მდე პოემის მთელი სიუჟეტის გასაგებად</div>
+        </div>
+
+        <!-- Legend of the 4 Hero Routes -->
+        <div class="route-legend-bar">
+          <div class="legend-item">
+            <span class="legend-line" style="background:#3b82f6;"></span>
+            <span>ავთანდილის გზა (არაბეთი ➔ ქვაბი ➔ გულანშარო ➔ ქაჯეთი)</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-line" style="background:#e63946;"></span>
+            <span>ტარიელის გზა (ინდოეთი ➔ ხატაეთი ➔ ქვაბი ➔ ქაჯეთი)</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-line" style="background:#9b5de5;"></span>
+            <span>ნესტანის ტყვეობის გზა (ინდოეთი ➔ ზღვა ➔ გულანშარო ➔ ქაჯეთი)</span>
+          </div>
+        </div>
+
+        <!-- Visual Geographic & Plot Flow Diagram (SVG) -->
+        <svg class="visual-svg-map" viewBox="0 0 780 230" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <marker id="arr-blue" viewBox="0 -4 8 8" refX="6" refY="0" markerWidth="5" markerHeight="5" orient="auto">
+              <path d="M0,-3L7,0L0,3" fill="#2563eb" />
+            </marker>
+            <marker id="arr-red" viewBox="0 -4 8 8" refX="6" refY="0" markerWidth="5" markerHeight="5" orient="auto">
+              <path d="M0,-3L7,0L0,3" fill="#dc2626" />
+            </marker>
+            <marker id="arr-purple" viewBox="0 -4 8 8" refX="6" refY="0" markerWidth="5" markerHeight="5" orient="auto">
+              <path d="M0,-3L7,0L0,3" fill="#7c3aed" />
+            </marker>
+          </defs>
+
+          <!-- Sea Wave Background on Right/Bottom -->
+          <path d="M360,135 Q520,120 770,135 L770,225 L360,225 Z" fill="#d0e5ec" opacity="0.65" />
+          <text x="545" y="216" font-size="10" fill="#2c5e70" font-weight="bold" font-style="italic">🌊 ზღვათა გზაჯვარედინი (ნესტანის კიდობნისა და ავთანდილის ხომალდის გზა)</text>
+
+          <!-- Route 1: Avtandil (Blue) Arabia -> Cave -> Arabia -> Cave -> Mulghazanzar -> Gulansharo -> Kadjeti -->
+          <path d="M105,80 Q180,35 255,80" fill="none" stroke="#2563eb" stroke-width="2.6" marker-end="url(#arr-blue)" />
+          <path d="M265,105 Q340,155 415,168" fill="none" stroke="#2563eb" stroke-width="2.6" marker-end="url(#arr-blue)" />
+          <path d="M455,172 L545,172" fill="none" stroke="#2563eb" stroke-width="2.6" marker-end="url(#arr-blue)" />
+          <path d="M595,155 Q650,130 685,105" fill="none" stroke="#2563eb" stroke-width="2.6" marker-end="url(#arr-blue)" />
+
+          <!-- Route 2: Tariel Flashback & Present (Red) India -> Khataeti -> India -> Mulghazanzar -> Cave -> Kadjeti -->
+          <path d="M450,55 Q520,25 595,55" fill="none" stroke="#dc2626" stroke-width="2.4" stroke-dasharray="5 3" marker-end="url(#arr-red)" />
+          <path d="M405,65 Q340,65 290,82" fill="none" stroke="#dc2626" stroke-width="2.4" stroke-dasharray="5 3" marker-end="url(#arr-red)" />
+          <path d="M290,95 Q490,95 675,85" fill="none" stroke="#dc2626" stroke-width="2.8" marker-end="url(#arr-red)" />
+
+          <!-- Route 3: Nestan Captivity (Purple) India -> Sea/Mulghazanzar -> Gulansharo -> Kadjeti -->
+          <path d="M430,80 Q435,125 435,155" fill="none" stroke="#7c3aed" stroke-width="2.4" stroke-dasharray="3 3" marker-end="url(#arr-purple)" />
+          <path d="M455,182 Q510,198 555,182" fill="none" stroke="#7c3aed" stroke-width="2.4" stroke-dasharray="3 3" marker-end="url(#arr-purple)" />
+          <path d="M605,165 Q665,145 695,108" fill="none" stroke="#7c3aed" stroke-width="2.4" stroke-dasharray="3 3" marker-end="url(#arr-purple)" />
+
+          <!-- 1. ARABIA NODE -->
+          <g transform="translate(20, 48)">
+            <rect width="125" height="72" rx="8" fill="#fffdf8" stroke="#d96b43" stroke-width="3" />
+            <text x="62" y="18" text-anchor="middle" font-size="11" font-weight="bold" fill="#b84a24">1. არაბეთი</text>
+            <text x="62" y="33" text-anchor="middle" font-size="8.5" fill="#444">როსტევანი • თინათინი</text>
+            <text x="62" y="45" text-anchor="middle" font-size="8.5" fill="#444">ავთანდილი • შერმადინი</text>
+            <text x="62" y="62" text-anchor="middle" font-size="9" font-weight="bold" fill="#8b1e24">ნაბიჯები: ① ② ③ ⑩ ⑰</text>
+          </g>
+
+          <!-- 2. WILDERNESS & CAVE NODE -->
+          <g transform="translate(205, 58)">
+            <rect width="130" height="72" rx="8" fill="#fffdf8" stroke="#3b8568" stroke-width="3" />
+            <text x="65" y="18" text-anchor="middle" font-size="11" font-weight="bold" fill="#28664e">2. უდაბნო და ქვაბი</text>
+            <text x="65" y="33" text-anchor="middle" font-size="8.5" fill="#444">ტარიელი • ასმათი</text>
+            <text x="65" y="45" text-anchor="middle" font-size="8.5" fill="#444">(შეყრა და ლომ-ვეფხვი)</text>
+            <text x="65" y="62" text-anchor="middle" font-size="9" font-weight="bold" fill="#8b1e24">ნაბიჯები: ④ ⑪ ⑮</text>
+          </g>
+
+          <!-- 3. INDIA NODE -->
+          <g transform="translate(380, 22)">
+            <rect width="135" height="72" rx="8" fill="#fdf5e6" stroke="#cf8d18" stroke-width="3" />
+            <text x="67" y="17" text-anchor="middle" font-size="11" font-weight="bold" fill="#a36c08">3. ინდოეთი (მოგონება)</text>
+            <text x="67" y="32" text-anchor="middle" font-size="8.5" fill="#444">ფარსადანი • ნესტანი</text>
+            <text x="67" y="44" text-anchor="middle" font-size="8.5" fill="#444">ტარიელი • დავარი</text>
+            <text x="67" y="61" text-anchor="middle" font-size="9" font-weight="bold" fill="#b86b11">ნაბიჯები: ⑤ ⑦ ⑧ ⑱</text>
+          </g>
+
+          <!-- 4. KHATAETI NODE -->
+          <g transform="translate(565, 22)">
+            <rect width="115" height="58" rx="8" fill="#fdf5e6" stroke="#c2555a" stroke-width="3" />
+            <text x="57" y="17" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#9e353a">4. ხატაეთი</text>
+            <text x="57" y="31" text-anchor="middle" font-size="8.5" fill="#444">რამაზ მეფე (ლაშქრობა)</text>
+            <text x="57" y="47" text-anchor="middle" font-size="9" font-weight="bold" fill="#b86b11">ნაბიჯი: ⑥</text>
+          </g>
+
+          <!-- 5. MULGHAZANZAR NODE -->
+          <g transform="translate(375, 142)">
+            <rect width="130" height="62" rx="8" fill="#fffdf8" stroke="#237c8c" stroke-width="3" />
+            <text x="65" y="17" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#175d69">5. მულღაზანზარი</text>
+            <text x="65" y="31" text-anchor="middle" font-size="8.5" fill="#444">ნურადინ-ფრიდონი</text>
+            <text x="65" y="49" text-anchor="middle" font-size="9" font-weight="bold" fill="#8b1e24">ნაბიჯები: ⑨ ⑫</text>
+          </g>
+
+          <!-- 6. GULANSHARO NODE -->
+          <g transform="translate(535, 142)">
+            <rect width="130" height="62" rx="8" fill="#fffdf8" stroke="#345278" stroke-width="3" />
+            <text x="65" y="17" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#243c5c">6. გულანშარო</text>
+            <text x="65" y="31" text-anchor="middle" font-size="8.5" fill="#444">ფატმანი • უსენი • ჭაშნაგირი</text>
+            <text x="65" y="49" text-anchor="middle" font-size="9" font-weight="bold" fill="#8b1e24">ნაბიჯები: ⑬ ⑭</text>
+          </g>
+
+          <!-- 7. KADJETI NODE -->
+          <g transform="translate(655, 58)">
+            <rect width="115" height="68" rx="8" fill="#2c1647" stroke="#b779ff" stroke-width="3" />
+            <text x="57" y="18" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#ffd166">🏰 7. ქაჯეთი</text>
+            <text x="57" y="32" text-anchor="middle" font-size="8" fill="#f3e8ff">დულარდუხტი • როსანი</text>
+            <text x="57" y="44" text-anchor="middle" font-size="8" fill="#f3e8ff">(ნესტანის ტყვეობა)</text>
+            <text x="57" y="59" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffd166">ნაბიჯი: ⑯</text>
+          </g>
+        </svg>
+
+        <!-- Detailed Realm-by-Realm Breakdown of All 18 Plot Steps -->
+        <div class="realms-explanatory-grid">
+          <div class="realm-explain-box" style="border-left: 5px solid var(--arabia);">
+            <div class="reb-head">
+              <span class="reb-title" style="color:var(--arabia);">1. არაბეთი — სამეფო კარი და ფიცი</span>
+              <span class="reb-cast">როსტევანი • თინათინი • ავთანდილი • შერმადინი • სოგრატი</span>
+            </div>
+            <ul class="reb-steps">
+              <li><span class="step-circle">1</span> <strong>თინათინის გამეფება:</strong> როსტევანი ტახტს გადასცემს ასულ თინათინს („ლეკვი ლომისა სწორია“).</li>
+              <li><span class="step-circle">2</span> <strong>უცხო მოყმის ხილვა:</strong> ნადირობისას წყაროსთან ნახულობენ მტირალ ვეფხისტყაოსან რაინდს (ტარიელს).</li>
+              <li><span class="step-circle">3</span> <strong>თინათინის დავალება:</strong> თინათინი ავთანდილს 3 წლით გზავნის უცხო მოყმის საძებრად.</li>
+              <li><span class="step-circle">10</span> <strong>ავთანდილის ანდერძი:</strong> ქვაბიდან დაბრუნებული ავთანდილი წერს ანდერძს და მეფის უნებართვოდ იპარება ძმადნაფიცთან.</li>
+              <li><span class="step-circle">17</span> <strong>არაბეთის ქორწილი:</strong> ქაჯეთის აღების შემდეგ როსტევანი ავთანდილსა და თინათინს აქორწინებს.</li>
+            </ul>
+          </div>
+
+          <div class="realm-explain-box" style="border-left: 5px solid var(--wilderness);">
+            <div class="reb-head">
+              <span class="reb-title" style="color:var(--wilderness);">2. უდაბნო და დევთა ქვაბი — ძმობის კერა</span>
+              <span class="reb-cast">ტარიელი • ასმათი • ავთანდილი</span>
+            </div>
+            <ul class="reb-steps">
+              <li><span class="step-circle">4</span> <strong>ქვაბში შეყრა და დაძმობილება:</strong> ავთანდილი პოულობს ასმათსა და ტარიელს; გმირები ძმადნაფიცები ხდებიან.</li>
+              <li><span class="step-circle">11</span> <strong>ლომ-ვეფხვის დახოცა:</strong> ავთანდილი შამბნარში პოულობს დაბნედილ ტარიელს (რომელმაც ლომი და ვეფხვი დახოცა) და სიბრძნით აცოცხლებს.</li>
+              <li><span class="step-circle">15</span> <strong>მახარობელი და ქაჯური აბჯარი:</strong> ავთანდილს გულანშაროდან მოაქვს ნესტანის წერილი; გმირები ხსნიან დევთა საჭურჭლეს და იცვამენ უკვეთელ ქაჯურ აბჯარს.</li>
+            </ul>
+          </div>
+
+          <div class="realm-explain-box" style="border-left: 5px solid var(--india);">
+            <div class="reb-head">
+              <span class="reb-title" style="color:var(--india);">3. ინდოეთის 7 სამეფო — ტარიელის წარსული</span>
+              <span class="reb-cast">ფარსადანი • სარიდანი • ნესტანი • ტარიელი • დავარი • ხვარაზმშას ძე</span>
+            </div>
+            <ul class="reb-steps">
+              <li><span class="step-circle flash">5</span> <strong>ტარიელის გამიჯნურება (მოგონება):</strong> ამირბარ ტარიელს ნესტანის დანახვისთანავე უყვარდება იგი და წერილებს სწერს.</li>
+              <li><span class="step-circle flash">7</span> <strong>ხვარაზმშას ძის მოკვლა:</strong> ფარსადანი ნესტანს უცხოელ უფლისწულს რთავს; ნესტანის თხოვნით ტარიელი კლავს სასიძოს.</li>
+              <li><span class="step-circle flash">8</span> <strong>ნესტანის გადაკარგვა ზღვაში:</strong> მამიდა დავარი ნესტანს კიდობნით ზღვაში აგზავნინებს, თავად კი თავს იკლავს.</li>
+              <li><span class="step-circle">18</span> <strong>ინდოეთის ტახტი (ფინალი):</strong> ტარიელი და ნესტანი ინდოეთის მეფე-დედოფალი ხდებიან, ასმათს კი მეშვიდე სამეფოს ჩუქნიან!</li>
+            </ul>
+          </div>
+
+          <div class="realm-explain-box" style="border-left: 5px solid var(--khataveti);">
+            <div class="reb-head">
+              <span class="reb-title" style="color:var(--khataveti);">4. ხატაეთი და 5. მულღაზანზარი</span>
+              <span class="reb-cast">რამაზ მეფე • ნურადინ-ფრიდონი</span>
+            </div>
+            <ul class="reb-steps">
+              <li><span class="step-circle flash">6</span> <strong>ხატაეთის ლაშქრობა (მოგონება):</strong> ნესტანის დავალებით ტარიელი ამარცხებს მოღალატე რამაზ მეფეს და მოაქვს <strong>ხატაური რიდე</strong>.</li>
+              <li><span class="step-circle flash">9</span> <strong>ფრიდონთან დაძმობილება (მოგონება):</strong> ტარიელი ეხმარება ზღვისპირა მეფე ფრიდონს, რომელმაც ზღვაში ნესტანის კიდობანი დაინახა.</li>
+              <li><span class="step-circle">12</span> <strong>მნათობთა გალობა და ფრიდონის რჩევა:</strong> ავთანდილი ჩადის მულღაზანზარში და იქიდან ზღვათა გზაჯვარედინისკენ მიემართება.</li>
+            </ul>
+          </div>
+
+          <div class="realm-explain-box" style="border-left: 5px solid var(--gulansharo); grid-column: 1 / -1;">
+            <div class="reb-head">
+              <span class="reb-title" style="color:var(--gulansharo);">6. გულანშარო (ვარდთა ქალაქი) — სავაჭრო ნავსადგური და საიდუმლოს გახსნა</span>
+              <span class="reb-cast">ფატმან ხათუნი • უსენი • ჭაშნაგირი • მელიქ-სურხავი</span>
+            </div>
+            <ul class="reb-steps">
+              <li><span class="step-circle">13</span> <strong>ვაჭრად გადაცმული ავთანდილი:</strong> ავთანდილი ამარცხებს მეკობრეებს, ვაჭართუხუცესად გადაცმული შედის გულანშაროში და კლავს მოღალატე ჭაშნაგირს, რათა ფატმან ხათუნისგან ნესტანის ამბავი შეიტყოს.</li>
+              <li><span class="step-circle">14</span> <strong>ფატმანის ნაამბობი და გრძნეული მონა:</strong> ფატმანი ჰყვება, როგორ შეიფარა ნესტანი, როგორ გაიქცა იგი და როგორ ჩავარდა ქაჯების ტყვეობაში. ფატმანის გრძნეულ მონას ქაჯეთიდან მოაქვს ნესტანის წერილი და ხატაური რიდის ნაჭერი!</li>
+            </ul>
+          </div>
+
+          <div class="realm-explain-box kadjeti-wide">
+            <div class="reb-head">
+              <span class="reb-title">🏰 7. ქაჯეთის ციხე — სამი თათბირი და ნესტან-დარეჯანის გათავისუფლება</span>
+              <span class="reb-cast">დულარდუხტი • როსანი • 10 000 მცველი • 3 გვირაბი-კარიბჭე</span>
+            </div>
+            <ul class="reb-steps">
+              <li><span class="step-circle" style="background:#ffd166; color:#111;">16</span> <strong>ქაჯეთის ციხის აღება (კულმინაცია):</strong> ტარიელი, ავთანდილი და ფრიდონი 300 მხედრით მართავენ „სამ თათბირს“ (ფრიდონი — თოკზე გასვლა; ავთანდილი — ვაჭრულად შეპარვა; ტარიელი — სამივე კარიბჭეზე პირდაპირი იერიში). ტარიელის გეგმით განთიადზე იღებენ ქაჯეთს და ათავისუფლებენ ნესტანს!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="sheet-footer">
+        <span>ფურცელი 2 / 7 • სიუჟეტის განმარტებითი რუკა</span>
+        <span>წითელი ნომრები = აწმყო • ნარინჯისფერი ნომრები (⑤–⑨) = ტარიელის ნაამბობი (მოგონება)</span>
+      </div>
+    </section>
+
+    <!-- Dynamic Character Sheets (3-5) & Plot Step Sheets (6-7) -->
+    <div id="dynamicEducationalSheets"></div>
+
+  </main>
+
+  <script>
+    const REALM_COLORS = {
+      arabia: { name: "არაბეთი", color: "#d96b43" },
+      wilderness: { name: "უდაბნო / ქვაბი", color: "#3b8568" },
+      india: { name: "ინდოეთი", color: "#cf8d18" },
+      khataveti: { name: "ხატაეთი", color: "#c2555a" },
+      mulgazanzar: { name: "მულღაზანზარი", color: "#237c8c" },
+      gulansharo: { name: "გულანშარო", color: "#345278" },
+      kajeti: { name: "ქაჯეთი", color: "#7136b8" }
+    };
+
+    const CHARACTER_CARDS = [
+      // Sheet 3: Core Heroes & Main Sovereigns (1-9)
+      {
+        id: "tariel", name: "ტარიელი", title: "ინდოეთის ამირბარი (მთავარსარდალი)", realm: "india",
+        who: "პოემის მთავარი გმირი — „ვეფხისტყაოსანი“. ინდოეთის მეშვიდე სამეფოს მეფის, სარიდანის ძე, რომელიც ფარსადან მეფემ შვილად აღზარდა.",
+        actions: [
+          "ნესტანის სიყვარულით ამარცხებს ხატაელებს და კლავს უცხოელ სასიძოს.",
+          "დაკარგულ სატრფოს ეძებს და დევთა ქვაბში აფარებს თავს, სადაც ვეფხვის ტყავს ატარებს.",
+          "ავთანდილთან და ფრიდონთან ერთად იღებს ქაჯეთის ციხეს."
+        ],
+        bonds: "💍 მიჯნური: ნესტანი • 🤝 ძმადნაფიცები: ავთანდილი, ფრიდონი • 🛡️ და: ასმათი",
+        quote: "„სჯობს სიცოცხლესა ნაძრახსა სიკვდილი სახელოვანი!“"
+      },
+      {
+        id: "avtandil", name: "ავთანდილი", title: "არაბეთის სპასპეტი (სარდალი)", realm: "arabia",
+        who: "არაბეთის მთავარსარდალი, თინათინის მიჯნური. გონიერების, მეგობრობისა და ქმედითი სიბრძნის განსახიერება პოემაში.",
+        actions: [
+          "თინათინის დავალებით 3 წელი ეძებს ტარიელს და უძმობილდება მას.",
+          "წერს სახელგანთქმულ „ანდერძს“ და მეფის უნებართვოდ მიდის მეგობრის სახსნელად.",
+          "ვაჭრად გადაცმული გულანშაროში ფატმანის დახმარებით პოულობს ნესტანის კვალს."
+        ],
+        bonds: "💍 მიჯნური: თინათინი • 🤝 ძმადნაფიცი: ტარიელი, ფრიდონი • 🛡️ ყმა: შერმადინი",
+        quote: "„ვინ მოყვარესა არ ეძებს, იგი თავისა მტერია“"
+      },
+      {
+        id: "pridon", name: "ნურადინ-ფრიდონი", title: "მულღაზანზარის მეფე", realm: "mulgazanzar",
+        who: "ზღვისპირა სამეფო მულღაზანზარის მამაცი და უერთგულესი მეფე, ტარიელისა და ავთანდილის მესამე ძმადნაფიცი.",
+        actions: [
+          "ტარიელის დახმარებით ამარცხებს მოღალატე ბიძაშვილებს.",
+          "პირველი ხედავს ზღვაში ნესტან-დარეჯანს, როცა მას ორი მონა კიდობნიდან სვამს.",
+          "300 რჩეული მეომრით მონაწილეობს ქაჯეთის ციხის აღებაში."
+        ],
+        bonds: "🤝 ძმადნაფიცები: ტარიელი და ავთანდილი",
+        quote: "„კარგი მოყვარე ადვილად არ იშოვების, ძნელია“"
+      },
+      {
+        id: "nestan", name: "ნესტან-დარეჯანი", title: "ინდოეთის ტახტის მემკვიდრე", realm: "india",
+        who: "ინდოეთის მეფე ფარსადანის ასული, ტარიელის მიჯნური. მზისებრი მშვენიერების, სამშობლოს სიყვარულისა და სულიერი სიმტკიცის სიმბოლო.",
+        actions: [
+          "ტარიელს მოუწოდებს ხატაეთის დამორჩილებისა და ინდოეთის ტახტის დაცვისკენ.",
+          "უარს ამბობს უცხოელ უფლისწულზე ქორწინებაზე, რის გამოც მამიდა დავარი ზღვაში გადაკარგავს.",
+          "ქაჯეთის ტყვეობიდან სწერს ტარიელს უკვდავ წერილს და უგზავნის რიდის ნაკვეთს."
+        ],
+        bonds: "💍 მიჯნური: ტარიელი • 🛡️ მესაიდუმლე: ასმათი • 🔓 მხსნელი: ფატმანი",
+        quote: "„მომცნა ფრთენი და აღვფრინდე, მივჰხვდე მას ჩემსა ნდომასა“"
+      },
+      {
+        id: "tinatin", name: "თინათინი", title: "არაბეთის გვირგვინოსანი ხელმწიფე", realm: "arabia",
+        who: "არაბეთის მეფე როსტევანის ასული, რომელიც მამამ თავის სიცოცხლეშივე აიყვანა სამეფო ტახტზე (თამარ მეფის სახე-სიმბოლო).",
+        actions: [
+          "გამეფებისას ხსნის სამეფო საჭურჭლეს და უხვად გასცემს სიმდიდრეს.",
+          "ავთანდილს ავალებს უცხო მოყმის (ტარიელის) მოძებნას და ერთგულების ფიცს აძლევს.",
+          "ამხნევებს ავთანდილს, რომ შეასრულოს ტარიელის წინაშე დადებული ძმობის ფიცი."
+        ],
+        bonds: "💍 მიჯნური: ავთანდილი • 👑 მამა: როსტევან მეფე",
+        quote: "„კაცმან საქმე მოიგვაროს, ვეჭვ, ჭმუნვასა ესე სჯობდეს“"
+      },
+      {
+        id: "asmat", name: "ასმათი", title: "ნესტანისა და ტარიელის მესაიდუმლე", realm: "wilderness",
+        who: "ნესტან-დარეჯანის აღზრდილი სეფექალი, რომელიც ნესტანის დაკარგვის შემდეგ ტარიელს დასავით უვლის დევთა ქვაბში.",
+        actions: [
+          "ინდოეთში ფარულად დააქვს წერილები ნესტანსა და ტარიელს შორის.",
+          "წლების განმავლობაში უვლის მგლოვიარე ტარიელს უდაბნოს ქვაბში და აკავშირებს მას ავთანდილთან.",
+          "პოემის ბოლოს ტარიელი და ნესტანი მას ინდოეთის მეშვიდე სამეფოს უბოძებენ!"
+        ],
+        bonds: "🛡️ პატრონი: ნესტანი • 🤝 დაძმობილებული: ტარიელი, ავთანდილი",
+        quote: "„ხამს მოყვარე მოყვრისათვის თავი ჭირსა არ დამრიდად“"
+      },
+      {
+        id: "fatman", name: "ფატმან ხათუნი", title: "გულანშაროს ვაჭართუხუცესის მეუღლე", realm: "gulansharo",
+        who: "ზღვათა სამეფოს დედაქალაქ გულანშაროს მკვიდრი, უსენის ცოლი — ხალისიანი, გულუხვი და მოხერხებული ქალი, რომელმაც ნესტანი სიკვდილს გადაარჩინა.",
+        actions: [
+          "ორი შავი მონისგან გამოისყიდის ნესტანს, იფარებს სახლში და შემდეგ გაქცევაში ეხმარება.",
+          "მასპინძლობს ვაჭრად გადაცმულ ავთანდილს და უმხელს ნესტანის ქაჯეთში ტყვეობის ამბავს.",
+          "უჩინარი გრძნეული მონის ხელით აგზავნის წერილს ქაჯეთში ნესტანთან."
+        ],
+        bonds: "🔓 დახსნილი: ნესტანი • 🤝 მოკავშირე: ავთანდილი • ქმარი: უსენი",
+        quote: "„კაცნი არიან გრძნეულნი, მისნი ვერ-შემჭმელნია“"
+      },
+      {
+        id: "rostevan", name: "როსტევანი", title: "არაბეთის მეფე", realm: "arabia",
+        who: "არაბეთის ბრძენი, უხვი და სამართლიანი ხელმწიფე, თინათინის მამა და ავთანდილის აღმზრდელი.",
+        actions: [
+          "საკუთარ სიცოცხლეშივე ტახტზე სვამს თინათინს და ასწავლის მეფურ სიუხვეს.",
+          "ნადირობისას წყაროსთან ხედავს ტარიელს და დარდობს მის გაუჩინარებას.",
+          "ავთანდილის ანდერძის წაკითხვის შემდეგ პატიობს მას გაპარვას და ლოცავს მის ქორწინებას."
+        ],
+        bonds: "👑 ასული: თინათინი • 🛡️ სპასპეტი: ავთანდილი • ვეზირი: სოგრატი",
+        quote: "„რასაცა გასცემ, შენია; რას არა, დაკარგულია!“"
+      },
+      {
+        id: "parsadan", name: "ფარსადანი", title: "ინდოეთის შვიდი სამეფოს მეფე", realm: "india",
+        who: "ინდოეთის ძლევამოსილი, მაგრამ თვითნება მეფე, ნესტან-დარეჯანის მამა. მისმა ერთპიროვნულმა გადაწყვეტილებამ გამოიწვია ინდოეთის ტრაგედია.",
+        actions: [
+          "შვილად ზრდის ტარიელს, სანამ ნესტან-დარეჯანი შეეძინება.",
+          "ტარიელისა და ნესტანის სიყვარულის უცოდინარი, იწვევს ხვარაზმშას ძეს სასიძოდ.",
+          "ნესტანის დაკარგვის შემდეგ მწუხარებით კვდება."
+        ],
+        bonds: "👑 ასული: ნესტანი • და: დავარი • ამირბარი: ტარიელი",
+        quote: "„აწ სოფელმან უკუღმართმან კვლა მიჩვენა მისი წესი“"
+      },
+
+      // Sheet 4: Retainers, Rulers & Antagonists (10-18)
+      {
+        id: "shermadin", name: "შერმადინი", title: "ავთანდილის ერთგული მოურავი", realm: "arabia",
+        who: "ავთანდილის უერთგულესი ყმა და აღზრდილი, ყმური ერთგულებისა და თავდადების სიმბოლო.",
+        actions: [
+          "სამი წლის განმავლობაში მართავს ავთანდილის სამფლობელოს მის არყოფნაში.",
+          "მეორედ გაპარვისას როსტევან მეფეს აბარებს ავთანდილის „ანდერძს“."
+        ],
+        bonds: "🛡️ პატრონი: ავთანდილი • 👑 მეფე: როსტევანი",
+        quote: "„შენგან ჩემი სიყვარული მართალ არის, არ საცილო“"
+      },
+      {
+        id: "sograt", name: "სოგრატი", title: "არაბეთის უხუცესი ვეზირი", realm: "arabia",
+        who: "როსტევან მეფის მთავარი მრჩეველი, რომელიც მეფეს თინათინის გამეფებას ურჩევს და ავთანდილს შუამდგომლობს.",
+        actions: [
+          "აცხადებს ქალისა და მამაკაცის თანასწორობის იდეას: „ლეკვი ლომისა სწორია“.",
+          "ავთანდილის თხოვნით მეფეს სთხოვს მის გაშვებას ტარიელის დასახმარებლად."
+        ],
+        bonds: "👑 მეფე: როსტევანი • 🤝 მეგობარი: ავთანდილი",
+        quote: "„ლეკვი ლომისა სწორია, ძუ იყოს, თუნდა ხვადია“"
+      },
+      {
+        id: "saridan", name: "სარიდანი", title: "ტარიელის მამა, მეშვიდე სამეფოს მეფე", realm: "india",
+        who: "ინდოეთის ერთ-ერთი სამეფოს დამოუკიდებელი მეფე, რომელმაც ნებაყოფლობით გააერთიანა ინდოეთი ფარსადანის სკიპტრის ქვეშ.",
+        actions: [
+          "საკუთარი სამეფო შეუერთა ფარსადანს და სანაცვლოდ მიიღო ამირბარის (მთავარსარდლის) წოდება.",
+          "მისი გარდაცვალების შემდეგ ამირბარობა მემკვიდრეობით ტარიელს გადაეცა."
+        ],
+        bonds: "👑 ძე: ტარიელი • მოკავშირე: ფარსადანი",
+        quote: "„მეფე ხარო ინდოეთის, მეცა მქვიან მეფე მისი“"
+      },
+      {
+        id: "davari", name: "დავარი", title: "ფარსადანის და, ნესტანის აღმზრდელი", realm: "india",
+        who: "მეფე ფარსადანის ქვრივი და, ქაჯეთში გათხოვილი და გრძნეულებაში განსწავლული ქალი, რომელსაც მეფემ ნესტანის აღზრდა მიანდო.",
+        actions: [
+          "ასწავლის და ზრდის ნესტან-დარეჯანს სასახლის კოშკში.",
+          "როცა ფარსადანი სასიძოს მოკვლის გამო დავარს სიკვდილით დაემუქრება, იგი ნესტანს კიდობნით ზღვაში აგზავნინებს, თავად კი თავს იკლავს."
+        ],
+        bonds: "👑 ძმა: ფარსადანი • აღზრდილი: ნესტან-დარეჯანი",
+        quote: "„დავარ იყო და მეფისა, ქვრივი, ქაჯეთს გათხოვილი“"
+      },
+      {
+        id: "khvarazmsha", name: "ხვარაზმშას ძე", title: "უცხოელი სასიძო", realm: "india",
+        who: "ხვარაზმის შაჰის ძე, რომელიც ფარსადანმა და დედოფალმა ნესტანის საქმროდ და ინდოეთის მომავალ მეფედ მოიწვიეს.",
+        actions: [
+          "დიდი ამალით ჩამოდის ინდოეთში ნესტან-დარეჯანზე დასაქორწინებლად.",
+          "ნესტანისა და ტარიელის გადაწყვეტილებით, ტარიელი მას ღამით კარავში კლავს, რათა უცხოელს არ დარჩეს ინდოეთის ტახტი."
+        ],
+        bonds: "⚔️ მეტოქე: ტარიელი • მომწვევი: ფარსადანი",
+        quote: "„არცა მინდა სასიძოებრ, არცა ინდოთ მეფედ დავსვა“"
+      },
+      {
+        id: "ramaz", name: "რამაზ მეფე", title: "ხატაეთის მბრძანებელი", realm: "khataveti",
+        who: "ინდოეთის მოხარკე ქვეყნის — ხატაეთის მეფე, რომელიც განუდგა ფარსადანს და ვერაგული ჩასაფრება მოუწყო ტარიელს.",
+        actions: [
+          "უარს ამბობს ინდოეთის მორჩილებაზე და მახეს უგებს ტარიელს.",
+          "ტარიელი ამარცხებს მის ურიცხვ ლაშქარს, იპყრობს რამაზს, შემდეგ კი ფარსადანს შეაწყალებს."
+        ],
+        bonds: "⚔️ დამმარცხებელი და შემწყალებელი: ტარიელი",
+        quote: "„ცრუ და მუხთალი სოფელი მიწყივ ავისა მქმნელია“"
+      },
+      {
+        id: "usen", name: "უსენი", title: "გულანშაროს ვაჭართუხუცესი", realm: "gulansharo",
+        who: "გულანშაროს მდიდარი ვაჭართუხუცესი და ფატმან ხათუნის ქმარი — სუსტი ნებისყოფის კაცი, რომელმაც ფიცი გატეხა.",
+        actions: [
+          "ავთანდილი ზღვაში მეკობრეებისგან იხსნის უსენის სავაჭრო ქარავანს.",
+          "ადრე, ნადიმზე დამთვრალმა უსენმა მეფე სურხავს გაუმხილა ნესტანის შეფარების საიდუმლო."
+        ],
+        bonds: "მეუღლე: ფატმან ხათუნი • 👑 მეფე: მელიქ-სურხავი",
+        quote: "„სმა წყენასა შეუდეგსა, თუცა თავსა არ დაჰკრძალავს“"
+      },
+      {
+        id: "chashnagiri", name: "ჭაშნაგირი", title: "ზღვათა მეფის კარისკაცი", realm: "gulansharo",
+        who: "მელიქ-სურხავის კარისკაცი და ფატმან ხათუნის ფარული საყვარელი, რომელიც შანტაჟით ემუქრება ფატმანს.",
+        actions: [
+          "ემუქრება ფატმანს, რომ მეფეს მოახსენებს ნესტან-დარეჯანის გაპარების ამბავს.",
+          "ავთანდილი ღამით მძინარე ჭაშნაგირს კლავს და მის ბეჭდიან თითს ფატმანს მიართმევს."
+        ],
+        bonds: "⚔️ მკვლელი: ავთანდილი • მსხვერპლი: ფატმანი",
+        quote: "„ყვავი ვარდსა იშოვნიდეს, თავი ბულბულად ეგონის“"
+      },
+      {
+        id: "surkhavi", name: "მელიქ-სურხავი", title: "ზღვათა სამეფოს ხელმწიფე", realm: "gulansharo",
+        who: "ზღვათა სამეფოსა და გულანშაროს მეფე. თავდაპირველად სურდა ნესტანი თავისი ძისთვის შეერთო, ბოლოს კი გმირებს მასპინძლობს.",
+        actions: [
+          "უსენისგან იგებს ნესტანის ამბავს და მცველებს გზავნის მის მოსაყვანად, მაგრამ ნესტანი მცველებს მოისყიდის.",
+          "ქაჯეთის აღების შემდეგ დიდი პატივით მასპინძლობს ტარიელს, ნესტანს, ავთანდილსა და ფრიდონს."
+        ],
+        bonds: "👑 ქვეშევრდომები: უსენი, ფატმანი • სტუმრები: ტარიელი, ავთანდილი",
+        quote: "„მეფე მელიქ-სურხავ ჰქვიან, ხელმწიფეა სრულად ზღვათა“"
+      },
+
+      // Sheet 5: Remaining 3 Characters (19-21) + 6 Key Concept Cards
+      {
+        id: "dulardukht", name: "დულარდუხტი", title: "ქაჯეთის ციხის მბრძანებელი", realm: "kajeti",
+        who: "ქაჯეთის სამეფოს მმართველი ქალი, გარდაცვლილი მეფის და, რომელმაც დატყვევებული ნესტანი თავისი ძმისწულის — როსანის საცოლედ ჩაკეტა ციხეში.",
+        actions: [
+          "გულანშაროდან გაქცეულ ნესტანს ატყვევებს და ქაჯეთის მიუვალ კოშკში ათავსებს.",
+          "10 000 მცველით იცავს ქაჯეთის სამ გვირაბს, სანამ სამი გმირი ციხეს არ აიღებს."
+        ],
+        bonds: "👑 ძმისწული: როსანი • ტყვე: ნესტან-დარეჯანი",
+        quote: "„ციხესა შიგან მაგარსა, კლდესა მაღალსა და სალსა“"
+      },
+      {
+        id: "rosan", name: "როსანი", title: "ქაჯეთის უფლისწული", realm: "kajeti",
+        who: "ქაჯეთის ტახტის მემკვიდრე, დულარდუხტის ძმისწული, რომელსაც მამიდამ ნესტან-დარეჯანის შერთვა განუზრახა.",
+        actions: [
+          "შორეულ ლაშქრობაში იმყოფება, სანამ ნესტანი ქაჯეთის ციხეში ჰყავთ დამწყვდეული.",
+          "მის დაბრუნებამდე ტარიელი, ავთანდილი და ფრიდონი იღებენ ქაჯეთს და ათავისუფლებენ ნესტანს."
+        ],
+        bonds: "👑 მამიდა: დულარდუხტი • დანიშნული ტყვე: ნესტანი",
+        quote: "„როსანს ჰქვიან უფროსსა ძმას, მისთვის უნდოდა შერთვა მისი“"
+      },
+      {
+        id: "rustaveli", name: "შოთა რუსთაველი", title: "პოეტი, თამარ მეფის მეხოტბე", realm: "arabia",
+        who: "XII–XIII საუკუნეების უდიდესი ქართველი პოეტი და მოაზროვნე, თამარ მეფისა და დავით სოსლანის თანამედროვე, პოემის ავტორი და მთხრობელი.",
+        actions: [
+          "პროლოგში აყალიბებს შაირობის (პოეზიის) და მიჯნურობის (ამაღლებული სიყვარულის) თეორიას.",
+          "უძღვნის პოემას თამარ მეფეს და გმირთა თავგადასავალს ბრძნული აფორიზმებით ამკობს."
+        ],
+        bonds: "👑 ხელმწიფე: თამარ მეფე • გმირები: ტარიელი, ავთანდილი, ფრიდონი",
+        quote: "„გრძელი სიტყვა მოკლედ ითქმის, შაირია ამად კარგი“"
+      }
+    ];
+
+    const CONCEPT_CARDS = [
+      {
+        badge: "გასაღები #1 • სათაურის საიდუმლო",
+        title: "რატომ ჰქვია პოემას „ვეფხისტყაოსანი“?",
+        body: "ძველ ქართულში „ვეფხი“ დღევანდელ ჯიქს (ლეოპარდს/პანთერას) ნიშნავდა. ტარიელი ვეფხვის ტყავს იმიტომ ატარებს, რომ ხალებიანი და მრისხანე ვეფხვი მას თავის სატრფოს — ნესტან-დარეჯანს აგონებს („წყრომით მკვირცხლად შემომხედნა, მგვანდეღაო ვეფხსა მკლველსა“). ამგვარად, სათაური „ვეფხისტყაოსანი“ ერთ სახეში აერთიანებს ტარიელსა და ნესტანს!",
+        maxim: "„მისად ნიშნად მაცვიაო ტყავი მისი, ვისგან ვბნდები“"
+      },
+      {
+        badge: "გასაღები #2 • პროლოგის ფილოსოფია",
+        title: "რა არის „მიჯნურობა“ რუსთაველის მიხედვით?",
+        body: "პროლოგში რუსთაველი ერთმანეთისგან მიჯნავს ამაღლებულ, სულიერ და ერთგულ სიყვარულს (მიჯნურობას) და მდაბალ ხორციელ ვნებას (სიძვას). ნამდვილი მიჯნური უნდა იყოს ბრძენი, უხვი, მამაცი, საიდუმლოს შემნახველი და ერთგული სიკვდილამდე — როგორიც არიან ტარიელი და ავთანდილი.",
+        maxim: "„მიჯნურობა არის ტურფა, საცოდნელად ძნელი გვარი“ (სტრ. 20)"
+      },
+      {
+        badge: "გასაღები #3 • სტრუქტურა",
+        title: "რატომ იყოფა თხრობა „აწმყოდ“ და „მოგონებად“?",
+        body: "რუსთაველი იყენებს ჰომეროსისა და არისტოტელეს კომპოზიციურ ხერხს: ამბავი იწყება შუაგულიდან — არაბეთში უცხო მოყმის გამოჩენით, რაც მკითხველში ინტერესს აღძრავს. მხოლოდ მას შემდეგ, რაც ავთანდილი ქვაბში პოულობს ტარიელს (თავი 10–29), ვიგებთ ტარიელისა და ნესტანის წარსულს ინდოეთში.",
+        maxim: "„გრძელი სიტყვა მოკლედ ითქმის, შაირია ამად კარგი“ (სტრ. 12)"
+      },
+      {
+        badge: "გასაღები #4 • ზნეობრივი მწვერვალი",
+        title: "რას გვასწავლის „ავთანდილის ანდერძი“?",
+        body: "როდესაც როსტევან მეფე ავთანდილს ტარიელთან დაბრუნებას უკრძალავს, ავთანდილი დგება არჩევანის წინაშე: ფეოდალური მორჩილება თუ მეგობრის გადარჩენა. პლატონსა და მოციქულებზე დაყრდნობით, იგი ამტკიცებს, რომ ფიცის გატეხა სულს კლავს, ხოლო მოყვასისათვის თავდადება უზენაესი ქრისტიანული და რაინდული ვალია.",
+        maxim: "„სიცრუე და ორპირობა ავნებს ხორცსა, მერმე სულსა“ (სტრ. 789)"
+      },
+      {
+        badge: "გასაღები #5 • გონება და რაციონალიზმი",
+        title: "ვინ არიან „ქაჯები“ პოემაში?",
+        body: "ხალხურ ზღაპრებში ქაჯები ბოროტ სულებად ითვლებოდნენ, მაგრამ რუსთაველი მათ რეალისტურად ხსნის: ფატმან ხათუნი განმარტავს, რომ ქაჯები უხორცო სულები კი არა, ჩვეულებრივი ხორციელი ადამიანები არიან, რომლებიც ფლობენ საოცარ ხელოვნებას (გრძნეულებას) და მიუვალ კლდოვან ციხესიმაგრეში ცხოვრობენ.",
+        maxim: "„კაცნი არიან გრძნეულნი, მისნი ვერ-შემჭმელნია“ (სტრ. 1237)"
+      },
+      {
+        badge: "გასაღები #6 • კულმინაცია",
+        title: "„სამი თათბირი“ ქაჯეთის ციხის წინ (თავი 55–57)",
+        body: "ქაჯეთის აღების წინ სამივე გმირის ხასიათი მათ გეგმაში ვლინდება: 1) ფრიდონი (სიმარჯვე) — თოკზე გასვლას სთავაზობს; 2) ავთანდილი (გონიერება) — ვაჭრულად მარტო შეპარვას; 3) ტარიელი (რაინდული სიმამაცე) — 300 კაცის სამად გაყოფას და სამივე კარიბჭეზე ერთდროულ იერიშს. იმარჯვებს ტარიელის გეგმა!",
+        maxim: "„იგი სამნივე დაფარნეს შვიდთავე ცათა სვეტითა“ (სტრ. 1418)"
+      }
+    ];
+
+    const PLOT_STEPS = [
+      {
+        num: 1, mode: "აწმყო", route: "არაბეთი (თავი 1–2)",
+        chars: ["rostevan", "tinatin", "sograt"],
+        title: "თინათინის გამეფება არაბეთში",
+        what: "მოხუცი მეფე როსტევანი, რომელსაც ძე არ ჰყავს, ვეზირთა თათბირით არაბეთის ტახტზე სვამს თავის ასულს — თინათინს და ასწავლის მას მეფურ სიუხვეს.",
+        why: "მნიშვნელობა: აცხადებს ქალისა და მამაკაცის თანასწორობას („ლეკვი ლომისა სწორია“) და ეხმიანება თამარ მეფის გამეფებას.",
+        q: "შეკითხვა: რას ურიგებს თინათინი ქვეშევრდომებს გამეფების დღეს?",
+        a: "პასუხი: ხსნის მამის დაბეჭდილ საჭურჭლეს და უხვად გასცემს მთელ საგანძურს („რასაცა გასცემ, შენია“)."
+      },
+      {
+        num: 2, mode: "აწმყო", route: "არაბეთი ➔ სანადირო ველი (თავი 3–4)",
+        chars: ["rostevan", "avtandil", "tariel"],
+        title: "ნადირობა და უცხო მოყმის ნახვა",
+        what: "როსტევანისა და ავთანდილის ნადირობის შემდეგ, წყაროს პირას გამოჩნდება ვეფხისტყაოსანი მტირალი რაინდი (ტარიელი), რომელიც მეფის მონებს იგერიებს და უჩინარდება.",
+        why: "მნიშვნელობა: აქედან იწყება პოემის მთავარი ინტრიგა — ვინ არის ეს უცხო მოყმე და რატომ ტირის?",
+        q: "შეკითხვა: როგორ ამშვიდებს თინათინი უცხო მოყმის გაუჩინარებით დაღონებულ მამას?",
+        a: "პასუხი: ეუბნება, რომ დარდს საქმის მოგვარება სჯობს და ურჩევს მძებნელების გაგზავნას."
+      },
+      {
+        num: 3, mode: "აწმყო", route: "არაბეთი ➔ უდაბნო (თავი 5–7)",
+        chars: ["tinatin", "avtandil", "shermadin"],
+        title: "თინათინის დავალება და 3-წლიანი ძიება",
+        what: "თინათინი იბარებს თავის მიჯნურ ავთანდილს და ავალებს 3 წელი ეძებოს უცხო მოყმე. ავთანდილი მამულს შერმადინს აბარებს და მთელ ქვეყანას მოივლის.",
+        why: "მნიშვნელობა: თინათინისა და ავთანდილის სიყვარული სხვისი გაჭირვების გაზიარებითა და გმირობით იცდება.",
+        q: "შეკითხვა: ვისგან იგებს ავთანდილი უცხო მოყმის სამყოფელს სამი წლის მიწურულს?",
+        a: "პასუხი: უდაბნოში შეხვედრილი სამი ხატაელი ძმისგან, რომლებიც ტარიელის ქვაბს მიასწავლიან."
+      },
+      {
+        num: 4, mode: "აწმყო", route: "დევთა ქვაბი (თავი 8–9)",
+        chars: ["avtandil", "asmat", "tariel"],
+        title: "შეყრა ქვაბში და გმირთა დაძმობილება",
+        what: "ავთანდილი კლდის ქვაბში პოულობს ასმათს, მიჯნურობის სახელით მოიპოვებს მის ნდობას, შემდეგ კი ხვდება ტარიელს. ორი გმირი ერთმანეთს ძმობას შეჰფიცავს.",
+        why: "მნიშვნელობა: იკვრება ტარიელისა და ავთანდილის უღალატო ძმადნაფიცობა, რაც პოემის მთავარი მამოძრავებელი ძალაა.",
+        q: "შეკითხვა: ვინ ცხოვრობდა ამ კლდის ქვაბში ტარიელის მისვლამდე?",
+        a: "პასუხი: დევები, რომლებიც ტარიელმა გაწყვიტა და მათი გამოქვაბული და საგანძური დაიკავა."
+      },
+      {
+        num: 5, mode: "მოგონება", route: "ინდოეთი (თავი 10–15)",
+        chars: ["tariel", "parsadan", "nestan", "asmat"],
+        title: "ტარიელის წარსული და ნესტანის სიყვარული",
+        what: "ტარიელი უყვება ავთანდილს თავის ამბავს: როგორ აღზარდა იგი ინდოეთის მეფე ფარსადანმა და როგორ შეუყვარდა ფარდის მიღმა ნანახი მზისებრი ნესტან-დარეჯანი.",
+        why: "მნიშვნელობა: აქედან იწყება „მოგონების“ (წარსულის) ნაწილი, რომელიც ხსნის ტარიელის მწუხარების მიზეზს.",
+        q: "შეკითხვა: რა მოუვიდა ტარიელს, როდესაც პირველად იხილა ნესტან-დარეჯანი?",
+        a: "პასუხი: გონება დაკარგა და სამ დღეს უგონოდ (დაბნედილი) იწვა."
+      },
+      {
+        num: 6, mode: "მოგონება", route: "ინდოეთი ➔ ხატაეთი (თავი 16–22)",
+        chars: ["tariel", "nestan", "ramaz"],
+        title: "ხატაეთის ომი და ხატაური რიდე",
+        what: "ნესტანი ტარიელს სთხოვს, ცრემლების ნაცვლად საგმირო საქმით გამოიჩინოს თავი და დაიმორჩილოს განდგომილი ხატაელები. ტარიელი ამარცხებს რამაზ მეფეს.",
+        why: "მნიშვნელობა: ხატაეთიდან ჩამოტანილ ხატაურ რიდეს ტარიელი ნესტანს ჩუქნის — სწორედ ამ რიდის ნაჭერი გახდება მოგვიანებით ნესტანის პოვნის ნიშანი!",
+        q: "შეკითხვა: რას უბრძანებს ნესტანი ტარიელს ხატაეთიდან გამარჯვებით დაბრუნებისას?",
+        a: "პასუხი: სთხოვს, ხატაური რიდე თავზე მოიხვიოს, ხოლო თავად ნესტანი ტარიელს სამკლაურს ჩუქნის."
+      },
+      {
+        num: 7, mode: "მოგონება", route: "ინდოეთი (თავი 23–25)",
+        chars: ["parsadan", "nestan", "tariel", "khvarazmsha"],
+        title: "საქორწილო თათბირი და სასიძოს მოკვლა",
+        what: "ფარსადანი გადაწყვეტს ნესტანი ხვარაზმშას ძეს მიათხოვოს. ნესტანი და ტარიელი არ ურიგდებიან ტახტის უცხოელისთვის გადაცემას და ტარიელი ღამით კლავს სასიძოს.",
+        why: "მნიშვნელობა: აჩვენებს ნესტანისა და ტარიელის ბრძოლას როგორც სიყვარულის, ისე სამშობლოს კანონიერი ტახტის დასაცავად.",
+        q: "შეკითხვა: რატომ არ გაამხილა ტარიელმა თავისი სიყვარული მეფის თათბირზე?",
+        a: "პასუხი: ფეოდალური კარის ეტიკეტით მიჯნურობის საჯაროდ გამხელა სირცხვილად ითვლებოდა."
+      },
+      {
+        num: 8, mode: "მოგონება", route: "ინდოეთი ➔ ზღვა (თავი 26)",
+        chars: ["davari", "nestan", "asmat", "tariel"],
+        title: "დავარის რისხვა და ნესტანის გადაკარგვა",
+        what: "განრისხებული ფარსადანი თავის დას — დავარს სიკვდილით ემუქრება. დავარი ნესტანს კიდობანში სვამს, ორ ქაჯ მონას ზღვაში აგზავნინებს, თავად კი თავს იკლავს.",
+        why: "მნიშვნელობა: ნესტანი უკვალოდ იკარგება ზღვაში, ხოლო ტარიელი ასმათთან ერთად მის საძებრად მიდის.",
+        q: "შეკითხვა: რატომ მოიკლა თავი მამიდა დავარმა ნესტანის გაგზავნის შემდეგ?",
+        a: "პასუხი: მეფე ფარსადანმა დაიფიცა, რომ დავარს ცოცხალს არ დატოვებდა."
+      },
+      {
+        num: 9, mode: "მოგონება", route: "მულღაზანზარი ➔ ქვაბი (თავი 27–29)",
+        chars: ["tariel", "pridon", "avtandil"],
+        title: "ნურადინ-ფრიდონი და პირველი ცნობა ნესტანზე",
+        what: "ძიებით დაღლილი ტარიელი ზღვის პირას უძმობილდება ნურადინ-ფრიდონს და ეხმარება ბიძაშვილების ძლევაში. ფრიდონი იხსენებს, რომ ზღვაში კიდობნიდან გადმოყვანილი მზისებრი ქალი ნახა.",
+        why: "მნიშვნელობა: აქ მთავრდება ტარიელის ნაამბობი; ავთანდილი ჰპირდება, რომ 2 თვეში დაბრუნდება და ნესტანს იპოვის!",
+        q: "შეკითხვა: რამდენი ხნით სთხოვს ავთანდილი ტარიელს ქვაბში მოცდას?",
+        a: "პასუხი: ორი თვით, რათა არაბეთში თინათინს ამბავი მიუტანოს და უკან დაბრუნდეს."
+      },
+
+      // Sheet 7: Steps 10-18 (Present Action -> Liberation -> Weddings)
+      {
+        num: 10, mode: "აწმყო", route: "არაბეთი (თავი 30–35)",
+        chars: ["avtandil", "tinatin", "rostevan", "shermadin"],
+        title: "ავთანდილის ანდერძი და მეორე წასვლა",
+        what: "არაბეთში დაბრუნებულ ავთანდილს როსტევანი წასვლას უკრძალავს. ავთანდილი წერს უკვდავ „ანდერძს“, ათავისუფლებს მონებს, ქონებას გლახაკებს ურიგებს და ფარულად მიდის.",
+        why: "მნიშვნელობა: „ავთანდილის ანდერძი“ პოემის ფილოსოფიური მწვერვალია — მეგობრის ხსნა უზენაესი ზნეობრივი კანონია.",
+        q: "შეკითხვა: როგორ იქცევა როსტევან მეფე, როცა შერმადინი მას ავთანდილის ანდერძს უკითხავს?",
+        a: "პასუხი: რისხვა სინანულითა და ცრემლით ეცვლება და ბრძანებს ილოცონ ავთანდილის მშვიდობით დაბრუნებისთვის."
+      },
+      {
+        num: 11, mode: "აწმყო", route: "უდაბნო / შამბნარი (თავი 36–39)",
+        chars: ["avtandil", "tariel", "asmat"],
+        title: "ლომ-ვეფხვის დახოცა და ტარიელის მობრუნება",
+        what: "ავთანდილი შამბნარში პოულობს სასოწარკვეთილ ტარიელს დახოცილი ლომისა და ვეფხვის გვერდით. ავთანდილი ბრძნული შეგონებით აცოცხლებს ძმადნაფიცს და ქვაბში აბრუნებს.",
+        why: "მნიშვნელობა: ლომ-ვეფხვის ეპიზოდი სიმბოლურად ასახავს ტარიელისა და ნესტანის დრამას, ხოლო ავთანდილის სიტყვა — გონების გამარჯვებას სასოწარკვეთაზე.",
+        q: "შეკითხვა: რატომ აკოცა ტარიელმა ვეფხვს მოკვლის წინ?",
+        a: "პასუხი: ვეფხვმა მას თავისი სატრფო — ნესტან-დარეჯანი მოაგონა."
+      },
+      {
+        num: 12, mode: "აწმყო", route: "ქვაბი ➔ მულღაზანზარი (თავი 40–41)",
+        chars: ["avtandil", "pridon"],
+        title: "მნათობთა გალობა და სტუმრობა ფრიდონთან",
+        what: "მარტო მიმავალი ავთანდილი უმღერის მზესა და 7 მნათობს, ჩადის ფრიდონთან მულღაზანზარში, ნახულობს ნესტანის გამოჩენის ადგილს და მიემართება ზღვათა სამეფოსკენ.",
+        why: "მნიშვნელობა: ავთანდილი ბრმა ძიების ნაცვლად მიმართავს გონივრულ, ანალიტიკურ კვლევას — მიდის იქ, სადაც ყველა გემი იყრის თავს.",
+        q: "შეკითხვა: რატომ მიდის ავთანდილი სწორედ სავაჭრო ქალაქ გულანშაროში?",
+        a: "პასუხი: რადგან გულანშარო ზღვათა გზაჯვარედინია, სადაც ყველა ქვეყნის ხომალდი და ცნობა იყრის თავს."
+      },
+      {
+        num: 13, mode: "აწმყო", route: "ზღვა ➔ გულანშარო (თავი 42–46)",
+        chars: ["avtandil", "usen", "fatman", "chashnagiri"],
+        title: "გულანშარო, ფატმან ხათუნი და ჭაშნაგირი",
+        what: "ავთანდილი ამარცხებს მეკობრეებს, ვაჭრად გადაცმული შედის გულანშაროში, ეწვევა ფატმან ხათუნს და ღამით კლავს მოღალატე ჭაშნაგირს, რომელიც ფატმანს დაბეზღებით ემუქრებოდა.",
+        why: "მნიშვნელობა: ავთანდილი მზად არის ნებისმიერი სირთულე დაითმინოს, რათა ფატმანისგან ნესტანის საიდუმლო გაიგოს.",
+        q: "შეკითხვა: რატომ მოკლა ავთანდილმა ჭაშნაგირი?",
+        a: "პასუხი: ჭაშნაგირი ფატმანს ემუქრებოდა, რომ მეფეს გაუმხელდა ნესტან-დარეჯანის შეფარებისა და გაპარების ამბავს."
+      },
+      {
+        num: 14, mode: "აწმყო", route: "გულანშარო ➔ ქაჯეთი (თავი 47–52)",
+        chars: ["fatman", "nestan", "dulardukht", "avtandil"],
+        title: "ნესტანის პოვნა ქაჯეთში და წერილი ტარიელთან",
+        what: "ფატმანი ჰყვება, როგორ დაიხსნა ნესტანი და როგორ ჩავარდა იგი გაქცევის შემდეგ ქაჯეთის ციხეში დულარდუხტის ხელში. ფატმანის გრძნეულ მონას ქაჯეთიდან მოაქვს ნესტანის წერილი!",
+        why: "მნიშვნელობა: მრავალწლიანი ძიება გვირგვინდება წარმატებით — ნესტანი ცოცხალია და მისი სამყოფელი ცნობილია!",
+        q: "შეკითხვა: რამდენი მცველი და რამდენი გვირაბი იცავს ქაჯეთის ციხეს ნესტანის წერილის მიხედვით?",
+        a: "პასუხი: კლდეში ნაკვეთ სამ გვირაბს (კარიბჭეს) იცავს 10 000 გრძნეული მეომარი."
+      },
+      {
+        num: 15, mode: "აწმყო", route: "გულანშარო ➔ ქვაბი (თავი 53)",
+        chars: ["avtandil", "tariel", "asmat"],
+        title: "მახარობელი ავთანდილი და ქაჯური აბჯარი",
+        what: "ავთანდილი ბრუნდება ქვაბში და ტარიელს გადასცემს ნესტანის წერილსა და ხატაური რიდის ნაკვეთს. გმირები ხსნიან დევთა დაბეჭდილ საჭურჭლეს და იცვამენ უკვეთელ ქაჯურ აბჯარს.",
+        why: "მნიშვნელობა: სასოწარკვეთა სიხარულით იცვლება — „ბოროტსა სძლია კეთილმან, არსება მისი გრძელია!“",
+        q: "შეკითხვა: რატომ ვერ ხსნიდა ტარიელი მანამდე დევთა მეოთხე საჭურჭლეს?",
+        a: "პასუხი: კარზე ეწერა, რომ იქ დაცული ქაჯური იარაღის გახსნა მხოლოდ ქაჯეთზე გალაშქრების დროს შეიძლებოდა."
+      },
+      {
+        num: 16, mode: "აწმყო", route: "მულღაზანზარი ➔ ქაჯეთი (თავი 54–57)",
+        chars: ["tariel", "avtandil", "pridon", "nestan"],
+        title: "სამი თათბირი და ქაჯეთის ციხის აღება!",
+        what: "ტარიელი, ავთანდილი და ფრიდონი 300 მხედრით მიადგებიან ქაჯეთს. „სამი თათბირის“ შემდეგ, ტარიელის გეგმით, 300 კაცს სამად ჰყოფენ, განთიადზე სამივე კარიბჭეს იღებენ და ათავისუფლებენ ნესტანს!",
+        why: "მნიშვნელობა: პოემის კულმინაცია — სამთა ძმადნაფიცთა ერთიანობა ამსხვრევს ქაჯეთის მიუვალ ციხესიმაგრეს.",
+        q: "შეკითხვა: რა სთავაზობდნენ ფრიდონი და ავთანდილი ტარიელს თავიანთ თათბირებში?",
+        a: "პასუხი: ფრიდონი — თოკზე გასვლით კარის გაღებას; ავთანდილი — ვაჭრულად მარტო შეპარვას."
+      },
+      {
+        num: 17, mode: "აწმყო", route: "გულანშარო ➔ არაბეთი (თავი 58–61)",
+        chars: ["tariel", "nestan", "avtandil", "tinatin", "rostevan"],
+        title: "მადლიერება ფატმანისადმი და არაბეთის ქორწილი",
+        what: "გმირები ქაჯეთის მთელ საგანძურს ფატმან ხათუნს ჩუქნიან, მულღაზანზარში ფრიდონთან ზეიმობენ, შემდეგ კი არაბეთში ჩადიან, სადაც ავთანდილი და თინათინი ქორწინდებიან.",
+        why: "მნიშვნელობა: სიკეთე და ერთგულება ჯილდოვდება; არაბეთში მყარდება ბედნიერი თანამეფობა.",
+        q: "შეკითხვა: ვინ სთხოვს როსტევან მეფეს ავთანდილის პატიებასა და თინათინის შერთვას?",
+        a: "პასუხი: თავად ტარიელი, რომელიც მადლიერებით იჩოქებს მოხუცი მეფის წინაშე."
+      },
+      {
+        num: 18, mode: "აწმყო", route: "არაბეთი ➔ ინდოეთი (თავი 62–65)",
+        chars: ["tariel", "nestan", "asmat", "rustaveli"],
+        title: "ინდოეთის ტახტი, ასმათის დაფასება და დასასრული",
+        what: "ტარიელი და ნესტანი ბრუნდებიან ინდოეთში, იმორჩილებენ ხატაელებს, ადიან შვიდივე სამეფოს ტახტზე და ერთგულ ასმათს მეშვიდე სამეფოს უბოძებენ სამართავად!",
+        why: "მნიშვნელობა: სამივე სამეფოში (ინდოეთი, არაბეთი, მულღაზანზარი) დგება მშვიდობისა და სამართლიანობის ოქროს ხანა.",
+        q: "შეკითხვა: რომელი ცნობილი მეტაფორით აღწერს რუსთაველი გმირთა სამეფოებში დამყარებულ მშვიდობას?",
+        a: "პასუხი: „თხა და მგელი ერთად ძოვდეს“ — სუსტისა და ძლიერის სრული თანასწორობა და მშვიდობა."
+      }
+    ];
+
+    function renderCharacterCardHtml(c) {
+      const rMeta = REALM_COLORS[c.realm] || { name: c.realm, color: "#666" };
+      const actionsHtml = c.actions.map((act) => `<li>${act}</li>`).join("");
+      return `
+        <article class="char-card">
+          <div>
+            <div class="char-card-top">
+              <div class="char-avatar-wrap" style="border-color:${rMeta.color}">
+                <img src="assets/characters/${c.id}.png" alt="${c.name}" />
+              </div>
+              <div class="char-title-block">
+                <span class="char-realm-badge" style="background:${rMeta.color}">${rMeta.name}</span>
+                <div class="char-name">${c.name}</div>
+                <div class="char-subtitle">${c.title}</div>
+              </div>
+            </div>
+
+            <div class="char-section-label">ვინ არის:</div>
+            <p class="char-who-text">${c.who}</p>
+
+            <div class="char-section-label">როლი სიუჟეტში:</div>
+            <ul class="char-actions-list">${actionsHtml}</ul>
+          </div>
+
+          <div>
+            <div class="char-bonds-strip"><strong>კავშირები:</strong> ${c.bonds}</div>
+            <div class="char-quote-box">${c.quote}</div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderConceptCardHtml(k) {
+      return `
+        <article class="concept-card">
+          <div>
+            <span class="concept-badge">${k.badge}</span>
+            <div class="concept-title">${k.title}</div>
+            <p class="char-who-text" style="font-size:0.62rem; line-height:1.34;">${k.body}</p>
+          </div>
+          <div class="char-quote-box" style="background:#5c161b;">${k.maxim}</div>
+        </article>
+      `;
+    }
+
+    function renderPlotStepCardHtml(s) {
+      const avatarsHtml = s.chars
+        .map((cid) => `<img src="assets/characters/${cid}.png" alt="${cid}" />`)
+        .join("");
+
+      return `
+        <article class="plot-step-card ${s.mode === "მოგონება" ? "flashback-step" : ""}">
+          <div>
+            <div class="ps-header">
+              <span class="ps-num">ნაბიჯი ${s.num} • ${s.mode}</span>
+              <span class="ps-route">${s.route}</span>
+            </div>
+            <div class="ps-title-row">
+              <div class="ps-avatars">${avatarsHtml}</div>
+              <div class="ps-title">${s.title}</div>
+            </div>
+            <p class="ps-what-happens">${s.what}</p>
+          </div>
+
+          <div>
+            <div class="ps-why-important">${s.why}</div>
+            <div class="ps-quiz-box" onclick="this.classList.toggle('revealed')" title="დააწკაპუნეთ პასუხის გამოსაჩენად">
+              <strong>❓ ${s.q}</strong>
+              <span class="ans-line">✓ ${s.a}</span>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function buildAllDynamicSheets() {
+      const container = document.getElementById("dynamicEducationalSheets");
+      const htmlSheets = [];
+
+      // Sheet 3: Characters 1–9
+      htmlSheets.push(`
+        <section class="a4-sheet" data-category="characters">
+          <div class="sheet-header">
+            <div class="sheet-title">✂️ პერსონაჟთა სასწავლო ბარათები (ნაწილი I — მთავარი გმირები და ხელმწიფეები)</div>
+            <div class="sheet-subtitle">ფურცელი 3 / 7 • პერსონაჟები 1–9 (გამოჭერით ბარათებად)</div>
+          </div>
+          <div class="cards-grid-3x3">
+            ${CHARACTER_CARDS.slice(0, 9).map(renderCharacterCardHtml).join("")}
+          </div>
+          <div class="sheet-footer">
+            <span>ფურცელი 3 / 7 • პერსონაჟთა ბარათები (1–9)</span>
+            <span>თითოეული ბარათი განმარტავს პერსონაჟის ვინაობას, მოქმედებასა და კავშირებს</span>
+          </div>
+        </section>
+      `);
+
+      // Sheet 4: Characters 10–18
+      htmlSheets.push(`
+        <section class="a4-sheet" data-category="characters">
+          <div class="sheet-header">
+            <div class="sheet-title">✂️ პერსონაჟთა სასწავლო ბარათები (ნაწილი II — მოკავშირეები და მოწინააღმდეგეები)</div>
+            <div class="sheet-subtitle">ფურცელი 4 / 7 • პერსონაჟები 10–18 (გამოჭერით ბარათებად)</div>
+          </div>
+          <div class="cards-grid-3x3">
+            ${CHARACTER_CARDS.slice(9, 18).map(renderCharacterCardHtml).join("")}
+          </div>
+          <div class="sheet-footer">
+            <span>ფურცელი 4 / 7 • პერსონაჟთა ბარათები (10–18)</span>
+            <span>არაბეთის, ინდოეთის, ხატაეთისა და გულანშაროს პერსონაჟები</span>
+          </div>
+        </section>
+      `);
+
+      // Sheet 5: Characters 19–21 + 6 Key Concept Cards
+      htmlSheets.push(`
+        <section class="a4-sheet" data-category="characters">
+          <div class="sheet-header">
+            <div class="sheet-title">✂️ პერსონაჟთა ბარათები (19–21) და პოემის 6 მთავარი გასაღები</div>
+            <div class="sheet-subtitle">ფურცელი 5 / 7 • ქაჯეთის პერსონაჟები, რუსთაველი და 6 თემატური ბარათი</div>
+          </div>
+          <div class="cards-grid-3x3">
+            ${CHARACTER_CARDS.slice(18, 21).map(renderCharacterCardHtml).join("")}
+            ${CONCEPT_CARDS.map(renderConceptCardHtml).join("")}
+          </div>
+          <div class="sheet-footer">
+            <span>ფურცელი 5 / 7 • პერსონაჟები (19–21) + პოემის 6 გასაღები</span>
+            <span>6 გასაღები ბარათი მოსწავლეებს უხსნის პოემის მთავარ იდეებს</span>
+          </div>
+        </section>
+      `);
+
+      // Sheet 6: Plot Steps 1–9
+      htmlSheets.push(`
+        <section class="a4-sheet" data-category="steps">
+          <div class="sheet-header">
+            <div class="sheet-title">✂️ სიუჟეტის გზამკვლევი ბარათები (ნაბიჯები ①–⑨: არაბეთი, ქვაბი და ინდოეთის მოგონება)</div>
+            <div class="sheet-subtitle">ფურცელი 6 / 7 • შეესაბამება რუკაზე დატანილ ნომრებს ①–⑨</div>
+          </div>
+          <div class="cards-grid-3x3">
+            ${PLOT_STEPS.slice(0, 9).map(renderPlotStepCardHtml).join("")}
+          </div>
+          <div class="sheet-footer">
+            <span>ფურცელი 6 / 7 • სიუჟეტის ნაბიჯები ①–⑨</span>
+            <span>წაიკითხეთ ბარათი, იპოვეთ შესაბამისი პერსონაჟის ბარათი და გადაადგილეთ რუკაზე</span>
+          </div>
+        </section>
+      `);
+
+      // Sheet 7: Plot Steps 10–18
+      htmlSheets.push(`
+        <section class="a4-sheet" data-category="steps">
+          <div class="sheet-header">
+            <div class="sheet-title">✂️ სიუჟეტის გზამკვლევი ბარათები (ნაბიჯები ⑩–⑱: ანდერძი, გულანშარო, ქაჯეთი და ქორწილები)</div>
+            <div class="sheet-subtitle">ფურცელი 7 / 7 • შეესაბამება რუკაზე დატანილ ნომრებს ⑩–⑱</div>
+          </div>
+          <div class="cards-grid-3x3">
+            ${PLOT_STEPS.slice(9, 18).map(renderPlotStepCardHtml).join("")}
+          </div>
+          <div class="sheet-footer">
+            <span>ფურცელი 7 / 7 • სიუჟეტის ნაბიჯები ⑩–⑱</span>
+            <span>„ბოროტსა სძლია კეთილმან, — არსება მისი გრძელია!“</span>
+          </div>
+        </section>
+      `);
+
+      container.innerHTML = htmlSheets.join("");
+    }
+
+    function setupControls() {
+      const pills = document.querySelectorAll(".nav-pill[data-sheet]");
+      pills.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          pills.forEach((p) => p.classList.remove("active"));
+          btn.classList.add("active");
+          const cat = btn.getAttribute("data-sheet");
+          document.querySelectorAll(".a4-sheet").forEach((sheet) => {
+            if (cat === "all" || sheet.getAttribute("data-category") === cat) {
+              sheet.classList.remove("hidden-sheet");
+              sheet.style.display = "flex";
+            } else {
+              sheet.classList.add("hidden-sheet");
+              sheet.style.display = "none";
+            }
+          });
+        });
+      });
+
+      const toggleAnswersBtn = document.getElementById("toggleAnswersBtn");
+      toggleAnswersBtn.addEventListener("click", () => {
+        document.body.classList.toggle("hide-answers");
+        const hidden = document.body.classList.contains("hide-answers");
+        toggleAnswersBtn.textContent = hidden ? "👁️ პასუხების გამოჩენა" : "👁️ პასუხების დაფარვა";
+      });
+    }
+
+    buildAllDynamicSheets();
+    setupControls();
+  </script>
+</body>
+</html>
