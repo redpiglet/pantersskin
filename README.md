@@ -16,6 +16,16 @@ An interactive **Scrollytelling Swimlane Realm Network Graph** and **Complete Bi
   - Click any character node or emoji edge to inspect character status, active bonds, exact stanza quotes (`stanza_ref`), and one-click links into the full bilingual stanza reader.
   - Search instantly by stanza number (`1–1669`), chapter title, or Georgian/English text.
 
+## Episode QR codes
+
+Generate the episode cards' vector QR codes from the `reader_url` values in `data/episode-links.json`:
+
+```sh
+python3 scripts/generate_qr_codes.py
+```
+
+The generator uses only the Python standard library and writes `assets/qr/episode-NN-qr.svg`, preserving the filenames used by the card data. Each SVG includes a four-module white quiet zone. URLs can contain up to 78 UTF-8 bytes. Optional `--input` and `--output-dir` arguments allow a different link file or output directory.
+
 ## Repository housekeeping
 
 Keep source data, original artwork in `assets/`, and print builders in version control. `.gitignore` excludes local scratch work under `tmp/`, caches, and generated exports under `output/`. The three current episode illustration manifests under `output/episode-illustrations/` remain versionable because the deck builders read them as inputs.

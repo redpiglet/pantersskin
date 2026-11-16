@@ -1,8 +1,0 @@
-{
-  "id": "parsadan",
-  "asset": "assets/characters/manga-color/parsadan-v2.png",
-  "references": [
-    "assets/characters/manga-color/parsadan-v1.png"
-  ],
-  "prompt": "Use case: precise-object-edit. Edit this parsadan coloured manga medallion. Preserve the exact character drawing, face, age, hair, clothes, crown/headgear, colour, pose, composition, fine gold circular rim and bold manga ink. The teal background has unwanted transparent holes. Fill the ENTIRE field behind the figure INSIDE the gold circle with continuous solid muted teal matching the intact area, no dark patches and no holes. Make the entire PNG fully OPAQUE: outside the circle use plain warm ivory #F6F1E4. Every pixel is opaque including corners. Nothing in the face or clothes should be erased or changed; use the existing portrait as the image to repair. Keep square1254x1254 or1536x1536. No text, letters, numbers, bubbles, SFX, banners, scrolls, watermarks. This is a printable illustration with a fullyopaque ivory square background and fullyopaque teal circular portrait field, not a transparent cutout."
-}

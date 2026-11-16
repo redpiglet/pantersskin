@@ -1,21 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Generates high-precision, resolution-independent vector SVG QR codes for all 24 episodes
-of 'The Knight in the Panther's Skin' (ვეფხისტყაოსანი).
+Generate vector SVG QR codes from the reader URLs in data/episode-links.json.
 
-Links each card to the mobile-optimized reader at:
-https://nikusha37.github.io/pantersskin/reader.html?ep=NN
+Run with Python 3; no third-party packages are required.
 """
 
+import argparse
 from pathlib import Path
 import json
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 QR_DIR = ROOT / "assets/qr"
-QR_DIR.mkdir(parents=True, exist_ok=True)
-
-DEFAULT_BASE_URL = "https://nikusha37.github.io/pantersskin/reader.html"
+LINKS_PATH = ROOT / "data/episode-links.json"
 
 # --- Galois Field GF(256) Arithmetic ---
 EXP = [0] * 512
@@ -62,7 +60,8 @@ def rs_encode(data, n_ec):
 def encode_data_v4_l(text):
     """Version 4, Level L: 80 data codewords, 20 error correction codewords."""
     data_bytes = text.encode("utf-8")
-    assert len(data_bytes) <= 78, f"Text '{text}' exceeds Version 4 capacity"
+    if len(data_bytes) > 78:
+        raise ValueError(f"URL exceeds the 78-byte Version 4 capacity: {text}")
 
     # 4-bit mode indicator (0100 for Byte mode) + 8-bit character count indicator
     bits = [0, 1, 0, 0]
@@ -228,19 +227,19 @@ def build_qr_v4_matrix(final_bits, mask_num):
         b = bool((fmt >> i) & 1)
         # Top-left placement
         if i < 6:
-            grid[8][i] = b
+            grid[i][8] = b
         elif i < 8:
-            grid[8][i + 1] = b
+            grid[i + 1][8] = b
         elif i == 8:
-            grid[7][8] = b
+            grid[8][7] = b
         else:
-            grid[14 - i][8] = b
+            grid[8][14 - i] = b
 
         # Split placement
-        if i < 7:
-            grid[size - 1 - i][8] = b
+        if i < 8:
+            grid[8][size - 1 - i] = b
         else:
-            grid[8][size - 15 + i] = b
+            grid[size - 15 + i][8] = b
 
     return grid
 
@@ -342,17 +341,52 @@ def generate_qr_svg(text, quiet_zone=4, scale=8, dark_color="#1A2F2B", bg_color=
     return "\n".join(svg)
 
 
-def main():
-    print(f"Generating 24 SVG QR codes (Base URL: {DEFAULT_BASE_URL})...")
-    created = []
-    for ep_num in range(1, 25):
-        url = f"{DEFAULT_BASE_URL}?ep={ep_num:02d}"
-        svg_content = generate_qr_svg(url)
-        svg_path = QR_DIR / f"episode-{ep_num:02d}-qr.svg"
-        svg_path.write_text(svg_content, encoding="utf-8")
-        created.append(svg_path)
+def load_episode_links(path):
+    data = json.loads(path.read_text(encoding="utf-8"))
+    episodes = data.get("episodes") if isinstance(data, dict) else None
+    if not isinstance(episodes, list) or not episodes:
+        raise ValueError("Input must contain a non-empty 'episodes' array")
 
-    print(f"Successfully generated {len(created)} vector QR SVGs in {QR_DIR}/")
+    links = {}
+    for index, episode in enumerate(episodes, start=1):
+        if not isinstance(episode, dict):
+            raise ValueError(f"Episode entry {index} must be an object")
+        number = episode.get("episode_number")
+        if type(number) is not int or number < 1:
+            raise ValueError(f"Episode entry {index} needs a positive integer episode_number")
+        if number in links:
+            raise ValueError(f"Duplicate episode_number: {number}")
+        url = episode.get("reader_url")
+        if not isinstance(url, str) or not url or any(char.isspace() for char in url):
+            raise ValueError(f"Episode {number} needs a reader_url without whitespace")
+        parsed = urlsplit(url)
+        if parsed.scheme not in ("http", "https") or not parsed.hostname:
+            raise ValueError(f"Episode {number} needs an absolute HTTP(S) reader_url")
+        links[number] = url
+    return sorted(links.items())
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", type=Path, default=LINKS_PATH, help="Episode links JSON")
+    parser.add_argument("--output-dir", type=Path, default=QR_DIR, help="SVG output directory")
+    args = parser.parse_args()
+
+    try:
+        # Validate and encode every entry before changing any output files.
+        codes = [
+            (number, generate_qr_svg(url))
+            for number, url in load_episode_links(args.input)
+        ]
+    except (OSError, ValueError) as exc:
+        parser.error(str(exc))
+
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    for number, svg_content in codes:
+        svg_path = args.output_dir / f"episode-{number:02d}-qr.svg"
+        svg_path.write_text(svg_content, encoding="utf-8")
+
+    print(f"Generated {len(codes)} SVG QR codes from {args.input} in {args.output_dir}/")
 
 
 if __name__ == "__main__":

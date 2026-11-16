@@ -17,6 +17,9 @@ node_modules/
 
 # Scratch work, screenshots, font caches, and local audit output
 /tmp/
+data/decodables/
+assets/episodes/
+assets/qr/
 
 # Generated print exports, previews, ZIP packages, and build reports stay local.
 # These illustration selections are build inputs, so keep them versionable.
@@ -30,3 +33,4 @@ node_modules/
 *.swp
 *.swo
 *~
+assets/qr/episode-01-qr.svg

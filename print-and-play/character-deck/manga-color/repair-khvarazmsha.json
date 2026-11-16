@@ -1,8 +1,0 @@
-{
-  "id": "khvarazmsha",
-  "asset": "assets/characters/manga-color/khvarazmsha-v2.png",
-  "references": [
-    "assets/characters/manga-color/khvarazmsha-v1.png"
-  ],
-  "prompt": "Use case: precise-object-edit. Keep this young prince's exact coloured manga portrait drawing, face, dark hair, small moustache, purple cap and robe, gold rim, pose and all details. Make this a fullyopaque printable PNG. Inside the circle, fill the entire background behind the character with continuous smooth opaque muted teal. Remove any transparent spots or blotches. Outside circle use plain warm ivory #F6F1E4, fullyopaque as well. Every pixel must be opaque; no transparent cutout. Change only damagedalpha/background, preserve character and colour. Square1254x1254 requested. No text, letters, numbers, captions, bubbles, SFX, banners, scrolls or watermark."
-}
